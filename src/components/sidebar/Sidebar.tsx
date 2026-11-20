@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import { Download, Menu, Search, Upload, X } from 'lucide-react'
 import { CategoryTree } from '@/components/sidebar/CategoryTree'
@@ -18,7 +17,6 @@ import { markerTitle } from '@/i18n/markerText'
 import { useI18n } from '@/i18n/provider'
 import { useMapStore } from '@/store/useMapStore'
 import type { GameConfig } from '@/types/game'
-import { gameList } from '@/config/games'
 
 export function Sidebar({
   game,
@@ -77,19 +75,6 @@ export function Sidebar({
               {t.launch.preview}
             </p>
           ) : null}
-          <div className="hidden grid-cols-2 gap-2 sm:grid">
-            {gameList.map((entry) => (
-              <Link
-                key={entry.slug}
-                href={`/${entry.slug}`}
-                aria-current={entry.slug === game.slug ? 'page' : undefined}
-                className={`border px-2 py-2 text-center text-xs font-semibold uppercase tracking-[0.14em] ${entry.slug === game.slug ? 'border-[var(--game-accent)] bg-[var(--game-accent)] text-[#14110a]' : 'border-white/15 hover:bg-white/5'}`}
-              >
-                {entry.shortTitle}
-                {entry.status === 'preview' ? ` · ${t.launch.prep}` : ''}
-              </Link>
-            ))}
-          </div>
           <button
             type="button"
             className="flex h-11 w-full items-center gap-2 border border-white/10 bg-black/40 px-3 text-left text-sm text-[#a39c90]"

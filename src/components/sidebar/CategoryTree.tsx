@@ -32,7 +32,7 @@ export function CategoryTree({ game }: { game: GameConfig }) {
   const view = mapViewFromSlice(slice)
   const { t, locale } = useI18n()
   const categories = useMemo(() => localizeCategories(categoriesInView(game.categories, view), locale), [game.categories, view, locale])
-  const [openGroups, setOpenGroups] = useState<string[]>(() => game.categories.map((category) => category.id))
+  const [openGroups, setOpenGroups] = useState<string[]>([])
   const [openLeaves, setOpenLeaves] = useState<string[]>([])
 
   const focus = (markers: GameMarker[]) => {
@@ -49,11 +49,11 @@ export function CategoryTree({ game }: { game: GameConfig }) {
     const visibility = visibilityOf([node.id], hidden)
     const sprite = gta6CategoryIcons[node.id]
     return (
-      <div key={node.id} className="border-t border-white/5">
-        <div className="flex items-center gap-1 py-2 pl-2">
+      <div key={node.id} className={cn('border-t border-white/10', open && 'bg-black/25')}>
+        <div className="flex items-center gap-1 py-2 pl-2 pr-1">
           <button
             type="button"
-            className="grid size-8 place-items-center text-[#a39c90]"
+            className={cn('grid size-8 place-items-center rounded-md', open ? 'bg-[#f3efe6] text-[#14110a]' : 'text-[#6f695f]')}
             aria-expanded={open}
             aria-label={`${open ? t.map.collapse : t.map.expand} ${node.name}`}
             onClick={() => setOpenLeaves((current) => (current.includes(node.id) ? current.filter((id) => id !== node.id) : [...current, node.id]))}
@@ -76,15 +76,9 @@ export function CategoryTree({ game }: { game: GameConfig }) {
             {visibility === 'hidden' ? <EyeOff className="size-4 text-[#6f695f]" /> : <Eye className={cn('size-4', visibility === 'mixed' && 'opacity-50')} />}
           </button>
         </div>
-        <div className="px-3 pb-2">
-          <Progress value={markers.length ? (done / markers.length) * 100 : 0} label={`${node.name} ${t.map.pinsFound}`} />
-          {node.worldTotal && node.worldTotal > markers.length ? (
-            <p className="mt-1 text-[10px] uppercase tracking-wider text-[#7d776e]">{t.map.atlasCount(node.worldTotal, markers.length)}</p>
-          ) : null}
-        </div>
         {open ? (
-          <div className="max-h-64 overflow-y-auto pb-2">
-            {markers.length === 0 ? <p className="px-11 py-1 text-xs text-[#7d776e]">{t.map.emptySet}</p> : null}
+          <div className="mx-2 mb-2 max-h-64 overflow-y-auto rounded-lg border border-white/10 bg-[#07080c]">
+            {markers.length === 0 ? <p className="px-3 py-2 text-xs text-[#7d776e]">{t.map.emptySet}</p> : null}
             {markers.map((marker) => {
               const isFound = found.has(marker.id)
               return (
@@ -92,7 +86,7 @@ export function CategoryTree({ game }: { game: GameConfig }) {
                   key={marker.id}
                   type="button"
                   className={cn(
-                    'flex w-full items-center gap-2 px-11 py-1.5 text-left text-sm hover:bg-white/5',
+                    'flex w-full items-center gap-2 px-3 py-1.5 text-left text-sm hover:bg-white/5',
                     selectedId === marker.id && 'bg-white/10',
                     isFound && 'text-[#8d877c]',
                   )}
@@ -124,23 +118,37 @@ export function CategoryTree({ game }: { game: GameConfig }) {
         const visibility = visibilityOf(ids, hidden)
         return (
           <section key={group.id} className="border-b border-white/10">
-            <div className="flex items-center gap-2 px-3 py-3">
+            <div className={cn('flex items-center gap-2 px-3 py-3', open && 'bg-[var(--game-accent)]/15')}>
               <button
                 type="button"
-                className="grid size-8 place-items-center"
+                className={cn('grid size-8 shrink-0 place-items-center rounded-md', open ? 'bg-[var(--game-accent)] text-[#14110a]' : 'bg-white/5 text-[#6f695f]')}
                 aria-expanded={open}
                 aria-label={`${open ? t.map.collapse : t.map.expand} ${group.name}`}
                 onClick={() => setOpenGroups((current) => (current.includes(group.id) ? current.filter((id) => id !== group.id) : [...current, group.id]))}
               >
                 {open ? <ChevronDown className="size-4" /> : <ChevronRight className="size-4" />}
               </button>
-              <CategoryIcon name={group.icon} className="size-4" style={{ color: group.color }} />
-              <div className="min-w-0 flex-1">
-                <div className="font-display text-lg leading-none tracking-wide">{group.name}</div>
-                <div className="mt-1 font-mono text-[11px] text-[#a39c90]">
-                  {done}/{markers.length}
-                </div>
-              </div>
+              <button
+                type="button"
+                className="flex min-w-0 flex-1 items-center gap-2 text-left"
+                aria-expanded={open}
+                onClick={() => setOpenGroups((current) => (current.includes(group.id) ? current.filter((id) => id !== group.id) : [...current, group.id]))}
+              >
+                <CategoryIcon name={group.icon} className="size-4 shrink-0" style={{ color: group.color }} />
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate font-display text-lg leading-none tracking-wide">{group.name}</span>
+                  <span className="mt-1 flex items-center gap-2">
+                    <span className="font-mono text-[11px] text-[#a39c90]">
+                      {done}/{markers.length}
+                    </span>
+                    {open ? (
+                      <span className="rounded-full bg-[var(--game-accent)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#14110a]">
+                        {t.map.opened}
+                      </span>
+                    ) : null}
+                  </span>
+                </span>
+              </button>
               <button
                 type="button"
                 aria-label={visibility === 'hidden' ? `${t.map.show} ${group.name}` : `${t.map.hide} ${group.name}`}
@@ -153,10 +161,14 @@ export function CategoryTree({ game }: { game: GameConfig }) {
                 <LocateFixed className="size-4" />
               </button>
             </div>
-            <div className="px-4 pb-2">
-              <Progress value={markers.length ? (done / markers.length) * 100 : 0} label={`${group.name} ${t.map.pinsFound}`} />
-            </div>
-            {open ? <div className="pb-2">{(group.children ?? [group]).map(renderLeaf)}</div> : null}
+            {open ? (
+              <div className="mx-3 mb-3 overflow-hidden rounded-xl border border-[var(--game-accent)]/40 bg-black/45">
+                <div className="px-3 pt-3">
+                  <Progress value={markers.length ? (done / markers.length) * 100 : 0} label={`${group.name} ${t.map.pinsFound}`} />
+                </div>
+                <div className="mt-2">{(group.children ?? [group]).map(renderLeaf)}</div>
+              </div>
+            ) : null}
           </section>
         )
       })}

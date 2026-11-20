@@ -90,6 +90,7 @@ const GUIDE_NOTES: Record<string, string> = {
   'Confirmed on the public catalog. Combat stats and price are not published.': 'Açık katalogda adı doğrulandı. Çatışma değerleri ve fiyat yayımlanmadı.',
   'Confirmed catalog': 'Doğrulanmış katalog',
   "Donnie's H&L .38 Revolver is a Chapter 1 missable from Don Gone. Price and combat stats are not published.": 'Donnie’nin H&L .38 tabancası, Don Gone’dan kaçırılabilen bir 1. bölüm silahıdır. Fiyat ve çatışma değerleri yayımlanmadı.',
+  'Chapter 1 missable from Don Gone.': 'Don Gone’dan kaçırılabilen bir 1. bölüm silahı.',
 }
 
 export function catalogNote(locale: Locale, note: string) {

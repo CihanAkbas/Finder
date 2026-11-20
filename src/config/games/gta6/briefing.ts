@@ -7,23 +7,13 @@ export type BriefBlock = {
 /** Facts taken from the public guide dated November 19, 2026. Not a walkthrough. */
 export const GTA6_BRIEFING: BriefBlock[] = [
   {
-    id: 'release',
-    title: { en: 'Release', tr: 'Çıkış' },
+    id: 'cast',
+    title: { en: 'People', tr: 'Kişiler' },
     body: [
-      {
-        en: 'Grand Theft Auto VI launched on November 19, 2026 for PlayStation 5 and Xbox Series X/S. The public guide does not list a PC date.',
-        tr: 'Grand Theft Auto VI, 19 Kasım 2026’da PlayStation 5 ve Xbox Series X/S için çıktı. Açık rehber bir PC tarihi yazmıyor.',
-      },
       {
         en: 'The story is Jason Duval and Lucia Caminos in the state of Leonida.',
         tr: 'Hikaye, Leonida eyaletinde Jason Duval ve Lucia Caminos’un hikayesi.',
       },
-    ],
-  },
-  {
-    id: 'cast',
-    title: { en: 'People', tr: 'Kişiler' },
-    body: [
       {
         en: 'Lucia Caminos (Manni L. Perez) leaves Hamlet Correctional and teams up with Jason. Jason Duval (Dylan Rourke) is from Ambrosia, ex-Army, and works for Brian Heder in the Keys.',
         tr: 'Lucia Caminos (Manni L. Perez) Hamlet Correctional’dan çıkar ve Jason ile çalışır. Jason Duval (Dylan Rourke) Ambrosia’lıdır, ordudan gelmiştir ve Keys’te Brian Heder için çalışır.',
@@ -121,16 +111,16 @@ export const GTA6_BRIEFING: BriefBlock[] = [
     title: { en: 'What is counted', tr: 'Ne sayılıyor' },
     body: [
       {
-        en: 'The guide counts 277 base models to scan and about 280 standout vehicles at fixed spots. This database lists the named standout, Randy, and Moses cars from the map, plus the confirmed base models from the public catalog. Miles-per-hour figures are not published, so top speed stays empty. Sell value is the stolen-car figure when the page gives one.',
-        tr: 'Rehberde taranacak 277 temel model ve sabit yerlerde yaklaşık 280 standout araç var. Bu veritabanı haritadaki adlı standout, Randy ve Moses araçlarını, ayrıca açık katalogdaki doğrulanmış temel modelleri listeler. Mil cinsinden hız yayımlanmadığı için azami hız boş kalır. Satış değeri, sayfa çalıntı fiyatı verdiyse odur.',
+        en: 'Scan 277 base models. About 280 standout vehicles sit at fixed spots. The 100% line is 200 scanned vehicles.',
+        tr: '277 temel model taranır. Yaklaşık 280 standout araç sabit yerlerdedir. %100 çizgisi 200 taranmış araçtır.',
       },
       {
-        en: 'It counts 53 guns, 9 melee types, and 4 explosives, plus about 127 unique weapon variants (the collections page also says 130) and two more with the Ultimate Edition. Only two explosives are named so far: frag grenade and sticky bomb. One longarm is still missing from the published class lists. Holster with L1 or LB.',
-        tr: '53 silah, 9 yakın dövüş tipi ve 4 patlayıcı sayıyor. Benzersiz silah varyantı yaklaşık 127; koleksiyon sayfası 130 da diyor. Ultimate Edition iki tane daha ekliyor. Şimdilik adı geçen patlayıcılar yalnızca frag grenade ve sticky bomb. Yayımlanan sınıf listelerinde bir uzun namlu hâlâ eksik. Silahı L1 veya LB ile kınına koy.',
+        en: '53 guns, 9 melee types, and 4 explosives. About 127 unique weapon variants, or 130 on the collections count, plus two with the Ultimate Edition. Holster with L1 or LB.',
+        tr: '53 silah, 9 yakın dövüş tipi ve 4 patlayıcı. Benzersiz silah varyantı yaklaşık 127; koleksiyon sayımı 130, Ultimate Edition iki tane daha ekliyor. Silahı L1 veya LB ile kınına koy.',
       },
       {
-        en: 'Other published totals: 18 card sets and 480 cards, 108 WAiNK scans, 112 Ahol trash pieces, 5 rooftop murals that unlock a custom ’95 Grotti Cheetah, 7 Kenton wrecks with 36 treasure pieces besides the story doubloons, 33 underwater discoveries, and 26 Ammu-Nation shops. Five 1010 murals are photographed with the phone camera, not a WAiNK scan. The published map currently pins Jack of Hearts, Delights, and Nine1Nine. The guide also names Corkers, Flamingos, Panic, Penetrators, Club de Futbol, B.A.M., America\'s Next Top Hooker, Right Wing, Ed Universe, Ratface, Swingers, Narcos, Manatees, Pounders, and Wrath, without pins yet.',
-        tr: 'Diğer yayımlanmış toplamlar: 18 kart seti ve 480 kart, 108 WAiNK taraması, 112 Ahol çöp parçası, özel bir ’95 Grotti Cheetah açan 5 çatı muralı, hikaye dublonlarının yanında 36 hazine parçalı 7 Kenton enkazı, 33 su altı keşfi ve 26 Ammu-Nation. Beş 1010 muralı WAiNK ile değil, telefon kamerasıyla çekilir. Yayımlanmış haritada şu an Jack of Hearts, Delights ve Nine1Nine iğneleri var. Rehber ayrıca Corkers, Flamingos, Panic, Penetrators, Club de Futbol, B.A.M., America\'s Next Top Hooker, Right Wing, Ed Universe, Ratface, Swingers, Narcos, Manatees, Pounders ve Wrath setlerini sayıyor; bunların iğnesi henüz yok.',
+        en: '18 card sets and 480 cards, 108 WAiNK scans, 112 Ahol trash pieces, 5 rooftop murals that unlock a custom ’95 Grotti Cheetah, 7 Kenton wrecks with 36 treasure pieces besides the story doubloons, 33 underwater discoveries, and 26 Ammu-Nation shops. Five 1010 murals are photographed with the phone camera, not a WAiNK scan. Card sets include Jack of Hearts, Delights, Nine1Nine, Corkers, Flamingos, Panic, Penetrators, Club de Futbol, B.A.M., America\'s Next Top Hooker, Right Wing, Ed Universe, Ratface, Swingers, Narcos, Manatees, Pounders, and Wrath.',
+        tr: '18 kart seti ve 480 kart, 108 WAiNK taraması, 112 Ahol çöp parçası, özel bir ’95 Grotti Cheetah açan 5 çatı muralı, hikaye dublonlarının yanında 36 hazine parçalı 7 Kenton enkazı, 33 su altı keşfi ve 26 Ammu-Nation. Beş 1010 muralı telefon kamerasıyla çekilir. Kart setleri: Jack of Hearts, Delights, Nine1Nine, Corkers, Flamingos, Panic, Penetrators, Club de Futbol, B.A.M., America\'s Next Top Hooker, Right Wing, Ed Universe, Ratface, Swingers, Narcos, Manatees, Pounders ve Wrath.',
       },
     ],
   },

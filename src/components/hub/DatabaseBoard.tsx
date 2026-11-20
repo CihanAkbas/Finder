@@ -20,6 +20,17 @@ type Row = {
   kind: 'vehicle' | 'weapon'
   stats: [string, string][]
 }
+const STATUS_NOTES = new Set([
+  'Community identification from official footage. The public guide counts 277 vehicles and has not published this name.',
+  'Named in the public guide. Price and combat stats are not published.',
+  'Confirmed on the public catalog. Combat stats and price are not published.',
+])
+
+function shownNote(note?: string) {
+  if (!note || STATUS_NOTES.has(note)) return ''
+  return note
+}
+
 function hswEligible(vehicle: Vehicle) {
   return Boolean(vehicle.isHsw || vehicle.hsw)
 }
@@ -297,19 +308,21 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
               </span>
             ) : null}
           </div>
-          <p className="mt-2 text-sm text-[#d9d3c8]">
-            {detailVehicle.manufacturer
-              ? `${detailVehicle.manufacturer}. `
-              : ''}
-            {detailVehicle.acquisitionSource ? catalogNote(locale, detailVehicle.acquisitionSource) : t.database.sourceMissing}
-          </p>
+          {detailVehicle.acquisitionSource ? (
+            <p className="mt-2 text-sm text-[#d9d3c8]">
+              {detailVehicle.manufacturer ? `${detailVehicle.manufacturer}. ` : ''}
+              {catalogNote(locale, detailVehicle.acquisitionSource)}
+            </p>
+          ) : detailVehicle.manufacturer ? (
+            <p className="mt-2 text-sm text-[#d9d3c8]">{detailVehicle.manufacturer}</p>
+          ) : null}
           {detailVehicle.spawnLocations?.length ? (
             <p className="mt-1 text-sm text-[#a39c90]">
               {detailVehicle.spawnLocations.join(' ')}
             </p>
           ) : null}
-          {detailVehicle.note ? (
-            <p className="mt-1 text-sm text-[#a39c90]">{vehicleFacts(locale, detailVehicle.note)}</p>
+          {shownNote(detailVehicle.note) ? (
+            <p className="mt-1 text-sm text-[#a39c90]">{vehicleFacts(locale, shownNote(detailVehicle.note))}</p>
           ) : null}
         </article>
       ) : null}
@@ -328,29 +341,25 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
               </span>
             ) : null}
           </div>
-          <p className="mt-2 text-sm text-[#d9d3c8]">
-            {detailWeapon.storyUnlockCondition ? catalogNote(locale, detailWeapon.storyUnlockCondition) : t.database.unlockMissing}
-          </p>
-          <h3 className="mt-3 text-xs uppercase tracking-[0.14em] text-[#a39c90]">
-            {t.database.attachments}
-          </h3>
-          <ul className="mt-1 space-y-1 text-sm">
-            {detailWeapon.attachments?.length ? (
-              detailWeapon.attachments.map((item) => <li key={item}>{item}</li>)
-            ) : (
-              <li>{t.database.noAttachments}</li>
-            )}
-          </ul>
-          <h3 className="mt-3 text-xs uppercase tracking-[0.14em] text-[#a39c90]">
-            {t.database.spawns}
-          </h3>
-          <ul className="mt-1 space-y-1 text-sm">
-            {detailWeapon.worldSpawns?.length ? (
-              detailWeapon.worldSpawns.map((item) => <li key={item}>{item}</li>)
-            ) : (
-              <li>{t.database.noSpawns}</li>
-            )}
-          </ul>
+          {shownNote(detailWeapon.storyUnlockCondition) ? (
+            <p className="mt-2 text-sm text-[#d9d3c8]">{catalogNote(locale, shownNote(detailWeapon.storyUnlockCondition))}</p>
+          ) : null}
+          {detailWeapon.attachments?.length ? (
+            <>
+              <h3 className="mt-3 text-xs uppercase tracking-[0.14em] text-[#a39c90]">{t.database.attachments}</h3>
+              <ul className="mt-1 space-y-1 text-sm">
+                {detailWeapon.attachments.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            </>
+          ) : null}
+          {detailWeapon.worldSpawns?.length ? (
+            <>
+              <h3 className="mt-3 text-xs uppercase tracking-[0.14em] text-[#a39c90]">{t.database.spawns}</h3>
+              <ul className="mt-1 space-y-1 text-sm">
+                {detailWeapon.worldSpawns.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            </>
+          ) : null}
         </article>
       ) : null}
       {compared.length > 0 ? (

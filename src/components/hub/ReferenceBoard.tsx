@@ -105,7 +105,6 @@ export function ReferenceBoard({ gameSlug }: { gameSlug: string }) {
               ))}
             </section>
           ))}
-          <p className="text-sm text-[#a39c90]">{t.reference.noOfficial}</p>
         </div>
       )}
       {showCheats ? <div className="grid gap-3 md:grid-cols-2">
