@@ -7,6 +7,8 @@ import {
   ListChecks,
   CalendarClock,
   Car,
+  Columns2,
+  Keyboard,
   Warehouse,
   CircleDollarSign,
   Trophy,
@@ -66,24 +68,41 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
       detail: t.dashboard.rideDetail(data.vehicles.length, data.weapons.length),
       icon: Car,
     },
-    {
-      href: '/garage',
-      title: t.dashboard.garage,
-      detail: t.dashboard.garageDetail(slice.properties.length),
-      icon: Warehouse,
-    },
-    {
-      href: '/economy',
-      title: t.dashboard.hour,
-      detail: t.dashboard.hourDetail,
-      icon: CircleDollarSign,
-    },
-    {
-      href: '/career',
-      title: t.dashboard.milestone,
-      detail: t.dashboard.milestoneDetail,
-      icon: Trophy,
-    },
+    ...(game.slug === 'gta6'
+      ? [
+          {
+            href: '/compare',
+            title: t.nav.compare,
+            detail: t.dashboard.rideDetail(data.vehicles.length, data.weapons.length),
+            icon: Columns2,
+          },
+          {
+            href: '/reference',
+            title: t.nav.cheats,
+            detail: t.dashboard.heroLeonida,
+            icon: Keyboard,
+          },
+        ]
+      : [
+          {
+            href: '/garage',
+            title: t.dashboard.garage,
+            detail: t.dashboard.garageDetail(slice.properties.length),
+            icon: Warehouse,
+          },
+          {
+            href: '/economy',
+            title: t.dashboard.hour,
+            detail: t.dashboard.hourDetail,
+            icon: CircleDollarSign,
+          },
+          {
+            href: '/career',
+            title: t.dashboard.milestone,
+            detail: t.dashboard.milestoneDetail,
+            icon: Trophy,
+          },
+        ]),
   ]
   return (
     <ModuleFrame
@@ -109,7 +128,7 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
               {t.dashboard.exploreMap}
               <ArrowUpRight size={16} />
             </Link>
-            {game.status !== 'preview' && (
+            {game.slug !== 'gta6' && (
               <Link className="action-secondary" href={`/${game.slug}/daily`}>
                 <CalendarClock size={17} />
                 {t.dashboard.planToday}
@@ -154,6 +173,7 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
                 />
               </div>
             </Link>
+            {game.slug !== 'gta6' ? (
             <Link href={`/${game.slug}/garage`} className="stat-card">
               <Warehouse className="mb-3 text-violet-400" size={19} />
               <p className="text-xs text-slate-400">{t.dashboard.yourCollection}</p>
@@ -168,6 +188,8 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
                 {t.dashboard.across(slice.properties.length)}
               </p>
             </Link>
+            ) : null}
+            {game.slug !== 'gta6' ? (
             <Link href={`/${game.slug}/calculators`} className="stat-card">
               <Timer className="mb-3 text-amber-400" size={19} />
               <p className="text-xs text-slate-400">{t.dashboard.businessTimers}</p>
@@ -182,6 +204,7 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
                 {t.dashboard.nextSale}
               </p>
             </Link>
+            ) : null}
           </div>
           <div className="grid gap-5 xl:grid-cols-[1.3fr_1fr]">
             <section className="border border-white/10 bg-[#12141A] p-5 sm:p-6">
@@ -212,6 +235,7 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
                 ))}
               </div>
             </section>
+            {game.slug !== 'gta6' ? (
             <section className="border border-white/10 bg-[#12141A] p-5 sm:p-6">
               <div className="flex items-center justify-between gap-3">
                 <h2 className="font-display text-2xl font-semibold">
@@ -252,7 +276,9 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
                 </div>
               )}
             </section>
+            ) : null}
           </div>
+          {game.slug !== 'gta6' ? (
           <details className="rounded-xl border border-white/10 p-4">
             <summary className="text-sm text-slate-400">
               {t.dashboard.resetSchedule}{' '}
@@ -273,6 +299,7 @@ export function Dashboard({ gameSlug }: { gameSlug: string }) {
               />
             </div>
           </details>
+          ) : null}
         </>
       )}
     </ModuleFrame>

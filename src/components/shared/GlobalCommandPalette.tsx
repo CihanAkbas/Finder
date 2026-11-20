@@ -15,7 +15,7 @@ import { itemLabel } from '@/i18n/nav'
 import { useI18n } from '@/i18n/provider'
 import { dollars } from '@/lib/money'
 import { useCompanionStore } from '@/store/useCompanionStore'
-import { MODULES } from '@/components/layout/modules'
+import { modulesFor } from '@/components/layout/modules'
 import { isCategoryVisible } from '@/lib/mapMode'
 import type { MapMode, MapRegion } from '@/store/slice'
 
@@ -53,7 +53,7 @@ export function GlobalCommandPalette({ gameSlug }: { gameSlug: string }) {
 
   const docs = useMemo<Hit[]>(() => {
     if (!game || !data) return []
-    const pages = MODULES.map((item) => ({
+    const pages = modulesFor(game.slug).map((item) => ({
       key: `page-${item.href}`,
       title: itemLabel(item.href, t),
       subtitle: t.kinds.page,

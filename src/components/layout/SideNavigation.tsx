@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { ChevronLeft, ChevronRight, Compass } from 'lucide-react'
 import { groupLabel, itemLabel } from '@/i18n/nav'
 import { useI18n } from '@/i18n/provider'
-import { MODULES, NAV_GROUPS } from './modules'
+import { MODULES, groupsFor } from './modules'
 
 export function SideNavigation({
   gameSlug,
@@ -41,7 +41,7 @@ export function SideNavigation({
         aria-label={t.nav.modules}
         className="min-h-0 flex-1 space-y-5 overflow-y-auto px-3 pb-4"
       >
-        {NAV_GROUPS.map((group) => (
+        {groupsFor(gameSlug).map((group) => (
           <div key={group.label}>
             {!collapsed && (
               <p className="mb-2 px-3 text-[11px] font-medium text-slate-500">

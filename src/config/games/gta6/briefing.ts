@@ -121,8 +121,8 @@ export const GTA6_BRIEFING: BriefBlock[] = [
     title: { en: 'What is counted', tr: 'Ne sayılıyor' },
     body: [
       {
-        en: 'The guide counts 277 vehicles in 18 classes and 281 standout vehicles in 25 styles. Discovering 200 vehicles is the 100% line. The full name list is not published yet, so this database does not invent one.',
-        tr: 'Rehber 18 sınıfta 277 araç ve 25 stilde 281 standout araç sayıyor. %100 çizgisi 200 araç keşfetmektir. Tam ad listesi henüz yayımlanmadı; bu veritabanı liste uydurmaz.',
+        en: 'The guide counts 277 base models to scan and about 280 standout vehicles at fixed spots. This database lists the named standout, Randy, and Moses cars from the map, plus the confirmed base models from the public catalog. Miles-per-hour figures are not published, so top speed stays empty. Sell value is the stolen-car figure when the page gives one.',
+        tr: 'Rehberde taranacak 277 temel model ve sabit yerlerde yaklaşık 280 standout araç var. Bu veritabanı haritadaki adlı standout, Randy ve Moses araçlarını, ayrıca açık katalogdaki doğrulanmış temel modelleri listeler. Mil cinsinden hız yayımlanmadığı için azami hız boş kalır. Satış değeri, sayfa çalıntı fiyatı verdiyse odur.',
       },
       {
         en: 'It counts 53 guns, 9 melee types, and 4 explosives, plus about 127 unique weapon variants (the collections page also says 130) and two more with the Ultimate Edition. Only two explosives are named so far: frag grenade and sticky bomb. One longarm is still missing from the published class lists. Holster with L1 or LB.',

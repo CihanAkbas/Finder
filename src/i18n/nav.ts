@@ -28,5 +28,6 @@ export function shortLabel(path: string, t: Messages) {
   if (path === '/map') return t.nav.shortMap
   if (path === '/checklist') return '100%'
   if (path === '/daily') return t.nav.shortDaily
+  if (path === '/database') return t.nav.shortDatabase
   return path
 }

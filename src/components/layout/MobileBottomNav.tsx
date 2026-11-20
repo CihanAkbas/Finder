@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { MoreHorizontal, Download, Upload } from 'lucide-react'
 import { groupLabel, itemLabel, shortLabel } from '@/i18n/nav'
 import { useI18n } from '@/i18n/provider'
-import { MORE_NAV, PRIMARY_NAV, NAV_GROUPS, MODULES } from './modules'
+import { groupsFor, primaryNavFor, modulesFor } from './modules'
 import {
   DialogRoot,
   DialogContent,
@@ -21,16 +21,15 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
   const pathname = usePathname()
   const [more, setMore] = useState(false)
   const { t } = useI18n()
-  const moreActive = MORE_NAV.some((item) =>
-    pathname?.startsWith(`/${gameSlug}${item.href}`)
-  )
+  const primary = primaryNavFor(gameSlug)
+  const moreActive = modulesFor(gameSlug).some((item) => item.href && pathname?.startsWith(`/${gameSlug}${item.href}`) && !primary.some((entry) => entry.href === item.href))
   return (
     <>
       <nav
         className="z-40 grid shrink-0 grid-cols-5 border-t border-white/10 bg-[#0e131a] pb-[env(safe-area-inset-bottom)] lg:hidden"
         aria-label={t.nav.mobile}
       >
-        {PRIMARY_NAV.map((item) => {
+        {primary.map((item) => {
           const href = `/${gameSlug}${item.href}`
           const active =
             item.href === '' ? pathname === href : pathname?.startsWith(href)
@@ -67,12 +66,12 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
             {t.nav.moreBody}
           </DialogDescription>
           <div className="mt-5 space-y-5">
-            {NAV_GROUPS.map((group) => (
+            {groupsFor(gameSlug).map((group) => (
               <div key={group.label}>
                 <p className="mb-2 text-xs text-slate-500">{groupLabel(group.label, t)}</p>
                 <div className="grid grid-cols-2 gap-2">
                   {group.paths.map((path) => {
-                    const item = MODULES.find((entry) => entry.href === path)!
+                    const item = modulesFor(gameSlug).find((entry) => entry.href === path)!
                     const Icon = item.icon
                     const href = `/${gameSlug}${path}`
                     return (

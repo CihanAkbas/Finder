@@ -6,7 +6,7 @@ import { getCompanion } from '@/config/companion'
 import { getGame } from '@/config/games'
 import { LaunchingSoon, ModuleFrame } from '@/components/layout/CompanionShell'
 import { HudSelect } from '@/components/ui/hud-select'
-import { catalogNote, vehicleClass, weaponClass } from '@/i18n/catalog'
+import { catalogNote, vehicleClass, vehicleFacts, weaponClass } from '@/i18n/catalog'
 import { CatalogMark } from '@/components/shared/CatalogMark'
 import { SourceNote } from '@/components/shared/SourceNote'
 import type { Locale } from '@/i18n/locale'
@@ -24,27 +24,33 @@ function hswEligible(vehicle: Vehicle) {
   return Boolean(vehicle.isHsw || vehicle.hsw)
 }
 function vehicleRow(vehicle: Vehicle, locale: Locale, eligible: string): Row {
+  const priced = vehicle.sellValue != null
+  const stats: [string, string][] = [
+    ['class', vehicleClass(locale, vehicle.class)],
+    ['make', vehicle.manufacturer ?? '—'],
+  ]
+  if (priced) {
+    stats.push(['sell', vehicle.sellValue && vehicle.sellValue > 0 ? dollars(vehicle.sellValue, locale) : '—'])
+    stats.push(['seats', vehicle.seats > 0 ? String(vehicle.seats) : '—'])
+  } else {
+    stats.push(['price', vehicle.price > 0 ? dollars(vehicle.price, locale) : '—'])
+    stats.push([
+      'speed',
+      vehicle.topSpeedMph > 0 ? `${vehicle.topSpeedMph} mph · ${vehicle.topSpeedKmh} km/h` : '—',
+    ])
+    stats.push(['lap', vehicle.lapTime > 0 ? `${vehicle.lapTime.toFixed(1)} s` : '—'])
+  }
+  stats.push(['source', vehicle.acquisitionSource ? catalogNote(locale, vehicle.acquisitionSource) : '—'])
+  if (!priced) stats.push(['hsw', hswEligible(vehicle) ? eligible : '—'])
   return {
     id: vehicle.id,
     name: vehicle.name,
     kind: 'vehicle',
-    stats: [
-      ['class', vehicleClass(locale, vehicle.class)],
-      ['make', vehicle.manufacturer ?? '—'],
-      ['price', vehicle.price > 0 ? dollars(vehicle.price, locale) : '—'],
-      [
-        'speed',
-        vehicle.topSpeedMph > 0
-          ? `${vehicle.topSpeedMph} mph · ${vehicle.topSpeedKmh} km/h`
-          : '—',
-      ],
-      ['lap', vehicle.lapTime > 0 ? `${vehicle.lapTime.toFixed(1)} s` : '—'],
-      ['source', vehicle.acquisitionSource ? catalogNote(locale, vehicle.acquisitionSource) : '—'],
-      ['hsw', hswEligible(vehicle) ? eligible : '—'],
-    ],
+    stats,
   }
 }
 function weaponRow(weapon: Weapon, locale: Locale): Row {
+  const unpublished = weapon.damage === 0 && weapon.fireRate === 0 && weapon.dps === 0
   return {
     id: weapon.id,
     name: weapon.name,
@@ -52,10 +58,10 @@ function weaponRow(weapon: Weapon, locale: Locale): Row {
     stats: [
       ['class', weaponClass(locale, weapon.class)],
       ['price', weapon.price > 0 ? dollars(weapon.price, locale) : '—'],
-      ['damage', String(weapon.damage)],
+      ['damage', unpublished ? '—' : String(weapon.damage)],
       ['rpm', weapon.fireRate > 0 ? String(weapon.fireRate) : '—'],
       ['dps', weapon.dps > 0 ? String(weapon.dps) : '—'],
-      ['rank', String(weapon.unlockRank)],
+      ['rank', unpublished ? '—' : String(weapon.unlockRank)],
     ],
   }
 }
@@ -63,6 +69,8 @@ function statLabel(key: string, copy: Messages['database']) {
   if (key === 'class') return copy.class
   if (key === 'make') return copy.make
   if (key === 'price') return copy.price
+  if (key === 'sell') return copy.sell
+  if (key === 'seats') return copy.seats
   if (key === 'speed') return copy.speed
   if (key === 'lap') return copy.lap
   if (key === 'source') return copy.source
@@ -140,7 +148,10 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
     if (!left || !right) return 0
     if (sort === 'speed' && 'topSpeedMph' in left && 'topSpeedMph' in right)
       return right.topSpeedMph - left.topSpeedMph
-    if (sort === 'price') return right.price - left.price
+    if (sort === 'price') {
+      const amount = (item: { price: number; sellValue?: number }) => (item.sellValue && item.sellValue > 0 ? item.sellValue : item.price)
+      return amount(right) - amount(left)
+    }
     if (sort === 'dps' && 'dps' in left && 'dps' in right)
       return right.dps - left.dps
     return 0
@@ -225,10 +236,17 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
           onChange={(value) => setSort(value as typeof sort)}
           options={[
             { value: 'name', label: t.database.name },
-            { value: 'price', label: t.database.price },
-            kind === 'vehicle'
-              ? { value: 'speed', label: t.database.speed }
-              : { value: 'dps', label: t.database.dps },
+            {
+              value: 'price',
+              label: kind === 'vehicle' && data.vehicles.some((vehicle) => (vehicle.sellValue ?? 0) > 0) && !data.vehicles.some((vehicle) => vehicle.price > 0)
+                ? t.database.sell
+                : t.database.price,
+            },
+            ...(kind === 'vehicle'
+              ? data.vehicles.some((vehicle) => vehicle.topSpeedMph > 0)
+                ? [{ value: 'speed', label: t.database.speed }]
+                : []
+              : [{ value: 'dps', label: t.database.dps }]),
           ]}
         />
         {kind === 'vehicle' ? (
@@ -246,6 +264,7 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
                 label: value === 'all' ? t.database.allSources : catalogNote(locale, value),
               }))}
             />
+            {data.vehicles.some(hswEligible) ? (
             <button
               type="button"
               aria-pressed={hswOnly}
@@ -259,6 +278,7 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
             >
               {t.database.hsw}
             </button>
+            ) : null}
           </>
         ) : null}
       </div>
@@ -289,7 +309,7 @@ export function DatabaseBoard({ gameSlug }: { gameSlug: string }) {
             </p>
           ) : null}
           {detailVehicle.note ? (
-            <p className="mt-1 text-sm text-[#a39c90]">{catalogNote(locale, detailVehicle.note)}</p>
+            <p className="mt-1 text-sm text-[#a39c90]">{vehicleFacts(locale, detailVehicle.note)}</p>
           ) : null}
         </article>
       ) : null}

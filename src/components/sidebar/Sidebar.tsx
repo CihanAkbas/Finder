@@ -120,7 +120,7 @@ export function Sidebar({
               ))}
             </div>
           ) : null}
-          {view.region === 'los-santos' ? (
+          {game.slug === 'gta5' && view.region === 'los-santos' ? (
             <div className="grid grid-cols-2 gap-1 bg-black/40 p-1" role="tablist" aria-label={t.map.mode}>
               {(
                 [

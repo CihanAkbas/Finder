@@ -82,13 +82,50 @@ export function dailyNote(locale: Locale, note: string) {
 
 const GUIDE_NOTES: Record<string, string> = {
   'Official trailer': 'Resmi fragman',
+  'Standout vehicle': 'Standout araç',
+  'Randy vehicle': 'Randy aracı',
+  'Moses vehicle': 'Moses aracı',
   'Community identification from official footage. The public guide counts 277 vehicles and has not published this name.': 'Resmi görüntüden topluluk teşhisi. Açık rehber 277 araç sayıyor ve bu adı yayımlamıyor.',
   'Named in the public guide. Price and combat stats are not published.': 'Açık rehberde adı geçer. Fiyat ve çatışma değerleri yayımlanmadı.',
+  'Confirmed on the public catalog. Combat stats and price are not published.': 'Açık katalogda adı doğrulandı. Çatışma değerleri ve fiyat yayımlanmadı.',
+  'Confirmed catalog': 'Doğrulanmış katalog',
   "Donnie's H&L .38 Revolver is a Chapter 1 missable from Don Gone. Price and combat stats are not published.": 'Donnie’nin H&L .38 tabancası, Don Gone’dan kaçırılabilen bir 1. bölüm silahıdır. Fiyat ve çatışma değerleri yayımlanmadı.',
 }
 
 export function catalogNote(locale: Locale, note: string) {
   return pick(locale, note, GUIDE_NOTES)
+}
+
+const FACT_LABELS: [string, string][] = [
+  ['Cost to register', 'Kayıt ücreti'],
+  ['Sell value', 'Satış değeri'],
+  ['Access', 'Erişim'],
+  ['Security', 'Güvenlik'],
+  ['Tracker', 'Takip'],
+  ['Era', 'Dönem'],
+  ['Storage', 'Depo'],
+  ['Body', 'Gövde'],
+  ['Specialist', 'Uzman'],
+  ['Unlocked', 'Açık'],
+  ['Deactivated', 'Kapalı'],
+  ['Alarmed', 'Alarmlı'],
+  ['Locked', 'Kilitli'],
+  ['Key Cloner', 'Anahtar kopyalayıcı'],
+  ['None', 'Yok'],
+  ['Standard', 'Standart'],
+  ['Advanced', 'Gelişmiş'],
+  ['Top', 'En iyi'],
+  ['Good', 'İyi'],
+  ['Average', 'Orta'],
+  ['Poor', 'Kötü'],
+  ['Scrap', 'Hurda'],
+]
+
+export function vehicleFacts(locale: Locale, note: string) {
+  const exact = catalogNote(locale, note)
+  const generated = note.includes('Sell value:') || note.includes('Access:') || note.includes('Specialist:')
+  if (locale !== 'tr' || exact !== note || !generated) return exact
+  return FACT_LABELS.reduce((text, [from, to]) => text.replaceAll(from, to), note)
 }
 
 export function weeklyBonus(locale: Locale, text: string) {
@@ -412,6 +449,17 @@ const CLASSES: Record<string, string> = {
   Motorcycle: 'Motosiklet',
   'Open Wheel': 'Açık tekerlek',
   Coupe: 'Coupe',
+  Sport: 'Spor',
+  Bicycle: 'Bisiklet',
+  Dirtbike: 'Cross',
+  'Personal Watercraft': 'Deniz motosikleti',
+  Pickup: 'Pikap',
+  Powerboat: 'Sürat teknesi',
+  'Quad Bike': 'ATV',
+  Riverboat: 'Nehir teknesi',
+  Scooter: 'Scooter',
+  Superbike: 'Süper motosiklet',
+  Chopper: 'Chopper',
   Sedan: 'Sedan',
   SUV: 'SUV',
   Compact: 'Kompakt',

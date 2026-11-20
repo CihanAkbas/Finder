@@ -28,3 +28,30 @@ export const NAV_GROUPS = [
   { label: 'Collection', paths: ['/database', '/compare', '/garage'] },
   { label: 'Money & tools', paths: ['/empire', '/calculators', '/economy', '/reference'] },
 ]
+
+/** GTA Online systems. GTA VI has no Online, so these routes stay on GTA V. */
+export const ONLINE_PATHS = new Set([
+  '/daily',
+  '/weekly',
+  '/garage',
+  '/empire',
+  '/calculators',
+  '/economy',
+  '/career',
+])
+
+export function modulesFor(slug: string) {
+  if (slug !== 'gta6') return MODULES
+  return MODULES.filter((item) => !ONLINE_PATHS.has(item.href))
+}
+
+export function groupsFor(slug: string) {
+  return NAV_GROUPS.map((group) => ({
+    ...group,
+    paths: group.paths.filter((path) => slug !== 'gta6' || !ONLINE_PATHS.has(path)),
+  })).filter((group) => group.paths.length > 0)
+}
+
+export function primaryNavFor(slug: string) {
+  return modulesFor(slug).slice(0, 4)
+}

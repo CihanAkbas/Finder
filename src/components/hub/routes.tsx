@@ -1,6 +1,6 @@
 'use client'
 
-import { useParams } from 'next/navigation'
+import { redirect, useParams } from 'next/navigation'
 import { CalculatorBoard } from '@/components/hub/CalculatorBoard'
 import { ChecklistBoard } from '@/components/hub/ChecklistBoard'
 import { DailyBoard } from '@/components/hub/DailyBoard'
@@ -14,10 +14,15 @@ import { CompareBoard } from '@/components/hub/CompareBoard'
 import { EmpireBoard } from '@/components/hub/EmpireBoard'
 import { WeeklyBoard } from '@/components/hub/WeeklyBoard'
 import { GamePage } from '@/components/GamePage'
+import { ONLINE_PATHS } from '@/components/layout/modules'
 
 function useSlug() {
   const params = useParams<{ gameSlug: string }>()
   return params.gameSlug
+}
+
+function storyOnly(slug: string, path: string) {
+  if (slug === 'gta6' && ONLINE_PATHS.has(path)) redirect(`/${slug}`)
 }
 
 export function DashboardRoute() {
@@ -38,6 +43,7 @@ export function ChecklistRoute() {
 }
 export function DailyRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/daily')
   return <DailyBoard gameSlug={gameSlug} />
 }
 export function DatabaseRoute() {
@@ -46,18 +52,22 @@ export function DatabaseRoute() {
 }
 export function GarageRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/garage')
   return <GarageBoard gameSlug={gameSlug} />
 }
 export function CalculatorRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/calculators')
   return <CalculatorBoard gameSlug={gameSlug} />
 }
 export function WeeklyRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/weekly')
   return <WeeklyBoard gameSlug={gameSlug} />
 }
 export function EconomyRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/economy')
   return <EconomyBoard gameSlug={gameSlug} />
 }
 export function ReferenceRoute() {
@@ -70,9 +80,11 @@ export function CompareRoute() {
 }
 export function CareerRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/career')
   return <CareerBoard gameSlug={gameSlug} />
 }
 export function EmpireRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/empire')
   return <EmpireBoard gameSlug={gameSlug} />
 }

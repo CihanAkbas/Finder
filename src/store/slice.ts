@@ -72,6 +72,8 @@ export type Vehicle = {
   lapTime: number
   drivetrain: string
   seats: number
+  /** Fence price from the published map. Showroom price stays in `price`. */
+  sellValue?: number
   /** In-game manufacturer, such as Pegassi or Grotti. */
   manufacturer?: string
   weaponized?: boolean
