@@ -1,0 +1,757 @@
+[
+  {
+    "id": "gta6-main-story",
+    "title": "Main story",
+    "detail": "Guide weight 50%. Target: the whole main story. Tick when the in-game 100% line matches.",
+    "group": "story",
+    "requiredFor100": true,
+    "share": 50
+  },
+  {
+    "id": "gta6-optional-all",
+    "title": "Optional missions",
+    "detail": "Guide weight 6%. Target: every optional mission. Tick when the in-game 100% line matches.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "share": 6
+  },
+  {
+    "id": "gta6-illegal",
+    "title": "Illegal operations",
+    "detail": "Guide weight 3%. Target: 39 illegal operations. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 3
+  },
+  {
+    "id": "gta6-banks",
+    "title": "Bank robberies",
+    "detail": "Guide weight 2%. Target: 22 bank robberies. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-payday",
+    "title": "Payday loan jobs",
+    "detail": "Guide weight 2%. Target: 7 payday loan jobs. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-smash",
+    "title": "Smash and grabs",
+    "detail": "Guide weight 2%. Target: 34 smash and grabs. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-stickups",
+    "title": "Stick ups",
+    "detail": "Guide weight 2%. Target: 100 stick ups. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-narcotics",
+    "title": "Narcotics fenced",
+    "detail": "Guide weight 2%. Target: $100,000 narcotics fenced. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-jewelry",
+    "title": "Jewelry fenced",
+    "detail": "Guide weight 2%. Target: $100,000 jewelry fenced. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-bills",
+    "title": "Marked bills fenced",
+    "detail": "Guide weight 2%. Target: $100,000 marked bills fenced. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-vaults",
+    "title": "Vaults hit",
+    "detail": "Guide weight 2%. Target: 8 vaults. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-fenced-cars",
+    "title": "Vehicles fenced",
+    "detail": "Guide weight 2%. Target: $200,000 vehicles fenced. Tick when the in-game 100% line matches.",
+    "group": "misc",
+    "requiredFor100": true,
+    "share": 2
+  },
+  {
+    "id": "gta6-kenton",
+    "title": "Kenton sets",
+    "detail": "Guide weight 1%. Target: 5 Kenton sets. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-cards",
+    "title": "Collectible card sets",
+    "detail": "Guide weight 1%. Target: 15 collectible card sets. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-waink",
+    "title": "WAiNK scans",
+    "detail": "Guide weight 1%. Target: 100 WAiNK scans. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-underwater",
+    "title": "Underwater discoveries",
+    "detail": "Guide weight 1%. Target: 33 underwater discoveries. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-magazines",
+    "title": "Magazines",
+    "detail": "Guide weight 1%. Target: 30 magazines. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-meditation",
+    "title": "Meditation spots",
+    "detail": "Guide weight 1%. Target: 15 meditation spots. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-flamingos",
+    "title": "Cocaine flamingos",
+    "detail": "Guide weight 1%. Target: 100 cocaine flamingos. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-playlists",
+    "title": "Unique playlists",
+    "detail": "Guide weight 1%. Target: 2 unique playlists. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-styles",
+    "title": "Discovered styles",
+    "detail": "Guide weight 1%. Target: 70 discovered styles. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-races",
+    "title": "Unique races won",
+    "detail": "Guide weight 1%. Target: 30 unique races won. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-race-gold",
+    "title": "Race challenge golds",
+    "detail": "Guide weight 1%. Target: 10 race challenge golds. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-range-gold",
+    "title": "Shooting range golds",
+    "detail": "Guide weight 1%. Target: 42 shooting range golds. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-arcade",
+    "title": "Arcade games",
+    "detail": "Guide weight 1%. Target: 4 arcade games. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-pool",
+    "title": "Pool opponents",
+    "detail": "Guide weight 1%. Target: 5 pool opponents. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-golf",
+    "title": "Golf locations",
+    "detail": "Guide weight 1%. Target: 2 golf locations. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-hoops",
+    "title": "Basketball hoops",
+    "detail": "Guide weight 1%. Target: 90 basketball hoops. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-drones",
+    "title": "Drone time trials",
+    "detail": "Guide weight 1%. Target: 42 drone time trials. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-stunts",
+    "title": "Stunts",
+    "detail": "Guide weight 1%. Target: 300 stunts. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-challenges",
+    "title": "Challenges",
+    "detail": "Guide weight 1%. Target: 70 challenges. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-bret",
+    "title": "Bret's target decks",
+    "detail": "Guide weight 1%. Target: 15 Bret's target decks. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-vehicles-found",
+    "title": "Vehicles discovered",
+    "detail": "Guide weight 1%. Target: 200 vehicles discovered. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-weapons-found",
+    "title": "Weapons discovered",
+    "detail": "Guide weight 1%. Target: 50 weapons discovered. Tick when the in-game 100% line matches.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "share": 1
+  },
+  {
+    "id": "gta6-animals",
+    "title": "Animals discovered",
+    "detail": "Animals discovered. The public guide lists a target of 100 and does not show a weight, so this box stays off the score.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-prologue",
+    "title": "Prologue",
+    "detail": "Lucia meets a counselor about early release. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-gone-fishing",
+    "title": "Gone Fishing",
+    "detail": "Help Donnie skim bricks off a shipment. Reward: $100–$220.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-gear-up",
+    "title": "Gear Up",
+    "detail": "Pick up a longarm at Chuck's Tackle & Shot. Reward: a longarm.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-just-a-scratch",
+    "title": "Just a Scratch",
+    "detail": "Repair and respray the Ganado at Joey's before Lucia is released. Reward: a repaired Vapid '70 Ganado.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-lab-fees",
+    "title": "Lab Fees",
+    "detail": "Collect Brian's rent at Moonstone Boutique. Reward: $39, paid later.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-pipework",
+    "title": "Pipework",
+    "detail": "Collect Mandy's rent. Reward: a delayed payment from Brian.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-unwanted-attention",
+    "title": "Unwanted Attention",
+    "detail": "Meet Cal about a job for Brian. Reward: the Cop Scanner app and $350.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-hey-arnold",
+    "title": "Hey Arnold!",
+    "detail": "Meet Brian at the Crastenburg Hotel. Reward: $1,200.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-island-dreams",
+    "title": "Island Dreams",
+    "detail": "Work for Kenton in Key Lento. Reward: $400 and underwater treasure hunting.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-feng-shui",
+    "title": "Feng Shui",
+    "detail": "Hang out with Cal at home. Reward: JoySystem.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-coming-home",
+    "title": "Coming Home",
+    "detail": "Pick Lucia up from Hamlet Correctional. Reward: possible relationship gains, and her necklace if you do not miss it.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-clean-up-after-donnie",
+    "title": "Clean Up After Donnie",
+    "detail": "A package from Donnie's delivery is signaling near a Hamlet fishing spot. Reward: 6 frag grenades and Donnie's fence drop-off.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-buck-me",
+    "title": "Buck Me",
+    "detail": "Open a bank account for Lucia's community-service pay at the nearby Fleeca. Reward: BuckMe.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-down-to-earth",
+    "title": "Down to Earth",
+    "detail": "Meet Brian at the marina. Reward: $500, another $800 if the leftover cocaine goes to Donnie, and Combat Focus.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-clear-skies",
+    "title": "Clear Skies",
+    "detail": "Meet Brian and Donnie in Southwind. Reward: $1,400.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-building-a-life",
+    "title": "Building a Life",
+    "detail": "Assemble furniture with Lucia. Reward: a new coffee table.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-day-release",
+    "title": "Day Release",
+    "detail": "Meet Kat and Mattia at the Rusty Anchor. Reward: sunglasses for Lucia, if you do not miss them.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-swamped",
+    "title": "Swamped",
+    "detail": "Meet Brian at the marina. Reward: $1,000.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-don-gone",
+    "title": "Don Gone",
+    "detail": "Make Donnie's place look like he left town. Reward: $200, his aviators, and his H&L .38.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-recalibration",
+    "title": "Recalibration",
+    "detail": "Support Cal. Reward: the fishing tutorial.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-tourist-trap",
+    "title": "Tourist Trap",
+    "detail": "Hear Mattia's job offer with Lucia. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-home-sweet-home",
+    "title": "Home Sweet Home",
+    "detail": "Collect Jason's things before you leave town. Reward: Andy's jacket, if you do not miss it.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-discharge-time",
+    "title": "Discharge Time",
+    "detail": "The guide lists no objective and no reward.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-what-s-in-the-bag",
+    "title": "What's In the Bag?",
+    "detail": "Find out what is in the bag. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-overnight-charges",
+    "title": "Overnight Charges",
+    "detail": "Ask the motel desk what is owed. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-just-moved-in",
+    "title": "Just Moved In",
+    "detail": "Pick up supplies at the Alpha convenience store. Reward: relationship growth.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-got-pills",
+    "title": "Got Pills?",
+    "detail": "Ask around the motel for painkillers. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-girls-trip",
+    "title": "Girls' Trip",
+    "detail": "Help Vicki find painkillers. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-moses",
+    "title": "Moses",
+    "detail": "Take a low-key car to Moses's shop. Reward: a free registration and respray, an upgraded WAiNK scanner, a slim jim, Moses as a fence, and Scooter Bros.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-ambulance-chaser",
+    "title": "Ambulance Chaser",
+    "detail": "Get rid of the ambulance used to leave the hospital. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-new-look",
+    "title": "New Look",
+    "detail": "Change hair at Pearl House Hair Salon. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-how-do-i-look",
+    "title": "How Do I Look?",
+    "detail": "Buy clothes, or shop cheap at Bargain World. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-play-nurse",
+    "title": "Play Nurse",
+    "detail": "Check on Jason until he can walk. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-behind-on-payments",
+    "title": "Behind on Payments",
+    "detail": "Pay the rent and see what is owed. Reward: Lucia's necklace returned.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-daily-driver",
+    "title": "Daily Driver",
+    "detail": "Steal the '82 Canis Crawler parked by the old Trader's Union building. Reward: a payout that depends on its condition, the Port Gellhorn Station garage, and Vice City Real Estate.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-slam-dunk",
+    "title": "Slam Dunk",
+    "detail": "See Dunk about stronger painkillers. Reward: $1,700 and Dunk as a fence.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-breakfast-run",
+    "title": "Breakfast Run",
+    "detail": "Check on Jason at the motel. Reward: a variable payout, character switching, and Jason's Declasse Tulip.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-coffee-break",
+    "title": "Coffee Break",
+    "detail": "Plan other ways to make money. Reward: a BuckMe Silver checking account.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-thrillbillies",
+    "title": "Thrillbillies",
+    "detail": "Race at Thrillbilly Mud Club. Reward: up to $2,500.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-afternoon-delight",
+    "title": "Afternoon Delight",
+    "detail": "Meet Vicki at Delights to rob her boss. Reward: at least $1,800, and $10,000 from Vicki.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-mission-checking-out",
+    "title": "Checking Out",
+    "detail": "Leave the motel and meet Dre'Quan in Vice City. Reward: none.",
+    "group": "story",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-get-shirley-s-rum",
+    "title": "Get Shirley's Rum",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-skunk-apeology-101",
+    "title": "Skunk Apeology 101",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-mandy-s-dark-secret",
+    "title": "Mandy's Dark Secret",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-find-the-lost-drugs",
+    "title": "Find the Lost Drugs",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-ring-the-bell",
+    "title": "Ring the Bell!",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-pick-up-a-gun",
+    "title": "Pick Up a Gun",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-optional-mckittrick-farm",
+    "title": "McKittrick Farm",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-fishing-shacks",
+    "title": "Fishing Shacks",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-exotic-animals-front",
+    "title": "Exotic Animals Front",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-backroom-weed-front",
+    "title": "Backroom Weed Front",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-industrial-weed-grow",
+    "title": "Industrial Weed Grow",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-manatee-motel",
+    "title": "Manatee Motel",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-sunrise-rv-park",
+    "title": "Sunrise RV Park",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-brooks-boatworks",
+    "title": "Brooks Boatworks",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-june-warehouse",
+    "title": "June Warehouse",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-kingpin-bowling",
+    "title": "Kingpin Bowling",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-la-cascara-motel",
+    "title": "La Cascara Motel",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-stash-house",
+    "title": "Stash House",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-op-nova-auto-junkyard",
+    "title": "Nova Auto Junkyard",
+    "detail": "Named illegal operation. The 39-count box is separate.",
+    "group": "misc",
+    "requiredFor100": false
+  },
+  {
+    "id": "gta6-miss-cigars",
+    "title": "Macizo Cigars",
+    "detail": "Chapter 1 item. Smoking them raises Focus and costs health.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  },
+  {
+    "id": "gta6-miss-tomas",
+    "title": "Tomas Necklace",
+    "detail": "Chapter 1 clothing missable.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  },
+  {
+    "id": "gta6-miss-lucia-shades",
+    "title": "Sunglasses for Lucia",
+    "detail": "Missable during Day Release.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  },
+  {
+    "id": "gta6-miss-aviators",
+    "title": "Donnie's Aviator Sunglasses",
+    "detail": "Missable during Don Gone.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  },
+  {
+    "id": "gta6-miss-jacket",
+    "title": "Andy's Jacket",
+    "detail": "Missable during Home Sweet Home.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  },
+  {
+    "id": "gta6-miss-anchor",
+    "title": "Rusty Anchor T-Shirt and Cap",
+    "detail": "Chapter 1 clothing for Jason.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  },
+  {
+    "id": "gta6-miss-revolver",
+    "title": "Donnie's H&L .38 Revolver",
+    "detail": "Chapter 1 weapon, missable during Don Gone.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "trophy": "missable"
+  }
+]

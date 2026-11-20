@@ -1,0 +1,13 @@
+{
+  "name": "Finder",
+  "short_name": "Finder",
+  "description": "Los Santos companion. The atlas tiles are not stored for offline use.",
+  "start_url": "/gta5",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#07080c",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

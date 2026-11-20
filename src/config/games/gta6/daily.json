@@ -1,0 +1,6 @@
+{
+  "resets": { "dailyHourUtc": 6, "weeklyWeekday": 4, "weeklyHourUtc": 10 },
+  "tasks": [],
+  "weekdays": [],
+  "weeklyBonuses": []
+}

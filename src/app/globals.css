@@ -1,26 +1,301 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0b0e;
+  --foreground: #f3efe6;
+  --game-accent: #10b981;
+  --card: #12141a;
+  --cyan: #3b82f6;
+  --amber: #f59e0b;
+  --muted: #a39c90;
+  color-scheme: dark;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-accent: var(--game-accent);
+  --font-sans: var(--font-barlow), 'Segoe UI', sans-serif;
+  --font-display: var(--font-rajdhani), Impact, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3a3428 transparent;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--background);
+  color: var(--foreground);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: var(--font-sans);
+  overscroll-behavior: none;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--game-accent) 55%, black);
+  color: white;
+}
+
+.leaflet-container.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #082838;
+  font-family: inherit;
+  outline: none;
+}
+
+.leaflet-container img,
+.leaflet-container svg,
+.leaflet-container canvas.finder-markers {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.finder-markers {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+/* Shared surfaces keep the map's HUD independent of the companion pages. */
+.app-header {
+  background: #0e131a;
+}
+.side-navigation {
+  background: #0e131a;
+  border-right: 1px solid #ffffff0d;
+}
+.side-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 42px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  color: #8e9dad;
+  font-size: 14px;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.side-link:hover {
+  background: #ffffff06;
+  color: #f1f5f9;
+}
+.side-link.is-active {
+  background: #34d39912;
+  color: #6ee7b7;
+  box-shadow: inset 2px 0 #34d399;
+}
+.nav-toggle {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  color: #8494a7;
+}
+.nav-toggle:hover {
+  background: #ffffff0a;
+}
+.module-scroll {
+  background:
+    radial-gradient(ellipse at 95% 0%, #17392c26, transparent 50%), #0a0f15;
+}
+.module-body :is(section, article, li, div).bg-\[\#12141A\] {
+  border-radius: 14px;
+  background: #111923;
+  border-color: #ffffff0d;
+}
+.module-body > p {
+  max-width: 85ch;
+  color: #9caabc;
+  line-height: 1.7;
+}
+.module-body
+  :is(input:not([type='checkbox']):not([type='range']), select, textarea) {
+  border-radius: 8px;
+}
+.module-body :is(button, a).uppercase {
+  text-transform: none;
+  letter-spacing: 0.015em;
+}
+.module-body button:not([role='option']):not([aria-pressed]) {
+  border-radius: 8px;
+}
+.module-body button.h-8 {
+  min-height: 38px;
+}
+.module-body input[type='range'] {
+  display: block;
+  width: min(100%, 360px);
+  height: 32px;
+  accent-color: #34d399;
+}
+.module-body input[type='checkbox'] {
+  accent-color: #34d399;
+}
+.module-body table thead {
+  background: #141e2a;
+  color: #aab8c8;
+}
+.module-body table tbody tr:hover {
+  background: #ffffff03;
+}
+.module-body table td {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+:where(button, a, input, select, textarea, summary):focus-visible {
+  outline: 2px solid #6ee7b7;
+  outline-offset: 4px;
+}
+button:not(:disabled),
+summary {
+  cursor: pointer;
+}
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: -80px;
+  z-index: 100;
+  background: #6ee7b7;
+  color: #071510;
+  padding: 12px;
+  border-radius: 8px;
+}
+.skip-link:focus {
+  top: 12px;
+}
+.action-primary,
+.action-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.action-primary {
+  background: #6ee7b7;
+  color: #06251b;
+}
+.action-primary:hover {
+  background: #a7f3d0;
+}
+.action-secondary {
+  border: 1px solid #ffffff20;
+  color: #e2e8f0;
+  background: #ffffff05;
+}
+.action-secondary:hover {
+  background: #ffffff0c;
+}
+.dashboard-hero {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ffffff12;
+  border-radius: 20px;
+  background: linear-gradient(110deg, #122b27 0%, #101f26 65%, #192c37);
+}
+.hero-cartography {
+  position: absolute;
+  inset: 0 0 0 40%;
+  opacity: 0.16;
+  background:
+    linear-gradient(90deg, #122b27, transparent),
+    url('/maps/gta5/atlas.svg') center/cover;
+  mask-image: linear-gradient(90deg, transparent, black);
+}
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #6ee7b7;
+}
+.stat-card {
+  padding: 20px;
+  border: 1px solid #ffffff0d;
+  border-radius: 14px;
+  background: #111923;
+}
+.tool-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #ffffff0d;
+  background: #111923;
+  transition:
+    border-color 0.15s,
+    transform 0.15s;
+}
+.tool-card:hover {
+  border-color: #6ee7b750;
+  transform: translateY(-2px);
+}
+@media (max-width: 639px) {
+  .module-content {
+    padding-top: 20px;
+  }
+  .module-body {
+    margin-top: 20px;
+  }
+  .module-body .text-\[10px\] {
+    font-size: 11px;
+  }
+  .module-body .text-xs {
+    font-size: 13px;
+  }
+  .module-body .font-display.text-4xl {
+    font-size: 30px;
+  }
+  .module-body button.h-8 {
+    min-height: 42px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+[hidden] {
+  display: none !important;
+}
+.module-body .checklist-summary svg {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+@media (max-width: 639px) {
+  .module-body .checklist-summary > div {
+    padding: 12px;
+  }
+  .module-body .checklist-summary > div > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .module-body .checklist-summary .text-\[11px\] {
+    font-size: 10px;
+    letter-spacing: 0.04em;
+  }
 }

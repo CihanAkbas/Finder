@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finder
 
-## Getting Started
+All-in-one GTA companion for a second screen. GTA V is populated. GTA VI is a data shell: the same pages render, and they fill in when JSON is dropped into `src/config/games/gta6`.
 
-First, run the development server:
+Modules under `/gta5`: hub, map, 100% checklist, daily/weekly resets, vehicle and weapon database, garage, and heist/business/stock calculators. Found pins and checklist rows share one save. Progress, garage slots, and daily checks stay in this browser (IndexedDB, with a localStorage fallback) and can be exported from the top bar.
+
+## Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `/gta5`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Add a game
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Copy `src/config/games/gta6` to a new folder.
+2. Set bounds, categories, markers, and palette.
+3. Register it in `src/config/games/index.ts`.
 
-## Learn More
+Bounds are a square world window. In-game X grows east and Y grows north. The edges of a tile image are `minX/maxX/minY/maxY`.
 
-To learn more about Next.js, take a look at the following resources:
+## Tiles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app draws a schematic atlas until real tiles exist. Generate that schematic, or slice your own image:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run maps:generate
+npm run maps:slice -- --input public/maps/gta5/atlas.svg --game gta5 --style atlas
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tiles are written to `public/tiles/{game}/{style}/{z}/{x}/{y}.png` for zoom 0–5. Zoom 5 is 8192 pixels across.

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "fleeca",
+    "name": "The Fleeca Job",
+    "hardModeBonus": 0.25,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "take", "name": "Normal repeat take", "value": 201250, "primary": true }],
+    "secondaries": [{ "id": "weekly", "name": "First clear this week", "value": 100625 }]
+  },
+  {
+    "id": "prison",
+    "name": "The Prison Break",
+    "hardModeBonus": 0.25,
+    "minPlayers": 4,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "take", "name": "Normal repeat take", "value": 700000, "primary": true }],
+    "secondaries": [
+      { "id": "weekly", "name": "First clear this week", "value": 350000 },
+      { "id": "elite", "name": "Elite challenge", "value": 100000 }
+    ]
+  },
+  {
+    "id": "humane",
+    "name": "The Humane Labs Raid",
+    "hardModeBonus": 0.25,
+    "minPlayers": 4,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "take", "name": "Normal repeat take", "value": 945000, "primary": true }],
+    "secondaries": [
+      { "id": "weekly", "name": "First clear this week", "value": 472500 },
+      { "id": "elite", "name": "Elite challenge", "value": 100000 }
+    ]
+  },
+  {
+    "id": "series-a",
+    "name": "Series A Funding",
+    "hardModeBonus": 0.25,
+    "minPlayers": 4,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "take", "name": "Normal repeat take", "value": 707000, "primary": true }],
+    "secondaries": [
+      { "id": "weekly", "name": "First clear this week", "value": 353500 },
+      { "id": "elite", "name": "Elite challenge", "value": 100000 }
+    ]
+  },
+  {
+    "id": "pacific",
+    "name": "The Pacific Standard Job",
+    "hardModeBonus": 0.25,
+    "minPlayers": 4,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "take", "name": "Normal repeat take, if the cash survives the bikes", "value": 1500000, "primary": true }],
+    "secondaries": [
+      { "id": "weekly", "name": "First clear this week", "value": 750000 },
+      { "id": "elite", "name": "Elite challenge", "value": 100000 }
+    ]
+  },
+  {
+    "id": "doom-1",
+    "name": "Doomsday — Act I",
+    "hardModeBonus": 0.25,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "act1", "name": "The Data Breaches", "value": 877500, "primary": true }],
+    "secondaries": [{ "id": "elite", "name": "Elite challenge", "value": 50000 }]
+  },
+  {
+    "id": "doom-2",
+    "name": "Doomsday — Act II",
+    "hardModeBonus": 0.25,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "act2", "name": "The Bogdan Problem", "value": 1282500, "primary": true }],
+    "secondaries": [{ "id": "elite", "name": "Elite challenge", "value": 50000 }]
+  },
+  {
+    "id": "doom-3",
+    "name": "Doomsday — Act III",
+    "hardModeBonus": 0.25,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Lester assigned cut", "rate": 0.05 }],
+    "targets": [{ "id": "act3", "name": "The Doomsday Scenario", "value": 1620000, "primary": true }],
+    "secondaries": [{ "id": "elite", "name": "Elite challenge", "value": 50000 }]
+  },
+  {
+    "id": "casino",
+    "name": "The Diamond Casino Heist",
+    "hardModeBonus": 0.1,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "fees": [
+      { "name": "Lester assigned cut", "rate": 0.05 },
+      { "name": "Buyer", "rate": 0.1 }
+    ],
+    "targets": [
+      { "id": "cash", "name": "Cash", "value": 1480500, "primary": true },
+      { "id": "art", "name": "Artwork", "value": 1645000, "primary": true },
+      { "id": "gold", "name": "Gold", "value": 1809500, "primary": true },
+      { "id": "diamonds", "name": "Diamonds", "value": 2303000, "primary": true }
+    ],
+    "secondaries": [{ "id": "cash-locker", "name": "Extra cash", "value": 100000 }]
+  },
+  {
+    "id": "cayo",
+    "name": "The Cayo Perico Heist",
+    "hardModeBonus": 0.1,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "fees": [
+      { "name": "Pavel", "rate": 0.02 },
+      { "name": "Fencing", "rate": 0.1 }
+    ],
+    "targets": [
+      { "id": "tequila", "name": "Sinsimito Tequila", "value": 400000, "primary": true },
+      { "id": "ruby", "name": "Ruby Necklace", "value": 560000, "primary": true },
+      { "id": "bonds", "name": "Bearer Bonds", "value": 616000, "primary": true },
+      { "id": "pink", "name": "Pink Diamond", "value": 910000, "primary": true },
+      { "id": "panther", "name": "Panther Statue", "value": 1900000, "primary": true }
+    ],
+    "secondaries": [
+      { "id": "cash", "name": "Cash (full bag)", "value": 299700 },
+      { "id": "weed", "name": "Weed (full bag)", "value": 324000 },
+      { "id": "coke", "name": "Coke (full bag)", "value": 364500 },
+      { "id": "gold", "name": "Gold (full bag)", "value": 450000 },
+      { "id": "painting", "name": "Paintings (full bag)", "value": 324000 }
+    ]
+  },
+  {
+    "id": "dre",
+    "name": "The Contract — Dr. Dre",
+    "hardModeBonus": 0,
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "fees": [],
+    "targets": [{ "id": "finale", "name": "Host repeat payout", "value": 900000, "primary": true }],
+    "secondaries": [{ "id": "weekly", "name": "First clear this week", "value": 200000 }]
+  },
+  {
+    "id": "cluckin",
+    "name": "Cluckin' Bell Farm Raid",
+    "hardModeBonus": 0,
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "fees": [],
+    "targets": [{ "id": "host", "name": "Host repeat payout", "value": 400000, "primary": true }],
+    "secondaries": [{ "id": "weekly", "name": "First clear this week", "value": 200000 }]
+  },
+  {
+    "id": "titan",
+    "name": "The Titan Job",
+    "hardModeBonus": 0.5,
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "fees": [],
+    "targets": [{ "id": "host", "name": "Host normal payout", "value": 500000, "primary": true }],
+    "secondaries": []
+  },
+  {
+    "id": "knoway",
+    "name": "KnoWay Out",
+    "hardModeBonus": 0.5,
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "fees": [],
+    "targets": [{ "id": "host", "name": "Host normal payout", "value": 245000, "primary": true }],
+    "secondaries": []
+  },
+  {
+    "id": "kortz",
+    "name": "The Kortz Center Heist",
+    "hardModeBonus": 0,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "fees": [{ "name": "Planning", "amount": 100000 }],
+    "targets": [
+      { "id": "small", "name": "Smaller painting, repeat", "value": 304500, "primary": true },
+      { "id": "large", "name": "Larger painting, repeat", "value": 481250, "primary": true },
+      { "id": "small-week", "name": "Smaller painting, first sale this week", "value": 1218000, "primary": true },
+      { "id": "large-week", "name": "Larger painting, first sale this week", "value": 1925000, "primary": true }
+    ],
+    "secondaries": []
+  }
+]

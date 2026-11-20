@@ -1,0 +1,7 @@
+[
+  { "id": "hotel", "order": 1, "mission": "The Hotel Assassination", "ticker": "BET", "company": "Betta Pharmaceuticals", "exchange": "LCN", "multiplier": 1.5, "instruction": "All three characters buy BET on LCN before the mission. After the mission, sell. Rival stocks drop; this step only counts the Betta gain." },
+  { "id": "multi", "order": 2, "mission": "The Multi Target Assassination", "ticker": "DEB", "company": "Debonaire Cigarettes", "exchange": "LCN", "multiplier": 1.8, "instruction": "Buy DEB while it is depressed after the hotel hit. Sell after the multi-target mission." },
+  { "id": "vice", "order": 3, "mission": "The Vice Assassination", "ticker": "FRT", "company": "Fruit", "exchange": "BAWSAQ", "multiplier": 1.5, "instruction": "Buy FRT on BAWSAQ before the mission. Save, wait for the rebound if it dips, then sell. The multiplier here is the conservative published gain." },
+  { "id": "bus", "order": 4, "mission": "The Bus Assassination", "ticker": "VAP", "company": "Vapid", "exchange": "LCN", "multiplier": 1.3, "instruction": "Buy VAP before the mission and sell after the spike." },
+  { "id": "construction", "order": 5, "mission": "The Construction Assassination", "ticker": "GCD", "company": "Gold Coast Development", "exchange": "LCN", "multiplier": 1.75, "instruction": "Buy GCD before the last assassination and sell after. Do this one last so the earlier multipliers compound." }
+]

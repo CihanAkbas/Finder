@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "class": "Handgun",
+    "damage": 26,
+    "fireRate": 160,
+    "dps": 69,
+    "ttkMs": 1450,
+    "magazine": 12,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Ammu-Nation after Repossession.",
+    "attachments": [
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation.",
+      "Some pedestrians."
+    ]
+  },
+  {
+    "id": "combat-pistol",
+    "name": "Combat Pistol",
+    "class": "Handgun",
+    "damage": 27,
+    "fireRate": 180,
+    "dps": 81,
+    "ttkMs": 1230,
+    "magazine": 12,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 3200,
+    "storyUnlockCondition": "Ammu-Nation after The Long Stretch.",
+    "attachments": [
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "ap-pistol",
+    "name": "AP Pistol",
+    "class": "Handgun",
+    "damage": 25,
+    "fireRate": 500,
+    "dps": 208,
+    "ttkMs": 480,
+    "magazine": 18,
+    "range": 110,
+    "unlockRank": 33,
+    "price": 5000,
+    "storyUnlockCondition": "Ammu-Nation later in the story.",
+    "attachments": [
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "heavy-revolver",
+    "name": "Heavy Revolver",
+    "class": "Handgun",
+    "damage": 70,
+    "fireRate": 90,
+    "dps": 105,
+    "ttkMs": 950,
+    "magazine": 6,
+    "range": 140,
+    "unlockRank": 1,
+    "price": 5900,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "micro-smg",
+    "name": "Micro SMG",
+    "class": "SMG",
+    "damage": 21,
+    "fireRate": 500,
+    "dps": 175,
+    "ttkMs": 570,
+    "magazine": 16,
+    "range": 100,
+    "unlockRank": 1,
+    "price": 3750,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation.",
+      "Some gang vehicles."
+    ]
+  },
+  {
+    "id": "smg",
+    "name": "SMG",
+    "class": "SMG",
+    "damage": 22,
+    "fireRate": 450,
+    "dps": 165,
+    "ttkMs": 610,
+    "magazine": 30,
+    "range": 120,
+    "unlockRank": 11,
+    "price": 7500,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ]
+  },
+  {
+    "id": "combat-mg",
+    "name": "Combat MG",
+    "class": "MG",
+    "damage": 32,
+    "fireRate": 550,
+    "dps": 293,
+    "ttkMs": 340,
+    "magazine": 100,
+    "range": 140,
+    "unlockRank": 80,
+    "price": 14800,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Grip",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation after the rank or story unlock."
+    ]
+  },
+  {
+    "id": "assault-rifle",
+    "name": "Assault Rifle",
+    "class": "Rifle",
+    "damage": 30,
+    "fireRate": 450,
+    "dps": 225,
+    "ttkMs": 440,
+    "magazine": 30,
+    "range": 150,
+    "unlockRank": 1,
+    "price": 8550,
+    "storyUnlockCondition": "Ammu-Nation after Friends Reunited.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Grip",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "carbine",
+    "name": "Carbine Rifle",
+    "class": "Rifle",
+    "damage": 32,
+    "fireRate": 500,
+    "dps": 267,
+    "ttkMs": 370,
+    "magazine": 30,
+    "range": 160,
+    "unlockRank": 1,
+    "price": 13000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "special-carbine",
+    "name": "Special Carbine",
+    "class": "Rifle",
+    "damage": 32,
+    "fireRate": 540,
+    "dps": 288,
+    "ttkMs": 350,
+    "magazine": 30,
+    "range": 160,
+    "unlockRank": 1,
+    "price": 14750,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Grip",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "bullpup",
+    "name": "Bullpup Rifle",
+    "class": "Rifle",
+    "damage": 32,
+    "fireRate": 580,
+    "dps": 309,
+    "ttkMs": 320,
+    "magazine": 30,
+    "range": 150,
+    "unlockRank": 1,
+    "price": 14500,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "pump",
+    "name": "Pump Shotgun",
+    "class": "Shotgun",
+    "damage": 58,
+    "fireRate": 60,
+    "dps": 58,
+    "ttkMs": 1720,
+    "magazine": 8,
+    "range": 40,
+    "unlockRank": 1,
+    "price": 3500,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation. The sawed-off also appears in some store robberies."
+    ]
+  },
+  {
+    "id": "assault-shotgun",
+    "name": "Assault Shotgun",
+    "class": "Shotgun",
+    "damage": 32,
+    "fireRate": 180,
+    "dps": 96,
+    "ttkMs": 1040,
+    "magazine": 8,
+    "range": 35,
+    "unlockRank": 37,
+    "price": 10000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Suppressor",
+      "Grip",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. The sawed-off also appears in some store robberies."
+    ]
+  },
+  {
+    "id": "sniper",
+    "name": "Sniper Rifle",
+    "class": "Sniper",
+    "damage": 96,
+    "fireRate": 30,
+    "dps": 48,
+    "ttkMs": 2080,
+    "magazine": 10,
+    "range": 900,
+    "unlockRank": 1,
+    "price": 20000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ]
+  },
+  {
+    "id": "heavy-sniper",
+    "name": "Heavy Sniper",
+    "class": "Sniper",
+    "damage": 150,
+    "fireRate": 20,
+    "dps": 50,
+    "ttkMs": 2000,
+    "magazine": 6,
+    "range": 1000,
+    "unlockRank": 90,
+    "price": 38150,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Advanced scope"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ]
+  },
+  {
+    "id": "marksman",
+    "name": "Marksman Rifle",
+    "class": "Sniper",
+    "damage": 65,
+    "fireRate": 140,
+    "dps": 152,
+    "ttkMs": 660,
+    "magazine": 8,
+    "range": 400,
+    "unlockRank": 1,
+    "price": 15750,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ]
+  },
+  {
+    "id": "rpg",
+    "name": "RPG",
+    "class": "Heavy",
+    "damage": 250,
+    "fireRate": 15,
+    "dps": 63,
+    "ttkMs": 400,
+    "magazine": 1,
+    "range": 300,
+    "unlockRank": 100,
+    "price": 35000,
+    "storyUnlockCondition": "Ammu-Nation late in the story.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "minigun",
+    "name": "Minigun",
+    "class": "Heavy",
+    "damage": 30,
+    "fireRate": 3000,
+    "dps": 1500,
+    "ttkMs": 70,
+    "magazine": 9999,
+    "range": 180,
+    "unlockRank": 120,
+    "price": 50000,
+    "storyUnlockCondition": "Ammu-Nation after the story, or a special pickup.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "pistol-mk2",
+    "name": "Pistol Mk II",
+    "class": "Handgun",
+    "damage": 32,
+    "fireRate": 180,
+    "magazine": 12,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 73750,
+    "dps": 96,
+    "ttkMs": 2000,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [
+      "Suppressor",
+      "Compensator",
+      "Flashlight",
+      "Mounted scope",
+      "Holographic sight",
+      "Small scope",
+      "Extended clip",
+      "Tracer rounds",
+      "Incendiary rounds",
+      "Hollow point rounds",
+      "FMJ rounds"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "sns",
+    "name": "SNS Pistol",
+    "class": "Handgun",
+    "damage": 28,
+    "fireRate": 180,
+    "magazine": 6,
+    "range": 90,
+    "unlockRank": 1,
+    "price": 2750,
+    "dps": 84,
+    "ttkMs": 2333,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "heavy-pistol",
+    "name": "Heavy Pistol",
+    "class": "Handgun",
+    "damage": 40,
+    "fireRate": 150,
+    "magazine": 18,
+    "range": 130,
+    "unlockRank": 1,
+    "price": 5750,
+    "dps": 100,
+    "ttkMs": 1600,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "vintage",
+    "name": "Vintage Pistol",
+    "class": "Handgun",
+    "damage": 34,
+    "fireRate": 150,
+    "magazine": 7,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 3450,
+    "dps": 85,
+    "ttkMs": 2000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "ceramic",
+    "name": "Ceramic Pistol",
+    "class": "Handgun",
+    "damage": 32,
+    "fireRate": 180,
+    "magazine": 12,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 20000,
+    "dps": 96,
+    "ttkMs": 2000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "machine-pistol",
+    "name": "Machine Pistol",
+    "class": "SMG",
+    "damage": 20,
+    "fireRate": 900,
+    "magazine": 12,
+    "range": 90,
+    "unlockRank": 1,
+    "price": 6250,
+    "dps": 300,
+    "ttkMs": 600,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Suppressor",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ]
+  },
+  {
+    "id": "smg-mk2",
+    "name": "SMG Mk II",
+    "class": "SMG",
+    "damage": 22,
+    "fireRate": 450,
+    "magazine": 30,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 85500,
+    "dps": 165,
+    "ttkMs": 1200,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [
+      "Holographic sight",
+      "Small scope",
+      "Medium scope",
+      "Suppressor",
+      "Flat muzzle",
+      "Tactical muzzle",
+      "Fat-end muzzle",
+      "Precision muzzle",
+      "Heavy barrel",
+      "Flashlight",
+      "Extended clip",
+      "Tracer rounds",
+      "Incendiary rounds",
+      "Hollow point rounds",
+      "FMJ rounds"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "assault-smg",
+    "name": "Assault SMG",
+    "class": "SMG",
+    "damage": 23,
+    "fireRate": 500,
+    "magazine": 30,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 12550,
+    "dps": 192,
+    "ttkMs": 960,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ]
+  },
+  {
+    "id": "pdw",
+    "name": "Combat PDW",
+    "class": "SMG",
+    "damage": 25,
+    "fireRate": 500,
+    "magazine": 30,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 11750,
+    "dps": 208,
+    "ttkMs": 840,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ]
+  },
+  {
+    "id": "gusenberg",
+    "name": "Gusenberg Sweeper",
+    "class": "MG",
+    "damage": 34,
+    "fireRate": 450,
+    "magazine": 30,
+    "range": 140,
+    "unlockRank": 1,
+    "price": 14600,
+    "dps": 255,
+    "ttkMs": 667,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation after the rank or story unlock."
+    ]
+  },
+  {
+    "id": "mg",
+    "name": "MG",
+    "class": "MG",
+    "damage": 30,
+    "fireRate": 500,
+    "magazine": 54,
+    "range": 140,
+    "unlockRank": 50,
+    "price": 13500,
+    "dps": 250,
+    "ttkMs": 720,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation after the rank or story unlock."
+    ]
+  },
+  {
+    "id": "combat-mg-mk2",
+    "name": "Combat MG Mk II",
+    "class": "MG",
+    "damage": 34,
+    "fireRate": 550,
+    "magazine": 100,
+    "range": 150,
+    "unlockRank": 1,
+    "price": 142000,
+    "dps": 312,
+    "ttkMs": 545,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [
+      "Holographic sight",
+      "Medium scope",
+      "Large scope",
+      "Suppressor",
+      "Flat muzzle",
+      "Tactical muzzle",
+      "Fat-end muzzle",
+      "Precision muzzle",
+      "Heavy barrel",
+      "Grip",
+      "Extended clip",
+      "Tracer rounds",
+      "Incendiary rounds",
+      "Armor piercing rounds",
+      "FMJ rounds"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation after the rank or story unlock."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "advanced",
+    "name": "Advanced Rifle",
+    "class": "Rifle",
+    "damage": 34,
+    "fireRate": 500,
+    "magazine": 30,
+    "range": 160,
+    "unlockRank": 70,
+    "price": 14250,
+    "dps": 283,
+    "ttkMs": 600,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "compact-rifle",
+    "name": "Compact Rifle",
+    "class": "Rifle",
+    "damage": 36,
+    "fireRate": 500,
+    "magazine": 30,
+    "range": 140,
+    "unlockRank": 1,
+    "price": 14650,
+    "dps": 300,
+    "ttkMs": 600,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "military",
+    "name": "Military Rifle",
+    "class": "Rifle",
+    "damage": 32,
+    "fireRate": 550,
+    "magazine": 30,
+    "range": 160,
+    "unlockRank": 1,
+    "price": 235000,
+    "dps": 293,
+    "ttkMs": 655,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "carbine-mk2",
+    "name": "Carbine Rifle Mk II",
+    "class": "Rifle",
+    "damage": 33,
+    "fireRate": 500,
+    "magazine": 30,
+    "range": 160,
+    "unlockRank": 1,
+    "price": 107500,
+    "dps": 275,
+    "ttkMs": 720,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "bullpup-mk2",
+    "name": "Bullpup Rifle Mk II",
+    "class": "Rifle",
+    "damage": 33,
+    "fireRate": 580,
+    "magazine": 30,
+    "range": 150,
+    "unlockRank": 1,
+    "price": 115000,
+    "dps": 319,
+    "ttkMs": 621,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "pump-mk2",
+    "name": "Pump Shotgun Mk II",
+    "class": "Shotgun",
+    "damage": 67,
+    "fireRate": 60,
+    "magazine": 8,
+    "range": 40,
+    "unlockRank": 1,
+    "price": 82500,
+    "dps": 67,
+    "ttkMs": 2000,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation. The sawed-off also appears in some store robberies."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "heavy-shotgun",
+    "name": "Heavy Shotgun",
+    "class": "Shotgun",
+    "damage": 58,
+    "fireRate": 80,
+    "magazine": 6,
+    "range": 45,
+    "unlockRank": 1,
+    "price": 13550,
+    "dps": 77,
+    "ttkMs": 2250,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Grip",
+      "Flashlight",
+      "Extended drum"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. The sawed-off also appears in some store robberies."
+    ]
+  },
+  {
+    "id": "sweeper",
+    "name": "Sweeper Shotgun",
+    "class": "Shotgun",
+    "damage": 27,
+    "fireRate": 200,
+    "magazine": 10,
+    "range": 30,
+    "unlockRank": 1,
+    "price": 14900,
+    "dps": 90,
+    "ttkMs": 2100,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation. The sawed-off also appears in some store robberies."
+    ]
+  },
+  {
+    "id": "heavy-sniper-mk2",
+    "name": "Heavy Sniper Mk II",
+    "class": "Sniper",
+    "damage": 230,
+    "fireRate": 20,
+    "magazine": 6,
+    "range": 1000,
+    "unlockRank": 1,
+    "price": 165375,
+    "dps": 77,
+    "ttkMs": 0,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [
+      "Zoom scope",
+      "Advanced scope",
+      "Thermal scope",
+      "Night vision scope",
+      "Suppressor",
+      "Squared muzzle",
+      "Bell-end muzzle",
+      "Extended clip",
+      "Incendiary rounds",
+      "Armor piercing rounds",
+      "FMJ rounds",
+      "Explosive rounds"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "marksman-mk2",
+    "name": "Marksman Rifle Mk II",
+    "class": "Sniper",
+    "damage": 70,
+    "fireRate": 140,
+    "magazine": 8,
+    "range": 400,
+    "unlockRank": 1,
+    "price": 149000,
+    "dps": 163,
+    "ttkMs": 857,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "grenade-launcher",
+    "name": "Grenade Launcher",
+    "class": "Heavy",
+    "damage": 150,
+    "fireRate": 20,
+    "magazine": 10,
+    "range": 200,
+    "unlockRank": 60,
+    "price": 32400,
+    "dps": 50,
+    "ttkMs": 3000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Grip",
+      "Flashlight"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "homing",
+    "name": "Homing Launcher",
+    "class": "Heavy",
+    "damage": 150,
+    "fireRate": 15,
+    "magazine": 1,
+    "range": 500,
+    "unlockRank": 1,
+    "price": 75000,
+    "dps": 38,
+    "ttkMs": 4000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "railgun",
+    "name": "Railgun",
+    "class": "Heavy",
+    "damage": 200,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 300,
+    "unlockRank": 120,
+    "price": 0,
+    "dps": 67,
+    "ttkMs": 0,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "sns-mk2",
+    "name": "SNS Pistol Mk II",
+    "class": "Handgun",
+    "damage": 30,
+    "fireRate": 180,
+    "magazine": 6,
+    "range": 80,
+    "unlockRank": 1,
+    "price": 79500,
+    "dps": 90,
+    "ttkMs": 2333,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "revolver-mk2",
+    "name": "Heavy Revolver Mk II",
+    "class": "Handgun",
+    "damage": 110,
+    "fireRate": 80,
+    "magazine": 6,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 149000,
+    "dps": 147,
+    "ttkMs": 1500,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "double-action",
+    "name": "Double-Action Revolver",
+    "class": "Handgun",
+    "damage": 70,
+    "fireRate": 120,
+    "magazine": 6,
+    "range": 80,
+    "unlockRank": 1,
+    "price": 279000,
+    "dps": 140,
+    "ttkMs": 1500,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "navy",
+    "name": "Navy Revolver",
+    "class": "Handgun",
+    "damage": 80,
+    "fireRate": 90,
+    "magazine": 6,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 0,
+    "dps": 120,
+    "ttkMs": 1333,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "perico",
+    "name": "Perico Pistol",
+    "class": "Handgun",
+    "damage": 40,
+    "fireRate": 160,
+    "magazine": 12,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 0,
+    "dps": 107,
+    "ttkMs": 1875,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "wm29",
+    "name": "WM 29 Pistol",
+    "class": "Handgun",
+    "damage": 75,
+    "fireRate": 100,
+    "magazine": 6,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 149000,
+    "dps": 125,
+    "ttkMs": 1200,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter. A few special pistols are mission or event rewards."
+    ]
+  },
+  {
+    "id": "tec",
+    "name": "Tactical SMG",
+    "class": "SMG",
+    "damage": 22,
+    "fireRate": 500,
+    "magazine": 30,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 239000,
+    "dps": 183,
+    "ttkMs": 1200,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ]
+  },
+  {
+    "id": "mini-smg",
+    "name": "Mini SMG",
+    "class": "SMG",
+    "damage": 22,
+    "fireRate": 500,
+    "magazine": 20,
+    "range": 80,
+    "unlockRank": 1,
+    "price": 89000,
+    "dps": 183,
+    "ttkMs": 1200,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. Some also show up in gang cars."
+    ]
+  },
+  {
+    "id": "special-mk2",
+    "name": "Special Carbine Mk II",
+    "class": "Rifle",
+    "damage": 33,
+    "fireRate": 450,
+    "magazine": 30,
+    "range": 200,
+    "unlockRank": 1,
+    "price": 191250,
+    "dps": 248,
+    "ttkMs": 800,
+    "storyUnlockCondition": "GTA Online. Mk II weapons are not in story mode.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ],
+    "mk2": true
+  },
+  {
+    "id": "service",
+    "name": "Service Carbine",
+    "class": "Rifle",
+    "damage": 32,
+    "fireRate": 420,
+    "magazine": 30,
+    "range": 200,
+    "unlockRank": 1,
+    "price": 220000,
+    "dps": 224,
+    "ttkMs": 857,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "heavy-rifle",
+    "name": "Heavy Rifle",
+    "class": "Rifle",
+    "damage": 36,
+    "fireRate": 400,
+    "magazine": 30,
+    "range": 200,
+    "unlockRank": 1,
+    "price": 224000,
+    "dps": 240,
+    "ttkMs": 900,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Scope",
+      "Suppressor",
+      "Grip",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "battle",
+    "name": "Battle Rifle",
+    "class": "Rifle",
+    "damage": 40,
+    "fireRate": 360,
+    "magazine": 20,
+    "range": 200,
+    "unlockRank": 1,
+    "price": 237000,
+    "dps": 240,
+    "ttkMs": 833,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation rifle wall."
+    ]
+  },
+  {
+    "id": "precision",
+    "name": "Precision Rifle",
+    "class": "Sniper",
+    "damage": 101,
+    "fireRate": 40,
+    "magazine": 10,
+    "range": 800,
+    "unlockRank": 1,
+    "price": 280000,
+    "dps": 67,
+    "ttkMs": 3000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ]
+  },
+  {
+    "id": "combat-shotgun",
+    "name": "Combat Shotgun",
+    "class": "Shotgun",
+    "damage": 160,
+    "fireRate": 120,
+    "magazine": 6,
+    "range": 40,
+    "unlockRank": 1,
+    "price": 229000,
+    "dps": 320,
+    "ttkMs": 500,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [
+      "Flashlight"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation. The sawed-off also appears in some store robberies."
+    ]
+  },
+  {
+    "id": "compact-gl",
+    "name": "Compact Grenade Launcher",
+    "class": "Heavy",
+    "damage": 140,
+    "fireRate": 40,
+    "magazine": 1,
+    "range": 150,
+    "unlockRank": 1,
+    "price": 185000,
+    "dps": 93,
+    "ttkMs": 1500,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "upnatom",
+    "name": "Up-n-Atomizer",
+    "class": "Heavy",
+    "damage": 20,
+    "fireRate": 60,
+    "magazine": 1,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 379000,
+    "dps": 20,
+    "ttkMs": 11000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "hellbringer",
+    "name": "Unholy Hellbringer",
+    "class": "MG",
+    "damage": 28,
+    "fireRate": 600,
+    "magazine": 9999,
+    "range": 200,
+    "unlockRank": 1,
+    "price": 449000,
+    "dps": 280,
+    "ttkMs": 700,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation after the rank or story unlock."
+    ]
+  },
+  {
+    "id": "widowmaker",
+    "name": "Widowmaker",
+    "class": "Heavy",
+    "damage": 40,
+    "fireRate": 500,
+    "magazine": 9999,
+    "range": 150,
+    "unlockRank": 1,
+    "price": 499000,
+    "dps": 333,
+    "ttkMs": 600,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation heavy weapons, or a special unlock for the energy weapons."
+    ]
+  },
+  {
+    "id": "sticky",
+    "name": "Sticky Bomb",
+    "class": "Throwable",
+    "damage": 200,
+    "fireRate": 20,
+    "magazine": 25,
+    "range": 40,
+    "unlockRank": 1,
+    "price": 600,
+    "dps": 67,
+    "ttkMs": 3000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation throwable counter."
+    ]
+  },
+  {
+    "id": "proxmine",
+    "name": "Proximity Mine",
+    "class": "Throwable",
+    "damage": 200,
+    "fireRate": 15,
+    "magazine": 5,
+    "range": 30,
+    "unlockRank": 1,
+    "price": 1000,
+    "dps": 50,
+    "ttkMs": 4000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation throwable counter."
+    ]
+  },
+  {
+    "id": "pipe",
+    "name": "Pipe Bomb",
+    "class": "Throwable",
+    "damage": 180,
+    "fireRate": 20,
+    "magazine": 10,
+    "range": 30,
+    "unlockRank": 1,
+    "price": 5000,
+    "dps": 60,
+    "ttkMs": 3000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation throwable counter."
+    ]
+  },
+  {
+    "id": "teargas",
+    "name": "Tear Gas",
+    "class": "Throwable",
+    "damage": 10,
+    "fireRate": 20,
+    "magazine": 25,
+    "range": 40,
+    "unlockRank": 1,
+    "price": 150,
+    "dps": 3,
+    "ttkMs": 66000,
+    "storyUnlockCondition": "GTA Online catalog. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation throwable counter."
+    ]
+  },
+  {
+    "id": "knife",
+    "name": "Knife",
+    "class": "Melee",
+    "damage": 40,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 400,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "nightstick",
+    "name": "Nightstick",
+    "class": "Melee",
+    "damage": 20,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Police drop. Not sold at Ammu-Nation.",
+    "worldSpawns": [
+      "Police officers."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "hammer",
+    "name": "Hammer",
+    "class": "Melee",
+    "damage": 35,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 500,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "bat",
+    "name": "Baseball Bat",
+    "class": "Melee",
+    "damage": 35,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Picked up in the world.",
+    "worldSpawns": [
+      "Some alley and sports locations."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "crowbar",
+    "name": "Crowbar",
+    "class": "Melee",
+    "damage": 30,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Found during heists and jobs.",
+    "worldSpawns": [
+      "Heist setups."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "golf-club",
+    "name": "Golf Club",
+    "class": "Melee",
+    "damage": 34,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 250,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Los Santos Golf Club."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "bottle",
+    "name": "Broken Bottle",
+    "class": "Melee",
+    "damage": 30,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Picked up in bars.",
+    "worldSpawns": [
+      "Some bars."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "dagger",
+    "name": "Antique Cavalry Dagger",
+    "class": "Melee",
+    "damage": 40,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 2000,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "hatchet",
+    "name": "Hatchet",
+    "class": "Melee",
+    "damage": 40,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 750,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "knuckle-duster",
+    "name": "Knuckle Duster",
+    "class": "Melee",
+    "damage": 25,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 7500,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "machete",
+    "name": "Machete",
+    "class": "Melee",
+    "damage": 40,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 8900,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "flashlight",
+    "name": "Flashlight",
+    "class": "Melee",
+    "damage": 20,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "switchblade",
+    "name": "Switchblade",
+    "class": "Melee",
+    "damage": 35,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 1950,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "pool-cue",
+    "name": "Pool Cue",
+    "class": "Melee",
+    "damage": 30,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 150,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Some bars."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "pipe-wrench",
+    "name": "Pipe Wrench",
+    "class": "Melee",
+    "damage": 35,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 2500,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "battle-axe",
+    "name": "Battle Axe",
+    "class": "Melee",
+    "damage": 45,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 9500,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "stone-hatchet",
+    "name": "Stone Hatchet",
+    "class": "Melee",
+    "damage": 50,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Awarded by a stranger mission.",
+    "worldSpawns": [
+      "Mission reward. Not a shop item."
+    ],
+    "attachments": [],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "stun-gun",
+    "name": "Stun Gun",
+    "class": "Handgun",
+    "damage": 1,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 15,
+    "unlockRank": 1,
+    "price": 375,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 0,
+    "ttkMs": 672000
+  },
+  {
+    "id": "flare-gun",
+    "name": "Flare Gun",
+    "class": "Handgun",
+    "damage": 10,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 30,
+    "unlockRank": 1,
+    "price": 3750,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 3,
+    "ttkMs": 67200
+  },
+  {
+    "id": "marksman-pistol",
+    "name": "Marksman Pistol",
+    "class": "Handgun",
+    "damage": 80,
+    "fireRate": 30,
+    "magazine": 1,
+    "range": 140,
+    "unlockRank": 1,
+    "price": 4350,
+    "storyUnlockCondition": "GTA Online.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 40,
+    "ttkMs": 5600
+  },
+  {
+    "id": "sawed-off-shotgun",
+    "name": "Sawed-Off Shotgun",
+    "class": "Shotgun",
+    "damage": 80,
+    "fireRate": 70,
+    "magazine": 8,
+    "range": 30,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Found during store robberies.",
+    "attachments": [],
+    "worldSpawns": [
+      "Some convenience-store robberies."
+    ],
+    "dps": 93,
+    "ttkMs": 2400
+  },
+  {
+    "id": "bullpup-shotgun",
+    "name": "Bullpup Shotgun",
+    "class": "Shotgun",
+    "damage": 36,
+    "fireRate": 180,
+    "magazine": 14,
+    "range": 40,
+    "unlockRank": 1,
+    "price": 8000,
+    "storyUnlockCondition": "GTA Online.",
+    "attachments": [
+      "Suppressor",
+      "Grip",
+      "Flashlight"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 108,
+    "ttkMs": 2074
+  },
+  {
+    "id": "double-barrel-shotgun",
+    "name": "Double Barrel Shotgun",
+    "class": "Shotgun",
+    "damage": 85,
+    "fireRate": 80,
+    "magazine": 2,
+    "range": 25,
+    "unlockRank": 1,
+    "price": 15450,
+    "storyUnlockCondition": "GTA Online.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 113,
+    "ttkMs": 1976
+  },
+  {
+    "id": "musket",
+    "name": "Musket",
+    "class": "Shotgun",
+    "damage": 96,
+    "fireRate": 15,
+    "magazine": 1,
+    "range": 120,
+    "unlockRank": 1,
+    "price": 16500,
+    "storyUnlockCondition": "GTA Online.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 24,
+    "ttkMs": 9333
+  },
+  {
+    "id": "grenade",
+    "name": "Grenade",
+    "class": "Throwable",
+    "damage": 75,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 25,
+    "unlockRank": 1,
+    "price": 250,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 25,
+    "ttkMs": 8960
+  },
+  {
+    "id": "molotov",
+    "name": "Molotov",
+    "class": "Throwable",
+    "damage": 50,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 20,
+    "unlockRank": 1,
+    "price": 500,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation.",
+      "Some gang attacks."
+    ],
+    "dps": 17,
+    "ttkMs": 13440
+  },
+  {
+    "id": "flare",
+    "name": "Flare",
+    "class": "Throwable",
+    "damage": 1,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 20,
+    "unlockRank": 1,
+    "price": 700,
+    "storyUnlockCondition": "GTA Online.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation."
+    ],
+    "dps": 0,
+    "ttkMs": 672000
+  },
+  {
+    "id": "jerry-can",
+    "name": "Jerry Can",
+    "class": "Throwable",
+    "damage": 0,
+    "fireRate": 0,
+    "magazine": 1,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 100,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation.",
+      "Some gas stations."
+    ],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "firework-launcher",
+    "name": "Firework Launcher",
+    "class": "Heavy",
+    "damage": 40,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 80,
+    "unlockRank": 1,
+    "price": 65000,
+    "storyUnlockCondition": "Seasonal Ammu-Nation stock.",
+    "attachments": [],
+    "worldSpawns": [
+      "Ammu-Nation during the fireworks event."
+    ],
+    "dps": 13,
+    "ttkMs": 16800
+  },
+  {
+    "id": "pistol-50",
+    "name": "Pistol .50",
+    "class": "Handgun",
+    "damage": 51,
+    "fireRate": 40,
+    "magazine": 9,
+    "range": 130,
+    "unlockRank": 1,
+    "price": 3900,
+    "storyUnlockCondition": "Ammu-Nation.",
+    "attachments": [
+      "Suppressor",
+      "Flashlight",
+      "Extended clip"
+    ],
+    "worldSpawns": [
+      "Ammu-Nation handgun counter."
+    ],
+    "dps": 34,
+    "ttkMs": 6588
+  },
+  {
+    "id": "candy-cane",
+    "name": "Candy Cane",
+    "class": "Melee",
+    "damage": 35,
+    "fireRate": 0,
+    "magazine": 0,
+    "range": 5,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Seasonal event item. Not part of the story Ammu-Nation list.",
+    "attachments": [],
+    "worldSpawns": [
+      "Appears during the festive event. Not a permanent sidewalk spawn."
+    ],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "snowball",
+    "name": "Snowball",
+    "class": "Throwable",
+    "damage": 1,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 20,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Seasonal event item.",
+    "attachments": [],
+    "worldSpawns": [
+      "Picked up during the snow event. Not sold all year."
+    ],
+    "dps": 0,
+    "ttkMs": 672000
+  },
+  {
+    "id": "ball",
+    "name": "Ball",
+    "class": "Throwable",
+    "damage": 0,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 20,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "Free pickup.",
+    "attachments": [],
+    "worldSpawns": [
+      "Found in some interiors and given by contacts. No shop price."
+    ],
+    "dps": 0,
+    "ttkMs": 0
+  },
+  {
+    "id": "compact-emp",
+    "name": "Compact EMP Launcher",
+    "class": "Heavy",
+    "damage": 20,
+    "fireRate": 20,
+    "magazine": 1,
+    "range": 80,
+    "unlockRank": 1,
+    "price": 0,
+    "storyUnlockCondition": "GTA Online unlock. Not sold on the basic Ammu-Nation wall.",
+    "attachments": [],
+    "worldSpawns": [
+      "Unlocked through GTA Online special content. No story spawn."
+    ],
+    "dps": 7,
+    "ttkMs": 33600
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "resets": { "dailyHourUtc": 6, "weeklyWeekday": 4, "weeklyHourUtc": 10 },
+  "tasks": [
+    { "id": "stash", "title": "Stash house raided" },
+    { "id": "dealers", "title": "Street dealers sold out" },
+    { "id": "objectives", "title": "Daily objectives turned in" },
+    { "id": "trial", "title": "Time trial beaten" },
+    { "id": "gunvan", "title": "Gun Van visited" }
+  ],
+  "weekdays": [
+    {
+      "gunVan": {
+        "title": "Terminal cranes",
+        "markerId": "gta5-gunvan-terminal",
+        "note": "Sunday after 06:00 UTC. Known parking spot, not today’s live Rockstar stock.",
+        "stock": [
+          { "name": "Combat MG Mk II", "discount": 0.3 },
+          { "name": "Sticky Bombs", "discount": 0.25 },
+          { "name": "Heavy Revolver Mk II", "discount": 0.2 }
+        ]
+      },
+      "dealers": [
+        { "title": "La Mesa", "markerId": "gta5-gunvan-lamesa", "note": "Coke buyer." },
+        { "title": "Sandy Shores", "markerId": "gta5-gunvan-sandy", "note": "Meth buyer." },
+        { "title": "Paleto Bay", "markerId": "gta5-gunvan-paleto", "note": "Weed buyer." }
+      ],
+      "stash": { "title": "Elysian Island cache", "markerId": "gta5-ship-04", "note": "Sunday stash house area." },
+      "trials": [
+        { "title": "RC Bandito — Del Perro", "note": "Sunday time trial. Beat the posted time." },
+        { "title": "HSW — LSIA drag", "note": "Hao time trial." }
+      ]
+    },
+    {
+      "gunVan": {
+        "title": "Sandy Shores",
+        "markerId": "gta5-gunvan-sandy",
+        "note": "Monday after 06:00 UTC. Known parking spot.",
+        "stock": [
+          { "name": "Special Carbine Mk II", "discount": 0.35 },
+          { "name": "Proximity Mines", "discount": 0.25 },
+          { "name": "Sweeper Shotgun", "discount": 0.2 }
+        ]
+      },
+      "dealers": [
+        { "title": "Terminal", "markerId": "gta5-gunvan-terminal", "note": "Cash buyer." },
+        { "title": "Grapeseed", "markerId": "gta5-ltd-grapeseed", "note": "Coke buyer." },
+        { "title": "Chumash", "markerId": "gta5-ammu-chumash", "note": "Weed buyer." }
+      ],
+      "stash": { "title": "Paleto Cove", "markerId": "gta5-waste-paleto", "note": "Monday stash house area." },
+      "trials": [
+        { "title": "RC Bandito — Grand Senora", "note": "Monday time trial." },
+        { "title": "HSW — Vinewood", "note": "Hill climb from the observatory." }
+      ]
+    },
+    {
+      "gunVan": {
+        "title": "La Mesa rail yard",
+        "markerId": "gta5-gunvan-lamesa",
+        "note": "Tuesday after 06:00 UTC. Known parking spot.",
+        "stock": [
+          { "name": "Bullpup Rifle Mk II", "discount": 0.3 },
+          { "name": "Pipe Bombs", "discount": 0.3 },
+          { "name": "Marksman Rifle Mk II", "discount": 0.15 }
+        ]
+      },
+      "dealers": [
+        { "title": "Strawberry", "markerId": "gta5-franklin-strawberry", "note": "Meth buyer." },
+        { "title": "Bolingbroke road", "markerId": "gta5-bolingbroke", "note": "Coke buyer." },
+        { "title": "Lighthouse", "markerId": "gta5-lighthouse", "note": "Cash buyer." }
+      ],
+      "stash": { "title": "Land Act Reservoir", "markerId": "gta5-land-act-dam", "note": "Tuesday stash house area." },
+      "trials": [
+        { "title": "RC Bandito — Vespucci", "note": "Tuesday time trial." },
+        { "title": "HSW — Port", "note": "Container sprint." }
+      ]
+    },
+    {
+      "gunVan": {
+        "title": "Paleto forest road",
+        "markerId": "gta5-gunvan-paleto",
+        "note": "Wednesday after 06:00 UTC. Known parking spot.",
+        "stock": [
+          { "name": "Service Carbine", "discount": 0.25 },
+          { "name": "Grenades", "discount": 0.2 },
+          { "name": "Precision Rifle", "discount": 0.2 }
+        ]
+      },
+      "dealers": [
+        { "title": "Chiliad", "markerId": "gta5-chiliad", "note": "Weed buyer on the south approach." },
+        { "title": "Zancudo river", "markerId": "gta5-waste-zancudo", "note": "Meth buyer." },
+        { "title": "Davis", "markerId": "gta5-ltd-davis", "note": "Coke buyer." }
+      ],
+      "stash": { "title": "Humane coast", "markerId": "gta5-waste-humane", "note": "Wednesday stash house area." },
+      "trials": [
+        { "title": "RC Bandito — Raton", "note": "Wednesday time trial." },
+        { "title": "HSW — Del Perro freeway", "note": "Short highway sprint." }
+      ]
+    },
+    {
+      "gunVan": {
+        "title": "Terminal cranes",
+        "markerId": "gta5-gunvan-terminal",
+        "note": "Thursday after 06:00 UTC. Same spot as Sunday, different sample stock.",
+        "stock": [
+          { "name": "Heavy Rifle", "discount": 0.3 },
+          { "name": "Sticky Bombs", "discount": 0.2 },
+          { "name": "WM 29 Pistol", "discount": 0.25 }
+        ]
+      },
+      "dealers": [
+        { "title": "La Mesa", "markerId": "gta5-gunvan-lamesa", "note": "Meth buyer." },
+        { "title": "Sandy Shores", "markerId": "gta5-gunvan-sandy", "note": "Weed buyer." },
+        { "title": "Paleto Bay", "markerId": "gta5-gunvan-paleto", "note": "Coke buyer." }
+      ],
+      "stash": { "title": "Elysian Island cache", "markerId": "gta5-ship-04", "note": "Thursday stash house area." },
+      "trials": [
+        { "title": "Junk Energy — Chiliad", "note": "Thursday skydiving trial." },
+        { "title": "HSW — La Mesa", "note": "City sprint." }
+      ]
+    },
+    {
+      "gunVan": {
+        "title": "Sandy Shores",
+        "markerId": "gta5-gunvan-sandy",
+        "note": "Friday after 06:00 UTC.",
+        "stock": [
+          { "name": "Tactical SMG", "discount": 0.3 },
+          { "name": "Proximity Mines", "discount": 0.2 },
+          { "name": "Combat Shotgun", "discount": 0.25 }
+        ]
+      },
+      "dealers": [
+        { "title": "Terminal", "markerId": "gta5-gunvan-terminal", "note": "Weed buyer." },
+        { "title": "Grapeseed", "markerId": "gta5-ltd-grapeseed", "note": "Meth buyer." },
+        { "title": "Chumash", "markerId": "gta5-ammu-chumash", "note": "Coke buyer." }
+      ],
+      "stash": { "title": "Paleto Cove", "markerId": "gta5-waste-paleto", "note": "Friday stash house area." },
+      "trials": [
+        { "title": "RC Bandito — Paleto", "note": "Friday time trial." },
+        { "title": "HSW — Senora", "note": "Desert highway." }
+      ]
+    },
+    {
+      "gunVan": {
+        "title": "La Mesa rail yard",
+        "markerId": "gta5-gunvan-lamesa",
+        "note": "Saturday after 06:00 UTC.",
+        "stock": [
+          { "name": "Battle Rifle", "discount": 0.25 },
+          { "name": "Pipe Bombs", "discount": 0.2 },
+          { "name": "Precision Rifle", "discount": 0.3 }
+        ]
+      },
+      "dealers": [
+        { "title": "Strawberry", "markerId": "gta5-franklin-strawberry", "note": "Coke buyer." },
+        { "title": "Bolingbroke road", "markerId": "gta5-bolingbroke", "note": "Weed buyer." },
+        { "title": "Lighthouse", "markerId": "gta5-lighthouse", "note": "Meth buyer." }
+      ],
+      "stash": { "title": "Land Act Reservoir", "markerId": "gta5-land-act-dam", "note": "Saturday stash house area." },
+      "trials": [
+        { "title": "RC Bandito — Elysian", "note": "Saturday time trial." },
+        { "title": "HSW — Rockford", "note": "Hill streets." }
+      ]
+    }
+  ],
+  "weeklyBonuses": [
+    ["2x Nightclub goods", "2x Security contracts"],
+    ["3x Cayo Perico", "2x MC sell missions"],
+    ["2x Agency pay", "2x Auto Shop contracts"],
+    ["2x Hangar cargo", "2x Special cargo"]
+  ]
+}

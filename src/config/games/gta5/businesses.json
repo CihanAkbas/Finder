@@ -1,0 +1,10 @@
+[
+  { "id": "acid", "name": "Acid Lab", "product": "Acid", "hoursToFill": 4, "maxValue": 351000, "note": "With the lab upgrade. Full product, before a lobby high-demand bonus." },
+  { "id": "bunker", "name": "Bunker", "product": "Weapons", "hoursToFill": 11.7, "maxValue": 1050000, "note": "Both staff and equipment upgrades, one full bar of supplies converted to a full sell." },
+  { "id": "nightclub", "name": "Nightclub warehouse", "product": "Mixed goods", "hoursToFill": 20, "maxValue": 900000, "note": "A practical mid warehouse, not every good filled. Technicians keep accruing after you start the timer." },
+  { "id": "coke", "name": "Cocaine lockup", "product": "Coke", "hoursToFill": 5, "maxValue": 357000, "note": "Equipment upgrade, full product, Los Santos sale before high demand." },
+  { "id": "meth", "name": "Meth lab", "product": "Meth", "hoursToFill": 6, "maxValue": 357000, "note": "Equipment upgrade, full product." },
+  { "id": "cash", "name": "Counterfeit cash", "product": "Cash", "hoursToFill": 5.5, "maxValue": 294000, "note": "Equipment upgrade, full product." },
+  { "id": "weed", "name": "Weed farm", "product": "Weed", "hoursToFill": 5.5, "maxValue": 252000, "note": "Equipment upgrade, full product." },
+  { "id": "docs", "name": "Document forgery", "product": "Documents", "hoursToFill": 2.5, "maxValue": 126000, "note": "Equipment upgrade, full product, Los Santos sale. The weakest MC business." }
+]

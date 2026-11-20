@@ -1,0 +1,3443 @@
+[
+  {
+    "id": "story-prologue",
+    "title": "Prologue",
+    "detail": "North Yankton. Michael and Trevor rob the bank.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story"
+  },
+  {
+    "id": "story-franklin",
+    "title": "Franklin and Lamar",
+    "detail": "Franklin’s introduction in Strawberry.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-franklin-strawberry",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Deliver the repo car with minimal damage"
+      },
+      {
+        "id": "focused",
+        "text": "Focused Driver — Use Franklin’s special ability for 7 seconds"
+      },
+      {
+        "id": "winner",
+        "text": "Winner — Win the race against Lamar"
+      },
+      {
+        "id": "aliens",
+        "text": "We Come in Peace — Avoid hitting any aliens in the movie studio"
+      }
+    ]
+  },
+  {
+    "id": "story-repossession",
+    "title": "Repossession",
+    "detail": "Repo the bike with Lamar.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 06:30"
+      },
+      {
+        "id": "trail",
+        "text": "Trail Blazer — Shoot the gasoline trail"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 6 enemies with a headshot"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      }
+    ]
+  },
+  {
+    "id": "story-complications",
+    "title": "Complications",
+    "detail": "Simeon’s lot. Unlocks a lot of the open-world hobbies.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:00"
+      },
+      {
+        "id": "touch",
+        "text": "Can’t Touch This — Take no damage during the fight with Simeon"
+      },
+      {
+        "id": "dirt",
+        "text": "Dirt Nap — Knock out the gardener with a stealth attack"
+      }
+    ]
+  },
+  {
+    "id": "story-father-son",
+    "title": "Father/Son",
+    "detail": "Michael’s introduction. The yacht therapy session comes later.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-michael-house",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "catch",
+        "text": "Quick Catch — Rescue Jimmy within 10 seconds"
+      },
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Deliver Amanda’s car with no damage"
+      }
+    ]
+  },
+  {
+    "id": "story-chop",
+    "title": "Chop",
+    "detail": "Walk the dog with Lamar.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Complete with minimal damage to Lamar’s van"
+      },
+      {
+        "id": "chop",
+        "text": "Homedog — Enter Chop’s perspective for 10 seconds"
+      },
+      {
+        "id": "reflex",
+        "text": "Advanced Reflexes — Use Franklin’s special ability for 7 seconds"
+      }
+    ]
+  },
+  {
+    "id": "story-marriage",
+    "title": "Marriage Counseling",
+    "detail": "Michael and Amanda. Unlocks tennis.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Complete with minimal damage to the Bison"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:30"
+      },
+      {
+        "id": "driveby",
+        "text": "Drive-By Killer — Kill 3 enemies whilst in a vehicle"
+      }
+    ]
+  },
+  {
+    "id": "story-daddy",
+    "title": "Daddy's Little Girl",
+    "detail": "Tracey and the tennis coach.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "speed",
+        "text": "Fastest Speed — Reach top speed on the Seashark"
+      },
+      {
+        "id": "bike",
+        "text": "Stabilizer — Don’t fall off the bicycle"
+      },
+      {
+        "id": "swim",
+        "text": "Faster Than Fish — Swim to the boat within 01:00"
+      }
+    ]
+  },
+  {
+    "id": "story-friend-request",
+    "title": "Friend Request",
+    "detail": "Lamar asks Franklin for a favor.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 08:30"
+      },
+      {
+        "id": "popups",
+        "text": "Popups Clear — Clear all pop-ups within 32 seconds"
+      }
+    ]
+  },
+  {
+    "id": "story-long-stretch",
+    "title": "The Long Stretch",
+    "detail": "The LSD deal with Stretch.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 60%"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 10 enemies with a headshot"
+      },
+      {
+        "id": "unmarked",
+        "text": "Unmarked — Complete with minimal damage to health and armor"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 10:30"
+      }
+    ]
+  },
+  {
+    "id": "story-casing",
+    "title": "Casing the Jewel Store",
+    "detail": "Scout Vangelico before the heist.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 08:00"
+      },
+      {
+        "id": "photo",
+        "text": "Picture Perfect — Capture all 3 security features in one picture"
+      }
+    ]
+  },
+  {
+    "id": "story-jewel",
+    "title": "The Jewel Store Job",
+    "detail": "Either approach counts, including its setups: Loud uses Carbine Rifles; Smart uses Bugstars Equipment and BZ Gas Grenades.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "bugstars-sneaky",
+        "text": "Sneaky Pest — Steal the Bugstars van without being detected",
+        "track": "bugstars",
+        "trackTitle": "Bugstars Equipment"
+      },
+      {
+        "id": "bz-cargo",
+        "text": "Loose Cargo — Shoot open the back doors to release the cargo",
+        "track": "bz",
+        "trackTitle": "BZ Gas Grenades"
+      },
+      {
+        "id": "carbine-getaway",
+        "text": "Swift Getaway — Lose the wanted level within 02:00",
+        "track": "carbine",
+        "trackTitle": "Carbine Rifles"
+      },
+      {
+        "id": "loud-grab",
+        "text": "Quick Grab — Steal the jewelry within 50 seconds",
+        "track": "loud",
+        "trackTitle": "The Jewel Store Job — Loud"
+      },
+      {
+        "id": "loud-protect",
+        "text": "Protégé Protected — Protect Franklin during the LS River chase",
+        "track": "loud",
+        "trackTitle": "The Jewel Store Job — Loud"
+      },
+      {
+        "id": "loud-sweep",
+        "text": "Clean Sweep — Steal the jewelry from all 20 glass cabinets",
+        "track": "loud",
+        "trackTitle": "The Jewel Store Job — Loud"
+      },
+      {
+        "id": "smart-grab",
+        "text": "Quick Grab — Steal the jewelry within 50 seconds",
+        "track": "smart",
+        "trackTitle": "The Jewel Store Job — Smart"
+      },
+      {
+        "id": "smart-protect",
+        "text": "Protégé Protected — Protect Franklin during the LS River chase",
+        "track": "smart",
+        "trackTitle": "The Jewel Store Job — Smart"
+      },
+      {
+        "id": "smart-sweep",
+        "text": "Clean Sweep — Steal the jewelry from all 20 glass cabinets",
+        "track": "smart",
+        "trackTitle": "The Jewel Store Job — Smart"
+      }
+    ]
+  },
+  {
+    "id": "story-mr-philips",
+    "title": "Mr. Philips",
+    "detail": "Wade finds Trevor a place to work.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "survivors",
+        "text": "No Survivors — Kill all fleeing bikers"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 12 enemies with a headshot"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 12:00"
+      },
+      {
+        "id": "trailer",
+        "text": "Trailer Trashed — Cause $5,000 damage to Ortega’s trailer"
+      },
+      {
+        "id": "lost",
+        "text": "Lost and Damned — Kill Terry and Clay during the chase"
+      }
+    ]
+  },
+  {
+    "id": "story-tpi",
+    "title": "Trevor Philips Industries",
+    "detail": "Take the meth operation.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "body",
+        "text": "Body Count — Kill 32 enemies"
+      },
+      {
+        "id": "unmarked",
+        "text": "Unmarked — Complete with minimal damage to health and armor"
+      },
+      {
+        "id": "scrap",
+        "text": "Scrap Man — Destroy 6 vehicles"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 04:30"
+      }
+    ]
+  },
+  {
+    "id": "story-nervous-ron",
+    "title": "Nervous Ron",
+    "detail": "Ron’s airstrip introduction.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 5 enemies with a headshot"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 12:30"
+      },
+      {
+        "id": "race",
+        "text": "Nervous Twitch — Win the race against Ron"
+      },
+      {
+        "id": "bridges",
+        "text": "6 Bridges, 1 Plane — Fly under 6 bridges along the flight path"
+      },
+      {
+        "id": "wing",
+        "text": "Death on a Wing — Kill all bikers whilst lying on the plane wing"
+      }
+    ]
+  },
+  {
+    "id": "story-crystal",
+    "title": "Crystal Maze",
+    "detail": "The first cook with Chef.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 10 enemies with a headshot"
+      },
+      {
+        "id": "unmarked",
+        "text": "Unmarked — Complete with minimal damage to health and armor"
+      },
+      {
+        "id": "birds",
+        "text": "2 Birds, 1 Stone — Kill 2 enemies with one shot"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 80%"
+      }
+    ]
+  },
+  {
+    "id": "story-friends-reunited",
+    "title": "Friends Reunited",
+    "detail": "Michael and Trevor meet again. Unlocks Flight School.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 5 enemies with a headshot"
+      },
+      {
+        "id": "gift",
+        "text": "Mystery Gift — Destroy the trailers without being detected"
+      },
+      {
+        "id": "unmarked",
+        "text": "Unmarked — Complete with minimal damage to health and armor"
+      },
+      {
+        "id": "perfect",
+        "text": "Perfect Gift — Destroy all trailers at once"
+      }
+    ]
+  },
+  {
+    "id": "story-fame",
+    "title": "Fame or Shame",
+    "detail": "Trevor’s introduction to the show. Unlocks Far Out.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-trevor-trailer",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "speed",
+        "text": "Fastest Speed — Reach top speed in the Phantom"
+      },
+      {
+        "id": "close",
+        "text": "Bearing Down — Stay close to Lazlow throughout the chase"
+      },
+      {
+        "id": "park",
+        "text": "No, I Can Park Here — Knock out the event coordinator"
+      },
+      {
+        "id": "hook",
+        "text": "All Hooked Up — Don’t unhook the trailer"
+      }
+    ]
+  },
+  {
+    "id": "story-dead-man",
+    "title": "Dead Man Walking",
+    "detail": "Rescue the hostage for the FIB.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 14 enemies with a headshot"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 09:30"
+      },
+      {
+        "id": "focus",
+        "text": "Focused Killer — Kill 4 enemies using Michael’s special ability"
+      },
+      {
+        "id": "unmarked",
+        "text": "Unmarked — Complete with minimal damage to health and armor"
+      }
+    ]
+  },
+  {
+    "id": "story-three",
+    "title": "Three's Company",
+    "detail": "The FIB raid that puts the three protagonists together.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-fib",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 07:30"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 60%"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 10 enemies with a headshot"
+      }
+    ]
+  },
+  {
+    "id": "story-by-the-book",
+    "title": "By the Book",
+    "detail": "The torture mission for the FIB.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heart",
+        "text": "Don’t Stop Me Now — Complete without Mr. K’s heart stopping"
+      },
+      {
+        "id": "shock",
+        "text": "Electrocutioner — Electrocute Mr. K"
+      },
+      {
+        "id": "tooth",
+        "text": "The Tooth Hurts — Pull out Mr. K’s tooth"
+      },
+      {
+        "id": "wrench",
+        "text": "Wrenched — Hit Mr. K with the wrench"
+      },
+      {
+        "id": "water",
+        "text": "It’s Legal! — Use waterboarding on Mr. K"
+      }
+    ]
+  },
+  {
+    "id": "story-hood-safari",
+    "title": "Hood Safari",
+    "detail": "Lamar’s ambush in Chamberlain Hills.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 07:00"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 12 enemies with a headshot"
+      }
+    ]
+  },
+  {
+    "id": "story-yoga",
+    "title": "Did Somebody Say Yoga?",
+    "detail": "Michael’s yoga session. The minigame itself is not a 100% task.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 15:00"
+      },
+      {
+        "id": "warrior",
+        "text": "Warrior — Complete the 1st yoga pose without fault"
+      },
+      {
+        "id": "triangle",
+        "text": "Triangle — Complete the 2nd yoga pose without fault"
+      },
+      {
+        "id": "sun",
+        "text": "Praise the Sun! — Complete the 3rd yoga pose without fault"
+      }
+    ]
+  },
+  {
+    "id": "story-scouting",
+    "title": "Scouting the Port",
+    "detail": "Look over the Merryweather cargo.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 20:00"
+      },
+      {
+        "id": "employee",
+        "text": "Employee of the Month — Complete without damaging the containers"
+      },
+      {
+        "id": "photos",
+        "text": "Perfect Surveillance — Snap all 3 photographs of the boat as instructed"
+      },
+      {
+        "id": "honest",
+        "text": "An Honest Day’s Work — Complete without causing a disturbance at the docks"
+      }
+    ]
+  },
+  {
+    "id": "story-minisub",
+    "title": "Minisub",
+    "detail": "Pick an approach: offshore or freighter.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "freighter-time",
+        "text": "Mission Time — Complete within 08:30",
+        "track": "freighter",
+        "trackTitle": "Minisub — Freighter"
+      },
+      {
+        "id": "freighter-board",
+        "text": "No Boarding — Steal the submersible without boarding the boat",
+        "track": "freighter",
+        "trackTitle": "Minisub — Freighter"
+      },
+      {
+        "id": "offshore-time",
+        "text": "Mission Time — Complete within 05:30",
+        "track": "offshore",
+        "trackTitle": "Cargobob — Off-shore"
+      }
+    ]
+  },
+  {
+    "id": "story-merryweather",
+    "title": "The Merryweather Heist",
+    "detail": "Either approach counts, including its setup. Offshore uses the Cargobob; freighter uses the boat team.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "freighter-heads",
+        "text": "Headshots — Kill 12 enemies with a headshot",
+        "track": "freighter",
+        "trackTitle": "Freighter"
+      },
+      {
+        "id": "freighter-accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 80%",
+        "track": "freighter",
+        "trackTitle": "Freighter"
+      },
+      {
+        "id": "freighter-ninja",
+        "text": "Ninja — Kill 12 enemies using stealth attacks",
+        "track": "freighter",
+        "trackTitle": "Freighter"
+      },
+      {
+        "id": "freighter-container",
+        "text": "Container Hunter — Find the container within 01:00",
+        "track": "freighter",
+        "trackTitle": "Freighter"
+      },
+      {
+        "id": "freighter-alarms",
+        "text": "No Alarms — Get to the ship’s interior without being detected",
+        "track": "freighter",
+        "trackTitle": "Freighter"
+      },
+      {
+        "id": "offshore-mercenary",
+        "text": "Show No Mercenary — Eliminate all pursuing Merryweather enemies",
+        "track": "offshore",
+        "trackTitle": "Off-shore"
+      },
+      {
+        "id": "offshore-salvage",
+        "text": "Salvager — Find the container within 02:00",
+        "track": "offshore",
+        "trackTitle": "Off-shore"
+      },
+      {
+        "id": "offshore-time",
+        "text": "Mission Time — Complete within 14:30",
+        "track": "offshore",
+        "trackTitle": "Off-shore"
+      },
+      {
+        "id": "offshore-storm",
+        "text": "Weathering the Storm — Escape the pursuing Merryweather enemies in less than 04:00",
+        "track": "offshore",
+        "trackTitle": "Off-shore"
+      }
+    ]
+  },
+  {
+    "id": "story-hotel",
+    "title": "The Hotel Assassination",
+    "detail": "Lester’s first hit. Part of the five assassinations required for 100%.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Time — Time taken to complete the mission"
+      },
+      {
+        "id": "sniper",
+        "text": "Sniper Boy — Kill the target with a sniper rifle"
+      },
+      {
+        "id": "money",
+        "text": "Money Earned — Money earned from the hit"
+      }
+    ]
+  },
+  {
+    "id": "story-boiler",
+    "title": "Boiler Suits",
+    "detail": "FIB prep.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "shop",
+        "text": "Quick Shopper — Purchase all outfits within 30 seconds"
+      },
+      {
+        "id": "colors",
+        "text": "United Colors — Purchase a different color for each character"
+      }
+    ]
+  },
+  {
+    "id": "story-masks",
+    "title": "Masks",
+    "detail": "FIB prep.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "face",
+        "text": "Face Time — Purchase all masks within 20 seconds"
+      },
+      {
+        "id": "cliche",
+        "text": "Cliché — Purchase a white hockey mask for each character"
+      }
+    ]
+  },
+  {
+    "id": "story-trash",
+    "title": "Trash Truck",
+    "detail": "FIB prep.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:00"
+      },
+      {
+        "id": "dent",
+        "text": "Undented — Deliver the Trashmaster with no damage"
+      },
+      {
+        "id": "dust",
+        "text": "In the Dust — Reach top speed in the Trashmaster"
+      }
+    ]
+  },
+  {
+    "id": "story-tow",
+    "title": "Tow Truck",
+    "detail": "FIB prep.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 03:00"
+      },
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Deliver the tow truck with no damage"
+      },
+      {
+        "id": "truck",
+        "text": "Truckin’ — Reach top speed in the tow truck"
+      }
+    ]
+  },
+  {
+    "id": "story-blitz",
+    "title": "Blitz Play",
+    "detail": "The Merryweather convoy with Trevor.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "hawk",
+        "text": "Hawk Down — Shoot down the helicopter as Trevor"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 12 enemies with a headshot"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 60%"
+      },
+      {
+        "id": "switch",
+        "text": "Switcher — Switch characters 10 times"
+      }
+    ]
+  },
+  {
+    "id": "story-law",
+    "title": "I Fought the Law...",
+    "detail": "The corrupt cops.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "trucks",
+        "text": "Tight Squeeze — Drive between the two trucks"
+      },
+      {
+        "id": "buses",
+        "text": "Bus Passed — Drive between the two buses"
+      },
+      {
+        "id": "leader",
+        "text": "Follow the Leader — Follow Trevor through the tunnel"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 12:00"
+      },
+      {
+        "id": "split",
+        "text": "Split Seconds — Use Franklin’s special ability during the race"
+      }
+    ]
+  },
+  {
+    "id": "story-eye",
+    "title": "Eye in the Sky",
+    "detail": "The satellite mission.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Deliver the Z-Type with no damage"
+      },
+      {
+        "id": "listen",
+        "text": "Eavesdropper — Listen to 3 conversations"
+      },
+      {
+        "id": "chad",
+        "text": "I See You — Find Chad’s hiding place on the 1st attempt"
+      }
+    ]
+  },
+  {
+    "id": "story-richards",
+    "title": "Mr. Richards",
+    "detail": "The movie premiere.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 10:00"
+      },
+      {
+        "id": "silent",
+        "text": "Silent Assassin — Kill 3 enemies using stealth attacks"
+      },
+      {
+        "id": "touch",
+        "text": "Can’t Touch This 2.0 — Take no damage during the fight with Rocco"
+      },
+      {
+        "id": "land",
+        "text": "Perfect Touchdown — Land the Frogger without damaging it"
+      }
+    ]
+  },
+  {
+    "id": "story-caida",
+    "title": "Caida Libre",
+    "detail": "Trevor in North Yankton’s aftermath, then the plane.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "speed",
+        "text": "Floor It — Reach top speed on the Sanchez"
+      },
+      {
+        "id": "seat",
+        "text": "Glued to the Seat — Don’t fall off the Sanchez during the chase"
+      },
+      {
+        "id": "shots",
+        "text": "One Two Three — Shoot down the plane with 3 shots only"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 09:45"
+      }
+    ]
+  },
+  {
+    "id": "story-deep",
+    "title": "Deep Inside",
+    "detail": "The FIB building infiltration prep.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Deliver the JB 700 with minimal damage"
+      },
+      {
+        "id": "speed",
+        "text": "Fastest Speed — Reach top speed in the JB 700"
+      },
+      {
+        "id": "stealth",
+        "text": "Stealthy Recasting — Knock out the actor with a stealth attack"
+      },
+      {
+        "id": "eject",
+        "text": "Premature Ejector — Use the ejector seat within 10 seconds"
+      },
+      {
+        "id": "strike",
+        "text": "Second Strike — Run over the actor as you escape in the JB 700"
+      }
+    ]
+  },
+  {
+    "id": "story-turbulence",
+    "title": "Minor Turbulence",
+    "detail": "The cargo plane.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 80%"
+      },
+      {
+        "id": "mesa",
+        "text": "Four Wheel Flier — Exit the cargo plane in the Mesa"
+      }
+    ]
+  },
+  {
+    "id": "story-paleto-setup",
+    "title": "Paleto Score Setup",
+    "detail": "Case the Blaine County Savings Bank.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "drive",
+        "text": "Leisurely Drive — Drive to the bank within 03:30"
+      },
+      {
+        "id": "winner",
+        "text": "Winner — Win the race back to the meth lab"
+      }
+    ]
+  },
+  {
+    "id": "story-predator",
+    "title": "Predator",
+    "detail": "Steal the military hardware’s convoy route.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 09:00"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 3 enemies with a headshot"
+      },
+      {
+        "id": "herd",
+        "text": "Thin the Herd — Don’t kill any animals"
+      }
+    ]
+  },
+  {
+    "id": "story-hardware",
+    "title": "Military Hardware",
+    "detail": "Take the tank from Fort Zancudo.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heads",
+        "text": "Head Hunter — Kill 5 enemies with a headshot"
+      },
+      {
+        "id": "sticky",
+        "text": "Sticky Strategist — Stop the convoy using a sticky bomb trap"
+      }
+    ]
+  },
+  {
+    "id": "story-paleto",
+    "title": "The Paleto Score",
+    "detail": "The bank job in Paleto Bay.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-paleto-sheriff",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "rain",
+        "text": "Let it Rain — Fire over 4,000 bullets"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 50%"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 16:00"
+      },
+      {
+        "id": "damage",
+        "text": "Collateral Damage — Cause $1,000,000 damage in Paleto Bay"
+      }
+    ]
+  },
+  {
+    "id": "story-derailed",
+    "title": "Derailed",
+    "detail": "The train heist.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 11:30"
+      },
+      {
+        "id": "speed",
+        "text": "Fastest Speed — Reach top speed on the Sanchez"
+      },
+      {
+        "id": "cj",
+        "text": "Better than CJ — Land on the train using the 1st jump"
+      }
+    ]
+  },
+  {
+    "id": "story-monkey",
+    "title": "Monkey Business",
+    "detail": "The Humane Labs raid.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-humane",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "stun",
+        "text": "Stunner — Stun 8 enemies with the stun gun"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 15 enemies with a headshot"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 13:30"
+      }
+    ]
+  },
+  {
+    "id": "story-hang-ten",
+    "title": "Hang Ten",
+    "detail": "The getaway after Humane.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 04:00"
+      }
+    ]
+  },
+  {
+    "id": "story-surveying",
+    "title": "Surveying the Score",
+    "detail": "Case the Union Depository.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "distance",
+        "text": "Perfect Distance — Follow the vans without being warned about the distance"
+      },
+      {
+        "id": "cavity",
+        "text": "Cavity Search — Find the construction hole within 00:20"
+      },
+      {
+        "id": "bridge",
+        "text": "Under the Bridge — Fly under the bridge whilst following the security vans"
+      },
+      {
+        "id": "tunnel",
+        "text": "Tunnel Flight — Fly through the tunnel whilst following the security vans"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 11:00"
+      }
+    ]
+  },
+  {
+    "id": "story-hatchet",
+    "title": "Bury the Hatchet",
+    "detail": "Michael and Trevor in North Yankton.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 11:00"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 20 enemies with a headshot"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 80%"
+      }
+    ]
+  },
+  {
+    "id": "story-pack-man",
+    "title": "Pack Man",
+    "detail": "Move the cars.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 12:00"
+      },
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Complete with minimal damage to the JB 700"
+      },
+      {
+        "id": "spikes",
+        "text": "Shredder — Take out 3 cop cars using the spikes"
+      }
+    ]
+  },
+  {
+    "id": "story-fresh-meat",
+    "title": "Fresh Meat",
+    "detail": "Rescue Lamar from the sawmill.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "switch",
+        "text": "Switch Limiter — Don’t switch more than 3 times"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 10 enemies with a headshot"
+      },
+      {
+        "id": "rescue",
+        "text": "Swift Rescue — Rescue Michael within 03:30"
+      },
+      {
+        "id": "map",
+        "text": "Sense of Direction — Don’t use a map waypoint"
+      }
+    ]
+  },
+  {
+    "id": "story-rocco",
+    "title": "The Ballad of Rocco",
+    "detail": "Solomon’s problem.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 03:00"
+      }
+    ]
+  },
+  {
+    "id": "story-cleaning",
+    "title": "Cleaning out the Bureau",
+    "detail": "Pick the Bureau Raid approach.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "plates",
+        "text": "Eagle Eye — Check all license plates"
+      },
+      {
+        "id": "janitor",
+        "text": "He Missed a Spot — Follow the janitor without being spotted"
+      },
+      {
+        "id": "time",
+        "text": "Cleaned Out — Complete within 09:00"
+      }
+    ]
+  },
+  {
+    "id": "story-plans",
+    "title": "Architect's Plans",
+    "detail": "Steal the FIB plans. Covert or roof.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "plans-getaway",
+        "text": "Quick Getaway — Leave the construction site within 45 seconds",
+        "track": "plans",
+        "trackTitle": "Architect’s Plans"
+      },
+      {
+        "id": "firetruck-911",
+        "text": "What is Your Emergency? — Call 911 to contact the fire department",
+        "track": "firetruck",
+        "trackTitle": "Fire Truck"
+      },
+      {
+        "id": "firetruck-scratch",
+        "text": "Not a Scratch — Deliver the fire truck with no damage",
+        "track": "firetruck",
+        "trackTitle": "Fire Truck"
+      }
+    ]
+  },
+  {
+    "id": "story-bureau",
+    "title": "The Bureau Raid",
+    "detail": "Either approach counts, including its setup: fire crew uses the Fire Truck; roof entry uses the other prep.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-fib",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "fire-time",
+        "text": "Mission Time — Complete within 18:00",
+        "track": "fire",
+        "trackTitle": "Fire crew"
+      },
+      {
+        "id": "fire-oxygen",
+        "text": "Out of Breath — Escape with 40% oxygen remaining",
+        "track": "fire",
+        "trackTitle": "Fire crew"
+      },
+      {
+        "id": "fire-mop",
+        "text": "You Missed a Spot — Complete the mopping section within 03:00",
+        "track": "fire",
+        "trackTitle": "Fire crew"
+      },
+      {
+        "id": "fire-abseil",
+        "text": "Abseiler — Abseil down the elevator shaft within 00:30",
+        "track": "fire",
+        "trackTitle": "Fire crew"
+      },
+      {
+        "id": "roof-innocents",
+        "text": "No Innocents — Don’t kill any innocent civilians",
+        "track": "roof",
+        "trackTitle": "Roof entry"
+      },
+      {
+        "id": "roof-heads",
+        "text": "Headshots — Kill 20 enemies with a headshot",
+        "track": "roof",
+        "trackTitle": "Roof entry"
+      },
+      {
+        "id": "roof-accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%",
+        "track": "roof",
+        "trackTitle": "Roof entry"
+      },
+      {
+        "id": "roof-hack",
+        "text": "Hacker — Hack the system within 45 seconds",
+        "track": "roof",
+        "trackTitle": "Roof entry"
+      },
+      {
+        "id": "roof-time",
+        "text": "Mission Time — Complete within 19:00",
+        "track": "roof",
+        "trackTitle": "Roof entry"
+      },
+      {
+        "id": "roof-drop",
+        "text": "Perfect Drop — Land perfectly on the main section of the roof",
+        "track": "roof",
+        "trackTitle": "Roof entry"
+      }
+    ]
+  },
+  {
+    "id": "story-wrap-up",
+    "title": "The Wrap Up",
+    "detail": "The FIB roof escape.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 07:00"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 18 enemies with a headshot"
+      },
+      {
+        "id": "heli",
+        "text": "Buzz Off! — Shoot down the pursuing helicopter"
+      }
+    ]
+  },
+  {
+    "id": "story-reuniting",
+    "title": "Reuniting the Family",
+    "detail": "Michael’s family moves back.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 10:30"
+      }
+    ]
+  },
+  {
+    "id": "story-legal",
+    "title": "Legal Trouble",
+    "detail": "The IAA problem.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:30"
+      },
+      {
+        "id": "speed",
+        "text": "Floor It — Reach top speed in any car"
+      },
+      {
+        "id": "escape",
+        "text": "Clean Escape — Lose the wanted level within 02:00"
+      },
+      {
+        "id": "news",
+        "text": "News Hound — View the Weazel News camera for 15 seconds"
+      }
+    ]
+  },
+  {
+    "id": "story-lamar-down",
+    "title": "Lamar Down",
+    "detail": "Rescue Lamar from the Ballas.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heads",
+        "text": "Headshots — Kill 18 enemies with a headshot"
+      },
+      {
+        "id": "three",
+        "text": "Three Way — Kill an enemy with all 3 characters"
+      },
+      {
+        "id": "accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 13:30"
+      }
+    ]
+  },
+  {
+    "id": "story-meltdown",
+    "title": "Meltdown",
+    "detail": "The studio shootout.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 06:30"
+      },
+      {
+        "id": "speed",
+        "text": "Pedal to the Metal — Reach top speed in any vehicle"
+      },
+      {
+        "id": "tier",
+        "text": "Tier One Operator — Kill 12 enemies with a headshot"
+      },
+      {
+        "id": "rescue",
+        "text": "Headshot Rescue — Rescue Amanda and Tracey with a headshot"
+      }
+    ]
+  },
+  {
+    "id": "story-planning",
+    "title": "Planning the Big Score",
+    "detail": "Choose subtle or obvious.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story"
+  },
+  {
+    "id": "story-big-score",
+    "title": "The Big Score",
+    "detail": "Either approach counts, including its preps. Subtle uses the Stingers and Gauntlet cars; obvious uses Sidetracked and the Driller.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "mapId": "gta5-maze-bank-tower",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "subtle-heads",
+        "text": "Headshots — Kill 20 enemies with a headshot",
+        "track": "subtle",
+        "trackTitle": "The Big Score — Subtle"
+      },
+      {
+        "id": "subtle-signal",
+        "text": "Signal Man — Perform fewer than 10 traffic-light changes",
+        "track": "subtle",
+        "trackTitle": "The Big Score — Subtle"
+      },
+      {
+        "id": "subtle-accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 60%",
+        "track": "subtle",
+        "trackTitle": "The Big Score — Subtle"
+      },
+      {
+        "id": "obvious-heads",
+        "text": "Headshots — Kill 20 enemies with a headshot",
+        "track": "obvious",
+        "trackTitle": "The Big Score — Obvious"
+      },
+      {
+        "id": "obvious-time",
+        "text": "Mission Time — Complete within 16:00",
+        "track": "obvious",
+        "trackTitle": "The Big Score — Obvious"
+      },
+      {
+        "id": "obvious-gold",
+        "text": "Cha-Ching — Drop the gold onto the train within 00:30",
+        "track": "obvious",
+        "trackTitle": "The Big Score — Obvious"
+      },
+      {
+        "id": "obvious-accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 60%",
+        "track": "obvious",
+        "trackTitle": "The Big Score — Obvious"
+      },
+      {
+        "id": "driller-time",
+        "text": "Mission Time — Complete within 05:00",
+        "track": "driller",
+        "trackTitle": "Driller"
+      },
+      {
+        "id": "driller-sneak",
+        "text": "Sneak Thief — Steal the cutter without being detected",
+        "track": "driller",
+        "trackTitle": "Driller"
+      },
+      {
+        "id": "stingers-escape",
+        "text": "Escapee — Steal the police transporter and escape within 02:00",
+        "track": "stingers",
+        "trackTitle": "Stingers"
+      },
+      {
+        "id": "stingers-scratch",
+        "text": "Not a Scratch — Deliver the police transporter with no damage",
+        "track": "stingers",
+        "trackTitle": "Stingers"
+      },
+      {
+        "id": "sidetracked-time",
+        "text": "Mission Time — Complete within 04:30",
+        "track": "sidetracked",
+        "trackTitle": "Sidetracked"
+      },
+      {
+        "id": "sidetracked-stealth",
+        "text": "Undetected — Steal the train without being detected",
+        "track": "sidetracked",
+        "trackTitle": "Sidetracked"
+      },
+      {
+        "id": "pillbox-hill-mapped",
+        "text": "Mapped — Deliver the Gauntlet pictured in the email",
+        "track": "pillbox-hill",
+        "trackTitle": "Gauntlet — Pillbox Hill"
+      },
+      {
+        "id": "pillbox-hill-scratch",
+        "text": "Not a Scratch — Deliver a Gauntlet with no damage",
+        "track": "pillbox-hill",
+        "trackTitle": "Gauntlet — Pillbox Hill"
+      },
+      {
+        "id": "pillbox-hill-pimp",
+        "text": "Pimped Out — Spend $17,000 modifying the Gauntlet",
+        "track": "pillbox-hill",
+        "trackTitle": "Gauntlet — Pillbox Hill"
+      },
+      {
+        "id": "rockford-hills-mapped",
+        "text": "Mapped — Deliver the Gauntlet pictured in the email",
+        "track": "rockford-hills",
+        "trackTitle": "Gauntlet — Rockford Hills"
+      },
+      {
+        "id": "rockford-hills-scratch",
+        "text": "Not a Scratch — Deliver a Gauntlet with no damage",
+        "track": "rockford-hills",
+        "trackTitle": "Gauntlet — Rockford Hills"
+      },
+      {
+        "id": "rockford-hills-pimp",
+        "text": "Pimped Out — Spend $17,000 modifying the Gauntlet",
+        "track": "rockford-hills",
+        "trackTitle": "Gauntlet — Rockford Hills"
+      },
+      {
+        "id": "mission-row-mapped",
+        "text": "Mapped — Deliver the Gauntlet pictured in the email",
+        "track": "mission-row",
+        "trackTitle": "Gauntlet — Mission Row"
+      },
+      {
+        "id": "mission-row-scratch",
+        "text": "Not a Scratch — Deliver a Gauntlet with no damage",
+        "track": "mission-row",
+        "trackTitle": "Gauntlet — Mission Row"
+      },
+      {
+        "id": "mission-row-pimp",
+        "text": "Pimped Out — Spend $17,000 modifying the Gauntlet",
+        "track": "mission-row",
+        "trackTitle": "Gauntlet — Mission Row"
+      }
+    ]
+  },
+  {
+    "id": "story-finale",
+    "title": "One ending",
+    "detail": "Something Sensible, The Time’s Come, or The Third Way. One ending is enough. Ending C keeps Michael and Trevor.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "missable",
+    "mapId": "gta5-maze-bank-tower",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "sensible-judas",
+        "text": "Judas! — Kill Trevor",
+        "track": "sensible",
+        "trackTitle": "Something Sensible"
+      },
+      {
+        "id": "times-mentor",
+        "text": "Surpassed the Mentor — Kill Michael",
+        "track": "times",
+        "trackTitle": "The Time’s Come"
+      },
+      {
+        "id": "third-time",
+        "text": "Mission Time — Complete within 21:30",
+        "track": "third",
+        "trackTitle": "The Third Way"
+      },
+      {
+        "id": "third-heads",
+        "text": "Headshots — Kill 20 enemies with a headshot",
+        "track": "third",
+        "trackTitle": "The Third Way"
+      },
+      {
+        "id": "third-accuracy",
+        "text": "Accuracy — Finish with a shooting accuracy of at least 70%",
+        "track": "third",
+        "trackTitle": "The Third Way"
+      },
+      {
+        "id": "third-cheng",
+        "text": "Stick, Tick... Boom! — Kill Cheng with a sticky bomb",
+        "track": "third",
+        "trackTitle": "The Third Way"
+      },
+      {
+        "id": "third-haines",
+        "text": "Lead Lobotomy — Kill Steve Haines with a headshot",
+        "track": "third",
+        "trackTitle": "The Third Way"
+      },
+      {
+        "id": "third-stretch",
+        "text": "Stretched Out — Kill Stretch with a melee attack",
+        "track": "third",
+        "trackTitle": "The Third Way"
+      }
+    ]
+  },
+  {
+    "id": "story-multi",
+    "title": "The Multi Target Assassination",
+    "detail": "Lester. Required for 100%, best saved for after the story if you want the stock run.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "speedy",
+        "text": "Speedy Killer — Kill all targets as quickly as possible"
+      },
+      {
+        "id": "money",
+        "text": "Money Earned — Complete the hit"
+      }
+    ]
+  },
+  {
+    "id": "story-vice",
+    "title": "The Vice Assassination",
+    "detail": "Lester.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "escape",
+        "text": "Clean Escape — Complete without alerting the cops"
+      },
+      {
+        "id": "money",
+        "text": "Money Earned — Complete the hit"
+      }
+    ]
+  },
+  {
+    "id": "story-bus",
+    "title": "The Bus Assassination",
+    "detail": "Lester.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "bus",
+        "text": "Hit and Run — Kill the target using the bus"
+      },
+      {
+        "id": "money",
+        "text": "Money Earned — Complete the hit"
+      }
+    ]
+  },
+  {
+    "id": "story-construction",
+    "title": "The Construction Assassination",
+    "detail": "Lester’s last hit. Required for 100%.",
+    "group": "story",
+    "requiredFor100": true,
+    "trophy": "story",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heli",
+        "text": "No Fly Zone — Shoot down the target’s helicopter"
+      },
+      {
+        "id": "money",
+        "text": "Money Earned — Complete the hit"
+      }
+    ]
+  },
+  {
+    "id": "hobby-flight-1",
+    "title": "Flight School — Training Take Off",
+    "detail": "Bronze or better. Gold is not required.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-2",
+    "title": "Flight School — Runway Landing",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-3",
+    "title": "Flight School — Inverted Flight",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-4",
+    "title": "Flight School — Knife Flight",
+    "detail": "Bronze or better. This lesson is not one of the 15 open-world knife flights.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-5",
+    "title": "Flight School — Flat Hatting",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-6",
+    "title": "Flight School — Touch Down",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-7",
+    "title": "Flight School — Loop the Loop",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-8",
+    "title": "Flight School — Helicopter Course",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-9",
+    "title": "Flight School — Helicopter Speed Run",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-10",
+    "title": "Flight School — Skydiving",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-11",
+    "title": "Flight School — Drop Zone",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-flight-12",
+    "title": "Flight School — Earn Your Wings",
+    "detail": "Bronze or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-lsia"
+  },
+  {
+    "id": "hobby-range-hg",
+    "title": "Shooting Range — Handguns",
+    "detail": "Bronze or better on all three handgun challenges.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-ammu-pillbox-hill"
+  },
+  {
+    "id": "hobby-range-smg",
+    "title": "Shooting Range — Submachine Guns",
+    "detail": "Bronze or better on all three.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-ammu-pillbox-hill"
+  },
+  {
+    "id": "hobby-range-ar",
+    "title": "Shooting Range — Assault Rifles",
+    "detail": "Bronze or better on all three.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-ammu-pillbox-hill"
+  },
+  {
+    "id": "hobby-range-sg",
+    "title": "Shooting Range — Shotguns",
+    "detail": "Bronze or better on all three.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-ammu-pillbox-hill"
+  },
+  {
+    "id": "hobby-range-lmg",
+    "title": "Shooting Range — Light Machine Guns",
+    "detail": "Bronze or better on all three.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-ammu-pillbox-hill"
+  },
+  {
+    "id": "hobby-range-heavy",
+    "title": "Shooting Range — Heavy",
+    "detail": "Bronze or better on all three. The Enhanced railgun challenges do not count.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-ammu-pillbox-hill"
+  },
+  {
+    "id": "hobby-street-1",
+    "title": "Street race — South Los Santos",
+    "detail": "Third place or better. Night only, after Hao’s Shift Work.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-street-2",
+    "title": "Street race — City Circuit",
+    "detail": "Third place or better. Night only, after Hao’s Shift Work.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-street-3",
+    "title": "Street race — Airport",
+    "detail": "Third place or better. Night only, after Hao’s Shift Work.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-street-4",
+    "title": "Street race — Freeway",
+    "detail": "Third place or better. Night only, after Hao’s Shift Work.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-street-5",
+    "title": "Street race — Vespucci",
+    "detail": "Third place or better. Night only, after Hao’s Shift Work.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-offroad-1",
+    "title": "Off-road race 1 of 6",
+    "detail": "Third place or better. First place is only for the trophy, not for 100%.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-offroad-2",
+    "title": "Off-road race 2 of 6",
+    "detail": "Third place or better. First place is only for the trophy, not for 100%.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-offroad-3",
+    "title": "Off-road race 3 of 6",
+    "detail": "Third place or better. First place is only for the trophy, not for 100%.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-offroad-4",
+    "title": "Off-road race 4 of 6",
+    "detail": "Third place or better. First place is only for the trophy, not for 100%.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-offroad-5",
+    "title": "Off-road race 5 of 6",
+    "detail": "Third place or better. First place is only for the trophy, not for 100%.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-offroad-6",
+    "title": "Off-road race 6 of 6",
+    "detail": "Third place or better. First place is only for the trophy, not for 100%.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-sea-1",
+    "title": "Sea race 1 of 4",
+    "detail": "Third place or better on a Seashark.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-sea-2",
+    "title": "Sea race 2 of 4",
+    "detail": "Third place or better on a Seashark.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-sea-3",
+    "title": "Sea race 3 of 4",
+    "detail": "Third place or better on a Seashark.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-sea-4",
+    "title": "Sea race 4 of 4",
+    "detail": "Third place or better on a Seashark.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-tri-vespucci",
+    "title": "Triathlon — Vespucci",
+    "detail": "Third place or better.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-pier"
+  },
+  {
+    "id": "hobby-tri-alamo",
+    "title": "Triathlon — Alamo Sea",
+    "detail": "Third place or better.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-tri-coyote",
+    "title": "Triathlon — Coyote",
+    "detail": "Third place or better.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-tennis",
+    "title": "Tennis",
+    "detail": "Win one game. A full set is not required.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-golf",
+    "title": "Golf",
+    "detail": "Nine holes, even par or better. Over par does not count.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-darts",
+    "title": "Darts",
+    "detail": "Win one game of 301.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-yellow-jack"
+  },
+  {
+    "id": "hobby-heli-jumps",
+    "title": "Helicopter parachute jumps",
+    "detail": "All 7. Required before Dom’s last mission.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-base-jumps",
+    "title": "Base jumps",
+    "detail": "All 6. Required before Dom’s last mission.",
+    "group": "hobbies",
+    "requiredFor100": true
+  },
+  {
+    "id": "hobby-strip",
+    "title": "Private dance",
+    "detail": "Buy one private dance at the Vanilla Unicorn.",
+    "group": "hobbies",
+    "requiredFor100": true,
+    "mapId": "gta5-vanilla-unicorn"
+  },
+  {
+    "id": "sf-barry-1",
+    "title": "Grass Roots — Franklin",
+    "detail": "Barry. Required. The Michael and Trevor grass-roots missions are not part of 100%.",
+    "group": "strangers",
+    "requiredFor100": true
+  },
+  {
+    "id": "sf-barry-2",
+    "title": "Grass Roots — The Pickup",
+    "detail": "Required to continue Barry’s strand. This step itself adds no percent.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 02:45"
+      },
+      {
+        "id": "wanted",
+        "text": "Unwanted Outcome — Complete without earning a wanted level"
+      }
+    ]
+  },
+  {
+    "id": "sf-barry-3",
+    "title": "Grass Roots — The Drag",
+    "detail": "Required to continue. This step itself adds no percent.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "hook",
+        "text": "Hooked — Keep the stash car hooked until delivery"
+      },
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 01:30"
+      }
+    ]
+  },
+  {
+    "id": "sf-barry-4",
+    "title": "Grass Roots — The Smoke-In",
+    "detail": "Closes Barry’s strand.",
+    "group": "strangers",
+    "requiredFor100": true
+  },
+  {
+    "id": "sf-bev-1",
+    "title": "Paparazzo",
+    "detail": "Beverly. Required to continue. This step itself adds no percent.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "smack",
+        "text": "Smack Down — Ensure Beverly takes out his rival on the 1st attempt"
+      },
+      {
+        "id": "photo",
+        "text": "Picture Perfect — Help Beverly snap and inspect 3 photographs"
+      }
+    ]
+  },
+  {
+    "id": "sf-bev-2",
+    "title": "Paparazzo — The Sex Tape",
+    "detail": "Beverly.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "pool",
+        "text": "Quick Dip — Jump in the pool whilst following Beverly"
+      },
+      {
+        "id": "face",
+        "text": "Money Shot — Achieve full facial recognition during the chase"
+      }
+    ]
+  },
+  {
+    "id": "sf-bev-3",
+    "title": "Paparazzo — The Partnership",
+    "detail": "Beverly.",
+    "group": "strangers",
+    "requiredFor100": true
+  },
+  {
+    "id": "sf-bev-4",
+    "title": "Paparazzo — The Meltdown",
+    "detail": "Do this or The Highness before Reality Check. One of the two adds no extra percent.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "close",
+        "text": "Thick of It — Stay close to Poppy throughout the chase"
+      },
+      {
+        "id": "cuffed",
+        "text": "DUI Diva — Snap Poppy after she has been cuffed"
+      }
+    ]
+  },
+  {
+    "id": "sf-bev-5",
+    "title": "Paparazzo — The Highness",
+    "detail": "Do this or The Meltdown before Reality Check.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "silent",
+        "text": "Silent Snapper — Snap the princess without being detected"
+      },
+      {
+        "id": "drugs",
+        "text": "Royal Drag — Snap the princess buying the drugs"
+      }
+    ]
+  },
+  {
+    "id": "sf-bev-6",
+    "title": "Paparazzo — Reality Check",
+    "detail": "Closes Beverly’s strand.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "boom",
+        "text": "Explosive Action! — Kill Beverly and his crew with one shot"
+      }
+    ]
+  },
+  {
+    "id": "sf-dom-1",
+    "title": "Risk Assessment",
+    "detail": "Dom’s first jump.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "fall",
+        "text": "Free Faller — Fall for 7 seconds before opening the parachute"
+      },
+      {
+        "id": "air",
+        "text": "Big Air — Get 2 seconds of air during the bicycle race"
+      },
+      {
+        "id": "king",
+        "text": "Downhill King — Win the bicycle race against Dom"
+      }
+    ]
+  },
+  {
+    "id": "sf-dom-2",
+    "title": "Liquidity Risk",
+    "detail": "Dom.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "dive",
+        "text": "Dive Bomber — Survive a water landing without opening the parachute"
+      },
+      {
+        "id": "sky",
+        "text": "Sky Blazer — Perform 8 flips on the Blazer"
+      }
+    ]
+  },
+  {
+    "id": "sf-dom-3",
+    "title": "Targeted Risk",
+    "detail": "Dom.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "fall",
+        "text": "Dare Devil — Fall for 8 seconds before opening the parachute"
+      },
+      {
+        "id": "truck",
+        "text": "Bullseye — Land perfectly on the back of the truck"
+      }
+    ]
+  },
+  {
+    "id": "sf-dom-4",
+    "title": "Uncalculated Risk",
+    "detail": "Dom’s last jump, at the dam. Needs every parachute jump first.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "mapId": "gta5-land-act-dam",
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "leap",
+        "text": "Leap of Faith — Jump after Dom and survive the fall"
+      }
+    ]
+  },
+  {
+    "id": "sf-hao",
+    "title": "Shift Work",
+    "detail": "Hao. Unlocks the street races.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "lap",
+        "text": "Fastest Lap — Complete a lap within 01:20"
+      },
+      {
+        "id": "underdog",
+        "text": "Underdog — Finish the race within 02:50"
+      },
+      {
+        "id": "clean",
+        "text": "Clean Race — Finish the race with fewer than 5 collisions"
+      }
+    ]
+  },
+  {
+    "id": "sf-mary",
+    "title": "Exercising Demons — Franklin",
+    "detail": "Only Franklin’s race counts. Michael’s and Trevor’s do not.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "win",
+        "text": "Champion — Win the race without using shortcuts"
+      }
+    ]
+  },
+  {
+    "id": "sf-omega",
+    "title": "Far Out",
+    "detail": "Omega. Starts the spaceship hunt.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "mapId": "gta5-omega"
+  },
+  {
+    "id": "sf-omega-2",
+    "title": "The Final Frontier",
+    "detail": "Return to Omega after all 50 spaceship parts.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "mapId": "gta5-omega"
+  },
+  {
+    "id": "sf-peter",
+    "title": "A Starlet in Vinewood",
+    "detail": "Peter Dreyfuss. Unlocks after all 50 letter scraps.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "cut",
+        "text": "Cut! — Kill Dreyfuss"
+      }
+    ]
+  },
+  {
+    "id": "sf-tonya-1",
+    "title": "Pulling Favors",
+    "detail": "Tonya. First tow job.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:00"
+      },
+      {
+        "id": "hook",
+        "text": "Unhook Bonus — Keep the vehicle hooked until delivery"
+      }
+    ]
+  },
+  {
+    "id": "sf-tonya-2",
+    "title": "Pulling Another Favor",
+    "detail": "Tonya.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:30"
+      },
+      {
+        "id": "hook",
+        "text": "Unhook Bonus — Keep the vehicle hooked until delivery"
+      }
+    ]
+  },
+  {
+    "id": "sf-tonya-3",
+    "title": "Pulling Favors Again",
+    "detail": "Tonya.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 07:00"
+      },
+      {
+        "id": "hook",
+        "text": "Unhook Bonus — Keep the vehicle hooked until delivery"
+      }
+    ]
+  },
+  {
+    "id": "sf-tonya-4",
+    "title": "Still Pulling Favors",
+    "detail": "Tonya.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 06:00"
+      },
+      {
+        "id": "hook",
+        "text": "Unhook Bonus — Keep the vehicle hooked until delivery"
+      }
+    ]
+  },
+  {
+    "id": "sf-tonya-5",
+    "title": "Pulling One Last Favor",
+    "detail": "Tonya’s last tow.",
+    "group": "strangers",
+    "requiredFor100": true,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "time",
+        "text": "Mission Time — Complete within 05:00"
+      },
+      {
+        "id": "hook",
+        "text": "Unhook Bonus — Keep the vehicle hooked until delivery"
+      }
+    ]
+  },
+  {
+    "id": "sf-barry-michael",
+    "title": "Grass Roots — Michael",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "unmarked",
+        "text": "Unmarked — Complete with minimal damage to health and armor"
+      },
+      {
+        "id": "chain",
+        "text": "Kill Chain — Kill 7 aliens in 10 seconds"
+      }
+    ]
+  },
+  {
+    "id": "sf-barry-trevor",
+    "title": "Grass Roots — Trevor",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "vans",
+        "text": "Pre-Emptive Strike — Destroy 4 clown vans before they can generate clowns"
+      },
+      {
+        "id": "dance",
+        "text": "Greatest Dancer — Kill 6 clowns while they are dancing"
+      }
+    ]
+  },
+  {
+    "id": "sf-mary-michael",
+    "title": "Exercising Demons — Michael",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "win",
+        "text": "Contender — Win the race without using shortcuts"
+      }
+    ]
+  },
+  {
+    "id": "sf-mary-trevor",
+    "title": "Exercising Demons — Trevor",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "bike",
+        "text": "Good Cyclist — Don’t anger Mary-Ann by cycling into her"
+      },
+      {
+        "id": "time",
+        "text": "Quick Win — Win the race within 01:42"
+      }
+    ]
+  },
+  {
+    "id": "sf-cletus-1",
+    "title": "Target Practice",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "signal",
+        "text": "Bad Signal — Shoot all 3 satellite dishes without missing"
+      },
+      {
+        "id": "tires",
+        "text": "Pop! Pop! — Shoot all 3 tires with an accuracy of at least 75%"
+      },
+      {
+        "id": "coyote",
+        "text": "2 for 1 — Kill 2 coyotes with one shot"
+      }
+    ]
+  },
+  {
+    "id": "sf-cletus-2",
+    "title": "Fair Game",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "heart",
+        "text": "Heart Hunter — Kill 3 elk with a heart shot"
+      },
+      {
+        "id": "wind",
+        "text": "Downwind — Don’t get detected by any elk"
+      }
+    ]
+  },
+  {
+    "id": "sf-joe-1",
+    "title": "The Civil Border Patrol",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "band",
+        "text": "Mariachi My Ride — Steal the band’s Tornado after stunning them"
+      },
+      {
+        "id": "music",
+        "text": "Stop the Music — Stop the band within 40 seconds"
+      }
+    ]
+  },
+  {
+    "id": "sf-joe-2",
+    "title": "An American Welcome",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "first",
+        "text": "Downed — Stop the 1st group of immigrants within 30 seconds"
+      },
+      {
+        "id": "second",
+        "text": "Double Downed — Stop the 2nd group of immigrants within 55 seconds"
+      },
+      {
+        "id": "stun",
+        "text": "Shock and Awe — Use the stun gun on all immigrants"
+      }
+    ]
+  },
+  {
+    "id": "sf-joe-3",
+    "title": "Minute Man Blues",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "stun",
+        "text": "What Goes Around… — Use the stun gun on Joe and Josef before killing them"
+      },
+      {
+        "id": "farm",
+        "text": "No Migration — Kill Joe and Josef before they leave the farm"
+      }
+    ]
+  },
+  {
+    "id": "sf-nigel-willy",
+    "title": "Vinewood Souvenirs — Willy",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "fist",
+        "text": "Fist Fury — Take no damage during the fight with Willy"
+      },
+      {
+        "id": "talk",
+        "text": "Entourage — Talk to the entourage"
+      }
+    ]
+  },
+  {
+    "id": "sf-nigel-kerry",
+    "title": "Vinewood Souvenirs — Kerry",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "chase",
+        "text": "Hot on the Paws — Stay close to Dexie throughout the chase"
+      }
+    ]
+  },
+  {
+    "id": "sf-nigel-mark",
+    "title": "Vinewood Souvenirs — Mark",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "club",
+        "text": "Under Par — Collect the golf club within 30 seconds"
+      },
+      {
+        "id": "head",
+        "text": "Hole in One — Kill Mark with a headshot"
+      },
+      {
+        "id": "four",
+        "text": "Four! — Kill Mark and his 3 security guards"
+      }
+    ]
+  },
+  {
+    "id": "sf-nigel-tyler",
+    "title": "Vinewood Souvenirs — Tyler",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "gardener",
+        "text": "Weed Killer — Take out the gardener with a stealth attack"
+      },
+      {
+        "id": "clothes",
+        "text": "Pilferer — Steal the clothes without being detected"
+      }
+    ]
+  },
+  {
+    "id": "sf-nigel-al",
+    "title": "Vinewood Souvenirs — Al Di Napoli",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "stalk",
+        "text": "Stalker — Stay close to Al Di Napoli throughout the chase"
+      },
+      {
+        "id": "hospital",
+        "text": "Accident and Emergency — Avoid hitting anyone in the hospital"
+      },
+      {
+        "id": "scratch",
+        "text": "Not a Scratch — Complete with minimal damage to Nigel’s car"
+      }
+    ]
+  },
+  {
+    "id": "sf-nigel-last",
+    "title": "Vinewood Souvenirs — The Last Act",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "exit",
+        "text": "Skin of Your Teeth — Exit the car before the train hits"
+      },
+      {
+        "id": "train",
+        "text": "Locomotivation — Kill Al Di Napoli using the train"
+      }
+    ]
+  },
+  {
+    "id": "sf-josh-1",
+    "title": "Closing the Deal",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "melee",
+        "text": "Pulverized — Use a melee weapon to beat up Avery"
+      },
+      {
+        "id": "stop",
+        "text": "Seized — Stop Avery’s car within 40 seconds"
+      }
+    ]
+  },
+  {
+    "id": "sf-josh-2",
+    "title": "Surreal Estate",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "cops",
+        "text": "Out of the Frying Pan — Complete without alerting the cops"
+      },
+      {
+        "id": "gas",
+        "text": "Pyromaniac — Pour the gasoline trail perfectly in one go"
+      }
+    ]
+  },
+  {
+    "id": "sf-josh-3",
+    "title": "Breach of Contract",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "josh",
+        "text": "Dirty Rat — Kill Josh before escaping"
+      },
+      {
+        "id": "cruiser",
+        "text": "Hot Pursuit — Escape in the police cruiser"
+      }
+    ]
+  },
+  {
+    "id": "sf-epsilon-1",
+    "title": "Chasing the Truth",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "force",
+        "text": "Use the Force — Find the alien artifact without the detector"
+      }
+    ]
+  },
+  {
+    "id": "sf-epsilon-2",
+    "title": "Delivering the Truth",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "land",
+        "text": "Touchdown — Land the Velum without damaging it"
+      },
+      {
+        "id": "bridge",
+        "text": "Zondar the Bridge — Fly under a bridge along Lago Zancudo"
+      }
+    ]
+  },
+  {
+    "id": "sf-epsilon-3",
+    "title": "Unknowing the Truth",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "cult",
+        "text": "Cult Intervention — Kill all Epsilon security"
+      },
+      {
+        "id": "money",
+        "text": "Show Me the Money — Steal the Epsilon money and escape"
+      }
+    ]
+  },
+  {
+    "id": "sf-sasquatch",
+    "title": "The Last One",
+    "detail": "Not required for 100%. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "wound",
+        "text": "Wounded — Shoot the Sasquatch 3 times before catching it"
+      },
+      {
+        "id": "hunt",
+        "text": "Hunter — Kill 4 animals while chasing the Sasquatch"
+      },
+      {
+        "id": "scat",
+        "text": "Mr. Green — Go to the scat site on foot"
+      }
+    ]
+  },
+  {
+    "id": "sf-rampage-1",
+    "title": "Rampage — Rednecks",
+    "detail": "Not required for 100%. All 3 objectives must be done in one attempt. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "kills",
+        "text": "Kills — Get 45 kills"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Get 3 headshots"
+      },
+      {
+        "id": "cars",
+        "text": "Vehicles — Destroy 2 vehicles"
+      }
+    ]
+  },
+  {
+    "id": "sf-rampage-2",
+    "title": "Rampage — Vagos",
+    "detail": "Not required for 100%. All 3 objectives must be done in one attempt. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "kills",
+        "text": "Kills — Get 45 kills"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Get 6 headshots"
+      },
+      {
+        "id": "cars",
+        "text": "Vehicles — Destroy 2 vehicles"
+      }
+    ]
+  },
+  {
+    "id": "sf-rampage-3",
+    "title": "Rampage — Ballas",
+    "detail": "Not required for 100%. All 3 objectives must be done in one attempt. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "kills",
+        "text": "Kills — Get 50 kills"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Get 6 headshots"
+      },
+      {
+        "id": "cars",
+        "text": "Vehicles — Destroy 2 vehicles"
+      }
+    ]
+  },
+  {
+    "id": "sf-rampage-4",
+    "title": "Rampage — Military",
+    "detail": "Not required for 100%. All 3 objectives must be done in one attempt. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "kills",
+        "text": "Kills — Get 45 kills"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Get 6 headshots"
+      },
+      {
+        "id": "tanks",
+        "text": "Tanks — Destroy 2 tanks"
+      }
+    ]
+  },
+  {
+    "id": "sf-rampage-5",
+    "title": "Rampage — Hipsters",
+    "detail": "Not required for 100%. All 3 objectives must be done in one attempt. Counts toward Solid Gold, Baby!.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "solidGold": true,
+    "objectives": [
+      {
+        "id": "kills",
+        "text": "Kills — Get 30 kills"
+      },
+      {
+        "id": "heads",
+        "text": "Headshots — Get 10 headshots"
+      },
+      {
+        "id": "cars",
+        "text": "Vehicles — Destroy 2 vehicles"
+      }
+    ]
+  },
+  {
+    "id": "random-arrests",
+    "title": "Arrests",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-border",
+    "title": "Border patrol",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-burial",
+    "title": "Burial",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-crash",
+    "title": "Crash rescue",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-gang",
+    "title": "Countryside gang",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-deal",
+    "title": "Deal gone wrong",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-domestic",
+    "title": "Domestic",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-drunk",
+    "title": "Drunk driver",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-paparazzi",
+    "title": "Escape paparazzi",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-getaway",
+    "title": "Getaway driver",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-hitch",
+    "title": "Hitch lift",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-mugging",
+    "title": "Mugging",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-van",
+    "title": "Security van",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-shop",
+    "title": "Shop robbery",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-snatched",
+    "title": "Snatched",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-chase",
+    "title": "Chase thieves",
+    "detail": "Any 14 random events count. Tick the ones you finished; you do not need every type.",
+    "group": "random",
+    "requiredFor100": true,
+    "quota": {
+      "id": "random-events",
+      "needed": 14
+    }
+  },
+  {
+    "id": "random-altruist",
+    "title": "The Altruists",
+    "detail": "Not required for 100%. Delivering hitchhikers can turn the camp. Missable.",
+    "group": "random",
+    "requiredFor100": false,
+    "trophy": "missable",
+    "mapId": "gta5-egg-altruists"
+  },
+  {
+    "id": "misc-properties",
+    "title": "Buy 5 properties",
+    "detail": "Any five for-sale houses or businesses. The Vanilla Unicorn and plain garages do not count.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-website-car",
+    "title": "Buy a vehicle from a website",
+    "detail": "Legendary Motorsport, Southern San Andreas Super Autos, Warstock, or Elitas.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-chop",
+    "title": "Walk Chop and play fetch",
+    "detail": "At Franklin’s house, take Chop out and throw the ball.",
+    "group": "misc",
+    "requiredFor100": true,
+    "mapId": "gta5-franklin-strawberry"
+  },
+  {
+    "id": "misc-booty",
+    "title": "Booty call",
+    "detail": "One completed booty call.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-prostitute",
+    "title": "Prostitute service",
+    "detail": "Pick one up and buy a service.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-holdup",
+    "title": "Hold up a store",
+    "detail": "Aim at a clerk until they hand over the till. One store is enough.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-cinema",
+    "title": "Visit a cinema alone",
+    "detail": "Tivoli, Ten Cent, or Oriental. You can walk out early.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-friend-cinema",
+    "title": "Friend activity — cinema",
+    "detail": "Call a friend, then watch a movie together.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-friend-bar",
+    "title": "Friend activity — bar",
+    "detail": "Call a friend, then drink at a bar.",
+    "group": "misc",
+    "requiredFor100": true
+  },
+  {
+    "id": "misc-friend-strip",
+    "title": "Friend activity — strip club",
+    "detail": "Call a friend, then visit the Vanilla Unicorn together.",
+    "group": "misc",
+    "requiredFor100": true,
+    "mapId": "gta5-vanilla-unicorn"
+  },
+  {
+    "id": "misc-friend-darts",
+    "title": "Friend activity — darts",
+    "detail": "Call a friend, then play darts. This is separate from winning a solo game of darts.",
+    "group": "misc",
+    "requiredFor100": true,
+    "mapId": "gta5-yellow-jack"
+  },
+  {
+    "id": "misc-ships",
+    "title": "Spaceship parts",
+    "detail": "All 50. Also required to finish The Final Frontier.",
+    "group": "misc",
+    "requiredFor100": true,
+    "collect": {
+      "category": "spaceship-parts",
+      "needed": 50
+    }
+  },
+  {
+    "id": "misc-letters",
+    "title": "Letter scraps",
+    "detail": "All 50. Also required before A Starlet in Vinewood.",
+    "group": "misc",
+    "requiredFor100": true,
+    "collect": {
+      "category": "letter-scraps",
+      "needed": 50
+    }
+  },
+  {
+    "id": "misc-stunts",
+    "title": "Stunt jumps",
+    "detail": "Any 25 of the 50. The Show Off trophy still wants all 50.",
+    "group": "misc",
+    "requiredFor100": true,
+    "collect": {
+      "category": "stunt-jumps",
+      "needed": 25
+    }
+  },
+  {
+    "id": "misc-bridges",
+    "title": "Under the bridge",
+    "detail": "Any 25 of the 50.",
+    "group": "misc",
+    "requiredFor100": true,
+    "collect": {
+      "category": "under-bridge",
+      "needed": 25
+    }
+  },
+  {
+    "id": "misc-knife",
+    "title": "Knife flights",
+    "detail": "Any 8 of the 15 open-world gates.",
+    "group": "misc",
+    "requiredFor100": true,
+    "collect": {
+      "category": "knife-flights",
+      "needed": 8
+    }
+  },
+  {
+    "id": "misc-chiliad",
+    "title": "Chiliad mystery",
+    "detail": "Not required for 100%. The UFO appears after completion, at night in the rain.",
+    "group": "misc",
+    "requiredFor100": false,
+    "trophy": "missable",
+    "mapId": "gta5-egg-chiliad-ufo"
+  },
+  {
+    "id": "beyond-stunts",
+    "title": "All 50 stunt jumps",
+    "detail": "100% only needs any 25. This box is the full set, including the ones the Social Club list does not require.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "collect": { "category": "stunt-jumps", "needed": 50 }
+  },
+  {
+    "id": "beyond-bridges",
+    "title": "All 50 under-bridge flights",
+    "detail": "100% only needs any 25.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "collect": { "category": "under-bridge", "needed": 50 }
+  },
+  {
+    "id": "beyond-knives",
+    "title": "All 15 knife flights",
+    "detail": "100% only needs any 8 of the open-world gates.",
+    "group": "beyond",
+    "requiredFor100": false,
+    "collect": { "category": "knife-flights", "needed": 15 }
+  },
+  {
+    "id": "beyond-yoga",
+    "title": "Yoga session",
+    "detail": "The story mission is already on the 100% list. This box is a later session at Michael's house, poses included.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "beyond-golf",
+    "title": "Golf under par",
+    "detail": "100% only needs one finished round. This box is a 9-hole round at even par or better.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "beyond-tennis",
+    "title": "Tennis set",
+    "detail": "100% only needs one game. This box is a full set.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "beyond-darts",
+    "title": "Darts checkout",
+    "detail": "100% only needs one game. This box is a checkout from 501.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "beyond-flight-gold",
+    "title": "Flight School gold medals",
+    "detail": "100% only needs any medal on each of the 12 lessons. This box is gold on all 12.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "beyond-stocks-accounts",
+    "title": "BAWSAQ and LCN accounts",
+    "detail": "Open both in-game broker sites. Not part of the 100% score.",
+    "group": "beyond",
+    "requiredFor100": false
+  },
+  {
+    "id": "beyond-stocks-lester",
+    "title": "Lester assassination portfolio",
+    "detail": "Hold the related stock through one of Lester's assassination missions, then sell after the price moves. Mark it yourself. This is a story milestone, not a live market feed.",
+    "group": "beyond",
+    "requiredFor100": false
+  }
+]
