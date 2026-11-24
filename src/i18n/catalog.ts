@@ -169,6 +169,26 @@ const CHEAT_NAMES: Record<string, string> = {
   Comet: 'Comet',
   'Rapid GT': 'Rapid GT',
   Trashmaster: 'Trashmaster',
+  '$250,000': '250.000 $',
+  'Raise Heat Level': 'Heat seviyesini yükselt',
+  'Raise Wanted Level': 'Aranma seviyesini yükselt',
+  'Unlimited Focus': 'Sınırsız Focus',
+  'Body Armor': 'Vücut zırhı',
+  'Max Ammo': 'Maksimum cephane',
+  'Infinite Ammo': 'Sonsuz cephane',
+  'No Reload': 'Şarjör yok',
+  'Attack Force': 'Saldırı kuvveti',
+  'Exploding Balls': 'Patlayan toplar',
+  'Vehicle Force': 'Araç kuvveti',
+  'Cycle Weather': 'Hava döngüsü',
+  'Maibatsu Boomazoom': 'Maibatsu Boomazoom',
+  'MTL Pumper': 'MTL Pumper',
+  'HVY Bulldozer': 'HVY Bulldozer',
+  Cataclysm: 'Cataclysm',
+  Videotape: 'Videotape',
+  'Dark Mirror': 'Dark Mirror',
+  Dollhouse: 'Dollhouse',
+  'Faded Glory': 'Faded Glory',
 }
 
 const CHEAT_EFFECTS: Record<string, string> = {
@@ -188,6 +208,49 @@ const CHEAT_EFFECTS: Record<string, string> = {
   'Spawns a Comet.': 'Bir Comet çıkarır.',
   'Spawns a Rapid GT.': 'Bir Rapid GT çıkarır.',
   'Spawns a Trashmaster.': 'Bir Trashmaster çıkarır.',
+  'Adds $250,000.': '250.000 $ ekler.',
+  'Makes Jason and Lucia drunk.': 'Jason ve Lucia’yı sarhoş eder.',
+  'Raises heat across the map.': 'Haritada heat’i yükseltir.',
+  'Raises the wanted level.': 'Aranma seviyesini yükseltir.',
+  'Focus never runs out.': 'Focus tükenmez.',
+  'Adds body armor.': 'Vücut zırhı ekler.',
+  'Fills ammo to maximum.': 'Cephaneyi maksimuma doldurur.',
+  'Ammo never runs out.': 'Cephane tükenmez.',
+  'Ammo never runs out and weapons do not reload.': 'Cephane tükenmez ve silahlar şarjör değiştirmez.',
+  'Bullets and melee launch targets on impact.': 'Mermi ve yakın dövüş hedefleri savurur.',
+  'Sports balls explode on impact.': 'Spor topları çarpınca patlar.',
+  'Vehicle collisions launch targets.': 'Araç çarpışmaları hedefleri savurur.',
+  'Cycles the weather.': 'Havayı döndürür.',
+  'Spawns a Maibatsu Boomazoom.': 'Bir Maibatsu Boomazoom çıkarır.',
+  'Spawns an MTL Pumper.': 'Bir MTL Pumper çıkarır.',
+  'Spawns an HVY Bulldozer.': 'Bir HVY Bulldozer çıkarır.',
+  'Applies a murky smoke filter.': 'Dumanlı bir filtre uygular.',
+  'Applies a videotape filter.': 'Videotape filtresi uygular.',
+  'Flips the world and turns it black.': 'Dünyayı ters çevirir ve karartır.',
+  'Applies a vivid narrow filter.': 'Canlı ve dar bir filtre uygular.',
+  'Applies a color CRT filter.': 'Renkli CRT filtresi uygular.',
+}
+
+const CHEAT_UNLOCKS: Record<string, string> = {
+  'Finish the story.': 'Hikayeyi bitir.',
+  'Spend $2,500 on alcohol.': 'Alkola 2.500 $ harca.',
+  'Lose a 3-star wanted level 25 times.': '3 yıldızlı aranmayı 25 kez kaybet.',
+  'Lose a 3-star wanted level 50 times.': '3 yıldızlı aranmayı 50 kez kaybet.',
+  'Complete 100 workouts.': '100 antrenman bitir.',
+  'Win 25 bronze medals or higher at shooting ranges.': 'Atış poligonlarında 25 bronz veya üstü madalya kazan.',
+  'Win 25 silver medals or higher at shooting ranges.': 'Atış poligonlarında 25 gümüş veya üstü madalya kazan.',
+  'Win 25 gold medals at shooting ranges.': 'Atış poligonlarında 25 altın madalya kazan.',
+  'Hit 20 enemies with explosive damage.': '20 düşmana patlayıcı hasar vur.',
+  'Kill 25 people with a vehicle.': 'Araçla 25 kişiyi öldür.',
+  'Reveal the entire map.': 'Haritanın tamamını aç.',
+  'Complete 5 shopping challenges.': '5 alışveriş mücadelesi bitir.',
+  'Discover the MTL Pumper in the Progress menu.': 'Progress menüsünde MTL Pumper’ı keşfet.',
+  'Discover the HVY Bulldozer in the Progress menu.': 'Progress menüsünde HVY Bulldozer’ı keşfet.',
+  "Discover Martha's Vamos in Progress.": 'Progress’te Martha’s Vamos’u keşfet.',
+  'Complete 50 activities with your partner.': 'Partnerinle 50 aktivite bitir.',
+  'Make $500,000 selling vehicles.': 'Araç satarak 500.000 $ kazan.',
+  'Spend 8 hours with your partner.': 'Partnerinle 8 saat geçir.',
+  'Rob 50 stores with your partner.': 'Partnerinle 50 dükkân soy.',
 }
 
 export function cheatName(locale: Locale, name: string) {
@@ -198,11 +261,19 @@ export function cheatEffect(locale: Locale, effect: string) {
   return pick(locale, effect, CHEAT_EFFECTS)
 }
 
-const CONSOLE_TR =
-  'PlayStation ve Xbox’ta aynı etkiler, oyun içi telefona yazılan düğme dizileridir. PlayStation’da yenilmezlik: Sağ, X, Sağ, Sol, Sağ, R1, Sağ, Sol, X, Üçgen. Yukarıdaki PC kelimeleri güvenilir çapraz kontroldür.'
+export function cheatUnlock(locale: Locale, unlock: string) {
+  return pick(locale, unlock, CHEAT_UNLOCKS)
+}
+
+const CONSOLE_NOTES: Record<string, string> = {
+  'On PlayStation and Xbox the same effects are button sequences typed on the in-game phone. Invincibility on PlayStation is Right, X, Right, Left, Right, R1, Right, Left, X, Triangle. The PC words above are the reliable cross-check.':
+    'PlayStation ve Xbox’ta aynı etkiler, oyun içi telefona yazılan düğme dizileridir. PlayStation’da yenilmezlik: Sağ, X, Sağ, Sol, Sağ, R1, Sağ, Sol, X, Üçgen. Yukarıdaki PC kelimeleri güvenilir çapraz kontroldür.',
+  'Open the phone with D-pad Up, hold L1/LB and R1/RB together, then enter the D-pad sequence. Cheats unlock after the story and each row also needs its own condition. Using a cheat turns off trophies and saving for that session. About 61 cheats exist; only sequences published so far are listed here.':
+    'Telefonu D-pad yukarı ile aç, L1/LB ve R1/RB’yi birlikte basılı tut, sonra D-pad dizisini gir. Hileler hikaye bitince açılır ve her satırın kendi koşulu da vardır. Hile kullanmak o oturumda kupa ve kaydı kapatır. Yaklaşık 61 hile vardır; şimdilik yalnız yayımlanmış diziler listelenir.',
+}
 
 export function consoleNote(locale: Locale, note: string) {
-  return locale === 'tr' ? CONSOLE_TR : note
+  return pick(locale, note, CONSOLE_NOTES)
 }
 
 const CONTROL_TITLES: Record<string, string> = {

@@ -1,4 +1,4 @@
-export type Cheat = { name: string; code: string; effect: string; group: string }
+export type Cheat = { name: string; code: string; effect: string; group: string; unlock?: string }
 export type ControlRow = { action: string; input: string }
 
 export const CHEAT_GROUPS = ['Health', 'Wanted level', 'Weapons', 'Abilities', 'World', 'Vehicles'] as const

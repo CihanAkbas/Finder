@@ -133,6 +133,24 @@ export const GTA6_BRIEFING: BriefBlock[] = [
     ],
   },
   {
+    id: 'garages',
+    title: { en: 'Garages', tr: 'Garajlar' },
+    body: [
+      {
+        en: 'Registration opens with Moses in Chapter 2 for untracked cars; the first register is free. After Randy in Chapter 3, Pay ’n’ Sprays can register standard-tracker cars. Chapter 1 cars stay temporary. Scan with WAiNK before you buy or steal.',
+        tr: 'Kayıt, 2. bölümde Moses ile trackersiz arabalarda açılır; ilk kayıt bedavadır. 3. bölümde Randy’den sonra Pay ’n’ Spray standart tracker’lı arabayı da kaydeder. 1. bölüm arabaları geçicidir. Almadan veya çalmadan önce WAiNK ile tara.',
+      },
+      {
+        en: 'Owned slots start at four once registration opens. The Vice City Real Estate app, unlocked from Daily Driver, sells eight one-spot Little Boxes garages. Port Gellhorn Station is free from that mission. Thompson Court opens from Company Cars. Vanessa’s Chapter 3 laptop can add Del Rio Boulevard with a free pink Pfister Growler if solved before the chapter ends.',
+        tr: 'Kayıt açılınca sahip olunan yer dörtten başlar. Daily Driver’dan açılan Vice City Real Estate uygulaması sekiz tek yuvalı Little Boxes garajı satar. Port Gellhorn Station o görevden bedavadır. Thompson Court, Company Cars’tan açılır. Vanessa’nın 3. bölüm dizüstü bilgisayarı, bölüm bitmeden çözülürse Del Rio Boulevard’ı pembe Pfister Growler ile ekler.',
+      },
+      {
+        en: 'Published Little Boxes prices include Mitchel Auto Center $4,000, 7th Avenue $12,000, Store n’ Bolt $16,800, Wyatt Motors $21,600, Bonita Court $34,000, and Atlantic Court $40,000. Persistence Road and Vela Rota Drive still say check the app. A dearer garage buys location, not extra spots.',
+        tr: 'Yayımlanmış Little Boxes fiyatları: Mitchel Auto Center 4.000 $, 7th Avenue 12.000 $, Store n’ Bolt 16.800 $, Wyatt Motors 21.600 $, Bonita Court 34.000 $, Atlantic Court 40.000 $. Persistence Road ve Vela Rota Drive hâlâ uygulamaya bak diyor. Daha pahalı garaj yer alır, ekstra yuva vermez.',
+      },
+    ],
+  },
+  {
     id: 'field',
     title: { en: 'Getting around', tr: 'İşin pratiği' },
     body: [
