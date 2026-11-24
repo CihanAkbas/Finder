@@ -33900,5 +33900,2059 @@
     ],
     "source": "catalog",
     "image": "https://media.mapgenie.io/storage/media/1d88ffa0-6401-47ba-a34a-fd3d316a0c10.png"
+  },
+  {
+    "id": "gta6-loc-1096627",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.60684312339691,
+    "y": 0.79112513202477,
+    "description": "Leonida map · Belville · ATM",
+    "tags": [
+      "ATM",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096628",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.75685791056237,
+    "y": 0.52814556899391,
+    "description": "Leonida map · Watson Bay · ATM",
+    "tags": [
+      "ATM",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096629",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.83706869774391,
+    "y": 0.67047250747975,
+    "description": "Leonida map · Capri · ATM",
+    "tags": [
+      "ATM",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096630",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.81993976351854,
+    "y": 0.69052841664451,
+    "description": "Leonida map · Capri · ATM",
+    "tags": [
+      "ATM",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096631",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.555076974184,
+    "y": 0.83771126936527,
+    "description": "Leonida map · Waning Sands · ATM",
+    "tags": [
+      "ATM",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096632",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.45345514490612,
+    "y": 0.71851367561994,
+    "description": "Leonida map · Vice Beach · ATM",
+    "tags": [
+      "ATM",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096633",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.45372692919256,
+    "y": 0.7196920764764,
+    "description": "Leonida map · Vice Beach · ATM",
+    "tags": [
+      "ATM",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096634",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.45498074045137,
+    "y": 0.7189287416923,
+    "description": "Leonida map · Vice Beach · ATM",
+    "tags": [
+      "ATM",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096635",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.60082644627308,
+    "y": 0.77701559849728,
+    "description": "Leonida map · Belville · ATM",
+    "tags": [
+      "ATM",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096636",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.58766314151374,
+    "y": 0.94724671256911,
+    "description": "Leonida map · Millport · ATM",
+    "tags": [
+      "ATM",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096637",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.65900635844359,
+    "y": 0.85477862424339,
+    "description": "Leonida map · Ambrosia · ATM",
+    "tags": [
+      "ATM",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096638",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.67568181412824,
+    "y": 0.96816678574961,
+    "description": "Leonida map · Kalaga National Park · ATM",
+    "tags": [
+      "ATM",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096639",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.53308571720796,
+    "y": 0.84204470900973,
+    "description": "Leonida map · Waning Sands · ATM",
+    "tags": [
+      "ATM",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096640",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.59477180723405,
+    "y": 0.94129812691234,
+    "description": "Leonida map · Millport · ATM",
+    "tags": [
+      "ATM",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096641",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.76946955765003,
+    "y": 0.81939793031276,
+    "description": "Leonida map · Gellhorn · ATM",
+    "tags": [
+      "ATM",
+      "Gellhorn"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096642",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.75153153109984,
+    "y": 0.52185481284401,
+    "description": "Leonida map · Watson Bay · ATM",
+    "tags": [
+      "ATM",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096643",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.65876668403138,
+    "y": 0.85662797511216,
+    "description": "Leonida map · Ambrosia · ATM",
+    "tags": [
+      "ATM",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096644",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.7328233904812,
+    "y": 0.67844098460098,
+    "description": "Leonida map · West Vice-Dale County · ATM",
+    "tags": [
+      "ATM",
+      "West Vice-Dale County"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096645",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.58827516833091,
+    "y": 0.94694362518102,
+    "description": "Leonida map · Millport · ATM",
+    "tags": [
+      "ATM",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096646",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.60146961902619,
+    "y": 0.94207264174961,
+    "description": "Leonida map · Millport · ATM",
+    "tags": [
+      "ATM",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096647",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.74806489668776,
+    "y": 0.52400413915962,
+    "description": "Leonida map · Watson Bay · ATM",
+    "tags": [
+      "ATM",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096648",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.78721939885594,
+    "y": 0.95266705901841,
+    "description": "Leonida map · Grayson · ATM",
+    "tags": [
+      "ATM",
+      "Grayson"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096649",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.71379950496914,
+    "y": 0.97664491390625,
+    "description": "Leonida map · Kalaga National Park · ATM",
+    "tags": [
+      "ATM",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096650",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.83378266266208,
+    "y": 0.69179881064601,
+    "description": "Leonida map · Capri · ATM",
+    "tags": [
+      "ATM",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096651",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.59993000384414,
+    "y": 0.78906539282819,
+    "description": "Leonida map · Belville · ATM",
+    "tags": [
+      "ATM",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096652",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.65403715395034,
+    "y": 0.84694849917492,
+    "description": "Leonida map · Ambrosia · ATM",
+    "tags": [
+      "ATM",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096653",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.82034463450583,
+    "y": 0.66105077288767,
+    "description": "Leonida map · Capri · ATM",
+    "tags": [
+      "ATM",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096654",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.5487731938374,
+    "y": 0.84126920924728,
+    "description": "Leonida map · Waning Sands · ATM",
+    "tags": [
+      "ATM",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096655",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.54854858879334,
+    "y": 0.83929968591844,
+    "description": "Leonida map · Waning Sands · ATM",
+    "tags": [
+      "ATM",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096656",
+    "title": "ATM",
+    "category": "mg-29021",
+    "x": -0.7607802343501,
+    "y": 0.53183086932845,
+    "description": "Leonida map · Watson Bay · ATM",
+    "tags": [
+      "ATM",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096682",
+    "title": "ShoreFront - Ambrosia",
+    "category": "mg-29022",
+    "x": -0.65863939696862,
+    "y": 0.85657181287487,
+    "description": "Leonida map · Ambrosia · Bank",
+    "tags": [
+      "Bank",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096683",
+    "title": "Gibson Brothers Bank",
+    "category": "mg-29022",
+    "x": -0.83765919745021,
+    "y": 0.68044681496985,
+    "description": "Leonida map · Capri · Bank",
+    "tags": [
+      "Bank",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096684",
+    "title": "Druthers State Bank",
+    "category": "mg-29022",
+    "x": -0.59984615344541,
+    "y": 0.78908975424378,
+    "description": "Leonida map · Belville · Bank",
+    "tags": [
+      "Bank",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096685",
+    "title": "ShoreFront - Watson Bay",
+    "category": "mg-29022",
+    "x": -0.75702233178086,
+    "y": 0.52833288469074,
+    "description": "Leonida map · Watson Bay · Bank",
+    "tags": [
+      "Bank",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096686",
+    "title": "Kowalski",
+    "category": "mg-29025",
+    "x": -0.54872448147822,
+    "y": 0.84302656306548,
+    "description": "Leonida map · Waning Sands · Low-End Jewelry Store",
+    "tags": [
+      "Low-End Jewelry Store",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096687",
+    "title": "Skala",
+    "category": "mg-29025",
+    "x": -0.54573899484145,
+    "y": 0.83890182472809,
+    "description": "Leonida map · Waning Sands · Low-End Jewelry Store",
+    "tags": [
+      "Low-End Jewelry Store",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096688",
+    "title": "Victoria Lee Jeweler",
+    "category": "mg-29025",
+    "x": -0.83437406347471,
+    "y": 0.67858950015116,
+    "description": "Leonida map · Capri · Low-End Jewelry Store",
+    "tags": [
+      "Low-End Jewelry Store",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096689",
+    "title": "Brilliant Cuts",
+    "category": "mg-29025",
+    "x": -0.59250438307158,
+    "y": 0.79312068280303,
+    "description": "Leonida map · Belville · Low-End Jewelry Store",
+    "tags": [
+      "Low-End Jewelry Store",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096690",
+    "title": "Florence & Co.",
+    "category": "mg-29027",
+    "x": -0.65982105650298,
+    "y": 0.86488067900596,
+    "description": "Leonida map · Ambrosia · Pawn Shop",
+    "tags": [
+      "Pawn Shop",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096691",
+    "title": "Timeless Peculiars",
+    "category": "mg-29027",
+    "x": -0.74942653731859,
+    "y": 0.52184302507197,
+    "description": "Leonida map · Watson Bay · Pawn Shop",
+    "tags": [
+      "Pawn Shop",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096599",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.59498732452036,
+    "y": 0.79243771450609,
+    "description": "Leonida map · Belville · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096600",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.71530078626569,
+    "y": 0.97744185172471,
+    "description": "Leonida map · Kalaga National Park · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096601",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.71531396762811,
+    "y": 0.97591488876906,
+    "description": "Leonida map · Kalaga National Park · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096602",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.6172622694764,
+    "y": 0.78529117596836,
+    "description": "Leonida map · Belville · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096603",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.52609835367823,
+    "y": 0.84724869466234,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096604",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.55351923335717,
+    "y": 0.85056117628786,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096605",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.5599977675166,
+    "y": 0.87402640420617,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096606",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.53915022451148,
+    "y": 0.84093258169969,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096607",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.54854098762928,
+    "y": 0.83754344277516,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096608",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.54781583153919,
+    "y": 0.84278288603475,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096609",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.54326310344669,
+    "y": 0.84167295908766,
+    "description": "Leonida map · Waning Sands · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096610",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.59481838206224,
+    "y": 0.94038134143724,
+    "description": "Leonida map · Millport · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096611",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.60187188094243,
+    "y": 0.94144567848133,
+    "description": "Leonida map · Millport · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096612",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.67506280369411,
+    "y": 0.85194471599987,
+    "description": "Leonida map · Ambrosia · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096613",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.65877178685283,
+    "y": 0.85645496192466,
+    "description": "Leonida map · Ambrosia · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096614",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.63663194557197,
+    "y": 0.83035510738434,
+    "description": "Leonida map · Ambrosia · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096615",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.84409869966286,
+    "y": 0.68246812337208,
+    "description": "Leonida map · Capri · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096616",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.83345421837539,
+    "y": 0.69259621996162,
+    "description": "Leonida map · Capri · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096617",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.83897402222536,
+    "y": 0.6826414980579,
+    "description": "Leonida map · Capri · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096618",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.83754125676906,
+    "y": 0.68131890117628,
+    "description": "Leonida map · Capri · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096619",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.83212386518115,
+    "y": 0.67955658406305,
+    "description": "Leonida map · Capri · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096620",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.83627136177516,
+    "y": 0.67094172877204,
+    "description": "Leonida map · Capri · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096621",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.60227119331911,
+    "y": 0.78832720533117,
+    "description": "Leonida map · Belville · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096622",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.76055162475622,
+    "y": 0.51769988731587,
+    "description": "Leonida map · Watson Bay · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096623",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.75751911599987,
+    "y": 0.52819950988135,
+    "description": "Leonida map · Watson Bay · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096624",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.74763282478708,
+    "y": 0.52400595188719,
+    "description": "Leonida map · Watson Bay · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096625",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.75116576411865,
+    "y": 0.52463182538161,
+    "description": "Leonida map · Watson Bay · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096626",
+    "title": "ATM (Towable)",
+    "category": "mg-29037",
+    "x": -0.75163291650583,
+    "y": 0.52371212701893,
+    "description": "Leonida map · Watson Bay · ATM (Towable)",
+    "tags": [
+      "ATM (Towable)",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096720",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.72019332303086,
+    "y": 0.97613721156263,
+    "description": "Leonida map · Kalaga National Park · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096721",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.66031060041247,
+    "y": 1.0147584659498,
+    "description": "Leonida map · Moreau · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Moreau"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096722",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.79157547105018,
+    "y": 0.89641015298742,
+    "description": "Leonida map · Manifest Canyon · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Manifest Canyon"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096723",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.60203451565625,
+    "y": 0.77708087664652,
+    "description": "Leonida map · Belville · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096724",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.61685407170034,
+    "y": 0.7854830705437,
+    "description": "Leonida map · Belville · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096725",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.7117019925249,
+    "y": 0.69938150232871,
+    "description": "Leonida map · Buckskin Swamp · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Buckskin Swamp"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096726",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.56184782043802,
+    "y": 0.87433600895008,
+    "description": "Leonida map · Waning Sands · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096727",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.54648053204545,
+    "y": 0.84630081037526,
+    "description": "Leonida map · Waning Sands · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096728",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.52698598139374,
+    "y": 0.82125238400298,
+    "description": "Leonida map · Waning Sands · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096729",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.56492750126945,
+    "y": 0.88033727816857,
+    "description": "Leonida map · Waning Sands · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096730",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.5866948879576,
+    "y": 0.89727530274378,
+    "description": "Leonida map · Waning Sands · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096731",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.59524980435607,
+    "y": 0.93904476427464,
+    "description": "Leonida map · Millport · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096732",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.57378859609621,
+    "y": 0.93599077553138,
+    "description": "Leonida map · Millport · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096733",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.62948776456289,
+    "y": 0.98329001599961,
+    "description": "Leonida map · East Lummox County · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "East Lummox County"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096734",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.65277520131859,
+    "y": 0.92929531607482,
+    "description": "Leonida map · Kalaga National Park · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096735",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.6758486033903,
+    "y": 0.85282172687513,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096736",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.66390456377529,
+    "y": 0.86410978958091,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096737",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.66869614474365,
+    "y": 0.85932432777516,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096738",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.65959093804098,
+    "y": 0.86641757507521,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096739",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.6543186985625,
+    "y": 0.84777402102516,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096740",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.63577572310296,
+    "y": 0.83048714100622,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096741",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.66558686345345,
+    "y": 0.85486108628773,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096742",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.66664221037824,
+    "y": 0.85692846394411,
+    "description": "Leonida map · Ambrosia · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096743",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.84775089991909,
+    "y": 0.67830774665709,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096744",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.84485494083117,
+    "y": 0.67610553772608,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096745",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.84075952003708,
+    "y": 0.66773642678294,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096746",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.84812404343154,
+    "y": 0.67233568494016,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096747",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.84126787198755,
+    "y": 0.67023737383485,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096748",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.83334199870656,
+    "y": 0.68723117000772,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096749",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.84095973418089,
+    "y": 0.67942032649452,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096750",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.82922130491857,
+    "y": 0.67659555184518,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096751",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.81917910063745,
+    "y": 0.67565857847248,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096752",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.81206416382482,
+    "y": 0.68021573780556,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096753",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.82158827153773,
+    "y": 0.66145153318893,
+    "description": "Leonida map · Capri · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096754",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.59608310088784,
+    "y": 0.79250461671538,
+    "description": "Leonida map · Belville · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096755",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.5954900079043,
+    "y": 0.78062668300908,
+    "description": "Leonida map · Belville · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096756",
+    "title": "Electric Vehicle Charger",
+    "category": "mg-29035",
+    "x": -0.7555656973501,
+    "y": 0.5210949567784,
+    "description": "Leonida map · Watson Bay · Electric Charger",
+    "tags": [
+      "Electric Charger",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096657",
+    "title": "SR-45",
+    "category": "mg-29036",
+    "x": -0.77438982974352,
+    "y": 0.96146644351219,
+    "description": "Leonida map · Grayson · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Grayson"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096658",
+    "title": "US-628 - C",
+    "category": "mg-29036",
+    "x": -0.60305010368919,
+    "y": 0.94169495077464,
+    "description": "Leonida map · Millport · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096659",
+    "title": "US-628 - A",
+    "category": "mg-29036",
+    "x": -0.71987715900026,
+    "y": 0.97801288322536,
+    "description": "Leonida map · Kalaga National Park · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096660",
+    "title": "Valentine Dr - B",
+    "category": "mg-29036",
+    "x": -0.55930059233163,
+    "y": 0.83604498007534,
+    "description": "Leonida map · Waning Sands · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096661",
+    "title": "US-628 - B",
+    "category": "mg-29036",
+    "x": -0.71876604803138,
+    "y": 0.97534909626867,
+    "description": "Leonida map · Kalaga National Park · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096662",
+    "title": "Discovery St - A",
+    "category": "mg-29036",
+    "x": -0.60103347111722,
+    "y": 0.79090647653138,
+    "description": "Leonida map · Belville · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096663",
+    "title": "Seabell Ave - A",
+    "category": "mg-29036",
+    "x": -0.75969938391883,
+    "y": 0.52599985761852,
+    "description": "Leonida map · Watson Bay · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096664",
+    "title": "Valentine Dr - A",
+    "category": "mg-29036",
+    "x": -0.55931099569774,
+    "y": 0.83522648896603,
+    "description": "Leonida map · Waning Sands · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096665",
+    "title": "Valentine Dr - C",
+    "category": "mg-29036",
+    "x": -0.55928847057171,
+    "y": 0.83687338339717,
+    "description": "Leonida map · Waning Sands · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096666",
+    "title": "East Buckley Dr",
+    "category": "mg-29036",
+    "x": -0.81896524410607,
+    "y": 0.69097154156107,
+    "description": "Leonida map · Capri · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096667",
+    "title": "US-35",
+    "category": "mg-29036",
+    "x": -0.65945921879344,
+    "y": 0.84736686585607,
+    "description": "Leonida map · Ambrosia · Bus Stop",
+    "tags": [
+      "Bus Stop",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096668",
+    "title": "Capri",
+    "category": "mg-29038",
+    "x": -0.82096401163135,
+    "y": 0.69200298809544,
+    "description": "Leonida map · Capri · Train Station",
+    "tags": [
+      "Train Station",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096669",
+    "title": "Ambrosia",
+    "category": "mg-29038",
+    "x": -0.6378086804375,
+    "y": 0.82911853250934,
+    "description": "Leonida map · Ambrosia · Train Station",
+    "tags": [
+      "Train Station",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096670",
+    "title": "Waning Sands",
+    "category": "mg-29038",
+    "x": -0.53994221435664,
+    "y": 0.83900670979655,
+    "description": "Leonida map · Waning Sands · Train Station",
+    "tags": [
+      "Train Station",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096671",
+    "title": "Grayson",
+    "category": "mg-29038",
+    "x": -0.77540672226906,
+    "y": 0.95925495103151,
+    "description": "Leonida map · Grayson · Train Station",
+    "tags": [
+      "Train Station",
+      "Grayson"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096681",
+    "title": "Y Hotel Rentals",
+    "category": "mg-29040",
+    "x": -0.45653883359206,
+    "y": 0.73551479364652,
+    "description": "Leonida map · Vice Beach · Rental Vehicle",
+    "tags": [
+      "Rental Vehicle",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096672",
+    "title": "Domestic Timbers",
+    "category": "mg-29062",
+    "x": -0.61817517284673,
+    "y": 0.68779518784881,
+    "description": "Leonida map · Vice City · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096673",
+    "title": "Scuttlebutt Drive Garage",
+    "category": "mg-29062",
+    "x": -0.63990386676906,
+    "y": 0.42407947790016,
+    "description": "Leonida map · Key Lento · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Key Lento"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096674",
+    "title": "Paradise Garage",
+    "category": "mg-29062",
+    "x": -0.71122783034077,
+    "y": 0.53979921005628,
+    "description": "Leonida map · Watson Bay · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096675",
+    "title": "Caledonia Boulevard Garage",
+    "category": "mg-29062",
+    "x": -0.56883168760996,
+    "y": 0.72827032743439,
+    "description": "Leonida map · Vice City · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096676",
+    "title": "Shore Court Garage",
+    "category": "mg-29062",
+    "x": -0.45630617421279,
+    "y": 0.70581199867116,
+    "description": "Leonida map · Vice Beach · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096677",
+    "title": "Del Rio Boulevard Garage",
+    "category": "mg-29062",
+    "x": -0.58203107344606,
+    "y": 0.72813325910192,
+    "description": "Leonida map · Vice City · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096678",
+    "title": "Diablo Roofing",
+    "category": "mg-29062",
+    "x": -0.59862674156445,
+    "y": 0.65257541809219,
+    "description": "Leonida map · Vice City · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096679",
+    "title": "Southside Storage",
+    "category": "mg-29062",
+    "x": -0.60059409075324,
+    "y": 0.61380898541559,
+    "description": "Leonida map · Vice City · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096680",
+    "title": "McClane Garage",
+    "category": "mg-29062",
+    "x": -0.6408794444965,
+    "y": 0.52175346936891,
+    "description": "Leonida map · Hamlet · Purchasable Garage",
+    "tags": [
+      "Purchasable Garage",
+      "Hamlet"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096692",
+    "title": "La Costa Poolside Bar",
+    "category": "mg-29055",
+    "x": -0.84462245436852,
+    "y": 0.67364988658887,
+    "description": "Leonida map · Capri · Bar",
+    "tags": [
+      "Bar",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096693",
+    "title": "The Pier Hotel Poolside Bar",
+    "category": "mg-29055",
+    "x": -0.84556646174391,
+    "y": 0.66852775363084,
+    "description": "Leonida map · Capri · Bar",
+    "tags": [
+      "Bar",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096694",
+    "title": "VYB Bar",
+    "category": "mg-29055",
+    "x": -0.45414710860127,
+    "y": 0.71842411468089,
+    "description": "Leonida map · Vice Beach · Bar",
+    "tags": [
+      "Bar",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096695",
+    "title": "Doigt d'Or Lobby Bar",
+    "category": "mg-29055",
+    "x": -0.45605354899365,
+    "y": 0.71774661589678,
+    "description": "Leonida map · Vice Beach · Bar",
+    "tags": [
+      "Bar",
+      "Vice Beach"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096696",
+    "title": "A-Roamer Wild Coffee",
+    "category": "mg-29056",
+    "x": -0.65985749907806,
+    "y": 0.95858680914393,
+    "description": "Leonida map · Kalaga National Park · Street Food",
+    "tags": [
+      "Street Food",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096697",
+    "title": "La Parrilla Cubana",
+    "category": "mg-29056",
+    "x": -0.60702471808143,
+    "y": 0.85677481415651,
+    "description": "Leonida map · Belville · Street Food",
+    "tags": [
+      "Street Food",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096698",
+    "title": "Crop Circles Donuts & Coffee",
+    "category": "mg-29056",
+    "x": -0.79406423308104,
+    "y": 0.66879715283526,
+    "description": "Leonida map · Capri · Street Food",
+    "tags": [
+      "Street Food",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096699",
+    "title": "Rib It Up",
+    "category": "mg-29056",
+    "x": -0.65890377854383,
+    "y": 0.8460330758313,
+    "description": "Leonida map · Ambrosia · Street Food",
+    "tags": [
+      "Street Food",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096700",
+    "title": "The Toss Spot - Capri",
+    "category": "mg-29056",
+    "x": -0.81506073296214,
+    "y": 0.68459131880589,
+    "description": "Leonida map · Capri · Street Food",
+    "tags": [
+      "Street Food",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096701",
+    "title": "Better Bread",
+    "category": "mg-29056",
+    "x": -0.81991937326258,
+    "y": 0.68852636945442,
+    "description": "Leonida map · Capri · Street Food",
+    "tags": [
+      "Street Food",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096702",
+    "title": "Cash's Crawfish",
+    "category": "mg-29056",
+    "x": -0.76302584325026,
+    "y": 0.52984914956237,
+    "description": "Leonida map · Watson Bay · Street Food",
+    "tags": [
+      "Street Food",
+      "Watson Bay"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096703",
+    "title": "Scoop Daddy",
+    "category": "mg-29056",
+    "x": -0.4895028542985,
+    "y": 0.60445194460127,
+    "description": "Leonida map · Vice City · Street Food",
+    "tags": [
+      "Street Food",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096704",
+    "title": "Re:Pear",
+    "category": "mg-29056",
+    "x": -0.55332838001543,
+    "y": 0.68091286977211,
+    "description": "Leonida map · Vice City · Street Food",
+    "tags": [
+      "Street Food",
+      "Vice City"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096705",
+    "title": "Boiled Peanuts Stand",
+    "category": "mg-29056",
+    "x": -0.7500183782124,
+    "y": 0.95413387806224,
+    "description": "Leonida map · Kalaga National Park · Street Food",
+    "tags": [
+      "Street Food",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096706",
+    "title": "Boiled Peanuts Stand",
+    "category": "mg-29056",
+    "x": -0.65887090897809,
+    "y": 0.98329542263758,
+    "description": "Leonida map · Kalaga National Park · Street Food",
+    "tags": [
+      "Street Food",
+      "Kalaga National Park"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096707",
+    "title": "The Salty Nut Shack",
+    "category": "mg-29056",
+    "x": -0.7802682755,
+    "y": 0.6074423526451,
+    "description": "Leonida map · Grassrivers · Street Food",
+    "tags": [
+      "Street Food",
+      "Grassrivers"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096708",
+    "title": "Boiled Peanuts Stand",
+    "category": "mg-29056",
+    "x": -0.57716674616727,
+    "y": 0.85150256420604,
+    "description": "Leonida map · Belville · Street Food",
+    "tags": [
+      "Street Food",
+      "Belville"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096709",
+    "title": "Big City Coconuts - Waning Sands",
+    "category": "mg-29056",
+    "x": -0.54699461221846,
+    "y": 0.83867825503786,
+    "description": "Leonida map · Waning Sands · Street Food",
+    "tags": [
+      "Street Food",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096710",
+    "title": "Brodies Snack Bar - Waning Sands",
+    "category": "mg-29056",
+    "x": -0.54444738509918,
+    "y": 0.83903583871525,
+    "description": "Leonida map · Waning Sands · Street Food",
+    "tags": [
+      "Street Food",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096711",
+    "title": "Cup & Squeeze",
+    "category": "mg-29056",
+    "x": -0.54485326229898,
+    "y": 0.8418744306001,
+    "description": "Leonida map · Waning Sands · Street Food",
+    "tags": [
+      "Street Food",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096712",
+    "title": "Re:Pear",
+    "category": "mg-29056",
+    "x": -0.54924604165777,
+    "y": 0.84188391320345,
+    "description": "Leonida map · Waning Sands · Street Food",
+    "tags": [
+      "Street Food",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096713",
+    "title": "Slushsquatch",
+    "category": "mg-29056",
+    "x": -0.55501591083986,
+    "y": 0.84057525999378,
+    "description": "Leonida map · Waning Sands · Street Food",
+    "tags": [
+      "Street Food",
+      "Waning Sands"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096714",
+    "title": "Tropical Juice Stand",
+    "category": "mg-29056",
+    "x": -0.59550336737643,
+    "y": 0.94336885753747,
+    "description": "Leonida map · Millport · Street Food",
+    "tags": [
+      "Street Food",
+      "Millport"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096715",
+    "title": "Mamma B's Homemade Wine",
+    "category": "mg-29056",
+    "x": -0.63966165671849,
+    "y": 0.83240148706587,
+    "description": "Leonida map · Ambrosia · Street Food",
+    "tags": [
+      "Street Food",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096716",
+    "title": "The Salty Nut Shack",
+    "category": "mg-29056",
+    "x": -0.63996395827801,
+    "y": 0.83136263258428,
+    "description": "Leonida map · Ambrosia · Street Food",
+    "tags": [
+      "Street Food",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096717",
+    "title": "Cody's Famous Fresh Road Grill - Ambrosia",
+    "category": "mg-29056",
+    "x": -0.63962985589678,
+    "y": 0.83176042042777,
+    "description": "Leonida map · Ambrosia · Street Food",
+    "tags": [
+      "Street Food",
+      "Ambrosia"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096718",
+    "title": "A-Roamer Wild Coffee",
+    "category": "mg-29056",
+    "x": -0.82300672401271,
+    "y": 0.68119836065145,
+    "description": "Leonida map · Capri · Street Food",
+    "tags": [
+      "Street Food",
+      "Capri"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "gta6-loc-1096719",
+    "title": "Boiled Peanuts Stand",
+    "category": "mg-29056",
+    "x": -0.74767268316286,
+    "y": 0.52475668156885,
+    "description": "Leonida map · Watson Bay · Street Food",
+    "tags": [
+      "Street Food",
+      "Watson Bay"
+    ],
+    "source": "catalog"
   }
 ]

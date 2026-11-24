@@ -1,13 +1,12 @@
 'use client'
 
-import { Check, ChevronDown, ChevronRight, Eye, EyeOff, LocateFixed } from 'lucide-react'
+import { Check } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { CategoryIcon } from '@/components/icons'
 import { MarkerGlyph } from '@/components/map/MarkerGlyph'
 import { gta6CategoryIcons } from '@/config/games/gta6/markerIcons'
 import { useMapApi } from '@/components/map/mapApi'
-import { Progress } from '@/components/ui/form'
-import { countFound, leafIds, markersFor } from '@/lib/categories'
+import { leafIds, markersFor } from '@/lib/categories'
 import { localizeCategories } from '@/i18n/categories'
 import { markerTitle } from '@/i18n/markerText'
 import { useI18n } from '@/i18n/provider'
@@ -16,11 +15,9 @@ import { cn } from '@/lib/utils'
 import { useMapStore } from '@/store/useMapStore'
 import type { CategoryNode, GameConfig, GameMarker } from '@/types/game'
 
-function visibilityOf(ids: string[], hidden: Set<string>) {
-  const hiddenCount = ids.filter((id) => hidden.has(id)).length
-  if (hiddenCount === 0) return 'shown'
-  if (hiddenCount === ids.length) return 'hidden'
-  return 'mixed'
+function chipsOf(group: CategoryNode): CategoryNode[] {
+  if (!group.children?.length) return [group]
+  return group.children.flatMap((child) => (child.children?.length ? chipsOf(child) : [child]))
 }
 
 export function CategoryTree({ game }: { game: GameConfig }) {
@@ -32,141 +29,113 @@ export function CategoryTree({ game }: { game: GameConfig }) {
   const view = mapViewFromSlice(slice)
   const { t, locale } = useI18n()
   const categories = useMemo(() => localizeCategories(categoriesInView(game.categories, view), locale), [game.categories, view, locale])
-  const [openGroups, setOpenGroups] = useState<string[]>([])
-  const [openLeaves, setOpenLeaves] = useState<string[]>([])
+  const [openLeaf, setOpenLeaf] = useState<string | null>(null)
+  const allLeaves = categories.flatMap(chipsOf)
+  const total = allLeaves.reduce((sum, leaf) => sum + markersFor(game.markers, leaf).length, 0)
+  const shown = allLeaves.reduce((sum, leaf) => sum + (hidden.has(leaf.id) ? 0 : markersFor(game.markers, leaf).length), 0)
+
+  const setGroup = (ids: string[], show: boolean) => {
+    const next = new Set(slice?.hiddenCategories ?? [])
+    for (const id of ids) {
+      if (show) next.delete(id)
+      else next.add(id)
+    }
+    useMapStore.getState().setHidden(game.slug, [...next])
+  }
+
+  const zoomFor = (spread: boolean) => (game.projection === 'geographic' ? Math.min(game.maxZoom, spread ? 12 : 15) : spread ? 3 : 5)
 
   const focus = (markers: GameMarker[]) => {
     if (!api || markers.length === 0) return
     const xs = markers.map((marker) => marker.x)
     const ys = markers.map((marker) => marker.y)
-    api.flyTo((Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2, markers.length > 12 ? 3 : 5)
-  }
-
-  const renderLeaf = (node: CategoryNode) => {
-    const markers = markersFor(game.markers, node)
-    const done = countFound(markers, found)
-    const open = openLeaves.includes(node.id)
-    const visibility = visibilityOf([node.id], hidden)
-    const sprite = gta6CategoryIcons[node.id]
-    return (
-      <div key={node.id} className={cn('border-t border-white/10', open && 'bg-black/25')}>
-        <div className="flex items-center gap-1 py-2 pl-2 pr-1">
-          <button
-            type="button"
-            className={cn('grid size-8 place-items-center rounded-md', open ? 'bg-[#f3efe6] text-[#14110a]' : 'text-[#6f695f]')}
-            aria-expanded={open}
-            aria-label={`${open ? t.map.collapse : t.map.expand} ${node.name}`}
-            onClick={() => setOpenLeaves((current) => (current.includes(node.id) ? current.filter((id) => id !== node.id) : [...current, node.id]))}
-          >
-            {open ? <ChevronDown className="size-4" /> : <ChevronRight className="size-4" />}
-          </button>
-          {sprite ? <MarkerGlyph sprite={sprite} size={22} /> : <span className="size-2.5 shrink-0 rounded-full" style={{ background: node.color }} />}
-          <button type="button" className="min-w-0 flex-1 truncate text-left text-sm" onClick={() => focus(markers)}>
-            {node.name}
-          </button>
-          <span className="font-mono text-[11px] text-[#a39c90]">
-            {done}/{markers.length}
-          </span>
-          <button
-            type="button"
-            className="grid size-8 place-items-center"
-            aria-label={visibility === 'hidden' ? `${t.map.show} ${node.name}` : `${t.map.hide} ${node.name}`}
-            onClick={() => useMapStore.getState().toggleLeaves(game.slug, [node.id], visibility === 'hidden')}
-          >
-            {visibility === 'hidden' ? <EyeOff className="size-4 text-[#6f695f]" /> : <Eye className={cn('size-4', visibility === 'mixed' && 'opacity-50')} />}
-          </button>
-        </div>
-        {open ? (
-          <div className="mx-2 mb-2 max-h-64 overflow-y-auto rounded-lg border border-white/10 bg-[#07080c]">
-            {markers.length === 0 ? <p className="px-3 py-2 text-xs text-[#7d776e]">{t.map.emptySet}</p> : null}
-            {markers.map((marker) => {
-              const isFound = found.has(marker.id)
-              return (
-                <button
-                  key={marker.id}
-                  type="button"
-                  className={cn(
-                    'flex w-full items-center gap-2 px-3 py-1.5 text-left text-sm hover:bg-white/5',
-                    selectedId === marker.id && 'bg-white/10',
-                    isFound && 'text-[#8d877c]',
-                  )}
-                  onClick={() => {
-                    useMapStore.getState().select(game.slug, marker.id)
-                    api?.flyTo(marker.x, marker.y, 5)
-                  }}
-                >
-                  {sprite ? <MarkerGlyph sprite={sprite} size={16} /> : <span className="size-1.5 shrink-0 rounded-full" style={{ background: node.color }} />}
-                  <span className="min-w-0 flex-1 truncate">{markerTitle(locale, marker.title)}</span>
-                  {isFound ? <Check className="size-3.5 text-emerald-300" /> : null}
-                </button>
-              )
-            })}
-          </div>
-        ) : null}
-      </div>
-    )
+    api.flyTo((Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2, zoomFor(markers.length > 12))
   }
 
   return (
     <div>
+      <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-3 py-2">
+        <p className="text-[11px] text-[#a39c90]">{t.map.pinsShown(shown, total)}</p>
+        <div className="flex gap-3 text-[11px] font-semibold text-[#f3efe6]">
+          <button type="button" className="hover:text-[var(--game-accent)]" onClick={() => setGroup(allLeaves.map((leaf) => leaf.id), true)}>
+            {t.map.showAll}
+          </button>
+          <button type="button" className="hover:text-[var(--game-accent)]" onClick={() => setGroup(allLeaves.map((leaf) => leaf.id), false)}>
+            {t.map.hideAll}
+          </button>
+        </div>
+      </div>
       {categories.length === 0 ? <p className="px-4 py-6 text-sm text-[#a39c90]">{t.map.noLayers}</p> : null}
       {categories.map((group) => {
+        const chips = chipsOf(group)
         const ids = leafIds(group)
-        const markers = markersFor(game.markers, group)
-        const done = countFound(markers, found)
-        const open = openGroups.includes(group.id)
-        const visibility = visibilityOf(ids, hidden)
+        const groupHidden = ids.length > 0 && ids.every((id) => hidden.has(id))
+        const openNode = chips.find((node) => node.id === openLeaf)
+        const openMarkers = openNode ? markersFor(game.markers, openNode) : []
         return (
-          <section key={group.id} className="border-b border-white/10">
-            <div className={cn('flex items-center gap-2 px-3 py-3', open && 'bg-[var(--game-accent)]/15')}>
-              <button
-                type="button"
-                className={cn('grid size-8 shrink-0 place-items-center rounded-md', open ? 'bg-[var(--game-accent)] text-[#14110a]' : 'bg-white/5 text-[#6f695f]')}
-                aria-expanded={open}
-                aria-label={`${open ? t.map.collapse : t.map.expand} ${group.name}`}
-                onClick={() => setOpenGroups((current) => (current.includes(group.id) ? current.filter((id) => id !== group.id) : [...current, group.id]))}
-              >
-                {open ? <ChevronDown className="size-4" /> : <ChevronRight className="size-4" />}
-              </button>
-              <button
-                type="button"
-                className="flex min-w-0 flex-1 items-center gap-2 text-left"
-                aria-expanded={open}
-                onClick={() => setOpenGroups((current) => (current.includes(group.id) ? current.filter((id) => id !== group.id) : [...current, group.id]))}
-              >
-                <CategoryIcon name={group.icon} className="size-4 shrink-0" style={{ color: group.color }} />
-                <span className="min-w-0 flex-1">
-                  <span className="block truncate font-display text-lg leading-none tracking-wide">{group.name}</span>
-                  <span className="mt-1 flex items-center gap-2">
-                    <span className="font-mono text-[11px] text-[#a39c90]">
-                      {done}/{markers.length}
-                    </span>
-                    {open ? (
-                      <span className="rounded-full bg-[var(--game-accent)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#14110a]">
-                        {t.map.opened}
-                      </span>
-                    ) : null}
-                  </span>
-                </span>
-              </button>
-              <button
-                type="button"
-                aria-label={visibility === 'hidden' ? `${t.map.show} ${group.name}` : `${t.map.hide} ${group.name}`}
-                className="grid size-8 place-items-center"
-                onClick={() => useMapStore.getState().toggleLeaves(game.slug, ids, visibility === 'hidden')}
-              >
-                {visibility === 'hidden' ? <EyeOff className="size-4 text-[#6f695f]" /> : <Eye className={cn('size-4', visibility === 'mixed' && 'opacity-40')} />}
-              </button>
-              <button type="button" aria-label={`${t.map.fit} ${group.name}`} className="grid size-8 place-items-center" onClick={() => focus(markers)}>
-                <LocateFixed className="size-4" />
+          <section key={group.id} className="border-t border-white/10 px-2 py-2">
+            <div className="flex items-center justify-between gap-2 px-1 pb-1.5">
+              <h3 className="min-w-0 truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-[#8d877c]">{group.name}</h3>
+              <button type="button" className="shrink-0 text-[11px] font-semibold text-[#d9d3c8] hover:text-white" onClick={() => setGroup(ids, groupHidden)}>
+                {groupHidden ? t.map.show : t.map.hide}
               </button>
             </div>
-            {open ? (
-              <div className="mx-3 mb-3 overflow-hidden rounded-xl border border-[var(--game-accent)]/40 bg-black/45">
-                <div className="px-3 pt-3">
-                  <Progress value={markers.length ? (done / markers.length) * 100 : 0} label={`${group.name} ${t.map.pinsFound}`} />
-                </div>
-                <div className="mt-2">{(group.children ?? [group]).map(renderLeaf)}</div>
+            <div className="grid grid-cols-2 gap-1">
+              {chips.map((node) => {
+                const markers = markersFor(game.markers, node)
+                const off = hidden.has(node.id)
+                const sprite = gta6CategoryIcons[node.id]
+                const open = openLeaf === node.id
+                return (
+                  <div key={node.id} className="flex min-w-0 items-center rounded-md bg-white/[0.04]">
+                    <button
+                      type="button"
+                      aria-pressed={!off}
+                      className={cn('flex min-w-0 flex-1 items-center gap-1.5 px-1.5 py-1.5 text-left hover:bg-white/10', off && 'opacity-35')}
+                      onClick={() => useMapStore.getState().toggleLeaves(game.slug, [node.id], off)}
+                    >
+                      {sprite ? (
+                        <MarkerGlyph sprite={sprite} size={18} />
+                      ) : (
+                        <CategoryIcon name={node.icon} className="size-4 shrink-0" style={{ color: node.color }} />
+                      )}
+                      <span className="min-w-0 flex-1 truncate text-xs">{node.name}</span>
+                    </button>
+                    <button
+                      type="button"
+                      aria-expanded={open}
+                      aria-label={`${open ? t.map.collapse : t.map.expand} ${node.name}`}
+                      className={cn('px-1.5 py-1.5 font-mono text-[10px] text-[#8d877c] hover:text-white', open && 'text-[var(--game-accent)]')}
+                      onClick={() => setOpenLeaf(open ? null : node.id)}
+                    >
+                      {markers.length}
+                    </button>
+                  </div>
+                )
+              })}
+            </div>
+            {openNode ? (
+              <div className="mt-1 max-h-48 overflow-y-auto rounded-md border border-white/10 bg-black/40">
+                <button type="button" className="w-full px-2 py-1 text-left text-[10px] uppercase tracking-wider text-[#a39c90]" onClick={() => focus(openMarkers)}>
+                  {t.checklist.showOnMap}
+                </button>
+                {openMarkers.map((marker) => {
+                      const place = marker.tags?.[1]
+                  return (
+                    <button
+                      key={marker.id}
+                      type="button"
+                      className={cn('flex w-full items-center gap-2 px-2 py-1 text-left text-xs hover:bg-white/5', selectedId === marker.id && 'bg-white/10', found.has(marker.id) && 'text-[#8d877c]')}
+                      onClick={() => {
+                        useMapStore.getState().requestFocus({ game: game.slug, id: marker.id, x: marker.x, y: marker.y, zoom: zoomFor(false) })
+                      }}
+                    >
+                      <span className="min-w-0 flex-1 truncate">{markerTitle(locale, marker.title)}</span>
+                      {place ? <span className="max-w-[46%] truncate text-[10px] text-[#8d877c]">{place}</span> : null}
+                      {found.has(marker.id) ? <Check className="size-3 shrink-0 text-emerald-300" /> : null}
+                    </button>
+                  )
+                })}
               </div>
             ) : null}
           </section>
@@ -175,4 +144,3 @@ export function CategoryTree({ game }: { game: GameConfig }) {
     </div>
   )
 }
-

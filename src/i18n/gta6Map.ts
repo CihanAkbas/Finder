@@ -7,7 +7,7 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29021": {
     "name": "Bankamatik",
-    "description": "193 işaret."
+    "description": "223 işaret."
   },
   "mg-29030": {
     "name": "Spor salonu",
@@ -23,7 +23,7 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29022": {
     "name": "Banka",
-    "description": "10 işaret."
+    "description": "14 işaret."
   },
   "mg-29023": {
     "name": "Büyük banka",
@@ -35,7 +35,7 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29025": {
     "name": "Alt seviye kuyumcu",
-    "description": "8 işaret."
+    "description": "12 işaret."
   },
   "mg-29026": {
     "name": "Üst seviye kuyumcu",
@@ -43,11 +43,11 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29027": {
     "name": "Rehin dükkânı",
-    "description": "13 işaret."
+    "description": "15 işaret."
   },
   "mg-29037": {
     "name": "Çekilebilir bankamatik",
-    "description": "99 işaret."
+    "description": "127 işaret."
   },
   "mg-29051": {
     "name": "Market",
@@ -87,15 +87,15 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29035": {
     "name": "Elektrik şarjı",
-    "description": "89 işaret."
+    "description": "126 işaret."
   },
   "mg-29036": {
     "name": "Otobüs durağı",
-    "description": "276 işaret."
+    "description": "287 işaret."
   },
   "mg-29038": {
     "name": "Tren istasyonu",
-    "description": "21 işaret."
+    "description": "25 işaret."
   },
   "mg-29039": {
     "name": "Feribot iskelesi",
@@ -103,11 +103,11 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29040": {
     "name": "Kiralık araç",
-    "description": "2 işaret."
+    "description": "3 işaret."
   },
   "mg-29062": {
     "name": "Satın alınabilir garaj",
-    "description": "8 işaret."
+    "description": "17 işaret."
   },
   "mg-29063": {
     "name": "Garaj",
@@ -175,7 +175,7 @@ const categories: Record<string, { name?: string; description?: string }> = {
   },
   "mg-29056": {
     "name": "Sokak yemeği",
-    "description": "95 işaret."
+    "description": "119 işaret."
   },
   "mg-27134": {
     "name": "WAiNK konumları",

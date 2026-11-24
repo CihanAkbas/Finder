@@ -13,7 +13,7 @@ export const gta6Categories: CategoryNode[] = [
         "name": "ATM",
         "icon": "landmark",
         "color": "#34d399",
-        "description": "193 pins."
+        "description": "223 pins."
       },
       {
         "id": "mg-29030",
@@ -50,7 +50,7 @@ export const gta6Categories: CategoryNode[] = [
         "name": "Bank",
         "icon": "gem",
         "color": "#f472b6",
-        "description": "10 pins."
+        "description": "14 pins."
       },
       {
         "id": "mg-29023",
@@ -71,7 +71,7 @@ export const gta6Categories: CategoryNode[] = [
         "name": "Low-End Jewelry Store",
         "icon": "gem",
         "color": "#fbbf24",
-        "description": "8 pins."
+        "description": "12 pins."
       },
       {
         "id": "mg-29026",
@@ -85,14 +85,14 @@ export const gta6Categories: CategoryNode[] = [
         "name": "Pawn Shop",
         "icon": "gem",
         "color": "#86efac",
-        "description": "13 pins."
+        "description": "15 pins."
       },
       {
         "id": "mg-29037",
         "name": "ATM (Towable)",
         "icon": "gem",
         "color": "#fb7185",
-        "description": "99 pins."
+        "description": "127 pins."
       },
       {
         "id": "mg-29051",
@@ -171,21 +171,21 @@ export const gta6Categories: CategoryNode[] = [
         "name": "Electric Charger",
         "icon": "truck",
         "color": "#f472b6",
-        "description": "89 pins."
+        "description": "126 pins."
       },
       {
         "id": "mg-29036",
         "name": "Bus Stop",
         "icon": "truck",
         "color": "#a78bfa",
-        "description": "276 pins."
+        "description": "287 pins."
       },
       {
         "id": "mg-29038",
         "name": "Train Station",
         "icon": "truck",
         "color": "#fbbf24",
-        "description": "21 pins."
+        "description": "25 pins."
       },
       {
         "id": "mg-29039",
@@ -199,14 +199,14 @@ export const gta6Categories: CategoryNode[] = [
         "name": "Rental Vehicle",
         "icon": "truck",
         "color": "#86efac",
-        "description": "2 pins."
+        "description": "3 pins."
       },
       {
         "id": "mg-29062",
         "name": "Purchasable Garage",
         "icon": "truck",
         "color": "#a78bfa",
-        "description": "8 pins."
+        "description": "17 pins."
       },
       {
         "id": "mg-29063",
@@ -329,14 +329,14 @@ export const gta6Categories: CategoryNode[] = [
         "name": "Bar",
         "icon": "store",
         "color": "#ff8fb8",
-        "description": "118 pins."
+        "description": "122 pins."
       },
       {
         "id": "mg-29056",
         "name": "Street Food",
         "icon": "store",
         "color": "#7ef0e2",
-        "description": "95 pins."
+        "description": "119 pins."
       }
     ]
   },

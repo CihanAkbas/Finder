@@ -9,8 +9,8 @@ import { DialogContent, DialogDescription, DialogRoot, DialogTitle } from '@/com
 import { Progress } from '@/components/ui/form'
 import { Switch } from '@/components/ui/switch'
 import { backupPayload } from '@/lib/backup'
-import { countFound, leafCategories } from '@/lib/categories'
-import { categoriesInView, markersInView } from '@/lib/mapMode'
+import { countFound } from '@/lib/categories'
+import { markersInView } from '@/lib/mapMode'
 import type { MapMode, MapRegion } from '@/store/slice'
 import { downloadJson } from '@/lib/utils'
 import { markerTitle } from '@/i18n/markerText'
@@ -33,10 +33,6 @@ export function Sidebar({
   const region: MapRegion = slice?.mapRegion === 'cayo' ? 'cayo' : 'los-santos'
   const view = useMemo(() => ({ mode, region }), [mode, region])
   const modeMarkers = useMemo(() => markersInView(game.markers, view), [game.markers, view])
-  const modeLeaves = useMemo(
-    () => leafCategories(categoriesInView(game.categories, view)).map((category) => category.id),
-    [game.categories, view],
-  )
   const done = countFound(modeMarkers, found)
   const percent = modeMarkers.length ? (done / modeMarkers.length) * 100 : 0
   const contribute = useMapStore((state) => state.contributeMode)
@@ -144,30 +140,6 @@ export function Sidebar({
             <div className="mt-2">
               <Progress value={percent} label={view.region === 'cayo' ? `Cayo Perico ${t.map.pinsFound}` : view.mode === 'story' ? `${t.map.story} ${t.map.pinsFound}` : `${t.map.online} ${t.map.pinsFound}`} />
             </div>
-          </div>
-          <div className="flex gap-2">
-            <Button
-              size="sm"
-              variant="outline"
-              onClick={() => {
-                const hidden = new Set(slice?.hiddenCategories ?? [])
-                for (const id of modeLeaves) hidden.delete(id)
-                useMapStore.getState().setHidden(game.slug, [...hidden])
-              }}
-            >
-              {t.map.showAll}
-            </Button>
-            <Button
-              size="sm"
-              variant="outline"
-              onClick={() => {
-                const hidden = new Set(slice?.hiddenCategories ?? [])
-                for (const id of modeLeaves) hidden.add(id)
-                useMapStore.getState().setHidden(game.slug, [...hidden])
-              }}
-            >
-              {t.map.hideAll}
-            </Button>
           </div>
           <Switch id="hide-found" label={t.map.hideFound} checked={slice?.hideFound ?? false} onCheckedChange={(value) => useMapStore.getState().setHideFound(game.slug, value)} />
         </div>

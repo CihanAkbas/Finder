@@ -42,7 +42,9 @@ export function MapController({
     const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const api: MapApi = {
       flyTo(x, y, zoom) {
-        map.setView(gameToLatLng(x, y, game.bounds, game.projection), zoom ?? Math.max(map.getZoom(), 4), {
+        const close = game.projection === 'geographic' ? Math.min(game.maxZoom, 15) : 5
+        const target = zoom == null ? Math.max(map.getZoom(), close) : game.projection === 'geographic' && zoom <= game.minZoom ? close : zoom
+        map.setView(gameToLatLng(x, y, game.bounds, game.projection), target, {
           animate: !reduced(),
         })
       },
@@ -160,7 +162,9 @@ export function MapController({
       }
       const request = state.focusRequest
       if (request && request !== previous.focusRequest && request.game === game.slug) {
-        map.setView(gameToLatLng(request.x, request.y, game.bounds, game.projection), request.zoom, {
+        const close = game.projection === 'geographic' ? Math.min(game.maxZoom, 15) : request.zoom
+        const zoom = game.projection === 'geographic' && request.zoom <= game.minZoom ? close : request.zoom
+        map.setView(gameToLatLng(request.x, request.y, game.bounds, game.projection), zoom, {
           animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,
         })
         scheduleUrl()

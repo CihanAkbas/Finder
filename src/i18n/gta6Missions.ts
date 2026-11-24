@@ -163,6 +163,114 @@ export const GTA6_MISSIONS: Record<string, { en: string; tr: string }> = {
     en: "Leave the motel and meet Dre'Quan in Vice City. Reward: none.",
     tr: 'Motelden çık ve Vice City’de Dre’Quan ile buluş. Ödül yok.',
   },
+  'Welcome to Vice City': {
+    en: "Meet Dre'Quan at the Jack of Hearts and move into the nearby Bayside apartment.",
+    tr: 'Dre’Quan ile Jack of Hearts’ta buluş ve yakındaki Bayside dairesine geç.',
+  },
+  "Dealer's Choice": {
+    en: "Meet Dre'Quan to learn what Boobie wants to discuss.",
+    tr: 'Boobie’nin ne konuşmak istediğini öğrenmek için Dre’Quan ile buluş.',
+  },
+  'Dubious Provenance': {
+    en: 'Take the statue to the antique store in Capri to get it valued.',
+    tr: 'Heykeli değer biçtirmek için Capri’deki antika dükkânına götür.',
+  },
+  'Mami Knows Best': {
+    en: "Meet Lucia's mom Mia for coffee at Los Bollos in Peacock Bay.",
+    tr: 'Lucia’nın annesi Mia ile Peacock Bay’deki Los Bollos’ta kahvede buluş.',
+  },
+  Tyrone: {
+    en: "See Tyrone, Boobie's supplier, at his apartment for extra work.",
+    tr: 'Ek iş için Boobie’nin tedarikçisi Tyrone’u dairesinde gör.',
+  },
+  'Here, Kitty Kitty': {
+    en: 'Chapter 3 story mission. The open guide lists no short objective line.',
+    tr: '3. bölüm hikaye görevi. Açık rehber kısa bir hedef satırı yazmıyor.',
+  },
+  'Boobie Time': {
+    en: 'Talk to Boobie at the Jack of Hearts about work.',
+    tr: 'İş için Jack of Hearts’ta Boobie ile konuş.',
+  },
+  'Meet the Heders': {
+    en: 'Change at the apartment, then meet Brian and Lori at Effluvia rooftop bar.',
+    tr: 'Dairede giyin, sonra Brian ve Lori ile Effluvia çatı barında buluş.',
+  },
+  'Car Service': {
+    en: "Steal a car from a Salton chop shop before Brian's contact will meet.",
+    tr: 'Brian’ın bağlantısı buluşmadan önce Salton’daki bir chop shop’tan araba çal.',
+  },
+  'Top Billing': {
+    en: "Join Dre'Quan to watch the Real Dimez perform at the Jack of Hearts.",
+    tr: 'Real Dimez’in Jack of Hearts’taki performansını izlemek için Dre’Quan’a katıl.',
+  },
+  "Yasmani's Jewelry Jobs": {
+    en: 'Steal unique jewelry pieces from three stores for Yasmani.',
+    tr: 'Yasmani için üç dükkândan benzersiz mücevher parçaları çal.',
+  },
+  'First Impressions': {
+    en: "Deliver the Schafter to Brian's contact Raul in Ocean Beach.",
+    tr: 'Schafter’ı Brian’ın Ocean Beach’teki bağlantısı Raul’a teslim et.',
+  },
+  "Clonin' Keys, Makin' Gs": {
+    en: 'Steal a Granforma Zorrusso for Randy, often parked at Hathaway Apartments in Ocean Beach.',
+    tr: 'Randy için genellikle Ocean Beach’teki Hathaway Apartments’te park eden bir Granforma Zorrusso çal.',
+  },
+  'Crosstown Traffic': {
+    en: 'Lucia meets Raul at the Courtyard in Stockyard; Jason meets Karim by the docks in La Perle.',
+    tr: 'Lucia Stockyard’daki Courtyard’da Raul ile; Jason La Perle rıhtımında Karim ile buluşur.',
+  },
+  'Credit Check': {
+    en: "Visit Raul's place with your partner for another opportunity.",
+    tr: 'Başka bir fırsat için partnerinle Raul’un yerine git.',
+  },
+  'Ride or Die': {
+    en: "Jason only. Help Dre'Quan get back at DWNPLY.",
+    tr: 'Yalnız Jason. Dre’Quan’ın DWNPLY’den hesap sormasına yardım et.',
+  },
+  'Sinfrontera National Bank': {
+    en: "Scope the Sinfrontera National Bank's security for Raul's heist.",
+    tr: 'Raul’un soygunu için Sinfrontera National Bank güvenliğini keşfet.',
+  },
+  'Security Expert': {
+    en: 'Kidnap the safe expert and deliver her to Raul.',
+    tr: 'Kasa uzmanını kaçırıp Raul’a teslim et.',
+  },
+  'Caught Slipping': {
+    en: 'The apartment was broken into. Catch the robbers before they escape.',
+    tr: 'Daireye girilmiş. Soyguncuları kaçmadan yakala.',
+  },
+  'Company Property': {
+    en: 'Meet Brian at Skeeters and collect hardware for Raul.',
+    tr: 'Raul için donanımı almak üzere Brian ile Skeeters’ta buluş.',
+  },
+  Cooties: {
+    en: "Help Dre'Quan and the Real Dimez shoot their music video in Crosstown.",
+    tr: 'Dre’Quan ve Real Dimez’in Crosstown’daki kliplerine yardım et.',
+  },
+  'South Leonida Real Estate': {
+    en: "Lucia only. Meet Mia about the house she's selling.",
+    tr: 'Yalnız Lucia. Mia ile sattığı ev hakkında buluş.',
+  },
+  'The Missing Link': {
+    en: 'Lucia only. Join Andrea to learn which safe boxes to hit in the bank.',
+    tr: 'Yalnız Lucia. Bankada hangi kasalara gireceğinizi öğrenmek için Andrea’ya katıl.',
+  },
+  'Safe Word': {
+    en: 'Steal a practice safe of a similar model before the heist.',
+    tr: 'Soygundan önce benzer model bir pratik kasa çal.',
+  },
+  'Hidden Charges': {
+    en: 'Meet Karim in the planning room about the heist explosives.',
+    tr: 'Soygun patlayıcıları için Karim ile plan odasında buluş.',
+  },
+  'Bricked Up': {
+    en: 'Wait at the apartment; Boobie wants to talk.',
+    tr: 'Dairede bekle; Boobie konuşmak istiyor.',
+  },
+  'The Cartel Heist': {
+    en: 'Start Raul’s heist on the Sinfrontera National Bank from the planning room.',
+    tr: 'Plan odasından Sinfrontera National Bank soygununu başlat.',
+  },
 }
 
 export const GTA6_MISSABLES: Array<{ id: string; title: string; en: string; tr: string }> = [
@@ -207,5 +315,17 @@ export const GTA6_MISSABLES: Array<{ id: string; title: string; en: string; tr: 
     title: "Donnie's H&L .38 Revolver",
     en: 'Chapter 1 weapon, missable during Don Gone.',
     tr: '1. bölüm silahı. Don Gone sırasında kaçırılabilir.',
+  },
+  {
+    id: 'gta6-miss-crowex',
+    title: "Crowex Octane 'Bobby Ambrose' Watch",
+    en: 'Chapter 3 missable in Dubious Provenance. Offer Benedict Halifax the statue when he offers his watch; refusing the first time locks it out.',
+    tr: '3. bölümde Dubious Provenance sırasında kaçırılabilir. Benedict Halifax saatini teklif ettiğinde heykeli ver; ilk teklifi reddetmek kilitleyebilir.',
+  },
+  {
+    id: 'gta6-miss-vanessa',
+    title: "Vanessa's Present",
+    en: 'Chapter 3 missable. Solve the locked laptop password in the Bayside apartment during Chapter 3 for a free garage and car; later chapters lock it out.',
+    tr: '3. bölümde kaçırılabilir. Bayside dairesindeki kilitli dizüstü şifresini 3. bölümde çözersen bedava garaj ve araba gelir; sonraki bölümlerde kilitlenir.',
   },
 ]

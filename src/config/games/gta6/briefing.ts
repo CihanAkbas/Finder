@@ -4,7 +4,7 @@ export type BriefBlock = {
   body: { en: string; tr: string }[]
 }
 
-/** Facts taken from the public guide dated November 19, 2026. Not a walkthrough. */
+/** Facts taken from the public guide. Not a walkthrough. */
 export const GTA6_BRIEFING: BriefBlock[] = [
   {
     id: 'cast',
@@ -21,6 +21,10 @@ export const GTA6_BRIEFING: BriefBlock[] = [
       {
         en: 'Brian Heder (Stephen Root) runs product through his boat yard with Lori. Cal Hampton works with Jason at the boatworks. Andy is Lucia’s friend. Vicki Wallis works at Delights Cabaret in Port Gellhorn. Moses Watkins runs a chop shop there. Dunk is another Port Gellhorn local. Wyman is the off-grid mechanic tied to the Ultimate Edition cars.',
         tr: 'Brian Heder (Stephen Root) ürünü, Lori ile birlikte tekne sahasından geçirir. Cal Hampton, Jason ile boatworks’te çalışır. Andy, Lucia’nın arkadaşıdır. Vicki Wallis, Port Gellhorn’daki Delights Cabaret’te çalışır. Moses Watkins orada bir chop shop işletir. Dunk da Port Gellhorn’dandır. Wyman, Ultimate Edition arabalarına bağlanan şebekeden kopuk tamircidir.',
+      },
+      {
+        en: 'Chapter 3 moves into Vice City around Boobie Ike, Dre’Quan Priest, Raul, Tyrone, and Lucia’s mother Mia. The chapter title is Tits Ass Drugs Money and the open guide lists 27 story missions ending at The Cartel Heist.',
+        tr: '3. bölüm Vice City’de Boobie Ike, Dre’Quan Priest, Raul, Tyrone ve Lucia’nın annesi Mia çevresinde ilerler. Bölüm adı Tits Ass Drugs Money’dir; açık rehber The Cartel Heist ile biten 27 hikaye görevi sayar.',
       },
     ],
   },
@@ -91,8 +95,8 @@ export const GTA6_BRIEFING: BriefBlock[] = [
     title: { en: 'Phone', tr: 'Telefon' },
     body: [
       {
-        en: 'Contacts, camera, gallery, news, and weather are on the phone from the start. WhatUp holds messages. Scooter Bros delivers a car for a fee. RydeMe is a paid ride. BuckMe is the bank, and cash still goes in through an ATM. Snapmatic is the social feed. WAiNK scans landmarks, curiosities, sculptures, billboards, and tags. Vice City Real Estate sells garages. The cop scanner and key cloner arrive later as plugins.',
-        tr: 'Kişiler, kamera, galeri, haber ve hava durumu baştan telefondadır. WhatUp mesajları tutar. Scooter Bros, ücretle araba getirir. RydeMe ücretli bir yolculuktur. BuckMe bankadır; nakit yine bir ATM’den yatar. Snapmatic sosyal akıştır. WAiNK simge yer, tuhaflık, heykel, pano ve tag tarar. Vice City Real Estate garaj satar. Polis tarayıcısı ve anahtar kopyalayıcı sonra eklenti olarak gelir.',
+        en: 'Contacts, camera, gallery, news, and weather are on the phone from the start. WhatUp holds messages. Scooter Bros delivers a car for a fee; Scooter Bros Premium is $12,500 and can fetch a wanted car before it is impounded. RydeMe is a paid ride, and skipping the journey on rideshare or cabs costs $50 extra. Buses and trains can also skip to a stop on that line. BuckMe is the bank, and cash still goes in through an ATM. Snapmatic is the social feed. WAiNK scans landmarks, curiosities, sculptures, billboards, and tags. Vice City Real Estate sells garages. The cop scanner and key cloner arrive later as plugins.',
+        tr: 'Kişiler, kamera, galeri, haber ve hava durumu baştan telefondadır. WhatUp mesajları tutar. Scooter Bros ücretle araba getirir; Scooter Bros Premium 12.500 $’dır ve aranan arabayı çekilmeden önce getirebilir. RydeMe ücretli yolculuktur; yolculuğu atlamak taksi veya rideshare’de ekstra 50 $’dır. Otobüs ve tren de o hattın durağına atlayabilir. BuckMe bankadır; nakit yine bir ATM’den yatar. Snapmatic sosyal akıştır. WAiNK simge yer, tuhaflık, heykel, pano ve tag tarar. Vice City Real Estate garaj satar. Polis tarayıcısı ve anahtar kopyalayıcı sonra eklenti olarak gelir.',
       },
     ],
   },
@@ -103,6 +107,10 @@ export const GTA6_BRIEFING: BriefBlock[] = [
       {
         en: 'Illegal operations, side recoveries, and fencing product are the early cash. Deposit it through BuckMe instead of carrying it. Pay ’n’ Spray changes a vehicle’s look before a fence will take it. The guide’s 100% line wants $200,000 in vehicles fenced, and $100,000 each in narcotics, jewelry, and marked bills.',
         tr: 'Yasa dışı operasyonlar, yan toplamalar ve malı alıcıya satmak erken nakittir. Üstünde taşımak yerine BuckMe ile yatır. Pay ’n’ Spray, alıcı arabayı almadan önce görünüşünü değiştirir. Rehberin %100 satırı 200.000 $ araç, uyuşturucu, mücevher ve işaretli banknot için de 100.000’er $ satış ister.',
+      },
+      {
+        en: 'Fences pay differently by item type. Preview the offer on the map before dumping a whole bag. Early Vice City drugs, marked bills, and jewelry keep better if you wait for Boobie’s Jason jobs to unlock local fences. Entering a shop with a bandana on alerts people even when you are not robbing.',
+        tr: 'Alıcılar ürün tipine göre farklı öder. Bütün çantayı dökmeden önce haritada teklife bak. Erken Vice City uyuşturucusu, işaretli banknot ve mücevher, Boobie’nin Jason işleri yerel alıcıları açana kadar bekletilirse daha iyi satılır. Bandanalı dükkâna girmek, soymasan bile insanları uyarır.',
       },
     ],
   },

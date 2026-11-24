@@ -476,6 +476,9 @@ const CLASSES: Record<string, string> = {
   Plane: 'Uçak',
   Cycle: 'Bisiklet',
   Rail: 'Raylı',
+  'Randy vehicle': 'Randy aracı',
+  'Moses vehicle': 'Moses aracı',
+  'Standout vehicle': 'Standout araç',
 }
 
 const WHEELS: Record<string, string> = {
