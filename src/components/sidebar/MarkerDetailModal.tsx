@@ -30,7 +30,7 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
   if (!marker && !pin) return null
 
   const category = marker ? localizeCategory(categories.get(marker.category), locale) : undefined
-  const sprite = marker && game.slug === 'gta6' ? gta6Sprite(marker.category, marker.tags) : undefined
+  const sprite = marker && game.slug === 'gta6' ? gta6Sprite(marker.category) : undefined
   const found = marker ? (slice?.found.includes(marker.id) ?? false) : false
   const pointId = marker?.id ?? pin?.id ?? ''
   const favorite = slice?.favorites.includes(pointId) ?? false

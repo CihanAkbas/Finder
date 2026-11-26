@@ -43,7 +43,7 @@ export function MarkerLayer({ game }: { game: GameConfig }) {
         title: today ? `${markerTitle(locale, marker.title)} · ${t.map.today}` : markerTitle(locale, marker.title),
         color: today ? '#F59E0B' : categories.get(marker.category)?.color ?? game.accent,
         found: isFound,
-        icon: game.slug === 'gta6' ? gta6Sprite(marker.category, marker.tags) : undefined,
+        icon: game.slug === 'gta6' ? gta6Sprite(marker.category) : undefined,
       })
     }
     for (const pin of slice?.customPins ?? []) {

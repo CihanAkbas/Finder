@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict'
+import sharp from 'sharp'
+import { gta6Atlas, gta6CategoryIcons } from '../src/config/games/gta6/markerIcons.ts'
 import { writeFileSync } from 'node:fs'
 import { gta6Categories } from '../src/config/games/gta6/categories.ts'
 import { GTA6_NOISE_LAYERS, GTA6_PLAYER_VIEWS, playerViewHidden } from '../src/config/games/gta6/playLayers.ts'
@@ -13,6 +15,22 @@ const leafNames = leafCategories([...GTA6_STORY_CATEGORIES, ...gta6Categories])
 const allMarkers = [...markers, ...GTA6_STORY_PINS]
 const markerIds = new Set(allMarkers.map((marker) => marker.id))
 const leafIds = new Set(leafNames.map((leaf) => leaf.id))
+assert.ok(gta6Atlas.url.startsWith('/maps/'), 'Icons must be served locally')
+const atlas = await sharp(`public${gta6Atlas.url}`).ensureAlpha().raw().toBuffer({ resolveWithObject: true })
+assert.equal(atlas.info.width, gta6Atlas.width)
+assert.equal(atlas.info.height, gta6Atlas.height)
+for (const leaf of leafNames) {
+  const sprite = gta6CategoryIcons[leaf.id]
+  assert.ok(sprite, `Missing category icon: ${leaf.id}`)
+  assert.ok(sprite.x >= 0 && sprite.y >= 0 && sprite.x + sprite.w <= atlas.info.width && sprite.y + sprite.h <= atlas.info.height, `Icon outside atlas: ${leaf.id}`)
+  let visible = false
+  for (let y = sprite.y; y < sprite.y + sprite.h && !visible; y++) {
+    for (let x = sprite.x; x < sprite.x + sprite.w; x++) {
+      if (atlas.data[(y * atlas.info.width + x) * 4 + 3] > 0) { visible = true; break }
+    }
+  }
+  assert.ok(visible, `Blank category icon: ${leaf.id}`)
+}
 assert.equal(markerIds.size, allMarkers.length, 'Duplicate marker IDs')
 assert.equal(leafIds.size, leafNames.length, 'Duplicate category IDs')
 for (const marker of allMarkers) {
