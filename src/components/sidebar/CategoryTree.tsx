@@ -33,7 +33,7 @@ export function CategoryTree({ game }: { game: GameConfig }) {
   const [openLeaf, setOpenLeaf] = useState<string | null>(null)
   const allLeaves = categories.flatMap(chipsOf)
   const total = allLeaves.reduce((sum, leaf) => sum + markersFor(game.markers, leaf).length, 0)
-  const shown = allLeaves.reduce((sum, leaf) => sum + (hidden.has(leaf.id) ? 0 : markersFor(game.markers, leaf).length), 0)
+  const shown = allLeaves.reduce((sum, leaf) => sum + markersFor(game.markers, leaf).filter((marker) => marker.id === selectedId || (!hidden.has(leaf.id) && !(slice?.hideFound && found.has(marker.id)))).length, 0)
 
   const setGroup = (ids: string[], show: boolean) => {
     const next = new Set(hidden)
@@ -132,7 +132,7 @@ export function CategoryTree({ game }: { game: GameConfig }) {
                       className={cn('px-1.5 py-1.5 font-mono text-[10px] text-[#8d877c] hover:text-white', open && 'text-[var(--game-accent)]')}
                       onClick={() => setOpenLeaf(open ? null : node.id)}
                     >
-                      {markers.length}
+                      {node.worldTotal ? `${markers.length}/${node.worldTotal}` : markers.length}
                     </button>
                   </div>
                 )

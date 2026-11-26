@@ -1,5 +1,6 @@
 import { gta6Categories } from './categories'
 import { leafCategories } from '@/lib/categories'
+import { COMMUNITY_LAYERS, communityCategories } from './community'
 
 /**
  * Layers that cover Leonida when every pin is on.
@@ -7,6 +8,7 @@ import { leafCategories } from '@/lib/categories'
  * The player can turn any of these back on from the filter list.
  */
 export const GTA6_NOISE_LAYERS = [
+  ...COMMUNITY_LAYERS.filter((layer) => ['discoveries', 'encounters'].includes(layer.group) || ['vehicle-spawn', 'helipad', 'landmark', 'city-town'].includes(layer.id)).map((layer) => `community-${layer.id}`),
   'mg-29036',
   'mg-29021',
   'mg-29037',
@@ -46,16 +48,19 @@ export const GTA6_NOISE_LAYERS = [
 
 /** Group IDs follow the catalog so newly added categories join their relevant view. */
 export const GTA6_PLAYER_VIEWS = [
-  { id: 'services', title: { en: 'Essentials', tr: 'Temel ihtiyaçlar' }, groups: ['mg-27128', 'mg-27130', 'mg-27131', 'mg-27132'] },
+  { id: 'services', title: { en: 'Essentials', tr: 'Temel ihtiyaçlar' }, groups: ['mg-27128', 'mg-27130', 'mg-27131', 'mg-27132', 'community-personal', 'community-places'] },
   { id: 'money', title: { en: 'Money', tr: 'Para kazan' }, groups: ['mg-27129', 'mg-27140'] },
-  { id: 'collect', title: { en: 'Collectibles', tr: 'Koleksiyon' }, groups: ['mg-27134', 'mg-27137', 'mg-27138'] },
+  { id: 'collect', title: { en: 'Collectibles', tr: 'Koleksiyon' }, groups: ['mg-27134', 'mg-27137', 'mg-27138', 'community-discoveries'] },
   { id: 'activities', title: { en: 'Activities', tr: 'Etkinlikler' }, groups: ['mg-27123', 'mg-27125', 'mg-27127', 'mg-27136'] },
+  { id: 'equipment', title: { en: 'Weapons & vehicles', tr: 'Silah ve araç' }, groups: ['community-equipment', 'mg-27130'] },
+  { id: 'mysteries', title: { en: 'Encounters & secrets', tr: 'Karşılaşma ve sırlar' }, groups: ['community-encounters'] },
 ] as const
 
 export function playerViewHidden(id: typeof GTA6_PLAYER_VIEWS[number]['id']): string[] {
   const view = GTA6_PLAYER_VIEWS.find((item) => item.id === id)!
   const visibleGroups = new Set<string>(view.groups)
-  return gta6Categories.flatMap((group) => visibleGroups.has(group.id) ? [] : leafCategories([group]).map((leaf) => leaf.id))
+  const moneyLayers = new Set(['community-hidden-package', 'community-yellow-loot-box', 'community-scoop-container', 'community-treasure'])
+  return [...communityCategories, ...gta6Categories].flatMap((group) => visibleGroups.has(group.id) ? [] : leafCategories([group]).filter((leaf) => id !== 'money' || !moneyLayers.has(leaf.id)).map((leaf) => leaf.id))
 }
 
 type LayerSlice = {

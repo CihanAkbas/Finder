@@ -21,6 +21,8 @@ export type GameMarker = {
   videoUrl?: string
   tags?: string[]
   source?: MarkerSource
+  sourceUrl?: string
+  reviewedAt?: string
   placeholder?: boolean
 }
 

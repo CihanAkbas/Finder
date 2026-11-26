@@ -13,6 +13,8 @@ npm run dev
 
 Open `/gta5` or `/gta6/map`.
 
+The 26 November 2026 map review adds 2,169 sourced community positions in 28 new categories. These positions are explicitly approximate, with source links and review dates. The map has 5,321 records in 129 categories; this is not a claim of exhaustive in-game coverage. See [the research and coverage notes](docs/gta6-map-research.md). The sidebar includes source credits and coverage gaps. Use `npm run icons:generate` after changing categories.
+
 GTA VI starts with dense layers hidden. Use Play to restore this view, or choose Essentials, Money, Collectibles, or Activities in the sidebar. Individual categories and saved views remain customizable. A selected pin stays visible even when its category or found pins are hidden.
 
 Run `npm run audit:map` to validate category IDs, coordinates, checklist links, tip links, and player views. Add `-- --report` to write `scripts/player-audit.json`. The catalog currently links 16 of 68 story missions to published locations; missions without a catalog location have no invented waypoint. Catalog checks validate local consistency, not the accuracy or freshness of external guides.

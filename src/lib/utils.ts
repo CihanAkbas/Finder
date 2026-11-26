@@ -14,8 +14,8 @@ export function formatCoord(value: number, digits = 1) {
   return value.toFixed(digits)
 }
 
-export function coordText(point: { x: number; y: number; z?: number }) {
-  const plane = `${point.x.toFixed(2)}, ${point.y.toFixed(2)}`
+export function coordText(point: { x: number; y: number; z?: number }, precision = 2) {
+  const plane = `${point.x.toFixed(precision)}, ${point.y.toFixed(precision)}`
   return point.z == null ? plane : `${plane}, ${point.z.toFixed(2)}`
 }
 

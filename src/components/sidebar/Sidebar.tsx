@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react'
 import { Download, Menu, Search, Upload, X } from 'lucide-react'
 import { CategoryTree } from '@/components/sidebar/CategoryTree'
+import { MapCoverage } from '@/components/sidebar/MapCoverage'
 import { HeatmapPanel } from '@/components/sidebar/HeatmapPanel'
 import { Button } from '@/components/ui/button'
 import { DialogContent, DialogDescription, DialogRoot, DialogTitle } from '@/components/ui/dialog'
@@ -145,6 +146,7 @@ export function Sidebar({
         </div>
         <div>
           <CategoryTree game={game} />
+          {game.slug === 'gta6' ? <MapCoverage /> : null}
           {game.slug === 'gta6' ? <HeatmapPanel /> : null}
           <details className="border-t border-white/10 px-4 py-3">
           <summary className="cursor-pointer text-xs uppercase tracking-[0.14em] text-[#a39c90]">{t.map.personal}</summary>

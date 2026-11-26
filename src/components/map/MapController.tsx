@@ -112,7 +112,8 @@ export function MapController({
       const point = latLngToGame(event.latlng.lat, event.latlng.lng, game.bounds, game.projection)
       const state = useMapStore.getState()
       if (state.contributeMode) {
-        const payload = JSON.stringify({ x: roundCoord(point.x), y: roundCoord(point.y) })
+        const precision = game.projection === 'geographic' ? 6 : 2
+        const payload = JSON.stringify({ x: roundCoord(point.x, precision), y: roundCoord(point.y, precision) })
         void copyText(payload).then(
           () => state.showToast(t.map.coordsCopied),
           () => state.showToast(t.map.coordsBlocked),

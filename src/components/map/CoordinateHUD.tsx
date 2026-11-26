@@ -43,8 +43,8 @@ export function CoordinateHUD({ gameSlug }: { gameSlug: string }) {
           </button>
         </Hint>
       </div>
-      <div>X {point ? formatCoord(point.x, 2) : '—'}</div>
-      <div>Y {point ? formatCoord(point.y, 2) : '—'}</div>
+      <div>X {point ? formatCoord(point.x, gameSlug === 'gta6' ? 6 : 2) : '—'}</div>
+      <div>Y {point ? formatCoord(point.y, gameSlug === 'gta6' ? 6 : 2) : '—'}</div>
       <div>ZOOM {camera ? formatCoord(camera.z, 2) : '—'}</div>
     </div>
   )

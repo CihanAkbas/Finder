@@ -18,5 +18,5 @@ const cells = gta6IconDefinitions.map((entry) => {
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${gta6Atlas.width}" height="${gta6Atlas.height}">${cells.join('')}</svg>`
 const directory = fileURLToPath(new URL('../public/maps/gta6/', import.meta.url))
 await mkdir(directory, { recursive: true })
-await writeFile(`${directory}marker-atlas-v1.png`, await sharp(Buffer.from(svg)).png().toBuffer())
+await writeFile(`${directory}${gta6Atlas.url.split('/').pop()}`, await sharp(Buffer.from(svg)).png().toBuffer())
 console.log(`Generated ${gta6IconDefinitions.length} local category icons`)

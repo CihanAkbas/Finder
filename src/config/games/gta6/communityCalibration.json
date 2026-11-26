@@ -1,0 +1,2272 @@
+{
+  "reviewedAt": "2026-11-26",
+  "sourceUpdatedAt": "2026-11-25T21:11:45Z",
+  "source": "https://www.gtabase.com/gta-6/map/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceRecords": 5661,
+  "projection": "Linear x, linear Web Mercator y; calibrated community positions, not independent in-game verification",
+  "fx": {
+    "scale": 0.00004285885085716449,
+    "offset": -0.540367998424115
+  },
+  "fy": {
+    "scale": 0.000042891011477991775,
+    "offset": 0.6688570113317889
+  },
+  "anchors": [
+    {
+      "id": "gta6-loc-1089532",
+      "externalId": "basketball-027",
+      "name": "Hoop 76 – Leonard County",
+      "x": -1261.6,
+      "y": 3184
+    },
+    {
+      "id": "gta6-loc-1089569",
+      "externalId": "pool-008",
+      "name": "Opponent Pool - Zotico's",
+      "x": -2833.3,
+      "y": 831.5
+    },
+    {
+      "id": "gta6-loc-1089572",
+      "externalId": "pool-009",
+      "name": "Pool - Tisha-Wocka Flea Market",
+      "x": -2792.3,
+      "y": 745.5
+    },
+    {
+      "id": "gta6-loc-1089580",
+      "externalId": "shooting-range-014",
+      "name": "Griffin Shooting Range",
+      "x": -2318.3,
+      "y": 1247.3
+    },
+    {
+      "id": "gta6-loc-1089581",
+      "externalId": "shooting-range-015",
+      "name": "Griffin Free Fire Range",
+      "x": -2296.9,
+      "y": 1242.9
+    },
+    {
+      "id": "gta6-loc-1089582",
+      "externalId": "shooting-range-013",
+      "name": "Griffin 3-Point Range",
+      "x": -2333.8,
+      "y": 1287.3
+    },
+    {
+      "id": "gta6-loc-1089583",
+      "externalId": "shooting-range-012",
+      "name": "Griffin Hook Range",
+      "x": -2328.1,
+      "y": 1330.1
+    },
+    {
+      "id": "gta6-loc-1089584",
+      "externalId": "shooting-range-011",
+      "name": "Griffin Loop Range",
+      "x": -2350.7,
+      "y": 1343.4
+    },
+    {
+      "id": "gta6-loc-1089585",
+      "externalId": "shooting-range-010",
+      "name": "Griffin Maze Range",
+      "x": -2383.1,
+      "y": 1365.1
+    },
+    {
+      "id": "gta6-loc-1089586",
+      "externalId": "shooting-range-009",
+      "name": "Griffin Compound Range",
+      "x": -2430.2,
+      "y": 1407.6
+    },
+    {
+      "id": "gta6-loc-1089587",
+      "externalId": "shooting-range-008",
+      "name": "Griffin Villa Range",
+      "x": -2506,
+      "y": 1458.3
+    },
+    {
+      "id": "gta6-loc-1089598",
+      "externalId": "gym-006",
+      "name": "Dynamix Fitness",
+      "x": -357.9,
+      "y": 1512
+    },
+    {
+      "id": "gta6-loc-1089604",
+      "externalId": "nightclub-005",
+      "name": "The Vault",
+      "x": -769.5,
+      "y": 471.9
+    },
+    {
+      "id": "gta6-loc-1089605",
+      "externalId": "nightclub-001",
+      "name": "NINE1NINE",
+      "x": -672.8,
+      "y": 484.5
+    },
+    {
+      "id": "gta6-loc-1089606",
+      "externalId": "nightclub-003",
+      "name": "Jack of Hearts",
+      "x": -673,
+      "y": 1210.1
+    },
+    {
+      "id": "gta6-loc-1089682",
+      "externalId": "stunt-jump-066",
+      "name": "Blackwell Sandrock Stunt Jump",
+      "x": -465.8,
+      "y": 1289.1
+    },
+    {
+      "id": "gta6-loc-1089692",
+      "externalId": "stunt-jump-062",
+      "name": "Mastodon U.S.A Stunt jump",
+      "x": -489.8,
+      "y": 1690.6
+    },
+    {
+      "id": "gta6-loc-1089709",
+      "externalId": "stunt-jump-051",
+      "name": "South Ambrosia Broken Bridge Stunt Jump",
+      "x": -3140.2,
+      "y": 2973.3
+    },
+    {
+      "id": "gta6-loc-1089715",
+      "externalId": "stunt-jump-072",
+      "name": "Leone Street Stunt Jump",
+      "x": -2060.2,
+      "y": 1030.4
+    },
+    {
+      "id": "gta6-loc-1089724",
+      "externalId": "stunt-jump-074",
+      "name": "Vice-Dale Police Parking Stunt Jump",
+      "x": -825.7,
+      "y": 768.7
+    },
+    {
+      "id": "gta6-loc-1089729",
+      "externalId": "stunt-jump-060",
+      "name": "Waste Transfer Services South Stunt Jump",
+      "x": -2292.1,
+      "y": 1806.3
+    },
+    {
+      "id": "gta6-loc-1089730",
+      "externalId": "stunt-jump-057",
+      "name": "Waste Transfer Services North Stunt Jump",
+      "x": -2316.8,
+      "y": 2114.9
+    },
+    {
+      "id": "gta6-loc-1089731",
+      "externalId": "stunt-jump-053",
+      "name": "Waste Transfer Services Lake Stunt Jump",
+      "x": -1986.3,
+      "y": 2453.3
+    },
+    {
+      "id": "gta6-loc-1089746",
+      "externalId": "stunt-jump-063",
+      "name": "La Perle Parking Lot Stunt Jump",
+      "x": -1130.9,
+      "y": 1557.7
+    },
+    {
+      "id": "gta6-loc-1089750",
+      "externalId": "stunt-jump-073",
+      "name": "Apollo Aggregates South Stunt Jump",
+      "x": -1940.3,
+      "y": 812.5
+    },
+    {
+      "id": "gta6-loc-1089757",
+      "externalId": "stunt-jump-054",
+      "name": "Waste Transfer Services Pond Stunt Jump",
+      "x": -2318.6,
+      "y": 2401.6
+    },
+    {
+      "id": "gta6-loc-1089789",
+      "externalId": "stunt-jump-056",
+      "name": "Interstate 97 West Stunt Jump",
+      "x": -571.4,
+      "y": 2131.5
+    },
+    {
+      "id": "gta6-loc-1089791",
+      "externalId": "stunt-jump-058",
+      "name": "Interstate 97 East Stunt Jump",
+      "x": -539,
+      "y": 2080.2
+    },
+    {
+      "id": "gta6-loc-1090003",
+      "externalId": "ammu-nation-022",
+      "name": "Tactical Outlet Guns",
+      "x": -2012,
+      "y": 2814
+    },
+    {
+      "id": "gta6-loc-1090004",
+      "externalId": "ammu-nation-015",
+      "name": "Jackson Firearms",
+      "x": -1708,
+      "y": 421
+    },
+    {
+      "id": "gta6-loc-1090011",
+      "externalId": "ammu-nation-018",
+      "name": "Black Eagle",
+      "x": -2564,
+      "y": 1376
+    },
+    {
+      "id": "gta6-loc-1090014",
+      "externalId": "ammu-nation-004",
+      "name": "Iron & Oak",
+      "x": -257.1,
+      "y": 1846.2
+    },
+    {
+      "id": "gta6-loc-1090021",
+      "externalId": "ammu-nation-003",
+      "name": "Vice City Gun & Pawn",
+      "x": -1248.7,
+      "y": 646.5
+    },
+    {
+      "id": "gta6-loc-1090022",
+      "externalId": "ammu-nation-019",
+      "name": "Zenon's Pawn Shop",
+      "x": -1118,
+      "y": 1320
+    },
+    {
+      "id": "gta6-loc-1090023",
+      "externalId": "ammu-nation-016",
+      "name": "Pawn & Gun - Crosstown",
+      "x": -749,
+      "y": 656
+    },
+    {
+      "id": "gta6-loc-1090152",
+      "externalId": "smash-n-grab-014",
+      "name": "Fast Cash",
+      "x": -1183.9,
+      "y": 225.5
+    },
+    {
+      "id": "gta6-loc-1090154",
+      "externalId": "smash-n-grab-017",
+      "name": "Dorado Pawn Shop",
+      "x": -1188,
+      "y": 707
+    },
+    {
+      "id": "gta6-loc-1090156",
+      "externalId": "smash-n-grab-019",
+      "name": "Down Town Pawn",
+      "x": -765.9,
+      "y": 901.5
+    },
+    {
+      "id": "gta6-loc-1090158",
+      "externalId": "smash-n-grab-018",
+      "name": "White Sand Jewelry Pawn",
+      "x": -1157.8,
+      "y": 1107.7
+    },
+    {
+      "id": "gta6-loc-1090160",
+      "externalId": "smash-n-grab-021",
+      "name": "Pawn Stash",
+      "x": -620.7,
+      "y": 1657.6
+    },
+    {
+      "id": "gta6-loc-1090163",
+      "externalId": "smash-n-grab-015",
+      "name": "The Jewelry Place",
+      "x": -2783,
+      "y": 760
+    },
+    {
+      "id": "gta6-loc-1090164",
+      "externalId": "smash-n-grab-016",
+      "name": "Crown Jewels",
+      "x": -2816.8,
+      "y": 718.5
+    },
+    {
+      "id": "gta6-loc-1090165",
+      "externalId": "smash-n-grab-022",
+      "name": "Blanc & Giroux",
+      "x": -281.8,
+      "y": 2232.8
+    },
+    {
+      "id": "gta6-loc-1090167",
+      "externalId": "smash-n-grab-023",
+      "name": "Roval Jewelry",
+      "x": -327,
+      "y": 2257
+    },
+    {
+      "id": "gta6-loc-1090168",
+      "externalId": "smash-n-grab-024",
+      "name": "Covgari",
+      "x": -300,
+      "y": 2310
+    },
+    {
+      "id": "gta6-loc-1090202",
+      "externalId": "convenience-store-056",
+      "name": "247 - Belville",
+      "x": -1793.4,
+      "y": 2704.2
+    },
+    {
+      "id": "gta6-loc-1090203",
+      "externalId": "convenience-store-057",
+      "name": "Xero Food Mart - Belville",
+      "x": -1417.3,
+      "y": 2517.6
+    },
+    {
+      "id": "gta6-loc-1090205",
+      "externalId": "convenience-store-054",
+      "name": "Alpha Convenience Store - Belville",
+      "x": -786.7,
+      "y": 2936.7
+    },
+    {
+      "id": "gta6-loc-1090207",
+      "externalId": "convenience-store-034",
+      "name": "RON Stop'N'Snack - Salton",
+      "x": -1973.9,
+      "y": 174.5
+    },
+    {
+      "id": "gta6-loc-1090208",
+      "externalId": "convenience-store-030",
+      "name": "Delgado & Sons",
+      "x": -1829.8,
+      "y": 378.6
+    },
+    {
+      "id": "gta6-loc-1090211",
+      "externalId": "convenience-store-046",
+      "name": "Xero Food Mart - Rockridge",
+      "x": -1287.7,
+      "y": 1003
+    },
+    {
+      "id": "gta6-loc-1090212",
+      "externalId": "convenience-store-005",
+      "name": "Vetiver Minimarket",
+      "x": -1007.8,
+      "y": 1536.1
+    },
+    {
+      "id": "gta6-loc-1090213",
+      "externalId": "convenience-store-074",
+      "name": "Blessed Food Market",
+      "x": -1088.1,
+      "y": 1200.5
+    },
+    {
+      "id": "gta6-loc-1090214",
+      "externalId": "convenience-store-047",
+      "name": "Rico's Convenience Store",
+      "x": -1279.8,
+      "y": 808.6
+    },
+    {
+      "id": "gta6-loc-1090215",
+      "externalId": "convenience-store-041",
+      "name": "Xero Food Mart - La Perle",
+      "x": -619.5,
+      "y": 1916.6
+    },
+    {
+      "id": "gta6-loc-1090218",
+      "externalId": "convenience-store-048",
+      "name": "Emilio's Auto Center Food Store",
+      "x": -1089.1,
+      "y": 731.8
+    },
+    {
+      "id": "gta6-loc-1090220",
+      "externalId": "convenience-store-035",
+      "name": "Xero Food Mart - Salton",
+      "x": -1560.6,
+      "y": -85.9
+    },
+    {
+      "id": "gta6-loc-1090221",
+      "externalId": "convenience-store-044",
+      "name": "Hugo's Quick-Mart",
+      "x": -876.9,
+      "y": 891.7
+    },
+    {
+      "id": "gta6-loc-1090222",
+      "externalId": "convenience-store-075",
+      "name": "Xero Food Mart - Crosstown",
+      "x": -701.6,
+      "y": 1150.5
+    },
+    {
+      "id": "gta6-loc-1090223",
+      "externalId": "convenience-store-045",
+      "name": "XYZ Market",
+      "x": -779.1,
+      "y": 991.3
+    },
+    {
+      "id": "gta6-loc-1090224",
+      "externalId": "convenience-store-024",
+      "name": "247 - Bayside",
+      "x": -420.9,
+      "y": 1632.6
+    },
+    {
+      "id": "gta6-loc-1090225",
+      "externalId": "convenience-store-033",
+      "name": "RON Stop'N'Snack - Little Cuba",
+      "x": -1048.7,
+      "y": 211.9
+    },
+    {
+      "id": "gta6-loc-1090226",
+      "externalId": "convenience-store-049",
+      "name": "Globe Oil Food Center - Crosstown",
+      "x": -761.5,
+      "y": 659.3
+    },
+    {
+      "id": "gta6-loc-1090255",
+      "externalId": "food-and-drink-027",
+      "name": "Peewees - Belville",
+      "x": -1381.9,
+      "y": 2872.3
+    },
+    {
+      "id": "gta6-loc-1090256",
+      "externalId": "food-and-drink-026",
+      "name": "Taco Bomb - Belville",
+      "x": -1300,
+      "y": 2540
+    },
+    {
+      "id": "gta6-loc-1090258",
+      "externalId": "food-and-drink-021",
+      "name": "Chacey's Salton",
+      "x": -2315,
+      "y": 170
+    },
+    {
+      "id": "gta6-loc-1090260",
+      "externalId": "food-and-drink-023",
+      "name": "Peewees - Rockridge",
+      "x": -1334,
+      "y": 539
+    },
+    {
+      "id": "gta6-loc-1090272",
+      "externalId": "liquor-store-009",
+      "name": "Zak's Liquor",
+      "x": -748.3,
+      "y": 1789.5
+    },
+    {
+      "id": "gta6-loc-1090273",
+      "externalId": "liquor-store-006",
+      "name": "Palmis Liquor",
+      "x": -1067,
+      "y": 1270.3
+    },
+    {
+      "id": "gta6-loc-1090274",
+      "externalId": "liquor-store-007",
+      "name": "Dutch Courage",
+      "x": -647,
+      "y": 1216
+    },
+    {
+      "id": "gta6-loc-1090275",
+      "externalId": "liquor-store-008",
+      "name": "Uncle Jack's Liquor - Bayside",
+      "x": -390,
+      "y": 1258
+    },
+    {
+      "id": "gta6-loc-1090284",
+      "externalId": "fence-009",
+      "name": "Randy",
+      "x": -2634,
+      "y": 855
+    },
+    {
+      "id": "gta6-loc-1090286",
+      "externalId": "fence-013",
+      "name": "Yasmani",
+      "x": -1208.3,
+      "y": 85
+    },
+    {
+      "id": "gta6-loc-1090287",
+      "externalId": "fence-012",
+      "name": "Tyrone",
+      "x": -808.1,
+      "y": 1420.4
+    },
+    {
+      "id": "gta6-loc-1090305",
+      "externalId": "safe-029",
+      "name": "Office Safe - Saber Shipping Facility",
+      "x": -1432,
+      "y": 178
+    },
+    {
+      "id": "gta6-loc-1090306",
+      "externalId": "safe-027",
+      "name": "Safe - Casa Guardia",
+      "x": -1134,
+      "y": 379
+    },
+    {
+      "id": "gta6-loc-1090307",
+      "externalId": "safe-026",
+      "name": "Safe - Saber Shipping Facility",
+      "x": -1558,
+      "y": 595
+    },
+    {
+      "id": "gta6-loc-1090308",
+      "externalId": "safe-024",
+      "name": "Safe - Parlor Apartments",
+      "x": -1335.3,
+      "y": 696.8
+    },
+    {
+      "id": "gta6-loc-1090313",
+      "externalId": "safe-023",
+      "name": "Safe - Leonida Carrier Warehouse",
+      "x": -2304,
+      "y": 703
+    },
+    {
+      "id": "gta6-loc-1090314",
+      "externalId": "safe-019",
+      "name": "Safe - Cigar Import Front",
+      "x": -1076.3,
+      "y": 1259.4
+    },
+    {
+      "id": "gta6-loc-1090315",
+      "externalId": "safe-022",
+      "name": "Safe -Janjak's Garage",
+      "x": -1259,
+      "y": 1202
+    },
+    {
+      "id": "gta6-loc-1090316",
+      "externalId": "safe-018",
+      "name": "Safe - Illegal Sneaker Trade",
+      "x": -995,
+      "y": 1486
+    },
+    {
+      "id": "gta6-loc-1090317",
+      "externalId": "safe-017",
+      "name": "Safe - Sound4Sound Studio",
+      "x": -391.4,
+      "y": 1907.5
+    },
+    {
+      "id": "gta6-loc-1090345",
+      "externalId": "base-jump-007",
+      "name": "One Stracathro Tower Base Jump",
+      "x": -404.1,
+      "y": 1099.6
+    },
+    {
+      "id": "gta6-loc-1090350",
+      "externalId": "base-jump-006",
+      "name": "Archipelago Apartments North Base Jump",
+      "x": -476.6,
+      "y": 1128.8
+    },
+    {
+      "id": "gta6-loc-1090389",
+      "externalId": "knife-flight-010",
+      "name": "Aida Towers Knife Flight",
+      "x": -441.2,
+      "y": 897.9
+    },
+    {
+      "id": "gta6-loc-1090390",
+      "externalId": "knife-flight-008",
+      "name": "Archipelago Apartments Knife Flight",
+      "x": -449.7,
+      "y": 1135
+    },
+    {
+      "id": "gta6-loc-1090391",
+      "externalId": "knife-flight-007",
+      "name": "Tidemark Knife Flight",
+      "x": -360.6,
+      "y": 1402.1
+    },
+    {
+      "id": "gta6-loc-1090504",
+      "externalId": "under-the-bridge-137",
+      "name": "Tisha-Wocka Flea Market Bridge",
+      "x": -2843.5,
+      "y": 494.7
+    },
+    {
+      "id": "gta6-loc-1090507",
+      "externalId": "under-the-bridge-122",
+      "name": "S-17 Canal Swing Bridge",
+      "x": -2351.7,
+      "y": 992
+    },
+    {
+      "id": "gta6-loc-1090516",
+      "externalId": "under-the-bridge-108",
+      "name": "S-17 Canal Drawbridge South",
+      "x": -1206.3,
+      "y": 1598.3
+    },
+    {
+      "id": "gta6-loc-1090517",
+      "externalId": "under-the-bridge-103",
+      "name": "S-17 Canal Drawbridge Central",
+      "x": -930.1,
+      "y": 1786.5
+    },
+    {
+      "id": "gta6-loc-1090519",
+      "externalId": "under-the-bridge-091",
+      "name": "S-17 Canal Drawbridge North",
+      "x": -664.8,
+      "y": 2206.2
+    },
+    {
+      "id": "gta6-loc-1090603",
+      "externalId": "pay-n-spray-009",
+      "name": "Pay 'N' Spray - Balsero",
+      "x": -1824,
+      "y": 359
+    },
+    {
+      "id": "gta6-loc-1090604",
+      "externalId": "pay-n-spray-010",
+      "name": "Pay 'N' Spray - La Perle",
+      "x": -1128,
+      "y": 1210
+    },
+    {
+      "id": "gta6-loc-1090606",
+      "externalId": "pay-n-spray-011",
+      "name": "Pay 'N' Spray - Stockyard",
+      "x": -436,
+      "y": 1746
+    },
+    {
+      "id": "gta6-loc-1090623",
+      "externalId": "vehicle-mod-shop-010",
+      "name": "Lowballers Customs",
+      "x": -2245,
+      "y": 295
+    },
+    {
+      "id": "gta6-loc-1090624",
+      "externalId": "vehicle-mod-shop-009",
+      "name": "Vice Auto Customs",
+      "x": -1605,
+      "y": 390
+    },
+    {
+      "id": "gta6-loc-1090625",
+      "externalId": "vehicle-mod-shop-001",
+      "name": "Rideout Customs",
+      "x": -867.4,
+      "y": 962.7
+    },
+    {
+      "id": "gta6-loc-1090628",
+      "externalId": "vehicle-mod-shop-012",
+      "name": "Stockyard Speedshop",
+      "x": -245,
+      "y": 1949
+    },
+    {
+      "id": "gta6-loc-1090646",
+      "externalId": "gas-station-031",
+      "name": "Xero Gas - Salton",
+      "x": -1554.3,
+      "y": -62.2
+    },
+    {
+      "id": "gta6-loc-1090647",
+      "externalId": "gas-station-030",
+      "name": "RON Gas - Salton",
+      "x": -1993.4,
+      "y": 175.7
+    },
+    {
+      "id": "gta6-loc-1090648",
+      "externalId": "gas-station-041",
+      "name": "Ron Gas - Little Cuba",
+      "x": -1050.6,
+      "y": 203.2
+    },
+    {
+      "id": "gta6-loc-1090651",
+      "externalId": "gas-station-039",
+      "name": "Emilio's Auto Center Gas",
+      "x": -1085.6,
+      "y": 721.5
+    },
+    {
+      "id": "gta6-loc-1090652",
+      "externalId": "gas-station-040",
+      "name": "Globe Oil Gas - Crosstown",
+      "x": -748.9,
+      "y": 669.4
+    },
+    {
+      "id": "gta6-loc-1090656",
+      "externalId": "gas-station-038",
+      "name": "Vargo's Gas",
+      "x": -877.1,
+      "y": 884
+    },
+    {
+      "id": "gta6-loc-1090662",
+      "externalId": "gas-station-036",
+      "name": "Arrow Gas - La Perle",
+      "x": -979,
+      "y": 1598.2
+    },
+    {
+      "id": "gta6-loc-1090664",
+      "externalId": "gas-station-034",
+      "name": "Xero Gas - La Perle",
+      "x": -641.1,
+      "y": 1914.1
+    },
+    {
+      "id": "gta6-loc-1090668",
+      "externalId": "gas-station-048",
+      "name": "Xero Gas - Belville",
+      "x": -1420.6,
+      "y": 2496.2
+    },
+    {
+      "id": "gta6-loc-1090670",
+      "externalId": "gas-station-047",
+      "name": "247 Gas - Belville",
+      "x": -1821,
+      "y": 2707.1
+    },
+    {
+      "id": "gta6-loc-1090674",
+      "externalId": "gas-station-045",
+      "name": "Alpha Gas - Belville",
+      "x": -771.8,
+      "y": 2928
+    },
+    {
+      "id": "gta6-loc-1090692",
+      "externalId": "car-wash-003",
+      "name": "Park N Glow",
+      "x": -1775,
+      "y": -84
+    },
+    {
+      "id": "gta6-loc-1090693",
+      "externalId": "car-wash-002",
+      "name": "RON Car Wash - Salton",
+      "x": -1983,
+      "y": 197
+    },
+    {
+      "id": "gta6-loc-1090694",
+      "externalId": "car-wash-004",
+      "name": "RON Car Wash - Balsero",
+      "x": -2030,
+      "y": 1148
+    },
+    {
+      "id": "gta6-loc-1090695",
+      "externalId": "car-wash-006",
+      "name": "Xero Car Wash - La Perle",
+      "x": -590,
+      "y": 1889
+    },
+    {
+      "id": "gta6-loc-1090856",
+      "externalId": "bus-stop-155",
+      "name": "NW 3rd St - C",
+      "x": -984.6,
+      "y": 166.1
+    },
+    {
+      "id": "gta6-loc-1090860",
+      "externalId": "bus-stop-164",
+      "name": "NW 4th Ave - F",
+      "x": -1204.8,
+      "y": 40.7
+    },
+    {
+      "id": "gta6-loc-1090862",
+      "externalId": "bus-stop-131",
+      "name": "North Vice Ave - G",
+      "x": -707.9,
+      "y": 463.9
+    },
+    {
+      "id": "gta6-loc-1090865",
+      "externalId": "bus-stop-128",
+      "name": "NE 1st Ave - A",
+      "x": -555.1,
+      "y": 552.8
+    },
+    {
+      "id": "gta6-loc-1090866",
+      "externalId": "bus-stop-157",
+      "name": "NW 3rd St - B",
+      "x": -1153,
+      "y": 163
+    },
+    {
+      "id": "gta6-loc-1090872",
+      "externalId": "bus-stop-181",
+      "name": "Westbrook Dr - G",
+      "x": -1441.4,
+      "y": -91
+    },
+    {
+      "id": "gta6-loc-1090873",
+      "externalId": "bus-stop-183",
+      "name": "NW 16th Ave - A",
+      "x": -1491.7,
+      "y": -156.7
+    },
+    {
+      "id": "gta6-loc-1090875",
+      "externalId": "bus-stop-147",
+      "name": "NW 4th Ave - G",
+      "x": -1198.1,
+      "y": 265.2
+    },
+    {
+      "id": "gta6-loc-1090878",
+      "externalId": "bus-stop-180",
+      "name": "NW 20th St - A",
+      "x": -1483.7,
+      "y": -64.8
+    },
+    {
+      "id": "gta6-loc-1090879",
+      "externalId": "bus-stop-177",
+      "name": "NW 20th St - B",
+      "x": -1480.8,
+      "y": -51.2
+    },
+    {
+      "id": "gta6-loc-1090880",
+      "externalId": "bus-stop-117",
+      "name": "NE 1st Ave - B",
+      "x": -558.1,
+      "y": 726.3
+    },
+    {
+      "id": "gta6-loc-1090881",
+      "externalId": "bus-stop-184",
+      "name": "NW 18th Ave - B",
+      "x": -1602.9,
+      "y": -171.2
+    },
+    {
+      "id": "gta6-loc-1090882",
+      "externalId": "bus-stop-162",
+      "name": "Westbrook Dr - H",
+      "x": -1494.1,
+      "y": 43.7
+    },
+    {
+      "id": "gta6-loc-1090883",
+      "externalId": "bus-stop-116",
+      "name": "NE 1st Ave - D",
+      "x": -582.1,
+      "y": 751.2
+    },
+    {
+      "id": "gta6-loc-1090885",
+      "externalId": "bus-stop-175",
+      "name": "SR-25 - E",
+      "x": -1562.7,
+      "y": -44
+    },
+    {
+      "id": "gta6-loc-1090886",
+      "externalId": "bus-stop-119",
+      "name": "North Vice Ave - I",
+      "x": -711.8,
+      "y": 718.8
+    },
+    {
+      "id": "gta6-loc-1090887",
+      "externalId": "bus-stop-115",
+      "name": "NE 1st Ave - E",
+      "x": -581.1,
+      "y": 768.8
+    },
+    {
+      "id": "gta6-loc-1090889",
+      "externalId": "bus-stop-137",
+      "name": "NW 4th Ave - I",
+      "x": -1231.9,
+      "y": 401.7
+    },
+    {
+      "id": "gta6-loc-1090890",
+      "externalId": "bus-stop-110",
+      "name": "Delphino Cir - A",
+      "x": -420.1,
+      "y": 848.6
+    },
+    {
+      "id": "gta6-loc-1090891",
+      "externalId": "bus-stop-173",
+      "name": "SR-25 - C",
+      "x": -1650.7,
+      "y": -43.2
+    },
+    {
+      "id": "gta6-loc-1090894",
+      "externalId": "bus-stop-156",
+      "name": "NW 19th St - C",
+      "x": -1571.2,
+      "y": 164.3
+    },
+    {
+      "id": "gta6-loc-1090895",
+      "externalId": "bus-stop-099",
+      "name": "Delphino Cir - B",
+      "x": -348.6,
+      "y": 956.1
+    },
+    {
+      "id": "gta6-loc-1090897",
+      "externalId": "bus-stop-152",
+      "name": "Westbrook Dr - I",
+      "x": -1557.1,
+      "y": 212.3
+    },
+    {
+      "id": "gta6-loc-1090899",
+      "externalId": "bus-stop-103",
+      "name": "Catalan Blvd - L",
+      "x": -525.3,
+      "y": 927.9
+    },
+    {
+      "id": "gta6-loc-1090900",
+      "externalId": "bus-stop-127",
+      "name": "NW 8th St - A",
+      "x": -1238.5,
+      "y": 559.3
+    },
+    {
+      "id": "gta6-loc-1090901",
+      "externalId": "bus-stop-123",
+      "name": "NW 8th St - B",
+      "x": -1072.3,
+      "y": 698.2
+    },
+    {
+      "id": "gta6-loc-1090903",
+      "externalId": "bus-stop-091",
+      "name": "Rialto Cswy - L",
+      "x": -325.1,
+      "y": 996.4
+    },
+    {
+      "id": "gta6-loc-1090904",
+      "externalId": "bus-stop-166",
+      "name": "NW 19th St - B",
+      "x": -1711.7,
+      "y": 35.4
+    },
+    {
+      "id": "gta6-loc-1090905",
+      "externalId": "bus-stop-100",
+      "name": "Catalan Blvd - M",
+      "x": -548.2,
+      "y": 949.4
+    },
+    {
+      "id": "gta6-loc-1090906",
+      "externalId": "bus-stop-106",
+      "name": "North Vice Ave - K",
+      "x": -756.6,
+      "y": 880.3
+    },
+    {
+      "id": "gta6-loc-1090908",
+      "externalId": "bus-stop-169",
+      "name": "NW 19th St - A",
+      "x": -1744.2,
+      "y": 16.7
+    },
+    {
+      "id": "gta6-loc-1090909",
+      "externalId": "bus-stop-092",
+      "name": "Rialto Cswy - J",
+      "x": -451.6,
+      "y": 995
+    },
+    {
+      "id": "gta6-loc-1090912",
+      "externalId": "bus-stop-087",
+      "name": "Rialto Cswy - K",
+      "x": -425.9,
+      "y": 1022.9
+    },
+    {
+      "id": "gta6-loc-1090913",
+      "externalId": "bus-stop-089",
+      "name": "Rialto Cswy - I",
+      "x": -602.8,
+      "y": 1005.8
+    },
+    {
+      "id": "gta6-loc-1090914",
+      "externalId": "bus-stop-085",
+      "name": "Delphino Cir - C",
+      "x": -369.1,
+      "y": 1070.7
+    },
+    {
+      "id": "gta6-loc-1090915",
+      "externalId": "bus-stop-109",
+      "name": "NW 9th Ave - A",
+      "x": -964.4,
+      "y": 869.5
+    },
+    {
+      "id": "gta6-loc-1090918",
+      "externalId": "bus-stop-133",
+      "name": "NW 17th St - D",
+      "x": -1582.1,
+      "y": 429.6
+    },
+    {
+      "id": "gta6-loc-1090920",
+      "externalId": "bus-stop-113",
+      "name": "NW 9th St - C",
+      "x": -1130.6,
+      "y": 820.8
+    },
+    {
+      "id": "gta6-loc-1090921",
+      "externalId": "bus-stop-086",
+      "name": "Rialto Cswy - G",
+      "x": -725.3,
+      "y": 1024.3
+    },
+    {
+      "id": "gta6-loc-1090923",
+      "externalId": "bus-stop-093",
+      "name": "Rialto Cswy - F",
+      "x": -817.2,
+      "y": 994.5
+    },
+    {
+      "id": "gta6-loc-1090924",
+      "externalId": "bus-stop-111",
+      "name": "NW 9th St - B",
+      "x": -1141.5,
+      "y": 839.8
+    },
+    {
+      "id": "gta6-loc-1090926",
+      "externalId": "bus-stop-118",
+      "name": "Northbrook Dr - B",
+      "x": -1341.9,
+      "y": 720.8
+    },
+    {
+      "id": "gta6-loc-1090927",
+      "externalId": "bus-stop-134",
+      "name": "NW 17th St - C",
+      "x": -1656.1,
+      "y": 421.7
+    },
+    {
+      "id": "gta6-loc-1090928",
+      "externalId": "bus-stop-120",
+      "name": "Northbrook Dr - A",
+      "x": -1365.4,
+      "y": 710.7
+    },
+    {
+      "id": "gta6-loc-1090934",
+      "externalId": "bus-stop-104",
+      "name": "NW 6th Ave",
+      "x": -1113.7,
+      "y": 911.2
+    },
+    {
+      "id": "gta6-loc-1090937",
+      "externalId": "bus-stop-114",
+      "name": "Northbrook Dr - C",
+      "x": -1321.6,
+      "y": 805.6
+    },
+    {
+      "id": "gta6-loc-1090939",
+      "externalId": "bus-stop-095",
+      "name": "Rialto Cswy - D",
+      "x": -1043.4,
+      "y": 982.6
+    },
+    {
+      "id": "gta6-loc-1090940",
+      "externalId": "bus-stop-088",
+      "name": "Rialto Cswy - E",
+      "x": -996,
+      "y": 1013.1
+    },
+    {
+      "id": "gta6-loc-1090942",
+      "externalId": "bus-stop-073",
+      "name": "Mirimar Dr - C",
+      "x": -575.3,
+      "y": 1177.1
+    },
+    {
+      "id": "gta6-loc-1090945",
+      "externalId": "bus-stop-084",
+      "name": "NW 9th Ave - B",
+      "x": -927,
+      "y": 1077.6
+    },
+    {
+      "id": "gta6-loc-1090946",
+      "externalId": "bus-stop-108",
+      "name": "NW 9th St - A",
+      "x": -1289.7,
+      "y": 871.2
+    },
+    {
+      "id": "gta6-loc-1090948",
+      "externalId": "bus-stop-071",
+      "name": "Mirimar Dr - B",
+      "x": -628.1,
+      "y": 1202.5
+    },
+    {
+      "id": "gta6-loc-1090951",
+      "externalId": "bus-stop-097",
+      "name": "Rialto Cswy - C",
+      "x": -1203.1,
+      "y": 964
+    },
+    {
+      "id": "gta6-loc-1090955",
+      "externalId": "bus-stop-102",
+      "name": "Rialto Cswy - B",
+      "x": -1276.5,
+      "y": 937.1
+    },
+    {
+      "id": "gta6-loc-1090958",
+      "externalId": "bus-stop-066",
+      "name": "Mirimar Dr - A",
+      "x": -653.8,
+      "y": 1251.3
+    },
+    {
+      "id": "gta6-loc-1090959",
+      "externalId": "bus-stop-062",
+      "name": "Catalan Blvd - N",
+      "x": -417.7,
+      "y": 1309.4
+    },
+    {
+      "id": "gta6-loc-1090962",
+      "externalId": "bus-stop-083",
+      "name": "NW 8th Ave - A",
+      "x": -1133.3,
+      "y": 1085.5
+    },
+    {
+      "id": "gta6-loc-1090964",
+      "externalId": "bus-stop-081",
+      "name": "NW 8th Ave - B",
+      "x": -1151.1,
+      "y": 1100.7
+    },
+    {
+      "id": "gta6-loc-1090965",
+      "externalId": "bus-stop-094",
+      "name": "Northbrook Dr - D",
+      "x": -1341.2,
+      "y": 985.5
+    },
+    {
+      "id": "gta6-loc-1090966",
+      "externalId": "bus-stop-069",
+      "name": "NW 9th Ave - D",
+      "x": -934.5,
+      "y": 1213.3
+    },
+    {
+      "id": "gta6-loc-1090967",
+      "externalId": "bus-stop-090",
+      "name": "Northbrook Dr - E",
+      "x": -1322.2,
+      "y": 1000
+    },
+    {
+      "id": "gta6-loc-1090968",
+      "externalId": "bus-stop-061",
+      "name": "NE 4th Ave - A",
+      "x": -654.7,
+      "y": 1324.8
+    },
+    {
+      "id": "gta6-loc-1090970",
+      "externalId": "bus-stop-139",
+      "name": "NW 17th St - B",
+      "x": -1976.4,
+      "y": 391.3
+    },
+    {
+      "id": "gta6-loc-1090973",
+      "externalId": "bus-stop-054",
+      "name": "Catalan Blvd - O",
+      "x": -423.2,
+      "y": 1415.1
+    },
+    {
+      "id": "gta6-loc-1090974",
+      "externalId": "bus-stop-055",
+      "name": "NE 4th Ave - B",
+      "x": -545.3,
+      "y": 1406.8
+    },
+    {
+      "id": "gta6-loc-1090975",
+      "externalId": "bus-stop-067",
+      "name": "Del Rio Blvd - H",
+      "x": -1034.6,
+      "y": 1239.6
+    },
+    {
+      "id": "gta6-loc-1090976",
+      "externalId": "bus-stop-098",
+      "name": "Rialto Cswy - A",
+      "x": -1545,
+      "y": 959.7
+    },
+    {
+      "id": "gta6-loc-1090977",
+      "externalId": "bus-stop-135",
+      "name": "SR-25 - B",
+      "x": -2043.9,
+      "y": 416
+    },
+    {
+      "id": "gta6-loc-1090978",
+      "externalId": "bus-stop-140",
+      "name": "NW 17th St - A",
+      "x": -2095.8,
+      "y": 380.3
+    },
+    {
+      "id": "gta6-loc-1090979",
+      "externalId": "bus-stop-057",
+      "name": "NW 9th Ave - E",
+      "x": -902.6,
+      "y": 1377
+    },
+    {
+      "id": "gta6-loc-1090982",
+      "externalId": "bus-stop-047",
+      "name": "Catalan Blvd - P",
+      "x": -352.3,
+      "y": 1539
+    },
+    {
+      "id": "gta6-loc-1090983",
+      "externalId": "bus-stop-060",
+      "name": "Del Rio Blvd - G",
+      "x": -1047.9,
+      "y": 1344.8
+    },
+    {
+      "id": "gta6-loc-1090984",
+      "externalId": "bus-stop-058",
+      "name": "Del Rio Blvd - J",
+      "x": -1019.6,
+      "y": 1360
+    },
+    {
+      "id": "gta6-loc-1090985",
+      "externalId": "bus-stop-076",
+      "name": "Del Rio Blvd - E",
+      "x": -1386.5,
+      "y": 1167.4
+    },
+    {
+      "id": "gta6-loc-1090986",
+      "externalId": "bus-stop-143",
+      "name": "NW 15th Ave - B",
+      "x": -2190,
+      "y": 350.1
+    },
+    {
+      "id": "gta6-loc-1090988",
+      "externalId": "bus-stop-044",
+      "name": "Catalan Blvd - Q",
+      "x": -352.8,
+      "y": 1579.8
+    },
+    {
+      "id": "gta6-loc-1090989",
+      "externalId": "bus-stop-079",
+      "name": "Del Rio Blvd - D",
+      "x": -1491.3,
+      "y": 1146.8
+    },
+    {
+      "id": "gta6-loc-1090991",
+      "externalId": "bus-stop-041",
+      "name": "NE 5th Ave - A",
+      "x": -461,
+      "y": 1599.5
+    },
+    {
+      "id": "gta6-loc-1090992",
+      "externalId": "bus-stop-074",
+      "name": "Del Rio Blvd - C",
+      "x": -1544.8,
+      "y": 1172.1
+    },
+    {
+      "id": "gta6-loc-1090993",
+      "externalId": "bus-stop-046",
+      "name": "NW 12th St - B",
+      "x": -895.1,
+      "y": 1548.4
+    },
+    {
+      "id": "gta6-loc-1090994",
+      "externalId": "bus-stop-080",
+      "name": "Del Rio Blvd - A",
+      "x": -1692.4,
+      "y": 1103.2
+    },
+    {
+      "id": "gta6-loc-1090995",
+      "externalId": "bus-stop-077",
+      "name": "Del Rio Blvd - B",
+      "x": -1661.9,
+      "y": 1160.2
+    },
+    {
+      "id": "gta6-loc-1090996",
+      "externalId": "bus-stop-043",
+      "name": "NW 12th St - A",
+      "x": -941.2,
+      "y": 1584
+    },
+    {
+      "id": "gta6-loc-1090997",
+      "externalId": "bus-stop-034",
+      "name": "Catalan Blvd - R",
+      "x": -263.8,
+      "y": 1741.8
+    },
+    {
+      "id": "gta6-loc-1091000",
+      "externalId": "bus-stop-033",
+      "name": "NE 5th Ave - C",
+      "x": -378.3,
+      "y": 1742.5
+    },
+    {
+      "id": "gta6-loc-1091001",
+      "externalId": "bus-stop-036",
+      "name": "NE 14th St",
+      "x": -628.2,
+      "y": 1698.8
+    },
+    {
+      "id": "gta6-loc-1091002",
+      "externalId": "bus-stop-136",
+      "name": "NW 15th Ave - A",
+      "x": -2380.9,
+      "y": 413
+    },
+    {
+      "id": "gta6-loc-1091003",
+      "externalId": "bus-stop-037",
+      "name": "NW 13th St",
+      "x": -707.4,
+      "y": 1698.7
+    },
+    {
+      "id": "gta6-loc-1091004",
+      "externalId": "bus-stop-031",
+      "name": "Catalan Blvd - S",
+      "x": -212.1,
+      "y": 1781.6
+    },
+    {
+      "id": "gta6-loc-1091005",
+      "externalId": "bus-stop-042",
+      "name": "Del Rio Blvd - I",
+      "x": -1029.2,
+      "y": 1593.5
+    },
+    {
+      "id": "gta6-loc-1091007",
+      "externalId": "bus-stop-039",
+      "name": "Del Rio Blvd - K",
+      "x": -906.8,
+      "y": 1671.7
+    },
+    {
+      "id": "gta6-loc-1091008",
+      "externalId": "bus-stop-030",
+      "name": "NE 5th Ave - D",
+      "x": -357,
+      "y": 1811.9
+    },
+    {
+      "id": "gta6-loc-1091010",
+      "externalId": "bus-stop-027",
+      "name": "NW 4th St - B",
+      "x": -469.5,
+      "y": 1847.6
+    },
+    {
+      "id": "gta6-loc-1091011",
+      "externalId": "bus-stop-025",
+      "name": "Coral Ave - B",
+      "x": -429.7,
+      "y": 1861
+    },
+    {
+      "id": "gta6-loc-1091012",
+      "externalId": "bus-stop-032",
+      "name": "Del Rio Blvd - L",
+      "x": -839.6,
+      "y": 1769.2
+    },
+    {
+      "id": "gta6-loc-1091014",
+      "externalId": "bus-stop-022",
+      "name": "NE 5th Ave - E",
+      "x": -314.2,
+      "y": 1885.9
+    },
+    {
+      "id": "gta6-loc-1091015",
+      "externalId": "bus-stop-029",
+      "name": "Del Rio Blvd - M",
+      "x": -729.6,
+      "y": 1817.9
+    },
+    {
+      "id": "gta6-loc-1091016",
+      "externalId": "bus-stop-026",
+      "name": "Coral Ave - A",
+      "x": -572.2,
+      "y": 1859.3
+    },
+    {
+      "id": "gta6-loc-1091020",
+      "externalId": "bus-stop-105",
+      "name": "Omega Pkwy",
+      "x": -2268.2,
+      "y": 896.9
+    },
+    {
+      "id": "gta6-loc-1091022",
+      "externalId": "bus-stop-019",
+      "name": "NE 5th Ave - F",
+      "x": -315.3,
+      "y": 1953.7
+    },
+    {
+      "id": "gta6-loc-1091026",
+      "externalId": "bus-stop-017",
+      "name": "NE 17th St",
+      "x": -256.1,
+      "y": 2046.3
+    },
+    {
+      "id": "gta6-loc-1091034",
+      "externalId": "bus-stop-009",
+      "name": "Crockett Ter",
+      "x": -346.6,
+      "y": 2179.8
+    },
+    {
+      "id": "gta6-loc-1091039",
+      "externalId": "bus-stop-112",
+      "name": "SR-25 - A",
+      "x": -2714.2,
+      "y": 824.8
+    },
+    {
+      "id": "gta6-loc-1091054",
+      "externalId": "bus-stop-003",
+      "name": "Discovery St - B",
+      "x": -1101.5,
+      "y": 2831.8
+    },
+    {
+      "id": "gta6-loc-1091084",
+      "externalId": "vehicle-rental-002",
+      "name": "Stockyard Speedshop Rentals",
+      "x": -416.4,
+      "y": 1782.4
+    },
+    {
+      "id": "gta6-loc-1091089",
+      "externalId": "garage-005",
+      "name": "Persistence Road Garage",
+      "x": -1705,
+      "y": 2637
+    },
+    {
+      "id": "gta6-loc-1091096",
+      "externalId": "garage-012",
+      "name": "NE 15th Street Garage",
+      "x": -335,
+      "y": 1710
+    },
+    {
+      "id": "gta6-loc-1091145",
+      "externalId": "standout-vehicle-038",
+      "name": "Ocelot Bloodless Jugular",
+      "x": -1394.2,
+      "y": 3047.6
+    },
+    {
+      "id": "gta6-loc-1091180",
+      "externalId": "standout-vehicle-054",
+      "name": "Dundreary Cherry Bomb Chino",
+      "x": -1387.1,
+      "y": 161.4
+    },
+    {
+      "id": "gta6-loc-1091189",
+      "externalId": "standout-vehicle-048",
+      "name": "Canis Gunrunner Kamacho",
+      "x": -2310.8,
+      "y": 678.3
+    },
+    {
+      "id": "gta6-loc-1091190",
+      "externalId": "standout-vehicle-045",
+      "name": "Declasse Pink Gin Tulip",
+      "x": -1265.2,
+      "y": 1206.7
+    },
+    {
+      "id": "gta6-loc-1091191",
+      "externalId": "standout-vehicle-041",
+      "name": "Pegassi Charred Toros",
+      "x": -759,
+      "y": 1709
+    },
+    {
+      "id": "gta6-loc-1091192",
+      "externalId": "standout-vehicle-040",
+      "name": "Buckingham Bourbon Windsor",
+      "x": -402.1,
+      "y": 1929.7
+    },
+    {
+      "id": "gta6-loc-1091206",
+      "externalId": "clothing-001",
+      "name": "Stock 305",
+      "x": -337.5,
+      "y": 1766.5
+    },
+    {
+      "id": "gta6-loc-1091207",
+      "externalId": "clothing-011",
+      "name": "Urban Legendz",
+      "x": -637,
+      "y": 1176
+    },
+    {
+      "id": "gta6-loc-1091208",
+      "externalId": "clothing-013",
+      "name": "Slinger - Decor District",
+      "x": -336,
+      "y": 2098
+    },
+    {
+      "id": "gta6-loc-1091211",
+      "externalId": "clothing-012",
+      "name": "Drip Drops",
+      "x": -1006,
+      "y": 1494
+    },
+    {
+      "id": "gta6-loc-1091232",
+      "externalId": "clothing-040",
+      "name": "Nola - Decor District",
+      "x": -236,
+      "y": 2177
+    },
+    {
+      "id": "gta6-loc-1091233",
+      "externalId": "clothing-041",
+      "name": "Ferruccio Tucci - Decor District",
+      "x": -244,
+      "y": 2213
+    },
+    {
+      "id": "gta6-loc-1091254",
+      "externalId": "clothing-049",
+      "name": "Little Cuba Souvenir Store",
+      "x": -1208,
+      "y": 18
+    },
+    {
+      "id": "gta6-loc-1091255",
+      "externalId": "clothing-047",
+      "name": "Souvenir Shop",
+      "x": -2778.4,
+      "y": 784.3
+    },
+    {
+      "id": "gta6-loc-1091256",
+      "externalId": "clothing-048",
+      "name": "Dollar Domain",
+      "x": -2777.7,
+      "y": 733.5
+    },
+    {
+      "id": "gta6-loc-1091262",
+      "externalId": "clothing-069",
+      "name": "Dr Froogal",
+      "x": -375,
+      "y": 1811
+    },
+    {
+      "id": "gta6-loc-1091263",
+      "externalId": "clothing-068",
+      "name": "Aline's Thrift Store",
+      "x": -1010,
+      "y": 1430
+    },
+    {
+      "id": "gta6-loc-1091267",
+      "externalId": "footwear-006",
+      "name": "Callus - Decor District",
+      "x": -204,
+      "y": 2242
+    },
+    {
+      "id": "gta6-loc-1091273",
+      "externalId": "footwear-015",
+      "name": "WHS - Little Cuba",
+      "x": -1178.9,
+      "y": 60
+    },
+    {
+      "id": "gta6-loc-1091286",
+      "externalId": "haircut-013",
+      "name": "Clip & Fade",
+      "x": -290,
+      "y": 1807
+    },
+    {
+      "id": "gta6-loc-1091287",
+      "externalId": "haircut-012",
+      "name": "Crosstown Cutz",
+      "x": -623,
+      "y": 1192
+    },
+    {
+      "id": "gta6-loc-1091289",
+      "externalId": "haircut-011",
+      "name": "Fabiola's Unisex Salon",
+      "x": -1208,
+      "y": 1131
+    },
+    {
+      "id": "gta6-loc-1091290",
+      "externalId": "haircut-008",
+      "name": "Salon Pérez",
+      "x": -1052,
+      "y": 151
+    },
+    {
+      "id": "gta6-loc-1091291",
+      "externalId": "haircut-010",
+      "name": "Salon Belle",
+      "x": -1299,
+      "y": 815
+    },
+    {
+      "id": "gta6-loc-1091292",
+      "externalId": "haircut-016",
+      "name": "A Better You",
+      "x": -1232,
+      "y": 2900
+    },
+    {
+      "id": "gta6-loc-1091294",
+      "externalId": "haircut-009",
+      "name": "Bellissima Hair Salon",
+      "x": -2807,
+      "y": 755
+    },
+    {
+      "id": "gta6-loc-1091303",
+      "externalId": "tattoo-001",
+      "name": "Electric Fang Tattoo",
+      "x": -379,
+      "y": 1840
+    },
+    {
+      "id": "gta6-loc-1091304",
+      "externalId": "tattoo-006",
+      "name": "Cross My Heart Tattoos",
+      "x": -740,
+      "y": 940
+    },
+    {
+      "id": "gta6-loc-1091305",
+      "externalId": "tattoo-008",
+      "name": "Twa Ponya Tattoo",
+      "x": -1048,
+      "y": 1395
+    },
+    {
+      "id": "gta6-loc-1091306",
+      "externalId": "tattoo-007",
+      "name": "Inkomplete Tattoo Co.",
+      "x": -1178,
+      "y": 1129
+    },
+    {
+      "id": "gta6-loc-1091308",
+      "externalId": "tattoo-005",
+      "name": "Hyper Ink",
+      "x": -1363,
+      "y": 404
+    },
+    {
+      "id": "gta6-loc-1091318",
+      "externalId": "electronics-007",
+      "name": "Electric Boulevard",
+      "x": -367.7,
+      "y": 1565.2
+    },
+    {
+      "id": "gta6-loc-1091319",
+      "externalId": "electronics-006",
+      "name": "Cell Phone Zone",
+      "x": -730.8,
+      "y": 891.4
+    },
+    {
+      "id": "gta6-loc-1091321",
+      "externalId": "electronics-008",
+      "name": "Best Priced Electrical Supplies",
+      "x": -932.1,
+      "y": 1644.9
+    },
+    {
+      "id": "gta6-loc-1091323",
+      "externalId": "electronics-005",
+      "name": "Super Friki Inc.",
+      "x": -1236,
+      "y": 287
+    },
+    {
+      "id": "gta6-loc-1091325",
+      "externalId": "electronics-014",
+      "name": "Empowered Electronics",
+      "x": -1306,
+      "y": 2900
+    },
+    {
+      "id": "gta6-loc-1091331",
+      "externalId": "cafe-takeout-075",
+      "name": "Health, Self & Happiness",
+      "x": -1316.1,
+      "y": 2897.6
+    },
+    {
+      "id": "gta6-loc-1091336",
+      "externalId": "cafe-takeout-013",
+      "name": "The Chomp Stop",
+      "x": -3292.6,
+      "y": 1459.9
+    },
+    {
+      "id": "gta6-loc-1091337",
+      "externalId": "cafe-takeout-047",
+      "name": "Sipster",
+      "x": -325.8,
+      "y": 2313.9
+    },
+    {
+      "id": "gta6-loc-1091338",
+      "externalId": "cafe-takeout-046",
+      "name": "Robinsons Bakery",
+      "x": -292.6,
+      "y": 2300.4
+    },
+    {
+      "id": "gta6-loc-1091340",
+      "externalId": "cafe-takeout-012",
+      "name": "Calypso's Crab House",
+      "x": -1036,
+      "y": 1592.5
+    },
+    {
+      "id": "gta6-loc-1091341",
+      "externalId": "cafe-takeout-048",
+      "name": "Mezzasega Espresso - Decor District",
+      "x": -334.1,
+      "y": 2086.4
+    },
+    {
+      "id": "gta6-loc-1091343",
+      "externalId": "cafe-takeout-060",
+      "name": "Chez Lovelie Restaurant",
+      "x": -1244.9,
+      "y": 1182.8
+    },
+    {
+      "id": "gta6-loc-1091344",
+      "externalId": "cafe-takeout-020",
+      "name": "Aletha's Panaderia Y Cafeteria",
+      "x": -2836.7,
+      "y": 765.1
+    },
+    {
+      "id": "gta6-loc-1091345",
+      "externalId": "cafe-takeout-059",
+      "name": "Aunt Zola's Soul Food",
+      "x": -934.9,
+      "y": 1309.4
+    },
+    {
+      "id": "gta6-loc-1091346",
+      "externalId": "cafe-takeout-050",
+      "name": "Fresco",
+      "x": -330.9,
+      "y": 1727.9
+    },
+    {
+      "id": "gta6-loc-1091347",
+      "externalId": "cafe-takeout-021",
+      "name": "Cuban Food Counter",
+      "x": -2787.7,
+      "y": 735.1
+    },
+    {
+      "id": "gta6-loc-1091348",
+      "externalId": "cafe-takeout-049",
+      "name": "Pith Heads",
+      "x": -241.5,
+      "y": 1799.4
+    },
+    {
+      "id": "gta6-loc-1091349",
+      "externalId": "cafe-takeout-084",
+      "name": "Chido! - Stockyard",
+      "x": -249,
+      "y": 1786.6
+    },
+    {
+      "id": "gta6-loc-1091350",
+      "externalId": "food-and-drink-010",
+      "name": "Perkins Deli",
+      "x": -380.4,
+      "y": 1539.6
+    },
+    {
+      "id": "gta6-loc-1091352",
+      "externalId": "cafe-takeout-018",
+      "name": "Bump & Grind Coffee",
+      "x": -1373.5,
+      "y": 798.9
+    },
+    {
+      "id": "gta6-loc-1091353",
+      "externalId": "cafe-takeout-019",
+      "name": "La Madre Cafeteria",
+      "x": -1206.3,
+      "y": 690.2
+    },
+    {
+      "id": "gta6-loc-1091354",
+      "externalId": "cafe-takeout-061",
+      "name": "Alderney Joe's - Bayside",
+      "x": -417.7,
+      "y": 866.6
+    },
+    {
+      "id": "gta6-loc-1091355",
+      "externalId": "cafe-takeout-030",
+      "name": "Rosita's Cuban Cafe",
+      "x": -1284.6,
+      "y": 401.4
+    },
+    {
+      "id": "gta6-loc-1091356",
+      "externalId": "cafe-takeout-016",
+      "name": "Pizza Pete",
+      "x": -596.4,
+      "y": 677
+    },
+    {
+      "id": "gta6-loc-1091357",
+      "externalId": "cafe-takeout-015",
+      "name": "Galina Ballet Opera House Deli",
+      "x": -490.9,
+      "y": 690.7
+    },
+    {
+      "id": "gta6-loc-1091358",
+      "externalId": "cafe-takeout-028",
+      "name": "Aleja's Cafe",
+      "x": -1224.1,
+      "y": 217.8
+    },
+    {
+      "id": "gta6-loc-1091359",
+      "externalId": "cafe-takeout-031",
+      "name": "Safia Restaurant",
+      "x": -1052.9,
+      "y": 144.8
+    },
+    {
+      "id": "gta6-loc-1091422",
+      "externalId": "bar-050",
+      "name": "Conch King Outdoor Bar",
+      "x": -967.9,
+      "y": 1561.7
+    },
+    {
+      "id": "gta6-loc-1091423",
+      "externalId": "bar-042",
+      "name": "Lot6",
+      "x": -472.3,
+      "y": 1796.4
+    },
+    {
+      "id": "gta6-loc-1091424",
+      "externalId": "bar-021",
+      "name": "Zotico's",
+      "x": -2839.3,
+      "y": 840.4
+    },
+    {
+      "id": "gta6-loc-1091425",
+      "externalId": "bar-041",
+      "name": "Tamarro Bar",
+      "x": -444.7,
+      "y": 1769
+    },
+    {
+      "id": "gta6-loc-1091426",
+      "externalId": "bar-040",
+      "name": "Courtyard Bar",
+      "x": -355.3,
+      "y": 1739.3
+    },
+    {
+      "id": "gta6-loc-1091427",
+      "externalId": "bar-022",
+      "name": "Mariposa Bar",
+      "x": -2747,
+      "y": 700.1
+    },
+    {
+      "id": "gta6-loc-1091430",
+      "externalId": "bar-124",
+      "name": "Pink Deck Bar",
+      "x": -674.7,
+      "y": 475.4
+    },
+    {
+      "id": "gta6-loc-1091431",
+      "externalId": "bar-025",
+      "name": "Trouble & Strife",
+      "x": -1160,
+      "y": 217.3
+    },
+    {
+      "id": "gta6-loc-1091433",
+      "externalId": "bar-023",
+      "name": "La Vaca Sabrosa",
+      "x": -1207.8,
+      "y": 26.1
+    },
+    {
+      "id": "gta6-loc-1091435",
+      "externalId": "bar-026",
+      "name": "El Rincon Notorio Restaurant",
+      "x": -1174.1,
+      "y": 19.3
+    },
+    {
+      "id": "gta6-loc-1091546",
+      "externalId": "street-food-121",
+      "name": "Coffee Stall",
+      "x": -337.8,
+      "y": 2199.5
+    },
+    {
+      "id": "gta6-loc-1091548",
+      "externalId": "street-food-120",
+      "name": "The Toss Spot - Decor District",
+      "x": -292.2,
+      "y": 2201.6
+    },
+    {
+      "id": "gta6-loc-1091549",
+      "externalId": "street-food-124",
+      "name": "Burger Stall",
+      "x": -308.9,
+      "y": 2157.8
+    },
+    {
+      "id": "gta6-loc-1091551",
+      "externalId": "street-food-037",
+      "name": "Wine Stall",
+      "x": -296.7,
+      "y": 2152.2
+    },
+    {
+      "id": "gta6-loc-1091552",
+      "externalId": "street-food-123",
+      "name": "Bakery Stall",
+      "x": -281.5,
+      "y": 2158
+    },
+    {
+      "id": "gta6-loc-1091554",
+      "externalId": "street-food-126",
+      "name": "Sugar Hook'd",
+      "x": -236.4,
+      "y": 1840.1
+    },
+    {
+      "id": "gta6-loc-1091555",
+      "externalId": "street-food-044",
+      "name": "Crust Fund - Stockyard",
+      "x": -244.8,
+      "y": 1826.4
+    },
+    {
+      "id": "gta6-loc-1091556",
+      "externalId": "street-food-130",
+      "name": "Hernandez Produce",
+      "x": -2878.2,
+      "y": 828.9
+    },
+    {
+      "id": "gta6-loc-1091558",
+      "externalId": "street-food-132",
+      "name": "Antonio Produce",
+      "x": -2757.1,
+      "y": 771.5
+    },
+    {
+      "id": "gta6-loc-1091559",
+      "externalId": "street-food-133",
+      "name": "Chicha's Cuban Cafe",
+      "x": -2878.4,
+      "y": 770.9
+    },
+    {
+      "id": "gta6-loc-1091560",
+      "externalId": "street-food-012",
+      "name": "Elena's Fruit Market",
+      "x": -2877.4,
+      "y": 753.9
+    },
+    {
+      "id": "gta6-loc-1091561",
+      "externalId": "street-food-134",
+      "name": "Flea Market Fruit Stalls",
+      "x": -2747.9,
+      "y": 722.3
+    },
+    {
+      "id": "gta6-loc-1091563",
+      "externalId": "street-food-010",
+      "name": "Chihuahua Hotdogs - Balsero",
+      "x": -2830.2,
+      "y": 706.8
+    },
+    {
+      "id": "gta6-loc-1091564",
+      "externalId": "street-food-014",
+      "name": "J'American Roots",
+      "x": -2845.1,
+      "y": 701
+    },
+    {
+      "id": "gta6-loc-1091565",
+      "externalId": "street-food-013",
+      "name": "Flea Market BBQ Stand",
+      "x": -2795.4,
+      "y": 693.4
+    },
+    {
+      "id": "gta6-loc-1091566",
+      "externalId": "street-food-015",
+      "name": "Tisha-Wocka Soul Food",
+      "x": -2765.1,
+      "y": 689.3
+    },
+    {
+      "id": "gta6-loc-1091690",
+      "externalId": "waink-curiosity-016",
+      "name": "Belville Topiary",
+      "x": -1102.9,
+      "y": 2635
+    },
+    {
+      "id": "gta6-loc-1091763",
+      "externalId": "race-039",
+      "name": "Hit 'N' Run VC - Little Cuba Run",
+      "x": -632.6,
+      "y": 1945.6
+    },
+    {
+      "id": "gta6-loc-1091764",
+      "externalId": "race-040",
+      "name": "Hit 'N' Run VC - Mural Tour",
+      "x": -627.1,
+      "y": 1942.8
+    },
+    {
+      "id": "gta6-loc-1091772",
+      "externalId": "drone-race-018",
+      "name": "Top Fun Drones - Captain O'Malley Marina",
+      "x": -2673.2,
+      "y": 3249.7
+    },
+    {
+      "id": "gta6-loc-1091773",
+      "externalId": "drone-race-017",
+      "name": "Top Fun Drones - Allied Crystal",
+      "x": -2670.3,
+      "y": 3251.2
+    },
+    {
+      "id": "gta6-loc-1091774",
+      "externalId": "drone-race-016",
+      "name": "Top Fun Drones - Waste Transfer Services",
+      "x": -2667.3,
+      "y": 3252.7
+    },
+    {
+      "id": "gta6-loc-1091775",
+      "externalId": "drone-race-027",
+      "name": "Top Fun Drones - Navitrak",
+      "x": -2859.9,
+      "y": 781.8
+    },
+    {
+      "id": "gta6-loc-1091776",
+      "externalId": "drone-race-026",
+      "name": "Top Fun Drones - Apollo Aggregates",
+      "x": -2856.9,
+      "y": 782.4
+    },
+    {
+      "id": "gta6-loc-1091777",
+      "externalId": "drone-race-025",
+      "name": "Top Fun Drones - Tisha-Wocka Flea Market",
+      "x": -2854.3,
+      "y": 783.1
+    },
+    {
+      "id": "gta6-loc-1091969",
+      "externalId": "gang-operation-018",
+      "name": "Janjak's Garage",
+      "x": -1264.8,
+      "y": 1201.9
+    },
+    {
+      "id": "gta6-loc-1091970",
+      "externalId": "gang-operation-015",
+      "name": "Sound4Sound Studio",
+      "x": -389.8,
+      "y": 1920.5
+    },
+    {
+      "id": "gta6-loc-1091978",
+      "externalId": "gang-operation-023",
+      "name": "Casa Guardia",
+      "x": -1128.5,
+      "y": 388.7
+    },
+    {
+      "id": "gta6-loc-1091982",
+      "externalId": "gang-operation-028",
+      "name": "Leonida Carrier Warehouse",
+      "x": -2343,
+      "y": 692
+    },
+    {
+      "id": "gta6-loc-1091990",
+      "externalId": "gang-operation-029",
+      "name": "Cigar Import Front",
+      "x": -1064,
+      "y": 1260
+    },
+    {
+      "id": "gta6-loc-1096684",
+      "externalId": "bank-017",
+      "name": "Druthers State Bank",
+      "x": -1388,
+      "y": 2806
+    },
+    {
+      "id": "gta6-loc-1096689",
+      "externalId": "smash-n-grab-030",
+      "name": "Brilliant Cuts",
+      "x": -1218,
+      "y": 2900
+    }
+  ]
+}

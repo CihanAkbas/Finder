@@ -14,6 +14,7 @@ import { thisWeek, SCHEDULE_WEEKS } from './weekly'
 import { emptySlice, normalizeSlice, type ChecklistItem } from '../store/slice'
 import { GTA6_NOISE_LAYERS, seedGta6Layers, hiddenCategoryIds } from '../config/games/gta6/playLayers'
 import { applyMapSearch } from './mapUrl'
+import { coordText, roundCoord } from './utils'
 
 const minimal = JSON.stringify({
   app: 'finder',
@@ -47,6 +48,15 @@ test('GTA VI shared views retain geographic precision while GTA V keeps world co
   applyMapSearch(url, 'gta5', { x: 1234.567, y: -987.654, z: 5 })
   assert.equal(url.searchParams.get('x'), '1234.57')
   assert.equal(url.searchParams.get('y'), '-987.65')
+})
+
+test('geographic pin coordinates survive saving and copying without moving to a rounded grid', () => {
+  const x = -0.6578412
+  const y = 0.7123456
+  assert.equal(coordText({ x, y }, 6), '-0.657841, 0.712346')
+  assert.ok(Math.abs(roundCoord(x, 6) - x) < 0.000001)
+  assert.ok(Math.abs(roundCoord(y, 6) - y) < 0.000001)
+  assert.equal(coordText({ x: 1234.567, y: -987.654 }), '1234.57, -987.65')
 })
 
 test('a readable save survives a blank or broken copy', () => {

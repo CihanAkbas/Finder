@@ -99,7 +99,7 @@ export function CustomPinDialog({ game }: { game: GameConfig }) {
         </DialogDescription>
         {draft ? (
           <p className="mt-3 font-mono text-xs text-[var(--game-accent)]">
-            X {roundCoord(draft.x).toFixed(2)} · Y {roundCoord(draft.y).toFixed(2)}
+            X {draft.x.toFixed(game.projection === 'geographic' ? 6 : 2)} · Y {draft.y.toFixed(game.projection === 'geographic' ? 6 : 2)}
           </p>
         ) : null}
         <form
@@ -113,8 +113,8 @@ export function CustomPinDialog({ game }: { game: GameConfig }) {
               title: title.trim() || t.map.customPin,
               note: note.trim(),
               color,
-              x: roundCoord(draft.x),
-              y: roundCoord(draft.y),
+              x: roundCoord(draft.x, game.projection === 'geographic' ? 6 : 2),
+              y: roundCoord(draft.y, game.projection === 'geographic' ? 6 : 2),
               createdAt: new Date().toISOString(),
             })
             useMapStore.getState().select(game.slug, id)

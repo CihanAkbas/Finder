@@ -1,4 +1,5 @@
 import type { Locale } from '@/i18n/locale'
+import { communityCategoryCopy } from '@/config/games/gta6/community'
 
 const categories: Record<string, { name?: string; description?: string }> = {
   "finder-help": {
@@ -392,7 +393,7 @@ const titles: Record<string, string> = {
 
 export function gta6CategoryCopy(locale: Locale, id: string) {
   if (locale !== 'tr') return undefined
-  return categories[id]
+  return communityCategoryCopy(id) ?? categories[id]
 }
 
 export function gta6PinTitle(locale: Locale, title: string) {

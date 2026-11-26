@@ -69,12 +69,20 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
           <h2 id="marker-title" className="font-display text-3xl leading-none tracking-wide">
             {title}
           </h2>
-          <p className="mt-2 font-mono text-xs text-[var(--game-accent)]">{coordText({ x: (marker ?? pin)!.x, y: (marker ?? pin)!.y, z: marker?.z })}</p>
+          <p className="mt-2 font-mono text-xs text-[var(--game-accent)]">{coordText({ x: (marker ?? pin)!.x, y: (marker ?? pin)!.y, z: marker?.z }, game.projection === 'geographic' ? 6 : 2)}</p>
         </div>
         {marker?.source ? (
           <p className={`text-xs uppercase tracking-[0.16em] ${marker.source === 'approximate' || marker.source === 'placeholder' ? 'text-amber-200' : 'text-[#a39c90]'}`}>
             {t.map.sources[marker.source]}
           </p>
+        ) : null}
+        {marker?.sourceUrl ? (
+          <div className="space-y-2 text-xs leading-5 text-[#a39c90]">
+            <a href={marker.sourceUrl} target="_blank" rel="noreferrer" className="text-sky-300 underline">GTABase / GTADB · {locale === 'tr' ? 'Kaynağı aç' : 'Open source'}</a>
+            <p>{locale === 'tr' ? 'Topluluk konumu; koordinatlar bu haritaya dönüştürüldü. Oyunda birebir doğrulanmış konum değildir.' : 'Community position calibrated to this map; not independently verified in-game.'}</p>
+            {marker.category === 'community-random-event' || marker.category === 'community-vehicle-spawn' ? <p>{locale === 'tr' ? 'Çıkış yeri garanti değildir; saat, hikâye ilerlemesi veya başka koşullar gerekebilir.' : 'Spawns are not guaranteed; time, story progress or other conditions may apply.'}</p> : null}
+            <p>{locale === 'tr' ? 'Kaynak kontrolü' : 'Source reviewed'}: {marker.reviewedAt}</p>
+          </div>
         ) : null}
         {marker ? <p className="whitespace-pre-line text-sm leading-6 text-[#d9d3c8]">{description}</p> : null}
         {pin ? (
@@ -118,7 +126,7 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
             onClick={() => {
               const point = marker ?? pin
               if (!point) return
-              void copyText(coordText(point)).then(
+              void copyText(coordText(point, game.projection === 'geographic' ? 6 : 2)).then(
                 () => useMapStore.getState().showToast(t.map.coordsCopied),
                 () => useMapStore.getState().showToast(t.map.coordsBlocked),
               )

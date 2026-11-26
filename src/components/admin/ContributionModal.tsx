@@ -29,8 +29,8 @@ export function ContributionModal({ game }: { game: GameConfig }) {
         id: `${game.slug}-${slugify(title || 'marker')}`,
         title: title || t.map.untitled,
         category,
-        x: roundCoord(draft.x),
-        y: roundCoord(draft.y),
+        x: roundCoord(draft.x, game.projection === 'geographic' ? 6 : 2),
+        y: roundCoord(draft.y, game.projection === 'geographic' ? 6 : 2),
         description,
         image,
         videoUrl: '',
@@ -38,7 +38,7 @@ export function ContributionModal({ game }: { game: GameConfig }) {
       null,
       2,
     )
-  }, [category, description, draft, game.slug, image, t.map.untitled, title])
+  }, [category, description, draft, game.slug, game.projection, image, t.map.untitled, title])
 
   return (
     <DialogRoot
@@ -52,7 +52,7 @@ export function ContributionModal({ game }: { game: GameConfig }) {
         <DialogDescription className="mt-1 text-sm text-[#a39c90]">{t.map.suggestBody}</DialogDescription>
         {draft ? (
           <p className="mt-3 font-mono text-xs text-[var(--game-accent)]">
-            X {roundCoord(draft.x).toFixed(2)} · Y {roundCoord(draft.y).toFixed(2)}
+            X {draft.x.toFixed(game.projection === 'geographic' ? 6 : 2)} · Y {draft.y.toFixed(game.projection === 'geographic' ? 6 : 2)}
           </p>
         ) : null}
         <div className="mt-4 space-y-3">

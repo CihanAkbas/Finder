@@ -4,6 +4,7 @@ import { gta6Categories } from '@/config/games/gta6/categories'
 import { gta6Geography, gta6Palettes } from '@/config/games/gta6/geography'
 import { GTA6_STORY_CATEGORIES, GTA6_STORY_PINS } from '@/config/games/gta6/storyPins'
 import markers from '@/config/games/gta6/markers.json'
+import { communityCategories, communityMarkers } from './community'
 
 /**
  * Bounds match the published Leonida marker extent, padded so the map stays square.
@@ -29,8 +30,8 @@ export const gta6 = defineGame({
   minZoom: 8,
   maxZoom: 17,
   maxNativeZoom: 16,
-  categories: [...GTA6_STORY_CATEGORIES, ...gta6Categories],
-  markers: [...GTA6_STORY_PINS, ...(markers as GameMarker[])],
+  categories: [...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories],
+  markers: [...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])],
   geography: gta6Geography,
   styles: [
     {

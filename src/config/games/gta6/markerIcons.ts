@@ -1,7 +1,8 @@
 import { gta6Categories } from './categories'
 import { leafCategories } from '@/lib/categories'
+import { COMMUNITY_GROUPS, COMMUNITY_LAYERS } from './community'
 
-export const gta6Atlas = { url: '/maps/gta6/marker-atlas-v1.png', width: 660, height: 600, pixelRatio: 2 } as const
+export const gta6Atlas = { url: '/maps/gta6/marker-atlas-v2.png', width: 660, height: 720, pixelRatio: 2 } as const
 export type MarkerSprite = { x: number; y: number; w: number; h: number }
 
 /** Lucide symbols used to build the local atlas. */
@@ -32,6 +33,7 @@ const symbols: Record<string, string> = {
 export const gta6IconDefinitions = [
   { id: 'finder-tips', color: '#34d399', symbol: 'Lightbulb' },
   { id: 'finder-story', color: '#f472b6', symbol: 'BookOpen' },
+  ...COMMUNITY_LAYERS.map((layer) => ({ id: `community-${layer.id}`, color: COMMUNITY_GROUPS.find((group) => group.id === layer.group)!.color, symbol: layer.symbol })),
   ...gta6Categories.flatMap((group) => leafCategories([group]).map((leaf) => ({
     id: leaf.id,
     color: leaf.color,
