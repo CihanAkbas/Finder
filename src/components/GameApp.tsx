@@ -2,7 +2,6 @@
 
 import { useEffect, useLayoutEffect, useMemo, useState, type CSSProperties } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { ContributionModal } from '@/components/admin/ContributionModal'
 import { CoordinateHUD } from '@/components/map/CoordinateHUD'
 import { CustomPinDialog } from '@/components/map/CustomPinTool'
 import { GameMap } from '@/components/map/GameMap'
@@ -54,15 +53,13 @@ export default function GameApp({ gameSlug }: { gameSlug: string }) {
       const state = useMapStore.getState()
       if (event.key === 'Escape') {
         if (state.searchOpen) state.setSearchOpen(false)
-        else if (state.contributeDraft) state.closeContribute()
         else if (state.pinDraft) state.closePinDraft()
-        else if (state.importOpen) state.setImportOpen(false)
         else if (state.resetOpen) state.setResetOpen(false)
         else if (state.selected) state.clearSelection()
         else setSidebarOpen(false)
         return
       }
-      if (state.searchOpen || state.contributeDraft || state.pinDraft || state.importOpen || state.resetOpen) return
+      if (state.searchOpen || state.pinDraft || state.resetOpen) return
       if ((event.key === 'f' || event.key === 'F' || event.key === ' ') && !(target instanceof HTMLButtonElement)) {
         if (!state.selected || state.selected.game !== game.slug) return
         const marker = game.markers.find((entry) => entry.id === state.selected?.id)
@@ -90,7 +87,6 @@ export default function GameApp({ gameSlug }: { gameSlug: string }) {
           </div>
           <Sidebar game={game} open={sidebarOpen} onOpenChange={setSidebarOpen} />
           <MarkerDetailModal game={game} />
-          <ContributionModal game={game} />
           <CustomPinDialog game={game} />
         </div>
       </MapApiContext.Provider>

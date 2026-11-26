@@ -2,7 +2,7 @@
 
 All-in-one GTA companion for a second screen. GTA V and GTA VI have populated maps and companion pages. GTA VI includes the local Leonida catalog, tips, story-help pins, and English/Turkish text.
 
-Modules under `/gta5`: hub, map, 100% checklist, daily/weekly resets, vehicle and weapon database, garage, and heist/business/stock calculators. Found pins and checklist rows share one save. Progress stays available locally (IndexedDB with a localStorage fallback). Google or email/password sign-in also syncs progress between devices through Firebase. Guest and account saves are separate; the top bar still supports JSON backups.
+Modules under `/gta5`: hub, map, 100% checklist, daily/weekly resets, vehicle and weapon database, garage, and heist/business/stock calculators. Found pins and checklist rows share one save. Progress stays available locally (IndexedDB with a localStorage fallback). Google or email/password sign-in also syncs progress between devices through Firebase. Guest and account saves are separate.
 
 ## Run
 
@@ -13,7 +13,7 @@ npm run dev
 
 Open `/gta5` or `/gta6/map`.
 
-The 26 November 2026 map review and rare-vehicle corrections provide 2,177 sourced community positions in addition to the original catalog. These positions are explicitly approximate, with source links and review dates. The map has 5,329 records in 129 categories; this is not a claim of exhaustive in-game coverage. Location cards put the description first and collapse documented directions, access conditions, coordinates, and sources. The 26 story-help pins have Turkish titles and descriptions. See [the research and coverage notes](docs/gta6-map-research.md). The sidebar includes source credits and coverage gaps. Use `npm run icons:generate` after changing categories.
+The 26 November 2026 map review and rare-vehicle corrections provide 2,177 sourced community positions in addition to the original catalog. These positions are explicitly approximate, with source links and review dates. The map has 5,329 records in 129 categories; this is not a claim of exhaustive in-game coverage. Location cards put the description first and collapse documented directions, access conditions, coordinates, and sources. The 26 story-help pins have Turkish titles and descriptions. See [the research and coverage notes](docs/gta6-map-research.md). Use `npm run icons:generate` after changing categories.
 
 GTA VI starts with dense layers hidden. Use Play to restore this view, or choose Essentials, Money, Collectibles, or Activities in the sidebar. Individual categories and saved views remain customizable. A selected pin stays visible even when its category or found pins are hidden.
 

@@ -1,5 +1,6 @@
 'use client'
 
+import { Layers } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { useHeatmapStore } from '@/components/map/heatmapStore'
 import heatmaps from '@/config/games/gta6/heatmaps.json'
@@ -55,26 +56,31 @@ export function HeatmapPanel() {
           aria-label={t.map.heatmapSearch}
           className="h-8 w-full border border-white/15 bg-black/40 px-2 text-xs"
         />
-        <div className="max-h-64 space-y-2 overflow-y-auto pr-1">
+        <div className="max-h-96 space-y-3 overflow-y-auto" aria-label={t.map.heatmap}>
           {groups.map(([label, entries]) => (
-            <details key={label}>
-              <summary className="cursor-pointer text-xs text-[#d9d3c8]">{heatmapGroup(locale, label)} · {entries.length}</summary>
-              <ul className="mt-1 space-y-1">
+            <section key={label} className="border-t border-white/10 pt-2">
+              <div className="flex items-center justify-between gap-2 px-1 pb-1.5">
+                <h3 className="min-w-0 truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-[#8d877c]">{heatmapGroup(locale, label)}</h3>
+                <span className="font-mono text-[10px] text-[#8d877c]">{entries.length}</span>
+              </div>
+              <div className="grid grid-cols-2 gap-1">
                 {entries.map((entry) => (
-                  <li key={entry.id}>
-                    <button
-                      type="button"
-                      aria-pressed={active === entry.id}
-                      className={`w-full truncate px-1 py-0.5 text-left text-sm ${active === entry.id ? 'bg-white/10 text-white' : 'text-[#d9d3c8] hover:bg-white/5'}`}
-                      onClick={() => useHeatmapStore.getState().setId(active === entry.id ? null : entry.id)}
-                    >
-                      {entry.title}
-                    </button>
-                  </li>
+                  <button
+                    key={entry.id}
+                    type="button"
+                    aria-pressed={active === entry.id}
+                    title={`${entry.title} · ${entry.points} ${locale === 'tr' ? 'kaynak noktası' : 'source points'}`}
+                    className={`flex min-w-0 items-center gap-1.5 rounded-md border px-1.5 py-1.5 text-left hover:bg-white/10 ${active === entry.id ? 'border-[var(--game-accent)] bg-white/10 text-white' : 'border-transparent bg-white/[0.04] text-[#d9d3c8]'}`}
+                    onClick={() => useHeatmapStore.getState().setId(active === entry.id ? null : entry.id)}
+                  >
+                    <Layers className={`size-4 shrink-0 ${active === entry.id ? 'text-[var(--game-accent)]' : 'text-[#8d877c]'}`} />
+                    <span className="min-w-0 flex-1 truncate text-xs">{entry.title}</span>
+                  </button>
                 ))}
-              </ul>
-            </details>
+              </div>
+            </section>
           ))}
+          {!groups.length ? <p className="py-3 text-xs text-[#8d877c]">{locale === 'tr' ? 'Bu aramada katman bulunamadı.' : 'No layers match this search.'}</p> : null}
         </div>
       </div>
     </details>

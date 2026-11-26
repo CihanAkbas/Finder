@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
-import { MoreHorizontal, Download, Upload } from 'lucide-react'
+import { MoreHorizontal } from 'lucide-react'
 import { groupLabel, itemLabel, shortLabel } from '@/i18n/nav'
 import { useI18n } from '@/i18n/provider'
 import { groupsFor, primaryNavFor, modulesFor } from './modules'
@@ -13,9 +13,6 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog'
-import { backupPayload } from '@/lib/backup'
-import { downloadJson } from '@/lib/utils'
-import { useCompanionStore } from '@/store/useCompanionStore'
 
 export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
   const pathname = usePathname()
@@ -89,32 +86,6 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
                 </div>
               </div>
             ))}
-          </div>
-          <div className="mt-5 flex gap-3 border-t border-white/10 pt-4">
-            <button
-              type="button"
-              className="action-secondary flex-1"
-              onClick={() =>
-                downloadJson(
-                  'finder-companion.json',
-                  backupPayload(useCompanionStore.getState().byGame)
-                )
-              }
-            >
-              <Download size={16} />
-              {t.export}
-            </button>
-            <button
-              type="button"
-              className="action-secondary flex-1"
-              onClick={() => {
-                setMore(false)
-                useCompanionStore.getState().setImportOpen(true)
-              }}
-            >
-              <Upload size={16} />
-              {t.import}
-            </button>
           </div>
         </DialogContent>
       </DialogRoot>

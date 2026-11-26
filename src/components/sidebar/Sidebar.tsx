@@ -1,20 +1,16 @@
 'use client'
 
-import { useMemo, useState } from 'react'
-import { Download, Menu, Search, Upload, X } from 'lucide-react'
+import { useMemo } from 'react'
+import { Menu, Search, X } from 'lucide-react'
 import { CategoryTree } from '@/components/sidebar/CategoryTree'
-import { MapCoverage } from '@/components/sidebar/MapCoverage'
 import { HeatmapPanel } from '@/components/sidebar/HeatmapPanel'
 import { Button } from '@/components/ui/button'
 import { DialogContent, DialogDescription, DialogRoot, DialogTitle } from '@/components/ui/dialog'
 import { Progress } from '@/components/ui/form'
 import { Switch } from '@/components/ui/switch'
-import { backupPayload } from '@/lib/backup'
 import { countFound } from '@/lib/categories'
 import { markersInView } from '@/lib/mapMode'
 import type { MapMode, MapRegion } from '@/store/slice'
-import { downloadJson } from '@/lib/utils'
-import { markerTitle } from '@/i18n/markerText'
 import { useI18n } from '@/i18n/provider'
 import { useMapStore } from '@/store/useMapStore'
 import type { GameConfig } from '@/types/game'
@@ -36,15 +32,8 @@ export function Sidebar({
   const modeMarkers = useMemo(() => markersInView(game.markers, view), [game.markers, view])
   const done = countFound(modeMarkers, found)
   const percent = modeMarkers.length ? (done / modeMarkers.length) * 100 : 0
-  const contribute = useMapStore((state) => state.contributeMode)
-  const { t, locale } = useI18n()
+  const { t } = useI18n()
   const resetOpen = useMapStore((state) => state.resetOpen)
-  const [viewName, setViewName] = useState('')
-  const titleFor = (id: string) => {
-    const marker = game.markers.find((item) => item.id === id)
-    if (marker) return markerTitle(locale, marker.title)
-    return slice?.customPins.find((pin) => pin.id === id)?.title ?? id
-  }
 
   return (
     <>
@@ -146,105 +135,8 @@ export function Sidebar({
         </div>
         <div>
           <CategoryTree game={game} />
-          {game.slug === 'gta6' ? <MapCoverage game={game} /> : null}
           {game.slug === 'gta6' ? <HeatmapPanel /> : null}
-          <details className="border-t border-white/10 px-4 py-3">
-          <summary className="cursor-pointer text-xs uppercase tracking-[0.14em] text-[#a39c90]">{t.map.personal}</summary>
-          <div className="mt-3 space-y-3">
-            <p className="text-xs leading-5 text-[#8d877c]">{t.map.keys}</p>
-            <div>
-              <p className="text-xs font-semibold">{t.map.favorites}</p>
-              {(slice?.favorites.length ?? 0) === 0 ? <p className="text-xs text-[#8d877c]">{t.map.noFavorites}</p> : null}
-              <ul className="mt-1 space-y-1">
-                {(slice?.favorites ?? []).map((id) => (
-                  <li key={id}>
-                    <button type="button" className="text-left text-sm text-[#d9d3c8] hover:text-white" onClick={() => useMapStore.getState().select(game.slug, id)}>
-                      {titleFor(id)}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <form
-              className="flex gap-2"
-              onSubmit={(event) => {
-                event.preventDefault()
-                useMapStore.getState().saveFilter(game.slug, viewName)
-                setViewName('')
-              }}
-            >
-              <input
-                value={viewName}
-                onChange={(event) => setViewName(event.target.value)}
-                placeholder={t.map.viewName}
-                aria-label={t.map.viewName}
-                maxLength={40}
-                className="h-8 min-w-0 flex-1 border border-white/15 bg-black/40 px-2 text-xs"
-              />
-              <button type="submit" className="h-8 border border-white/15 px-2 text-[10px] uppercase" disabled={!viewName.trim()}>
-                {t.map.saveView}
-              </button>
-            </form>
-            <ul className="space-y-1">
-              {(slice?.savedFilters ?? []).map((filter) => (
-                <li key={filter.id} className="flex items-center justify-between gap-2 text-sm">
-                  <button type="button" className="truncate text-left" aria-label={`${t.map.applyView} ${filter.name}`} onClick={() => useMapStore.getState().applyFilter(game.slug, filter.id)}>
-                    {filter.name}
-                  </button>
-                  <button type="button" className="text-[10px] uppercase text-[#fb7185]" aria-label={`${t.map.deleteView} ${filter.name}`} onClick={() => useMapStore.getState().deleteFilter(game.slug, filter.id)}>
-                    {t.remove}
-                  </button>
-                </li>
-              ))}
-            </ul>
-            <div>
-              <div className="flex items-center justify-between">
-                <p className="text-xs font-semibold">{t.map.route}</p>
-                {(slice?.route.length ?? 0) > 0 ? (
-                  <button type="button" className="text-[10px] uppercase text-[#a39c90]" onClick={() => useMapStore.getState().clearRoute(game.slug)}>
-                    {t.map.clearRoute}
-                  </button>
-                ) : null}
-              </div>
-              <p className="text-xs leading-5 text-[#8d877c]">{t.map.routeNote}</p>
-              {(slice?.route.length ?? 0) === 0 ? <p className="text-xs text-[#8d877c]">{t.map.noRoute}</p> : null}
-              <ol className="mt-1 space-y-1">
-                {(slice?.route ?? []).map((id, index) => (
-                  <li key={id} className="flex items-center gap-2 text-sm">
-                    <span className="w-4 text-xs text-[#10B981]">{index + 1}</span>
-                    <span className="min-w-0 flex-1 truncate">{titleFor(id)}</span>
-                    <button type="button" className="text-[10px] uppercase" aria-label={t.map.moveEarlier} disabled={index === 0} onClick={() => useMapStore.getState().moveRouteStop(game.slug, id, -1)}>↑</button>
-                    <button type="button" className="text-[10px] uppercase" aria-label={t.map.moveLater} disabled={index === (slice?.route.length ?? 1) - 1} onClick={() => useMapStore.getState().moveRouteStop(game.slug, id, 1)}>↓</button>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          </div>
-          </details>
-          <div className="space-y-3 border-t border-white/10 p-4">
-          <Switch
-            id="contribute-mode"
-            label={t.map.contributeMode}
-            checked={contribute}
-            onCheckedChange={(value) => useMapStore.getState().setContributeMode(value)}
-          />
-          <div className="grid grid-cols-2 gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => {
-                downloadJson(`finder-${game.slug}-progress.json`, backupPayload(useMapStore.getState().byGame))
-                useMapStore.getState().showToast(t.backupDownloaded)
-              }}
-            >
-              <Download className="size-3.5" />
-              {t.export}
-            </Button>
-            <Button variant="outline" size="sm" onClick={() => useMapStore.getState().setImportOpen(true)}>
-              <Upload className="size-3.5" />
-              {t.import}
-            </Button>
-          </div>
+          <div className="border-t border-white/10 p-4">
           <button type="button" className="text-xs text-[#8d877c] underline-offset-2 hover:underline" onClick={() => useMapStore.getState().setResetOpen(true)}>
             {t.map.resetProgress(game.shortTitle)}
           </button>

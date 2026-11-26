@@ -7,8 +7,6 @@ import { consumeSuppressedMapClick, setMarkerHover } from '@/components/map/hove
 import { SIDEBAR_WIDTH, type MapApi } from '@/components/map/mapApi'
 import { applyMapSearch } from '@/lib/mapUrl'
 import { atlasCorners, gameToLatLng, latLngToGame } from '@/lib/projection'
-import { copyText, roundCoord } from '@/lib/utils'
-import { useI18n } from '@/i18n/provider'
 import { useMapStore } from '@/store/useMapStore'
 import type { GameConfig } from '@/types/game'
 import L from 'leaflet'
@@ -23,7 +21,6 @@ export function MapController({
   onReady: (api: MapApi | null) => void
 }) {
   const map = useMap()
-  const { t } = useI18n()
   const sidebarReady = useRef(false)
 
   useEffect(() => {
@@ -109,18 +106,7 @@ export function MapController({
         scheduleUrl()
         return
       }
-      const point = latLngToGame(event.latlng.lat, event.latlng.lng, game.bounds, game.projection)
       const state = useMapStore.getState()
-      if (state.contributeMode) {
-        const precision = game.projection === 'geographic' ? 6 : 2
-        const payload = JSON.stringify({ x: roundCoord(point.x, precision), y: roundCoord(point.y, precision) })
-        void copyText(payload).then(
-          () => state.showToast(t.map.coordsCopied),
-          () => state.showToast(t.map.coordsBlocked),
-        )
-        state.openContribute(game.slug, point.x, point.y)
-        return
-      }
       state.clearSelection()
     }
     const onPointer = (event: L.LeafletMouseEvent) => {
@@ -129,7 +115,7 @@ export function MapController({
       useMapStore.getState().setPointer(point)
       if (!hit) {
         setMarkerHover(null)
-        map.getContainer().style.cursor = useMapStore.getState().contributeMode ? 'crosshair' : 'grab'
+        map.getContainer().style.cursor = 'grab'
         return
       }
       setMarkerHover({
@@ -157,10 +143,8 @@ export function MapController({
       const nextSlice = state.byGame[game.slug]
       const previousSlice = previous.byGame[game.slug]
       const viewChanged = nextSlice?.mapMode !== previousSlice?.mapMode || nextSlice?.mapRegion !== previousSlice?.mapRegion
-      if (state.selected !== previous.selected || state.contributeMode !== previous.contributeMode || viewChanged) scheduleUrl()
-      if (state.contributeMode !== previous.contributeMode && !state.contributeMode) {
-        map.getContainer().style.cursor = 'grab'
-      }
+      if (state.selected !== previous.selected || viewChanged) scheduleUrl()
+
       const request = state.focusRequest
       if (request && request !== previous.focusRequest && request.game === game.slug) {
         const close = game.projection === 'geographic' ? Math.min(game.maxZoom, 15) : request.zoom
@@ -180,7 +164,7 @@ export function MapController({
       map.off('mouseout', onLeave)
       unsub()
     }
-  }, [game, map, t])
+  }, [game, map])
 
   return null
 }

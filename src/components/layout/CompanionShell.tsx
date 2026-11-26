@@ -6,7 +6,6 @@ import { SideNavigation } from './SideNavigation'
 import { useI18n } from '@/i18n/provider'
 import { useCompanionStore } from '@/store/useCompanionStore'
 import { GlobalCommandPalette } from '@/components/shared/GlobalCommandPalette'
-import { ImportBackupDialog } from '@/components/layout/ImportBackupDialog'
 import { MobileBottomNav } from '@/components/layout/MobileBottomNav'
 import { TopNavbar } from '@/components/layout/TopNavbar'
 
@@ -67,7 +66,6 @@ export function CompanionShell({
       </div>
       <MobileBottomNav gameSlug={gameSlug} />
       <GlobalCommandPalette gameSlug={gameSlug} />
-      <ImportBackupDialog />
       {toast ? (
         <div className="pointer-events-none fixed left-1/2 top-16 z-[80] -translate-x-1/2 border border-[#10B981]/50 bg-black/85 px-4 py-2 text-sm">
           {toast}

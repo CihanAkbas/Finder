@@ -3,11 +3,9 @@ import Link from 'next/link'
 import { AccountButton } from '@/components/auth/AccountButton'
 import { useRouter } from 'next/navigation'
 import { useMemo } from 'react'
-import { Download, Search, Upload } from 'lucide-react'
+import { Search } from 'lucide-react'
 import { gameList, getGame } from '@/config/games'
 import { getCompanion } from '@/config/companion'
-import { backupPayload } from '@/lib/backup'
-import { downloadJson } from '@/lib/utils'
 import { LanguageSwitch } from '@/i18n/LanguageSwitch'
 import { useI18n } from '@/i18n/provider'
 import { useCompanionStore } from '@/store/useCompanionStore'
@@ -53,37 +51,7 @@ export function TopNavbar({ gameSlug }: { gameSlug: string }) {
       </button>
       <LanguageSwitch />
       <AccountButton />
-      <BackupButtons />
     </header>
-  )
-}
-function BackupButtons() {
-  const { t } = useI18n()
-  return (
-    <>
-      <button
-        type="button"
-        aria-label={t.export}
-        className="hidden size-10 place-items-center rounded-lg border border-white/10 text-slate-400 hover:border-emerald-400 hover:text-white sm:grid"
-        onClick={() => {
-          downloadJson(
-            'finder-companion.json',
-            backupPayload(useCompanionStore.getState().byGame)
-          )
-          useCompanionStore.getState().showToast(t.backupDownloaded)
-        }}
-      >
-        <Download className="size-4" />
-      </button>
-      <button
-        type="button"
-        aria-label={t.import}
-        className="hidden size-10 place-items-center rounded-lg border border-white/10 text-slate-400 hover:border-emerald-400 hover:text-white sm:grid"
-        onClick={() => useCompanionStore.getState().setImportOpen(true)}
-      >
-        <Upload className="size-4" />
-      </button>
-    </>
   )
 }
 export function useCompanionData(gameSlug: string) {
