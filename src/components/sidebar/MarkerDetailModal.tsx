@@ -1,5 +1,6 @@
 'use client'
 
+import { STORY_PIN_TR } from '@/i18n/gta6StoryPins'
 import { useMemo, useState } from 'react'
 import { Copy, ExternalLink, Trash2 } from 'lucide-react'
 import { CategoryIcon } from '@/components/icons'
@@ -36,7 +37,7 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
   const pointId = marker?.id ?? pin?.id ?? ''
   const favorite = slice?.favorites.includes(pointId) ?? false
   const onRoute = slice?.route.includes(pointId) ?? false
-  const title = marker ? markerTitle(locale, marker.title) : pin?.title ?? ''
+  const title = marker ? (locale === 'tr' && STORY_PIN_TR[marker.id] ? STORY_PIN_TR[marker.id][0] : markerTitle(locale, marker.title)) : pin?.title ?? ''
   const description = marker ? (locale === 'tr' && marker.descriptionTr ? marker.descriptionTr : markerDescription(locale, marker.description)) : ''
 
   return (
@@ -46,39 +47,18 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
       aria-labelledby="marker-title"
       className="absolute z-30 flex flex-col border border-white/10 bg-[#0d1016]/95 shadow-2xl backdrop-blur-md max-lg:inset-x-0 max-lg:bottom-0 max-lg:max-h-[78dvh] max-lg:rounded-t-2xl lg:bottom-3 lg:right-3 lg:top-3 lg:w-[380px]"
     >
-      <div className="relative h-36 shrink-0 overflow-hidden" style={{ background: `linear-gradient(160deg, ${category?.color ?? pin?.color ?? game.accent}55, #07080c 72%)` }}>
-        {marker?.image ? (
-          // User-supplied reference image. Empty until a contribution includes one.
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={marker.image} alt="" className="h-full w-full object-cover" />
-        ) : sprite ? (
-          <span className="absolute right-4 top-4">
-            <MarkerGlyph sprite={sprite} size={64} />
-          </span>
-        ) : (
-          <CategoryIcon name={category?.icon ?? 'pin'} className="absolute right-4 top-4 size-16 opacity-30" />
-        )}
-        <button type="button" className="absolute right-3 top-3 border border-white/15 bg-black/60 px-2 py-1 text-xs" onClick={() => useMapStore.getState().clearSelection()}>
-          {t.close}
-        </button>
-        <div className="absolute bottom-3 left-4 right-14">
+      <div className="shrink-0 border-b border-white/10 p-4" style={{ background: `linear-gradient(120deg, ${category?.color ?? pin?.color ?? game.accent}22, transparent)` }}>
+        <div className="mb-3 flex items-center gap-2">
+          {sprite ? <MarkerGlyph sprite={sprite} size={24} /> : <CategoryIcon name={category?.icon ?? 'pin'} className="size-5" />}
           {category ? <Badge style={{ borderColor: category.color, color: category.color }}>{category.name}</Badge> : <Badge>{t.map.personalPin}</Badge>}
+          <button type="button" className="ml-auto rounded border border-white/15 px-2 py-1 text-xs" onClick={() => useMapStore.getState().clearSelection()}>{t.close}</button>
         </div>
+        <h2 id="marker-title" className="font-display text-2xl leading-tight tracking-wide">{title}</h2>
       </div>
       <div key={selected.id} className="min-h-0 flex-1 space-y-4 overflow-y-auto p-4">
-        <div>
-          <h2 id="marker-title" className="font-display text-3xl leading-none tracking-wide">
-            {title}
-          </h2>
-          <p className="mt-2 font-mono text-xs text-[var(--game-accent)]">{coordText({ x: (marker ?? pin)!.x, y: (marker ?? pin)!.y, z: marker?.z }, game.projection === 'geographic' ? 6 : 2)}</p>
-        </div>
-        {marker?.source ? (
-          <p className={`text-xs uppercase tracking-[0.16em] ${marker.source === 'approximate' || marker.source === 'placeholder' ? 'text-amber-200' : 'text-[#a39c90]'}`}>
-            {t.map.sources[marker.source]}
-          </p>
-        ) : null}
-        {marker && game.slug === 'gta6' ? <MarkerGuideCard marker={marker} /> : null}
         {marker && description ? <p className="whitespace-pre-line text-sm leading-6 text-[#d9d3c8]">{description}</p> : null}
+        {marker && game.slug === 'gta6' ? <MarkerGuideCard marker={marker} /> : null}
+        <details className="text-xs text-[#a39c90]"><summary className="cursor-pointer">{locale === 'tr' ? 'Koordinat ve konum türü' : 'Coordinates and location type'}</summary><p className="mt-2 font-mono">{coordText((marker ?? pin)!, game.projection === 'geographic' ? 6 : 2)}</p>{marker?.source ? <p className="mt-1">{t.map.sources[marker.source]}</p> : null}</details>
         {marker?.sourceUrl ? (
           <details className="space-y-2 text-xs leading-5 text-[#a39c90]">
             <summary className="cursor-pointer">{locale === 'tr' ? 'Konum kaynağı ve doğruluk' : 'Position source and accuracy'}</summary>

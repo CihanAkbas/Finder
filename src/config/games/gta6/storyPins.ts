@@ -1,4 +1,5 @@
 import type { GameMarker } from '@/types/game'
+import { STORY_PIN_TR } from '@/i18n/gta6StoryPins'
 import markers from '@/config/games/gta6/markers.json'
 
 const byId = new Map((markers as GameMarker[]).map((marker) => [marker.id, marker]))
@@ -11,6 +12,7 @@ function fromPublished(
   if (!base) return null
   return {
     ...tip,
+    descriptionTr: STORY_PIN_TR[tip.id]?.[1],
     x: base.x,
     y: base.y,
     image: base.image,

@@ -42,7 +42,7 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
               className={`flex h-16 flex-col items-center justify-center gap-1 text-[11px] ${active ? 'text-emerald-300' : 'text-slate-400'}`}
             >
               <Icon size={19} />
-              {shortLabel(item.href, t)}
+              {gameSlug === 'gta6' && item.href === '/checklist' ? t.nav.completion : shortLabel(item.href, t)}
             </Link>
           )
         })}

@@ -125,7 +125,7 @@ const categories: Record<string, { name?: string; description?: string }> = {
     "description": "4 işaret."
   },
   "mg-29095": {
-    "name": "Standout araç",
+    "name": "Özel araç",
     "description": "85 işaret."
   },
   "mg-29096": {
@@ -335,7 +335,7 @@ const titles: Record<string, string> = {
   "Rental Vehicle": "Kiralık araç",
   "Purchasable Garage": "Satın alınabilir garaj",
   "Garage": "Garaj",
-  "Standout Vehicle": "Standout araç",
+  "Standout Vehicle": "Özel araç",
   "Randy Vehicle": "Randy aracı",
   "Moses Vehicle": "Moses aracı",
   "Style": "Stil",

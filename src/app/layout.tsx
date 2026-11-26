@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { cookies } from 'next/headers'
 import { Barlow, Rajdhani, Geist_Mono } from 'next/font/google'
+import { AuthProvider } from '@/components/auth/AuthProvider'
 import { RegisterSW } from '@/components/pwa/RegisterSW'
 import { LocaleProvider } from '@/i18n/provider'
 import { LOCALE_COOKIE, parseLocale } from '@/i18n/locale'
@@ -55,8 +56,10 @@ export default async function RootLayout({ children }: LayoutProps<'/'>) {
     <html lang={locale} className={`${display.variable} ${body.variable} ${mono.variable} h-full antialiased`}>
       <body className="min-h-full bg-[#07080c] text-[#f3efe6]">
         <LocaleProvider locale={locale}>
-          <RegisterSW />
-          {children}
+          <AuthProvider>
+            <RegisterSW />
+            {children}
+          </AuthProvider>
         </LocaleProvider>
       </body>
     </html>

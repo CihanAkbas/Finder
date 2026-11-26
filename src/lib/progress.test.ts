@@ -268,3 +268,45 @@ test('patterned marker cards translate and place names stay', () => {
   }
   assert.equal([...missed].join('\n'), '')
 })
+import { mergeProgress } from './progressMerge'
+import { storyProgress } from './storyProgress'
+
+test('cloud merge preserves both devices and respects unchecked items', () => {
+  const base = { found: ['old', 'remove'], checklistDone: ['mission1'] }
+  const local = { found: ['old', 'new-local'], checklistDone: [] }
+  const remote = { found: ['old', 'remove', 'new-phone'], checklistDone: ['mission1', 'mission2'] }
+  assert.deepEqual(mergeProgress(base, local, remote), { found: ['old', 'new-phone', 'new-local'], checklistDone: ['mission2'] })
+  assert.deepEqual(mergeProgress({}, { found: ['guest'] }, { found: ['cloud'] }), { found: ['cloud', 'guest'] })
+})
+
+test('cloud merge retains remote custom pins and applies local deletion and edits', () => {
+  const base = { customPins: [{ id: 'delete', title: 'Old' }, { id: 'edit', title: 'Before', note: '' }] }
+  const local = { customPins: [{ id: 'edit', title: 'After', note: '' }] }
+  const remote = { customPins: [...base.customPins.map(p => p.id === 'edit' ? { ...p, note: 'Phone note' } : p), { id: 'phone', title: 'New' }] }
+  assert.deepEqual(mergeProgress(base, local, remote), { customPins: [{ id: 'edit', title: 'After', note: 'Phone note' }, { id: 'phone', title: 'New' }] })
+  assert.deepEqual(mergeProgress({customPins:[{id:'a'}]}, {customPins:[]}, {customPins:[{id:'a'},{id:'b'}]}), {customPins:[{id:'b'}]})
+  assert.deepEqual(mergeProgress({route:['a','b']}, {route:['b','a']}, {route:['a','b','c']}), {route:['b','a']})
+})
+
+test('story progression counts missions equally, follows chapter order, and ignores unrelated rows', () => {
+  const data = gta6Checklist as ChecklistItem[]
+  const initial = storyProgress(data, [])
+  assert.equal(initial.total, 68)
+  assert.equal(initial.next?.title, 'Prologue')
+  const done = storyProgress(data, [initial.ordered[0].id, initial.ordered[1].id, 'unrelated'])
+  assert.equal(done.done, 2)
+  assert.equal(done.next?.title, 'Gear Up')
+  assert.equal(done.percent, 2 / 68 * 100)
+  assert.equal(storyProgress(data, initial.ordered.map(item => item.id)).next, undefined)
+  assert.equal(new Set(initial.ordered.map(item => item.id)).size, initial.total)
+})
+
+test('all story help pins have useful Turkish descriptions and titles', () => {
+  const pins = gta6.markers.filter(marker => marker.id.startsWith('gta6-tip-'))
+  assert.equal(pins.length, 26)
+  for (const pin of pins) {
+    assert.ok(pin.descriptionTr && pin.descriptionTr.length > 40, pin.id)
+    assert.equal(markerDescription('tr', pin.description), pin.descriptionTr)
+    assert.ok(markerTitle('tr', pin.title).length > 4, pin.id)
+  }
+})

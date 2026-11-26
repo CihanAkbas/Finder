@@ -33,7 +33,11 @@ import { normalizeSlice } from '@/store/slice'
 import { weeklyBonus } from '@/i18n/catalog'
 import { useI18n } from '@/i18n/provider'
 import { useCompanionStore } from '@/store/useCompanionStore'
+import { Gta6Dashboard } from './Gta6Dashboard'
 export function Dashboard({ gameSlug }: { gameSlug: string }) {
+  return gameSlug === 'gta6' ? <Gta6Dashboard /> : <LegacyDashboard gameSlug={gameSlug} />
+}
+function LegacyDashboard({ gameSlug }: { gameSlug: string }) {
   const game = getGame(gameSlug)
   const data = getCompanion(gameSlug)
   const raw = useCompanionStore((state) => state.byGame[gameSlug])

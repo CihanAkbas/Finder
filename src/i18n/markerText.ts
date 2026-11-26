@@ -1,3 +1,4 @@
+import storyText from '@/i18n/gta6StoryText.json'
 import type { Locale } from '@/i18n/locale'
 import { gta6PinDescription, gta6PinTitle } from '@/i18n/gta6Map'
 
@@ -322,11 +323,12 @@ function translateHead(head: string) {
 
 export function markerTitle(locale: Locale, title: string) {
   if (locale !== 'tr' || !title) return title
-  return apply(TITLE_RULES, title) ?? gta6PinTitle(locale, title)
+  return (storyText as Record<string, string>)[title] ?? apply(TITLE_RULES, title) ?? gta6PinTitle(locale, title)
 }
 
 export function markerDescription(locale: Locale, description: string) {
   if (locale !== 'tr' || !description) return description
+  if ((storyText as Record<string, string>)[description]) return (storyText as Record<string, string>)[description]
   if (description.startsWith('Leonida map · ')) return gta6PinDescription(locale, description)
   if (WHOLE[description]) return WHOLE[description]
   const splitAt = description.indexOf('. ')

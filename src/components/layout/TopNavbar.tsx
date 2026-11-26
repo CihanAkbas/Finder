@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import { AccountButton } from '@/components/auth/AccountButton'
 import { useRouter } from 'next/navigation'
 import { useMemo } from 'react'
 import { Download, Search, Upload } from 'lucide-react'
@@ -16,13 +17,13 @@ export function TopNavbar({ gameSlug }: { gameSlug: string }) {
   const { t } = useI18n()
   if (!game) return null
   return (
-    <header className="app-header z-40 flex h-16 shrink-0 items-center gap-2 border-b border-white/[0.07] px-4 sm:gap-4 sm:px-6">
+    <header className="app-header z-40 flex h-16 shrink-0 items-center gap-2 border-b border-white/[0.07] px-2 sm:gap-4 sm:px-6">
       <a href="#main-content" className="skip-link">
         {t.skip}
       </a>
       <Link
         href={`/${game.slug}`}
-        className="font-display text-lg tracking-[0.28em] text-[#10B981]"
+        className="font-display text-lg tracking-[0.15em] text-[#10B981]"
       >
         FINDER
       </Link>
@@ -51,6 +52,7 @@ export function TopNavbar({ gameSlug }: { gameSlug: string }) {
         </kbd>
       </button>
       <LanguageSwitch />
+      <AccountButton />
       <BackupButtons />
     </header>
   )

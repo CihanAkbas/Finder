@@ -24,6 +24,7 @@ import { checklistDetail, checklistObjective } from '@/i18n/checklistText'
 import { SourceNote } from '@/components/shared/SourceNote'
 import { useI18n } from '@/i18n/provider'
 import { useCompanionStore } from '@/store/useCompanionStore'
+import { Gta6ChecklistBoard } from './Gta6ChecklistBoard'
 
 const FILTERS = ['All', 'Remaining', 'Completed', '100%', 'Beyond 100%', 'Trophy', 'Gold Medals'] as const
 type ViewTab = 'score' | 'story' | 'extras'
@@ -46,6 +47,9 @@ function MedalBadge({ rank, text }: { rank: MedalRank; text?: string }) {
 }
 
 export function ChecklistBoard({ gameSlug }: { gameSlug: string }) {
+  return gameSlug === 'gta6' ? <Gta6ChecklistBoard /> : <LegacyChecklistBoard gameSlug={gameSlug} />
+}
+function LegacyChecklistBoard({ gameSlug }: { gameSlug: string }) {
   const game = getGame(gameSlug)
   const data = getCompanion(gameSlug)
   const raw = useCompanionStore((state) => state.byGame[gameSlug])
