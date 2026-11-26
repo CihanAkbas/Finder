@@ -6,6 +6,7 @@ import { GTA6_STORY_CATEGORIES, GTA6_STORY_PINS } from '@/config/games/gta6/stor
 import markers from '@/config/games/gta6/markers.json'
 import { communityCategories, communityMarkers } from './community'
 import { applyVehicleCorrections } from './vehicleCorrections'
+import { addReviewedVariants } from './extraVariants'
 
 /**
  * Bounds match the published Leonida marker extent, padded so the map stays square.
@@ -32,7 +33,7 @@ export const gta6 = defineGame({
   maxZoom: 17,
   maxNativeZoom: 16,
   categories: [...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories],
-  markers: applyVehicleCorrections([...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])]),
+  markers: addReviewedVariants(applyVehicleCorrections([...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])])),
   geography: gta6Geography,
   styles: [
     {

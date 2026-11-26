@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import { Copy, ExternalLink, Trash2 } from 'lucide-react'
 import { CategoryIcon } from '@/components/icons'
 import { MarkerGlyph } from '@/components/map/MarkerGlyph'
+import { MarkerGuideCard } from './MarkerGuideCard'
 import { gta6Sprite } from '@/config/games/gta6/markerIcons'
 import { Badge } from '@/components/ui/form'
 import { Button } from '@/components/ui/button'
@@ -76,15 +77,17 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
             {t.map.sources[marker.source]}
           </p>
         ) : null}
+        {marker && game.slug === 'gta6' ? <MarkerGuideCard marker={marker} /> : null}
+        {marker && description ? <p className="whitespace-pre-line text-sm leading-6 text-[#d9d3c8]">{description}</p> : null}
         {marker?.sourceUrl ? (
-          <div className="space-y-2 text-xs leading-5 text-[#a39c90]">
+          <details className="space-y-2 text-xs leading-5 text-[#a39c90]">
+            <summary className="cursor-pointer">{locale === 'tr' ? 'Konum kaynağı ve doğruluk' : 'Position source and accuracy'}</summary>
             <a href={marker.sourceUrl} target="_blank" rel="noreferrer" className="text-sky-300 underline">GTABase / GTADB · {locale === 'tr' ? 'Kaynağı aç' : 'Open source'}</a>
             <p>{locale === 'tr' ? 'Topluluk konumu; koordinatlar bu haritaya dönüştürüldü. Oyunda birebir doğrulanmış konum değildir.' : 'Community position calibrated to this map; not independently verified in-game.'}</p>
             {marker.category === 'community-random-event' || marker.category === 'community-vehicle-spawn' ? <p>{locale === 'tr' ? 'Çıkış yeri garanti değildir; saat, hikâye ilerlemesi veya başka koşullar gerekebilir.' : 'Spawns are not guaranteed; time, story progress or other conditions may apply.'}</p> : null}
             <p>{locale === 'tr' ? 'Kaynak kontrolü' : 'Source reviewed'}: {marker.reviewedAt}</p>
-          </div>
+          </details>
         ) : null}
-        {marker ? <p className="whitespace-pre-line text-sm leading-6 text-[#d9d3c8]">{description}</p> : null}
         {pin ? (
           <div className="space-y-3">
             <div className="space-y-1.5">

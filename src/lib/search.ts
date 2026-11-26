@@ -2,7 +2,13 @@ import Fuse from 'fuse.js'
 import { categoryName } from '@/config/games/defineGame'
 import { markerSearchText, markerTitle } from '@/i18n/markerText'
 import type { CustomPin } from '@/store/useMapStore'
-import type { GameConfig } from '@/types/game'
+import type { GameConfig, MarkerGuide } from '@/types/game'
+
+function guideSearchText(guide?: MarkerGuide) {
+  if (!guide) return ''
+  return [guide.summary, ...(guide.directions ?? []), ...(guide.requirements ?? []), ...(guide.warnings ?? [])]
+    .flatMap((text) => text ? [text.en, text.tr] : []).join(' ')
+}
 
 export type SearchHit = {
   id: string
@@ -29,7 +35,7 @@ export function buildSearchDocs(game: GameConfig, pins: CustomPin[]): SearchHit[
       kind: 'marker' as const,
       description: marker.description,
       tags: `${(marker.tags ?? []).join(' ')} ${markerSearchText(marker.title, marker.description)}`,
-      localized: `${markerTitle('tr', marker.title)} ${marker.descriptionTr ?? ''}`,
+      localized: `${markerTitle('tr', marker.title)} ${marker.descriptionTr ?? ''} ${guideSearchText(marker.guide)}`,
     })),
     ...pins.map((pin) => ({
       id: pin.id,

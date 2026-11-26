@@ -29,6 +29,20 @@ Validation passed: production build, TypeScript, ESLint, 14 unit tests and the m
 
 ## Coverage still missing
 
+### Location and access guide enrichment
+
+Location cards now separate what is present, how to reach it, and access requirements. General category advice is not presented as a verified entrance route. Missing chapter, key, door or floor information remains explicitly unknown.
+
+353 existing community records gained atomic source hints: named places, indoor/outdoor placement, floor/water context, or explicitly required tools. `scripts/enrich-location-hints.mts` extracts allow-listed facts from the public marker JSON; it excludes guide prose, photographs, codes and speculative tool mentions. A named place in a source note is not automatically an unlock requirement. Source timestamps and URLs accompany the hints. The existing 101 vehicle access records now expose door access, security and tracker fields separately; `??` is not treated as a known value, and an unlocked car does not establish an unlocked garage.
+
+Five safehouse records include their reported story chapter; room 201 at Bayside and room 701 on floor 7 at Y Hotel are distinguished from building-level markers. Story references are not promises of access in the player's current save.
+
+Six individually reviewed variants were added with bilingual directions and sources: [Spiderweb Coquette](https://www.gtabase.com/gta-6/vehicles/spiderweb-coquette), [Vanessa's Growler](https://www.gtabase.com/gta-6/vehicles/vanessas-growler), [Drifter Elegy](https://www.gtabase.com/gta-6/vehicles/drifter-elegy), [Seaspray Emerus](https://www.gtabase.com/gta-6/vehicles/seaspray-emerus), [Twinstripe Vigero](https://www.gtabase.com/gta-6/vehicles/twinstripe-vigero), and [Turbo Ruiner](https://www.gtabase.com/gta-6/vehicles/turbo-ruiner). Their original GTABase record IDs (107, 112, 116, 130, 088 and 098) and calibrated positions are used. Current total: 5,329 pins, 129 categories; 2,177 community positions.
+
+[GTABase's Key Cloner guide](https://www.gtabase.com/gta-6/articles/how-to-get-key-cloner-in-gta-6-to-steal-keyless-cars) supports Chapter 3 / Clonin' Keys, Makin' Gs. [PC Gamer's Kit Car guide](https://www.pcgamer.com/games/grand-theft-auto/gta-6-kit-car-locations/) supports Meet the Heders / Chapter 3 for the Cut-Off Tool. These explanations are shown only on records that explicitly require the tool; "may need" remains conditional. No universal garage or safe code is inferred. The Spiderweb guide tells the player to read the upstairs photo clue rather than supplying an unsupported number.
+
+Enrichment validation: 19 tests, TypeScript, ESLint, production build and the full map/guide audit passed. The audit found 1,201 cards with a location-specific note, including pre-existing catalog notes; this is not 1,201 newly verified entrances. Headless Edge checked the three guide headings, Spiderweb's photo/code route, Seaspray's tool unlock, Turbo Ruiner's unknown access, a source-derived roof hint, and Y Hotel's floor/room. Desktop and mobile screenshots were inspected; no browser exceptions occurred. Many records still lack a sourced entrance or unlock condition, and the card explicitly says so rather than inventing one.
+
 ### Rare-vehicle follow-up
 
 After comparing the nine-image Milcham post, three named variants received curated records: [Grotti Status RSX](https://www.gtabase.com/gta-6/vehicles/status-rsx), [Bravado DriveShaft Gauntlet](https://www.gtabase.com/gta-6/vehicles/driveshaft-gauntlet) and [Declasse Battler Picador](https://www.gtabase.com/gta-6/vehicles/battler-picador). The generic RSX pin retains its original ID and is corrected in place; Gauntlet and Picador add two pins. Current totals: 5,323 records, 129 categories, 2,171 community positions.

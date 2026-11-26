@@ -13,11 +13,24 @@ import { communityCategories, communityMarkers } from '../src/config/games/gta6/
 import calibration from '../src/config/games/gta6/communityCalibration.json' with { type: 'json' }
 import { communityToMap } from '../src/lib/communityProjection.ts'
 import { gta6 } from '../src/config/games/gta6/config.ts'
+import { markerGuide } from '../src/lib/markerGuides.ts'
+import locationHints from '../src/config/games/gta6/locationHints.json' with { type: 'json' }
 import checklist from '../src/config/games/gta6/checklist.json' with { type: 'json' }
 
 const leafNames = leafCategories([...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories])
 const allMarkers = gta6.markers
 const markerIds = new Set(allMarkers.map((marker) => marker.id))
+for (const id of Object.keys(locationHints)) assert.ok(markerIds.has(id), `Orphaned location hint: ${id}`)
+let guidedLocations = 0
+for (const marker of allMarkers) {
+  for (const locale of ['en', 'tr']) {
+    const guide = markerGuide(marker, locale)
+    assert.ok(guide.summary && !guide.summary.includes('undefined'), `Invalid guide summary: ${marker.id}`)
+    for (const source of guide.sources) assert.equal(new URL(source.url).protocol, 'https:', `Unsafe guide link: ${marker.id}`)
+    for (const line of [...guide.directions, ...guide.requirements]) assert.ok(line.trim() && !line.includes('undefined'), `Invalid guide text: ${marker.id}`)
+    if (locale === 'en' && guide.locationSpecific) guidedLocations++
+  }
+}
 const leafIds = new Set(leafNames.map((leaf) => leaf.id))
 assert.ok(gta6Atlas.url.startsWith('/maps/'), 'Icons must be served locally')
 const atlas = await sharp(`public${gta6Atlas.url}`).ensureAlpha().raw().toBuffer({ resolveWithObject: true })
@@ -159,6 +172,7 @@ if (process.argv.includes('--report')) writeFileSync(
   ),
 )
 console.log('Catalog integrity passed:', allMarkers.length, 'pins,', leafNames.length, 'categories')
+console.log('Guides:', guidedLocations, 'with a location-specific note;', Object.keys(locationHints).length, 'enriched community records')
 if (process.argv.includes('--report')) console.log('wrote scripts/player-audit.json')
 console.log('missions with map', withMap.length, '/', missions.length)
 console.log('tips with pins', tipsWithPins.length, '/', GTA6_TIPS.length)

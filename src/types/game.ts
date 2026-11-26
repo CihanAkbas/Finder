@@ -9,6 +9,15 @@ export type WorldBounds = {
 
 export type MarkerSource = 'story-script' | 'storefront' | 'landmark' | 'approximate' | 'placeholder' | 'catalog'
 
+export type GuideText = { en: string; tr: string }
+export type MarkerGuide = {
+  summary?: GuideText
+  directions?: GuideText[]
+  requirements?: GuideText[]
+  warnings?: GuideText[]
+  sources?: { title: string; url: string }[]
+}
+
 export type GameMarker = {
   id: string
   title: string
@@ -18,6 +27,7 @@ export type GameMarker = {
   z?: number
   description: string
   descriptionTr?: string
+  guide?: MarkerGuide
   image?: string
   videoUrl?: string
   tags?: string[]

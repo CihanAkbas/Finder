@@ -18,11 +18,54 @@ import { coordText, roundCoord } from './utils'
 import { gta6 } from '../config/games/gta6/config'
 import { applyVehicleCorrections } from '../config/games/gta6/vehicleCorrections'
 import { buildSearchDocs, searchDocs } from './search'
+import { markerGuide } from './markerGuides'
+import { extractLocationHints } from './locationHints'
+import { addReviewedVariants, GTA6_EXTRA_VARIANTS } from '../config/games/gta6/extraVariants'
+import type { GameMarker } from '../types/game'
 
 const minimal = JSON.stringify({
   app: 'finder',
   version: 1,
   games: { gta5: { found: ['gta5-chiliad'] } },
+})
+
+test('location extraction does not turn uncertain or negated tool mentions into prerequisites', () => {
+  const source = 'https://www.gtabase.com/gta-6/map/'
+  assert.equal(extractLocationHints('May need a key cloner.', source), null)
+  assert.equal(extractLocationHints('No key cloner required.', source), null)
+  assert.equal(extractLocationHints('Does not require a key cloner.', source), null)
+  assert.equal(extractLocationHints('Not inside the garage.', source), null)
+  assert.deepEqual(extractLocationHints('Inside the garage. Requires the Cut-Off Tool.', source)?.tools, ['cutter'])
+  assert.deepEqual(extractLocationHints('On the roof. You need the key cloner.', source)?.placements, ['roof'])
+  assert.equal(extractLocationHints('A character mentions Chapter 3.', source), null)
+  assert.equal(extractLocationHints('Unlocks in Chapter 3.', source)?.chapter, 3)
+})
+
+test('guides distinguish a sourced tool requirement from missing entrance and access information', () => {
+  const marker: GameMarker = { id: 'test', title: 'Test pickup', category: 'community-weapon-spawn', x: 0, y: 0, description: '' }
+  assert.equal(markerGuide(marker, 'tr').unknownAccess, true)
+  assert.equal(markerGuide(marker, 'tr').locationSpecific, false)
+  const locked = markerGuide({ ...marker, description: 'Location: Inside the garage.\nAccess: Key Cloner\nTracker: Advanced' }, 'tr')
+  assert.ok(locked.requirements.some((text) => text.includes('Clonin’ Keys')))
+  assert.ok(locked.facts.some((fact) => fact.value === 'Gelişmiş'))
+  assert.equal(locked.unknownAccess, false)
+  const unknown = markerGuide({ ...marker, description: 'Access: ??\nTracker: ??' }, 'en')
+  assert.deepEqual(unknown.facts, [])
+  assert.equal(unknown.unknownAccess, true)
+})
+
+test('reviewed variants have bilingual directions, remain unique, and do not overwrite old player IDs', () => {
+  const reapplied = addReviewedVariants(gta6.markers)
+  assert.equal(reapplied.length, gta6.markers.length)
+  assert.equal(new Set(reapplied.map((marker) => marker.id)).size, reapplied.length)
+  for (const marker of GTA6_EXTRA_VARIANTS) {
+    assert.equal(reapplied.filter((item) => item.id === marker.id).length, 1)
+    for (const locale of ['en', 'tr'] as const) assert.ok(markerGuide(marker, locale).directions.length > 0)
+  }
+  const ruins = gta6.markers.find((marker) => marker.title === 'Imponte Turbo Ruiner')!
+  assert.equal(markerGuide(ruins, 'tr').unknownAccess, true)
+  const hotel = gta6.markers.find((marker) => marker.id === 'gta6-community-safehouse-005')!
+  assert.ok(markerGuide(hotel, 'tr').directions.some((text) => text.includes('701')))
 })
 
 test('curated rare vehicles replace the generic RSX once and survive source correction reapplication', () => {
