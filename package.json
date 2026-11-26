@@ -10,6 +10,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test src/lib/progress.test.ts",
+    "audit:map": "node --import tsx scripts/player-map-audit.mjs",
     "maps:generate": "tsx src/scripts/generate-placeholder-maps.ts",
     "maps:slice": "tsx src/scripts/slice-tiles.ts"
   },

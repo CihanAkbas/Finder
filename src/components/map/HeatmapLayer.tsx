@@ -70,7 +70,7 @@ export function HeatmapLayer({ game }: { game: GameConfig }) {
       controller.abort()
       remove()
     }
-  }, [game.bounds, game.slug, id, map])
+  }, [game.bounds, game.projection, game.slug, id, map])
 
   return null
 }

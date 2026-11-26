@@ -2,8 +2,9 @@ import { useMapStore } from '@/store/useMapStore'
 
 export function applyMapSearch(url: URL, gameSlug: string, view?: { x: number; y: number; z: number }) {
   if (view) {
-    url.searchParams.set('x', view.x.toFixed(2))
-    url.searchParams.set('y', view.y.toFixed(2))
+    const precision = gameSlug === 'gta6' ? 6 : 2
+    url.searchParams.set('x', view.x.toFixed(precision))
+    url.searchParams.set('y', view.y.toFixed(precision))
     url.searchParams.set('z', view.z.toFixed(2))
   }
   const slice = useMapStore.getState().byGame[gameSlug]

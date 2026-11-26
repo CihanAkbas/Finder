@@ -1,6 +1,16 @@
 import type { Locale } from '@/i18n/locale'
 
 const categories: Record<string, { name?: string; description?: string }> = {
+  "finder-help": {
+    "name": "İpuçları ve hikaye",
+    "description": "Yayımlanmış noktalar, ipucu ve görev notuyla"
+  },
+  "finder-tips": {
+    "name": "İpuçları"
+  },
+  "finder-story": {
+    "name": "Hikaye yardımı"
+  },
   "mg-27128": {
     "name": "İlgi noktaları",
     "description": "Konumlar"
@@ -368,7 +378,16 @@ const titles: Record<string, string> = {
   "Racing Introduction": "Yarış tanıtımı",
   "Racing Challenge": "Yarış mücadelesi",
   "Top Fun Drones": "Top Fun drone",
-  "Illegal Operations": "Yasa dışı operasyonlar"
+  "Illegal Operations": "Yasa dışı operasyonlar",
+  "Buck Me · Key Lento Fleeca": "Buck Me · Key Lento Fleeca",
+  "Hey Arnold · Crastenburg": "Hey Arnold · Crastenburg",
+  "Day Release · Rusty Anchor": "Day Release · Rusty Anchor",
+  "Thrillbillies · Mud Club": "Thrillbillies · Çamur kulübü",
+  "Afternoon Delight · Delights": "Afternoon Delight · Delights",
+  "Checking Out · Starlet Motel": "Checking Out · Starlet Motel",
+  "Hamlet Traders · Ammu-Nation": "Hamlet Traders · Ammu-Nation",
+  "Pete · Aerial Drop-offs": "Pete · Hava teslimatı",
+  "Animal Crackers · Wetlands Circuit": "Animal Crackers · Sulak alan turu"
 }
 
 export function gta6CategoryCopy(locale: Locale, id: string) {

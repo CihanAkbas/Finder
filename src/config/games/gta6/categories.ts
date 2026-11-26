@@ -46,6 +46,13 @@ export const gta6Categories: CategoryNode[] = [
     "description": "Locations",
     "children": [
       {
+        "id": "mg-29216",
+        "name": "Kitty Litter Lab",
+        "icon": "landmark",
+        "color": "#a78bfa",
+        "description": "20 pins."
+      },
+      {
         "id": "mg-29022",
         "name": "Bank",
         "icon": "gem",
@@ -138,6 +145,13 @@ export const gta6Categories: CategoryNode[] = [
     "color": "#fda4af",
     "description": "Locations",
     "children": [
+      {
+        "id": "mg-29186",
+        "name": "Wyman's Untowables",
+        "icon": "landmark",
+        "color": "#34d399",
+        "description": "15 pins."
+      },
       {
         "id": "mg-29029",
         "name": "Pay 'N' Spray",
@@ -415,6 +429,111 @@ export const gta6Categories: CategoryNode[] = [
     "description": "Collections",
     "children": [
       {
+        "id": "mg-29170",
+        "name": "Vice City Narcos",
+        "icon": "cards",
+        "color": "#fda4af",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29173",
+        "name": "Vice City Manatees",
+        "icon": "cards",
+        "color": "#86efac",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29168",
+        "name": "Vice City Flamingos",
+        "icon": "cards",
+        "color": "#fb7185",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29176",
+        "name": "Vice City Club de Futbol",
+        "icon": "cards",
+        "color": "#fbbf24",
+        "description": "30 pins."
+      },
+      {
+        "id": "mg-29179",
+        "name": "Right Wing: America's Hero",
+        "icon": "cards",
+        "color": "#22d3ee",
+        "description": "36 pins."
+      },
+      {
+        "id": "mg-29174",
+        "name": "Los Santos Pounders",
+        "icon": "cards",
+        "color": "#a78bfa",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29171",
+        "name": "Los Santos Panic",
+        "icon": "cards",
+        "color": "#f472b6",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29167",
+        "name": "Los Santos Corkers",
+        "icon": "cards",
+        "color": "#34d399",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29175",
+        "name": "Liberty City Wrath",
+        "icon": "cards",
+        "color": "#fb923c",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29169",
+        "name": "Liberty City Swingers",
+        "icon": "cards",
+        "color": "#7ef0e2",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29172",
+        "name": "Liberty City Penetrators",
+        "icon": "cards",
+        "color": "#fda4af",
+        "description": "24 pins."
+      },
+      {
+        "id": "mg-29181",
+        "name": "Legends of Ratface",
+        "icon": "cards",
+        "color": "#86efac",
+        "description": "36 pins."
+      },
+      {
+        "id": "mg-29180",
+        "name": "Ed Universe",
+        "icon": "cards",
+        "color": "#fb7185",
+        "description": "36 pins."
+      },
+      {
+        "id": "mg-29177",
+        "name": "B.A.M. Backyard Wrestling",
+        "icon": "cards",
+        "color": "#fbbf24",
+        "description": "12 pins."
+      },
+      {
+        "id": "mg-29178",
+        "name": "America's Next Top Hooker",
+        "icon": "cards",
+        "color": "#22d3ee",
+        "description": "24 pins."
+      },
+      {
         "id": "mg-29112",
         "name": "Jack of Hearts",
         "icon": "cards",
@@ -444,6 +563,13 @@ export const gta6Categories: CategoryNode[] = [
     "color": "#34d399",
     "description": "Activities",
     "children": [
+      {
+        "id": "mg-29196",
+        "name": "Meditation Spot",
+        "icon": "landmark",
+        "color": "#f472b6",
+        "description": "11 pins."
+      },
       {
         "id": "mg-29011",
         "name": "Basketball Hoop",

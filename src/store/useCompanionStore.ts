@@ -2,6 +2,7 @@ import { createJSONStorage, persist } from 'zustand/middleware'
 import { create } from 'zustand'
 import { createProgressStorage } from '@/lib/idbStorage'
 import { applyOwnership, assetById, healOwnership } from '@/lib/ownership'
+import { seedGta6Layers } from '@/config/games/gta6/playLayers'
 import { normalizeSlice, type CustomPin, type GameSlice, type SafeTrack, type SavedFilter, type SavedProperty } from '@/store/slice'
 
 export type { CustomPin, GameSlice, SavedProperty }
@@ -85,7 +86,7 @@ function samePointer(a: { x: number; y: number } | null, b: { x: number; y: numb
 }
 
 function updateGame(state: { byGame: Record<string, GameSlice> }, game: string, patch: (slice: GameSlice) => GameSlice) {
-  const slice = healOwnership(normalizeSlice(state.byGame[game]))
+  const slice = seedGta6Layers(game, healOwnership(normalizeSlice(state.byGame[game])))
   return { byGame: { ...state.byGame, [game]: patch(slice) } }
 }
 
@@ -291,7 +292,8 @@ export const useCompanionStore = create<CompanionState>()(
           selected: { game: request.game, id: request.id },
           searchOpen: false,
         }),
-      setHidden: (game, ids) => set((state) => updateGame(state, game, (slice) => ({ ...slice, hiddenCategories: ids }))),
+      setHidden: (game, ids) =>
+        set((state) => updateGame(state, game, (slice) => ({ ...slice, hiddenCategories: ids, layerSetup: true }))),
       toggleLeaves: (game, ids, visible) =>
         set((state) =>
           updateGame(state, game, (slice) => {
@@ -300,7 +302,7 @@ export const useCompanionStore = create<CompanionState>()(
               if (visible) hidden.delete(id)
               else hidden.add(id)
             }
-            return { ...slice, hiddenCategories: [...hidden] }
+            return { ...slice, hiddenCategories: [...hidden], layerSetup: true }
           }),
         ),
       setHideFound: (game, hide) => set((state) => updateGame(state, game, (slice) => ({ ...slice, hideFound: hide }))),
@@ -327,7 +329,9 @@ export const useCompanionStore = create<CompanionState>()(
       replaceGames: (games) =>
         set((state) => {
           const byGame = { ...state.byGame }
-          for (const [slug, slice] of Object.entries(games)) byGame[slug] = healOwnership(normalizeSlice({ ...byGame[slug], ...slice }))
+          for (const [slug, slice] of Object.entries(games)) {
+            byGame[slug] = seedGta6Layers(slug, healOwnership(normalizeSlice({ ...byGame[slug], ...slice })))
+          }
           return { byGame }
         }),
       resetGame: (game) =>
@@ -420,7 +424,7 @@ export const useCompanionStore = create<CompanionState>()(
       merge: (persisted, current) => {
         const saved = (persisted as { byGame?: Record<string, Partial<GameSlice>> } | undefined)?.byGame ?? {}
         const byGame: Record<string, GameSlice> = {}
-        for (const [slug, slice] of Object.entries(saved)) byGame[slug] = healOwnership(normalizeSlice(slice))
+        for (const [slug, slice] of Object.entries(saved)) byGame[slug] = seedGta6Layers(slug, healOwnership(normalizeSlice(slice)))
         return { ...current, byGame }
       },
     },

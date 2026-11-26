@@ -5,6 +5,7 @@ import { useMap } from 'react-leaflet'
 import { markerTitle } from '@/i18n/markerText'
 import { useI18n } from '@/i18n/provider'
 import { categoryMap } from '@/lib/categories'
+import { hiddenCategoryIds } from '@/config/games/gta6/playLayers'
 import { isCategoryVisible, mapViewFromSlice } from '@/lib/mapMode'
 import { useClock } from '@/lib/clock'
 import { gunVanMarkerId } from '@/lib/gunVan'
@@ -24,15 +25,15 @@ export function MarkerLayer({ game }: { game: GameConfig }) {
   const categories = useMemo(() => categoryMap(game.categories), [game])
   const items = useMemo<DrawMarker[]>(() => {
     const view = mapViewFromSlice(slice)
-    const hidden = new Set(slice?.hiddenCategories ?? [])
+    const hidden = new Set(hiddenCategoryIds(game.slug, slice))
     const found = new Set(slice?.found ?? [])
     const todayVan = game.slug === 'gta5' ? gunVanMarkerId(dayOfYear(new Date(`${period}T12:00:00Z`), 6)) : undefined
     const next: DrawMarker[] = []
     for (const marker of game.markers) {
       if (!isCategoryVisible(marker.category, view)) continue
-      if (hidden.has(marker.category)) continue
+      if (hidden.has(marker.category) && marker.id !== selected) continue
       const isFound = found.has(marker.id)
-      if (slice?.hideFound && isFound) continue
+      if (slice?.hideFound && isFound && marker.id !== selected) continue
       const today = marker.id === todayVan
       next.push({
         id: marker.id,
@@ -58,7 +59,7 @@ export function MarkerLayer({ game }: { game: GameConfig }) {
       })
     }
     return next
-  }, [categories, game, locale, period, slice, t.map.today])
+  }, [categories, game, locale, period, selected, slice, t.map.today])
 
   const clusterTitle = t.map.locations
   const projection = game.projection ?? 'simple'

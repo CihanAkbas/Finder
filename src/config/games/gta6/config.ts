@@ -2,6 +2,7 @@ import type { GameMarker } from '@/types/game'
 import { defineGame } from '@/config/games/defineGame'
 import { gta6Categories } from '@/config/games/gta6/categories'
 import { gta6Geography, gta6Palettes } from '@/config/games/gta6/geography'
+import { GTA6_STORY_CATEGORIES, GTA6_STORY_PINS } from '@/config/games/gta6/storyPins'
 import markers from '@/config/games/gta6/markers.json'
 
 /**
@@ -28,8 +29,8 @@ export const gta6 = defineGame({
   minZoom: 8,
   maxZoom: 17,
   maxNativeZoom: 16,
-  categories: gta6Categories,
-  markers: markers as GameMarker[],
+  categories: [...GTA6_STORY_CATEGORIES, ...gta6Categories],
+  markers: [...GTA6_STORY_PINS, ...(markers as GameMarker[])],
   geography: gta6Geography,
   styles: [
     {

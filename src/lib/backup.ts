@@ -151,6 +151,10 @@ function sliceFrom(value: unknown, slug: string): GameSlice {
   const clean: Partial<GameSlice> = {}
   if ('found' in value) clean.found = stringList(value.found, slug, 'found')
   if ('hiddenCategories' in value) clean.hiddenCategories = stringList(value.hiddenCategories, slug, 'hiddenCategories')
+  if ('layerSetup' in value) {
+    if (typeof value.layerSetup !== 'boolean') reject(slug, 'layerSetup must be true or false.')
+    clean.layerSetup = value.layerSetup
+  }
   if ('checklistDone' in value) clean.checklistDone = stringList(value.checklistDone, slug, 'checklistDone')
   if ('objectiveDone' in value) clean.objectiveDone = stringList(value.objectiveDone, slug, 'objectiveDone')
   const careerDone = optionalStringList(value, 'careerDone', slug)

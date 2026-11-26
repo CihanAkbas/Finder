@@ -207,6 +207,8 @@ export type GameSlice = {
   route: string[]
   /** Named snapshots of the category filters. */
   savedFilters: SavedFilter[]
+  /** True after the player chooses a layer set, or after the GTA VI play view is applied once. */
+  layerSetup: boolean
 }
 
 export function emptySlice(): GameSlice {
@@ -232,6 +234,7 @@ export function emptySlice(): GameSlice {
     favorites: [],
     route: [],
     savedFilters: [],
+    layerSetup: false,
   }
 }
 
@@ -318,6 +321,7 @@ export function normalizeSlice(partial?: Partial<GameSlice> | null): GameSlice {
     favorites: stringList(rest.favorites),
     route: stringList(rest.route),
     savedFilters: normalizeFilters(rest.savedFilters),
+    layerSetup: rest.layerSetup === true,
     mapStyle: rest.mapStyle ?? base.mapStyle,
     mapMode: rest.mapMode === 'online' ? 'online' : 'story',
     peyoteSet: rest.peyoteSet === 'online' ? 'online' : 'story',

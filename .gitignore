@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/scripts/player-audit.json
 
 # next.js
 /.next/

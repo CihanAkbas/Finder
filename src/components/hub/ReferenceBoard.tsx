@@ -1,14 +1,15 @@
 'use client'
+import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import { Copy } from 'lucide-react'
-import { copyText } from '@/lib/utils'
-import { cn } from '@/lib/utils'
+import { copyText, cn } from '@/lib/utils'
 import { useCompanionStore } from '@/store/useCompanionStore'
 import { cheatEffect, cheatName, cheatUnlock, consoleNote, controlText, controlTitle } from '@/i18n/catalog'
 import { useI18n } from '@/i18n/provider'
 import { getGame } from '@/config/games'
 import { briefBlocks } from '@/config/games/gta6/briefing'
 import { GTA6_CHEAT_GROUPS, GTA6_CHEATS, GTA6_CONSOLE_NOTE } from '@/config/games/gta6/cheats'
+import { tipBlocks } from '@/config/games/gta6/tips'
 import { LaunchingSoon, ModuleFrame } from '@/components/layout/CompanionShell'
 import { CHEAT_GROUPS, CHEATS, CONSOLE_NOTE, CONTROL_SECTIONS } from '@/lib/reference'
 
@@ -34,36 +35,110 @@ function DPadCode({ code }: { code: string }) {
   )
 }
 
+type Tab = 'tips' | 'guide' | 'cheats'
+
 export function ReferenceBoard({ gameSlug }: { gameSlug: string }) {
   const [query, setQuery] = useState('')
-  const [tab, setTab] = useState<'guide' | 'cheats'>('cheats')
+  const [tipQuery, setTipQuery] = useState('')
+  const [tab, setTab] = useState<Tab>('tips')
   const game = getGame(gameSlug)
   const { t, locale } = useI18n()
   const isGta5 = gameSlug === 'gta5'
   const isGta6 = gameSlug === 'gta6'
-  const cheats = isGta6 ? GTA6_CHEATS : isGta5 ? CHEATS : []
+  const cheats = useMemo(() => isGta6 ? GTA6_CHEATS : isGta5 ? CHEATS : [], [isGta5, isGta6])
   const groups = isGta6 ? [...GTA6_CHEAT_GROUPS] : isGta5 ? [...CHEAT_GROUPS] : []
   const note = isGta6 ? GTA6_CONSOLE_NOTE : CONSOLE_NOTE
   const needle = query.toLowerCase()
+  const tipNeedle = tipQuery.trim().toLocaleLowerCase(locale === 'tr' ? 'tr' : 'en')
   const filtered = useMemo(() => {
     return cheats.filter((cheat) => {
       const haystack = `${cheat.name} ${cheatName(locale, cheat.name)} ${cheat.code} ${cheat.effect} ${cheatEffect(locale, cheat.effect)} ${cheat.unlock ?? ''} ${cheatUnlock(locale, cheat.unlock ?? '')}`.toLowerCase()
       return haystack.includes(needle)
     })
   }, [cheats, needle, locale])
+  const tipSections = useMemo(() => {
+    const sections = tipBlocks(locale)
+    if (!tipNeedle) return sections
+    return sections
+      .map((section) => ({
+        ...section,
+        tips: section.tips.filter((tip) => `${tip.title} ${tip.body}`.toLocaleLowerCase(locale === 'tr' ? 'tr' : 'en').includes(tipNeedle)),
+      }))
+      .filter((section) => section.tips.length > 0)
+  }, [locale, tipNeedle])
   if (!game) return null
 
   return (
-    <ModuleFrame title={t.reference.title} kicker={game.shortTitle}>
+    <ModuleFrame title={isGta6 ? t.reference.titleVi : t.reference.title} kicker={game.shortTitle}>
       {game.status === 'preview' ? <LaunchingSoon slug={game.slug} /> : null}
       {isGta6 ? (
         <div className="flex gap-2">
-          <button type="button" aria-pressed={tab === 'cheats'} className={cn('h-9 flex-1 rounded-lg text-xs font-semibold uppercase tracking-wider', tab === 'cheats' ? 'bg-[var(--game-accent,#ff4f8b)] text-white' : 'border border-white/15')} onClick={() => setTab('cheats')}>
-            {t.reference.tabCheats}
-          </button>
-          <button type="button" aria-pressed={tab === 'guide'} className={cn('h-9 flex-1 rounded-lg text-xs font-semibold uppercase tracking-wider', tab === 'guide' ? 'bg-[var(--game-accent,#ff4f8b)] text-white' : 'border border-white/15')} onClick={() => setTab('guide')}>
-            {t.reference.tabGuide}
-          </button>
+          {(
+            [
+              ['tips', t.reference.tabTips],
+              ['guide', t.reference.tabGuide],
+              ['cheats', t.reference.tabCheats],
+            ] as const
+          ).map(([id, label]) => (
+            <button
+              key={id}
+              type="button"
+              aria-pressed={tab === id}
+              className={cn('h-9 flex-1 rounded-lg text-xs font-semibold uppercase tracking-wider', tab === id ? 'bg-[var(--game-accent,#ff4f8b)] text-white' : 'border border-white/15')}
+              onClick={() => setTab(id)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      ) : null}
+      {isGta6 && tab === 'tips' ? (
+        <div className="space-y-4">
+          <p className="text-sm text-[#a39c90]">{t.reference.tipsIntro}</p>
+          <input aria-label={t.reference.tipsSearchLabel} placeholder={t.reference.tipsSearch} value={tipQuery} onChange={(event) => setTipQuery(event.target.value)} className="h-11 w-full max-w-lg border border-white/15 bg-black/20 px-3 text-sm" />
+          <div className="sticky top-0 z-10 flex gap-2 overflow-x-auto bg-[#0a0f15]/95 py-2 backdrop-blur">
+            {tipSections.map((section) => (
+              <a key={section.id} href={`#tip-${section.id}`} className="h-8 shrink-0 rounded-lg border border-white/15 px-3 text-xs uppercase tracking-wider text-[#d9d3c8] hover:border-white/30">
+                {section.title}
+              </a>
+            ))}
+          </div>
+          {tipSections.length === 0 ? (
+            <p className="text-sm text-slate-400" role="status">
+              {t.reference.tipsNone}
+            </p>
+          ) : null}
+          {tipSections.map((section) => (
+            <section key={section.id} id={`tip-${section.id}`} className="space-y-2">
+              <h2 className="font-display text-2xl">{section.title}</h2>
+              <ul className="grid gap-2 sm:grid-cols-2">
+                {section.tips.map((tip) => {
+                  const pinLinks = (tip.mapPins ?? [])
+                    .map((id) => game.markers.find((marker) => marker.id === id))
+                    .filter((marker): marker is NonNullable<typeof marker> => Boolean(marker))
+                  return (
+                    <li key={tip.id} className="rounded-lg border border-white/10 bg-[#12141A] p-3">
+                      <div className="text-sm font-semibold text-[#f3efe6]">{tip.title}</div>
+                      <p className="mt-1.5 text-sm leading-6 text-[#a39c90]">{tip.body}</p>
+                      {pinLinks.length ? (
+                        <div className="mt-2 flex flex-wrap gap-2">
+                          {pinLinks.map((marker) => (
+                            <Link
+                              key={marker.id}
+                              href={`/${game.slug}/map?x=${marker.x}&y=${marker.y}&z=${game.projection === 'geographic' ? 15 : 5}&pin=${marker.id}`}
+                              className="text-[11px] font-semibold uppercase tracking-wider text-[#3B82F6]"
+                            >
+                              {t.viewOnMap}: {marker.title}
+                            </Link>
+                          ))}
+                        </div>
+                      ) : null}
+                    </li>
+                  )
+                })}
+              </ul>
+            </section>
+          ))}
         </div>
       ) : null}
       {isGta6 && tab === 'guide' ? (

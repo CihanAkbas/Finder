@@ -297,21 +297,24 @@
     "title": "Gear Up",
     "detail": "Pick up a longarm at Chuck's Tackle & Shot. Reward: a longarm.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-gear-up-ammu"
   },
   {
     "id": "gta6-mission-just-a-scratch",
     "title": "Just a Scratch",
     "detail": "Repair and respray the Ganado at Joey's before Lucia is released. Reward: a repaired Vapid '70 Ganado.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-just-a-scratch"
   },
   {
     "id": "gta6-mission-lab-fees",
     "title": "Lab Fees",
     "detail": "Collect Brian's rent at Moonstone Boutique. Reward: $39, paid later.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-brian-lockup"
   },
   {
     "id": "gta6-mission-pipework",
@@ -332,14 +335,16 @@
     "title": "Hey Arnold!",
     "detail": "Meet Brian at the Crastenburg Hotel. Reward: $1,200.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-crastenburg"
   },
   {
     "id": "gta6-mission-island-dreams",
     "title": "Island Dreams",
     "detail": "Work for Kenton in Key Lento. Reward: $400 and underwater treasure hunting.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-kenton-diving"
   },
   {
     "id": "gta6-mission-feng-shui",
@@ -360,14 +365,16 @@
     "title": "Clean Up After Donnie",
     "detail": "A package from Donnie's delivery is signaling near a Hamlet fishing spot. Reward: 6 frag grenades and Donnie's fence drop-off.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-donnie-trailer"
   },
   {
     "id": "gta6-mission-buck-me",
     "title": "Buck Me",
     "detail": "Open a bank account for Lucia's community-service pay at the nearby Fleeca. Reward: BuckMe.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-buckme-fleeca"
   },
   {
     "id": "gta6-mission-down-to-earth",
@@ -395,7 +402,8 @@
     "title": "Day Release",
     "detail": "Meet Kat and Mattia at the Rusty Anchor. Reward: sunglasses for Lucia, if you do not miss them.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-rusty-anchor"
   },
   {
     "id": "gta6-mission-swamped",
@@ -409,7 +417,8 @@
     "title": "Don Gone",
     "detail": "Make Donnie's place look like he left town. Reward: $200, his aviators, and his H&L .38.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-donnie-trailer"
   },
   {
     "id": "gta6-mission-recalibration",
@@ -479,7 +488,8 @@
     "title": "Moses",
     "detail": "Take a low-key car to Moses's shop. Reward: a free registration and respray, an upgraded WAiNK scanner, a slim jim, Moses as a fence, and Scooter Bros.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-moses-register"
   },
   {
     "id": "gta6-mission-ambulance-chaser",
@@ -521,7 +531,8 @@
     "title": "Daily Driver",
     "detail": "Steal the '82 Canis Crawler parked by the old Trader's Union building. Reward: a payout that depends on its condition, the Port Gellhorn Station garage, and Vice City Real Estate.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-port-gellhorn-garage"
   },
   {
     "id": "gta6-mission-slam-dunk",
@@ -549,21 +560,24 @@
     "title": "Thrillbillies",
     "detail": "Race at Thrillbilly Mud Club. Reward: up to $2,500.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-thrillbillies"
   },
   {
     "id": "gta6-mission-afternoon-delight",
     "title": "Afternoon Delight",
     "detail": "Meet Vicki at Delights to rob her boss. Reward: at least $1,800, and $10,000 from Vicki.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-delights"
   },
   {
     "id": "gta6-mission-checking-out",
     "title": "Checking Out",
     "detail": "Leave the motel and meet Dre'Quan in Vice City. Reward: none.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-starlet-motel"
   },
   {
     "id": "gta6-mission-welcome-to-vice-city",
@@ -598,7 +612,8 @@
     "title": "Tyrone",
     "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-tyrone"
   },
   {
     "id": "gta6-mission-here-kitty-kitty",
@@ -640,7 +655,8 @@
     "title": "Yasmani's Jewelry Jobs",
     "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
     "group": "story",
-    "requiredFor100": false
+    "requiredFor100": false,
+    "mapId": "gta6-tip-yasmani"
   },
   {
     "id": "gta6-mission-first-impressions",

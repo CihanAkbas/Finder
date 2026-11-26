@@ -12,11 +12,41 @@ import { applyOwnership } from './ownership'
 import { CATALOG_REVISION } from './provenance'
 import { thisWeek, SCHEDULE_WEEKS } from './weekly'
 import { emptySlice, normalizeSlice, type ChecklistItem } from '../store/slice'
+import { GTA6_NOISE_LAYERS, seedGta6Layers, hiddenCategoryIds } from '../config/games/gta6/playLayers'
+import { applyMapSearch } from './mapUrl'
 
 const minimal = JSON.stringify({
   app: 'finder',
   version: 1,
   games: { gta5: { found: ['gta5-chiliad'] } },
+})
+
+test('GTA VI defaults are seeded once and explicit filters survive reload and backup', () => {
+  const fresh = emptySlice()
+  assert.deepEqual(hiddenCategoryIds('gta6', fresh), GTA6_NOISE_LAYERS)
+  const seeded = seedGta6Layers('gta6', fresh)
+  assert.equal(seeded.layerSetup, true)
+  assert.deepEqual(seeded.hiddenCategories, GTA6_NOISE_LAYERS)
+  const shown = { ...seeded, hiddenCategories: [] }
+  assert.equal(seedGta6Layers('gta6', shown), shown)
+  const restored = parseBackup(JSON.stringify({ app: 'finder', version: 1, games: { gta6: shown } })).gta6
+  assert.deepEqual(hiddenCategoryIds('gta6', seedGta6Layers('gta6', restored)), [])
+  const chosen = { ...fresh, hiddenCategories: ['mg-29041'] }
+  assert.deepEqual(seedGta6Layers('gta6', chosen).hiddenCategories, chosen.hiddenCategories)
+  assert.equal(seedGta6Layers('gta5', fresh), fresh)
+  assert.throws(() => parseBackup(JSON.stringify({ games: { gta6: { layerSetup: 'yes' } } })))
+})
+
+test('GTA VI shared views retain geographic precision while GTA V keeps world coordinates', () => {
+  const view = { x: -0.6578412, y: 0.7123456, z: 15.25 }
+  const url = new URL('https://finder.test/gta6/map')
+  applyMapSearch(url, 'gta6', view)
+  assert.ok(Math.abs(Number(url.searchParams.get('x')) - view.x) < 0.000001)
+  assert.ok(Math.abs(Number(url.searchParams.get('y')) - view.y) < 0.000001)
+  assert.equal(url.searchParams.get('z'), '15.25')
+  applyMapSearch(url, 'gta5', { x: 1234.567, y: -987.654, z: 5 })
+  assert.equal(url.searchParams.get('x'), '1234.57')
+  assert.equal(url.searchParams.get('y'), '-987.65')
 })
 
 test('a readable save survives a blank or broken copy', () => {
