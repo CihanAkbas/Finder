@@ -7,7 +7,7 @@ import { MarkerGlyph } from '@/components/map/MarkerGlyph'
 import { gta6CategoryIcons } from '@/config/games/gta6/markerIcons'
 import { useMapApi } from '@/components/map/mapApi'
 import { GTA6_NOISE_LAYERS, GTA6_PLAYER_VIEWS, hiddenCategoryIds, playerViewHidden } from '@/config/games/gta6/playLayers'
-import { leafIds, markersFor } from '@/lib/categories'
+import { countFound, leafIds, markersFor } from '@/lib/categories'
 import { localizeCategories } from '@/i18n/categories'
 import { markerTitle } from '@/i18n/markerText'
 import { useI18n } from '@/i18n/provider'
@@ -129,10 +129,11 @@ export function CategoryTree({ game }: { game: GameConfig }) {
                       type="button"
                       aria-expanded={open}
                       aria-label={`${open ? t.map.collapse : t.map.expand} ${node.name}`}
+                      title={locale === 'tr' ? `Haritada ${markers.length} pin · ${countFound(markers, found)} bulundu${node.worldTotal ? ` · Kaynak toplamı: ${node.worldTotal}` : ''}` : `${markers.length} mapped pins · ${countFound(markers, found)} found${node.worldTotal ? ` · Source total: ${node.worldTotal}` : ''}`}
                       className={cn('px-1.5 py-1.5 font-mono text-[10px] text-[#8d877c] hover:text-white', open && 'text-[var(--game-accent)]')}
                       onClick={() => setOpenLeaf(open ? null : node.id)}
                     >
-                      {node.worldTotal ? `${markers.length}/${node.worldTotal}` : markers.length}
+                      {markers.length} {locale === 'tr' ? 'pin' : 'pins'}
                     </button>
                   </div>
                 )
@@ -140,6 +141,10 @@ export function CategoryTree({ game }: { game: GameConfig }) {
             </div>
             {openNode ? (
               <div className="mt-1 max-h-48 overflow-y-auto rounded-md border border-white/10 bg-black/40">
+                <p className="border-b border-white/10 px-2 py-2 text-[11px] leading-5 text-[#a39c90]">
+                  {locale === 'tr' ? `Haritada ${openMarkers.length} konum · ${countFound(openMarkers, found)} bulundu.` : `${openMarkers.length} mapped locations · ${countFound(openMarkers, found)} found.`}
+                  {openNode.worldTotal ? <span className="block">{locale === 'tr' ? `Kaynak toplamı ${openNode.worldTotal}; bu sayı tamamlama ilerlemen değildir.` : `Source total: ${openNode.worldTotal}; this is not your completion progress.`}</span> : null}
+                </p>
                 <button type="button" className="w-full px-2 py-1 text-left text-[10px] uppercase tracking-wider text-[#a39c90]" onClick={() => focus(openMarkers)}>
                   {t.checklist.showOnMap}
                 </button>
