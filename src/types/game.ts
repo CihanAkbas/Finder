@@ -17,6 +17,7 @@ export type GameMarker = {
   y: number
   z?: number
   description: string
+  descriptionTr?: string
   image?: string
   videoUrl?: string
   tags?: string[]

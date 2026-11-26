@@ -29,7 +29,7 @@ export function buildSearchDocs(game: GameConfig, pins: CustomPin[]): SearchHit[
       kind: 'marker' as const,
       description: marker.description,
       tags: `${(marker.tags ?? []).join(' ')} ${markerSearchText(marker.title, marker.description)}`,
-      localized: markerTitle('tr', marker.title),
+      localized: `${markerTitle('tr', marker.title)} ${marker.descriptionTr ?? ''}`,
     })),
     ...pins.map((pin) => ({
       id: pin.id,

@@ -36,7 +36,7 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
   const favorite = slice?.favorites.includes(pointId) ?? false
   const onRoute = slice?.route.includes(pointId) ?? false
   const title = marker ? markerTitle(locale, marker.title) : pin?.title ?? ''
-  const description = marker ? markerDescription(locale, marker.description) : ''
+  const description = marker ? (locale === 'tr' && marker.descriptionTr ? marker.descriptionTr : markerDescription(locale, marker.description)) : ''
 
   return (
     <aside

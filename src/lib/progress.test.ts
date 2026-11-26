@@ -15,11 +15,41 @@ import { emptySlice, normalizeSlice, type ChecklistItem } from '../store/slice'
 import { GTA6_NOISE_LAYERS, seedGta6Layers, hiddenCategoryIds } from '../config/games/gta6/playLayers'
 import { applyMapSearch } from './mapUrl'
 import { coordText, roundCoord } from './utils'
+import { gta6 } from '../config/games/gta6/config'
+import { applyVehicleCorrections } from '../config/games/gta6/vehicleCorrections'
+import { buildSearchDocs, searchDocs } from './search'
 
 const minimal = JSON.stringify({
   app: 'finder',
   version: 1,
   games: { gta5: { found: ['gta5-chiliad'] } },
+})
+
+test('curated rare vehicles replace the generic RSX once and survive source correction reapplication', () => {
+  const reapplied = applyVehicleCorrections(gta6.markers)
+  assert.equal(reapplied.length, gta6.markers.length)
+  assert.equal(new Set(reapplied.map((marker) => marker.id)).size, reapplied.length)
+  const rsx = reapplied.filter((marker) => marker.id === 'gta6-community-vehicle-spawn-029')
+  assert.equal(rsx.length, 1)
+  assert.equal(rsx[0].title, 'Grotti Status RSX')
+  assert.equal(rsx[0].category, 'mg-29095')
+  assert.ok(!reapplied.some((marker) => marker.title === 'Grotti RSX'))
+  for (const title of ['Bravado DriveShaft Gauntlet', 'Declasse Battler Picador']) {
+    const matches = reapplied.filter((marker) => marker.title === title)
+    assert.equal(matches.length, 1)
+    assert.equal(matches[0].source, 'approximate')
+    assert.ok(matches[0].descriptionTr)
+  }
+  const picador = reapplied.find((marker) => marker.title === 'Declasse Battler Picador')!
+  assert.match(picador.descriptionTr!, /Konum çelişkisi/)
+  assert.ok(!reapplied.some((marker) => marker.id === 'gta6-community-standout-vehicle-170'))
+})
+
+test('rare vehicle aliases and Turkish location clues lead to the curated map records', () => {
+  const docs = buildSearchDocs(gta6, [])
+  for (const [query, id] of [["Dom's Charger", 'gta6-community-standout-vehicle-156'], ['Status RSX', 'gta6-community-vehicle-spawn-029'], ['yeşil kapılı ahır', 'gta6-community-standout-vehicle-149']]) {
+    assert.ok(searchDocs(docs, query).some((hit) => hit.id === id), `Missing search result: ${query}`)
+  }
 })
 
 test('GTA VI defaults are seeded once and explicit filters survive reload and backup', () => {

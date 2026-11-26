@@ -29,6 +29,14 @@ Validation passed: production build, TypeScript, ESLint, 14 unit tests and the m
 
 ## Coverage still missing
 
+### Rare-vehicle follow-up
+
+After comparing the nine-image Milcham post, three named variants received curated records: [Grotti Status RSX](https://www.gtabase.com/gta-6/vehicles/status-rsx), [Bravado DriveShaft Gauntlet](https://www.gtabase.com/gta-6/vehicles/driveshaft-gauntlet) and [Declasse Battler Picador](https://www.gtabase.com/gta-6/vehicles/battler-picador). The generic RSX pin retains its original ID and is corrected in place; Gauntlet and Picador add two pins. Current totals: 5,323 records, 129 categories, 2,171 community positions.
+
+The Status location and Key Cloner requirement are also reported by [Insider Gaming](https://insider-gaming.com/where-to-find-the-grotti-status-rsx-in-gta-6/). Source world positions are Status `(-5533, 2239)` (record 290), Gauntlet `(-5385.9, 6977)` (156), and Battler `(-5109, 478)` (149), transformed with the existing calibration. The Picador source also has a conflicting record 170 at `(-2872.9, 4828)`, near Ambrosia. It is not plotted: the vehicle page and member record 149 instead identify the South Kelly barn with green doors. The retained pin explicitly flags this conflict; it is not independently verified in the game. Identification of the collage's blue pickup remains uncertain. Gauntlet security reports also disagree, so no definite unlock requirement is asserted.
+
+`vehicleCorrections.ts` is applied after raw catalog imports, preserving the generic RSX ID and preventing subsequent source imports from undoing the curated variant names. Localized descriptions and search aliases include Dom's Charger, Itali RSX and Turkish location clues. The existing Standout Vehicle category and icon are reused.
+
 - 42 of the 125 flamingo positions are absent from the imported snapshot; 83 available positions cannot satisfy the 100-position completion quota alone.
 - 52 of 68 story missions have no verified waypoint in the existing checklist. No location is invented to fill this gap.
 - Additional entries in existing categories were not blindly merged: source taxonomies differ, and duplicate cards, safes, stunts and storefronts could corrupt player progress.

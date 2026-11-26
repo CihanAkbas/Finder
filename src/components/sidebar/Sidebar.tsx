@@ -146,7 +146,7 @@ export function Sidebar({
         </div>
         <div>
           <CategoryTree game={game} />
-          {game.slug === 'gta6' ? <MapCoverage /> : null}
+          {game.slug === 'gta6' ? <MapCoverage game={game} /> : null}
           {game.slug === 'gta6' ? <HeatmapPanel /> : null}
           <details className="border-t border-white/10 px-4 py-3">
           <summary className="cursor-pointer text-xs uppercase tracking-[0.14em] text-[#a39c90]">{t.map.personal}</summary>

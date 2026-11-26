@@ -1,11 +1,13 @@
 'use client'
 
-import { COMMUNITY_REVIEWED, COMMUNITY_SOURCE, communityMarkers } from '@/config/games/gta6/community'
+import { COMMUNITY_REVIEWED, COMMUNITY_SOURCE } from '@/config/games/gta6/community'
 import { useI18n } from '@/i18n/provider'
+import type { GameConfig } from '@/types/game'
 
-export function MapCoverage() {
+export function MapCoverage({ game }: { game: GameConfig }) {
   const { locale } = useI18n()
   const tr = locale === 'tr'
+  const communityMarkers = game.markers.filter((marker) => marker.id.startsWith('gta6-community-'))
   const flamingos = communityMarkers.filter((marker) => marker.category === 'community-cocaine-flamingo').length
   return (
     <details className="border-t border-white/10 px-3 py-3 text-xs leading-5 text-[#a39c90]">

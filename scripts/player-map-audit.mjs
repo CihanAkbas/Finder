@@ -16,7 +16,7 @@ import { gta6 } from '../src/config/games/gta6/config.ts'
 import checklist from '../src/config/games/gta6/checklist.json' with { type: 'json' }
 
 const leafNames = leafCategories([...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories])
-const allMarkers = [...markers, ...GTA6_STORY_PINS, ...communityMarkers]
+const allMarkers = gta6.markers
 const markerIds = new Set(allMarkers.map((marker) => marker.id))
 const leafIds = new Set(leafNames.map((leaf) => leaf.id))
 assert.ok(gta6Atlas.url.startsWith('/maps/'), 'Icons must be served locally')
