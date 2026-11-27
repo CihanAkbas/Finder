@@ -27,6 +27,10 @@ export type ChecklistItem = {
   detail: string
   group: ChecklistGroup
   requiredFor100: boolean
+  detailTr?: string
+  storyOptional?: boolean
+  missable?: boolean
+  pointOfNoReturn?: boolean
   /** Published share of the 100% score, used by GTA VI. GTA V keeps group weights. */
   share?: number
   trophy?: 'missable' | 'online' | 'story'

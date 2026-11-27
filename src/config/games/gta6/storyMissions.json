@@ -1,0 +1,1142 @@
+{
+  "reviewedAt": "2026-11-27",
+  "source": "https://www.gtabase.com/gta-6/missions/",
+  "mainCount": 109,
+  "optionalCount": 26,
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": {
+        "en": "Prologue",
+        "tr": "Prolog"
+      },
+      "missions": [
+        {
+          "id": "gta6-mission-prologue",
+          "title": "Prologue",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/missions/gta-6/prologue"
+        }
+      ]
+    },
+    {
+      "id": "ch1",
+      "title": {
+        "en": "Chapter 1 · Just Like Paradise",
+        "tr": "1. Bölüm · Just Like Paradise"
+      },
+      "missions": [
+        {
+          "id": "gta6-mission-gone-fishing",
+          "title": "Gone Fishing",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/gone-fishing"
+        },
+        {
+          "id": "gta6-mission-gear-up",
+          "title": "Gear Up",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/gear-up"
+        },
+        {
+          "id": "gta6-mission-unwanted-attention",
+          "title": "Unwanted Attention",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/unwanted-attention"
+        },
+        {
+          "id": "gta6-mission-lab-fees",
+          "title": "Lab Fees",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/lab-fees"
+        },
+        {
+          "id": "gta6-mission-pipework",
+          "title": "Pipework",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/pipework"
+        },
+        {
+          "id": "gta6-mission-just-a-scratch",
+          "title": "Just a Scratch",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/just-a-scratch"
+        },
+        {
+          "id": "gta6-optional-get-shirley-s-rum",
+          "title": "Get Shirley's Rum",
+          "optional": true,
+          "missable": true,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/get-shirleys-rum"
+        },
+        {
+          "id": "gta6-mission-steal-the-scooter",
+          "title": "Steal the Scooter",
+          "optional": true,
+          "missable": true,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/steal-the-scooter"
+        },
+        {
+          "id": "gta6-mission-hey-arnold",
+          "title": "Hey Arnold!",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/hey-arnold"
+        },
+        {
+          "id": "gta6-mission-island-dreams",
+          "title": "Island Dreams",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/island-dreams"
+        },
+        {
+          "id": "gta6-mission-feng-shui",
+          "title": "Feng Shui",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/feng-shui"
+        },
+        {
+          "id": "gta6-mission-pick-up-groceries",
+          "title": "Pick Up Groceries",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/pick-up-groceries"
+        },
+        {
+          "id": "gta6-mission-buy-flowers",
+          "title": "Buy Flowers",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/buy-flowers"
+        },
+        {
+          "id": "gta6-mission-buy-lucia-a-necklace",
+          "title": "Buy Lucia a Necklace",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/buy-lucia-a-necklace"
+        },
+        {
+          "id": "gta6-mission-get-the-chop",
+          "title": "Get The Chop",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/get-the-chop"
+        },
+        {
+          "id": "gta6-mission-get-lucia-s-clothes",
+          "title": "Get Lucia's Clothes",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/get-lucias-clothes"
+        },
+        {
+          "id": "gta6-mission-catch-a-bigger-fish",
+          "title": "Catch a Bigger Fish",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/catch-a-bigger-fish"
+        },
+        {
+          "id": "gta6-mission-coming-home",
+          "title": "Coming Home",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/coming-home"
+        },
+        {
+          "id": "gta6-mission-clean-up-after-donnie",
+          "title": "Clean Up After Donnie",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/clean-up-after-donnie"
+        },
+        {
+          "id": "gta6-mission-buck-me",
+          "title": "Buck Me",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/buck-me"
+        },
+        {
+          "id": "gta6-mission-down-to-earth",
+          "title": "Down to Earth",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/down-to-earth"
+        },
+        {
+          "id": "gta6-mission-meditate-with-lucia",
+          "title": "Meditate with Lucia",
+          "optional": true,
+          "missable": true,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/meditate-with-lucia"
+        },
+        {
+          "id": "gta6-optional-find-the-lost-drugs",
+          "title": "Find the Lost Drugs",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/find-the-lost-drugs"
+        },
+        {
+          "id": "gta6-mission-deposit-cash-into-buckme",
+          "title": "Deposit Cash Into BuckMe",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/deposit-cash-into-buckme"
+        },
+        {
+          "id": "gta6-mission-save-for-the-future",
+          "title": "Save for the Future",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/save-for-the-future"
+        },
+        {
+          "id": "gta6-mission-day-release",
+          "title": "Day Release",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/day-release"
+        },
+        {
+          "id": "gta6-mission-clock-out",
+          "title": "Clock Out",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/clock-out"
+        },
+        {
+          "id": "gta6-mission-clear-skies",
+          "title": "Clear Skies",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/clear-skies"
+        },
+        {
+          "id": "gta6-mission-building-a-life",
+          "title": "Building a Life",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/building-a-life"
+        },
+        {
+          "id": "gta6-optional-ring-the-bell",
+          "title": "Ring the Bell!",
+          "optional": true,
+          "missable": true,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/ring-the-bell"
+        },
+        {
+          "id": "gta6-mission-swamped",
+          "title": "Swamped",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/swamped"
+        },
+        {
+          "id": "gta6-mission-don-gone",
+          "title": "Don Gone",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/don-gone"
+        },
+        {
+          "id": "gta6-mission-donnie-s-lost-drugs",
+          "title": "Donnie's Lost Drugs",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/donnies-lost-drugs"
+        },
+        {
+          "id": "gta6-mission-recalibration",
+          "title": "Recalibration",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/recalibration"
+        },
+        {
+          "id": "gta6-mission-tourist-trap",
+          "title": "Tourist Trap",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": true,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/tourist-trap"
+        },
+        {
+          "id": "gta6-mission-home-sweet-home",
+          "title": "Home Sweet Home",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/home-sweet-home"
+        },
+        {
+          "id": "gta6-mission-discharge-time",
+          "title": "Discharge Time",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/discharge-time"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": {
+        "en": "Chapter 2 · Paradise Lost",
+        "tr": "2. Bölüm · Paradise Lost"
+      },
+      "missions": [
+        {
+          "id": "gta6-mission-what-s-in-the-bag",
+          "title": "What's in the Bag?",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/whats-in-the-bag"
+        },
+        {
+          "id": "gta6-mission-ambulance-chaser",
+          "title": "Ambulance Chaser",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/ambulance-chaser"
+        },
+        {
+          "id": "gta6-mission-play-nurse",
+          "title": "Play Nurse",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/take-care-of-jason"
+        },
+        {
+          "id": "gta6-mission-overnight-charges",
+          "title": "Overnight Charges",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/overnight-charges"
+        },
+        {
+          "id": "gta6-mission-just-moved-in",
+          "title": "Just Moved In",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/just-moved-in"
+        },
+        {
+          "id": "gta6-mission-girls-trip",
+          "title": "Girls' Trip",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/girls-trip"
+        },
+        {
+          "id": "gta6-optional-pick-up-a-gun",
+          "title": "Pick Up a Gun",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/pick-up-a-gun"
+        },
+        {
+          "id": "gta6-mission-moses",
+          "title": "Moses",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/moses"
+        },
+        {
+          "id": "gta6-mission-new-look",
+          "title": "New Look",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/new-look"
+        },
+        {
+          "id": "gta6-mission-how-do-i-look",
+          "title": "How Do I Look?",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/how-do-i-look"
+        },
+        {
+          "id": "gta6-mission-got-pills",
+          "title": "Got Pills?",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/painkiller-supplier"
+        },
+        {
+          "id": "gta6-mission-daily-driver",
+          "title": "Daily Driver",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/daily-driver"
+        },
+        {
+          "id": "gta6-mission-behind-on-payments",
+          "title": "Behind on Payments",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/behind-on-payments"
+        },
+        {
+          "id": "gta6-mission-slam-dunk",
+          "title": "Slam Dunk",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/slam-dunk"
+        },
+        {
+          "id": "gta6-mission-breakfast-run",
+          "title": "Breakfast Run",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/breakfast-run"
+        },
+        {
+          "id": "gta6-mission-coffee-break",
+          "title": "Coffee Break",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/coffee-break"
+        },
+        {
+          "id": "gta6-mission-thrillbillies",
+          "title": "Thrillbillies",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/thrillbillies"
+        },
+        {
+          "id": "gta6-mission-twist-wrist-smash-grab",
+          "title": "Twist Wrist, Smash, Grab",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/twist-wrist-smash-grab"
+        },
+        {
+          "id": "gta6-mission-hit-avery-pawn",
+          "title": "Hit Avery Pawn",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/hit-avery-pawn"
+        },
+        {
+          "id": "gta6-mission-hit-kingpin-bowling",
+          "title": "Hit Kingpin Bowling",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/hit-kingpin-bowling"
+        },
+        {
+          "id": "gta6-mission-impounded-vehicle",
+          "title": "Impounded Vehicle",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/impounded-vehicle"
+        },
+        {
+          "id": "gta6-mission-prepare-for-vice-city",
+          "title": "Prepare for Vice City",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/prepare-for-vice-city"
+        },
+        {
+          "id": "gta6-mission-afternoon-delight",
+          "title": "Afternoon Delight",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/afternoon-delight"
+        },
+        {
+          "id": "gta6-mission-checking-out",
+          "title": "Checking Out",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": true,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/checking-out"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": {
+        "en": "Chapter 3 · Tits Ass Drug Money",
+        "tr": "3. Bölüm · Tits Ass Drug Money"
+      },
+      "missions": [
+        {
+          "id": "gta6-mission-welcome-to-vice-city",
+          "title": "Welcome to Vice City",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/welcome-to-vice-city"
+        },
+        {
+          "id": "gta6-mission-dealer-s-choice",
+          "title": "Dealer's Choice",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/dealers-choice"
+        },
+        {
+          "id": "gta6-mission-meet-the-heders",
+          "title": "Meet the Heders",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/meet-the-heders"
+        },
+        {
+          "id": "gta6-mission-dubious-provenance",
+          "title": "Dubious Provenance",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/dubious-provenance"
+        },
+        {
+          "id": "gta6-mission-mami-knows-best",
+          "title": "Mami Knows Best",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/mami-knows-best"
+        },
+        {
+          "id": "gta6-mission-get-your-wheels",
+          "title": "Get Your Wheels",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/get-your-wheels"
+        },
+        {
+          "id": "gta6-mission-tyrone",
+          "title": "Tyrone",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/tyrone"
+        },
+        {
+          "id": "gta6-mission-here-kitty-kitty",
+          "title": "Here, Kitty Kitty",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/here-kitty-kitty"
+        },
+        {
+          "id": "gta6-mission-send-money-to-lorena",
+          "title": "Send Money to Lorena",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/send-money-to-lorena"
+        },
+        {
+          "id": "gta6-mission-car-service",
+          "title": "Car Service",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/car-service"
+        },
+        {
+          "id": "gta6-mission-send-more-money-to-lorena",
+          "title": "Send More Money to Lorena",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/send-more-money-to-lorena"
+        },
+        {
+          "id": "gta6-mission-top-billing",
+          "title": "Top Billing",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/top-billing"
+        },
+        {
+          "id": "gta6-mission-boobie-time",
+          "title": "Boobie Time",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/boobie-time"
+        },
+        {
+          "id": "gta6-mission-yasmani-s-jewelry-jobs",
+          "title": "Yasmani's Jewelry Jobs",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/yasmanis-jewelry-jobs"
+        },
+        {
+          "id": "gta6-mission-first-impressions",
+          "title": "First Impressions",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/first-impressions"
+        },
+        {
+          "id": "gta6-mission-caught-slipping",
+          "title": "Caught Slipping",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/caught-slipping"
+        },
+        {
+          "id": "gta6-mission-crosstown-traffic",
+          "title": "Crosstown Traffic",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/crosstown-traffic"
+        },
+        {
+          "id": "gta6-mission-credit-check",
+          "title": "Credit Check",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/credit-check"
+        },
+        {
+          "id": "gta6-mission-clonin-keys-makin-gs",
+          "title": "Clonin' Keys, Makin' Gs",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/steal-the-zorrusso-for-randy"
+        },
+        {
+          "id": "gta6-mission-race-against-yago",
+          "title": "Race Against Yago",
+          "optional": true,
+          "missable": true,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/race-against-yago"
+        },
+        {
+          "id": "gta6-mission-sinfrontera-national-bank",
+          "title": "Sinfrontera National Bank",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/sinfrontera-national-bank"
+        },
+        {
+          "id": "gta6-mission-security-expert",
+          "title": "Security Expert",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/security-expert"
+        },
+        {
+          "id": "gta6-mission-heist-planning",
+          "title": "Heist Planning",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/heist-planning"
+        },
+        {
+          "id": "gta6-mission-ride-or-die",
+          "title": "Ride or Die",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/ride-or-die"
+        },
+        {
+          "id": "gta6-mission-company-property",
+          "title": "Company Property",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/company-property"
+        },
+        {
+          "id": "gta6-mission-the-missing-link",
+          "title": "The Missing Link",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/the-missing-link"
+        },
+        {
+          "id": "gta6-mission-safe-word",
+          "title": "Safe Word",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/safe-word"
+        },
+        {
+          "id": "gta6-mission-cooties",
+          "title": "Cooties",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/cooties"
+        },
+        {
+          "id": "gta6-mission-south-leonida-real-estate",
+          "title": "South Leonida Real Estate",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/south-leonida-real-estate"
+        },
+        {
+          "id": "gta6-mission-pick-up-shayna",
+          "title": "Pick Up Shayna",
+          "optional": true,
+          "missable": true,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/this-is-a-free-call-from"
+        },
+        {
+          "id": "gta6-mission-hidden-charges",
+          "title": "Hidden Charges",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/hidden-charges"
+        },
+        {
+          "id": "gta6-mission-bricked-up",
+          "title": "Bricked Up",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/bricked-up"
+        },
+        {
+          "id": "gta6-mission-the-cartel-heist",
+          "title": "The Cartel Heist",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/the-cartel-heist"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": {
+        "en": "Chapter 4 · Vice City, Baby",
+        "tr": "4. Bölüm · Vice City, Baby"
+      },
+      "missions": [
+        {
+          "id": "gta6-mission-ocean-beach",
+          "title": "Ocean Beach",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/ocean-beach"
+        },
+        {
+          "id": "gta6-mission-another-life",
+          "title": "Another Life",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/another-life"
+        },
+        {
+          "id": "gta6-mission-pool-day",
+          "title": "Pool Day",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/pool-day"
+        },
+        {
+          "id": "gta6-mission-attend-eddie-acosta-s-party",
+          "title": "Attend Eddie Acosta's Party",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/attend-eddie-acostas-party"
+        },
+        {
+          "id": "gta6-mission-company-cars",
+          "title": "Company Cars",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/company-cars"
+        },
+        {
+          "id": "gta6-mission-lawyer-up",
+          "title": "Lawyer Up",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/lawyer-up"
+        },
+        {
+          "id": "gta6-mission-party-hard",
+          "title": "Party Hard",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/party-hard"
+        },
+        {
+          "id": "gta6-mission-heavy-lifting",
+          "title": "Heavy Lifting",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/heavy-lifting"
+        },
+        {
+          "id": "gta6-mission-it-s-a-date",
+          "title": "It's a Date!",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/its-a-date"
+        },
+        {
+          "id": "gta6-mission-photo-shoot",
+          "title": "Photo/Shoot",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/photo-shoot"
+        },
+        {
+          "id": "gta6-mission-bad-driver",
+          "title": "Bad Driver!",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/bad-driver"
+        },
+        {
+          "id": "gta6-mission-making-gainz",
+          "title": "Making Gainz",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/making-gainz"
+        },
+        {
+          "id": "gta6-mission-too-much-baggage",
+          "title": "Too Much Baggage",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/too-much-baggage"
+        },
+        {
+          "id": "gta6-mission-watch-it",
+          "title": "Watch It",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/watch-it"
+        },
+        {
+          "id": "gta6-mission-cash-injections",
+          "title": "Cash Injections",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/cash-injections"
+        },
+        {
+          "id": "gta6-mission-amateur-hour",
+          "title": "Amateur Hour",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/amateur-hour"
+        },
+        {
+          "id": "gta6-mission-dirty-work",
+          "title": "Dirty Work",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/dirty-work"
+        },
+        {
+          "id": "gta6-mission-adventures-in-babysitting",
+          "title": "Adventures in Babysitting",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/adventures-in-babysitting"
+        },
+        {
+          "id": "gta6-mission-fresh-evidence",
+          "title": "Fresh Evidence",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/fresh-evidence"
+        },
+        {
+          "id": "gta6-mission-power-play",
+          "title": "Power Play",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/power-play"
+        },
+        {
+          "id": "gta6-mission-child-s-play",
+          "title": "Child's Play",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/childs-play"
+        },
+        {
+          "id": "gta6-mission-headliners",
+          "title": "Headliners",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/headliners"
+        },
+        {
+          "id": "gta6-mission-close-surveillance",
+          "title": "Close Surveillance",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/close-surveillance"
+        },
+        {
+          "id": "gta6-mission-delivery-method",
+          "title": "Delivery Method",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/delivery-method"
+        },
+        {
+          "id": "gta6-mission-team-building",
+          "title": "Team Building",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/team-building"
+        },
+        {
+          "id": "gta6-mission-fully-catered",
+          "title": "Fully Catered",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/fully-catered"
+        },
+        {
+          "id": "gta6-mission-vcia-takedown",
+          "title": "VCIA Takedown",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/vcia-takedown"
+        },
+        {
+          "id": "gta6-mission-tie-up-loose-ends",
+          "title": "Tie Up Loose Ends",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/tie-up-loose-ends"
+        },
+        {
+          "id": "gta6-mission-that-s-where-the-money-is",
+          "title": "That's Where the Money Is…",
+          "optional": true,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/thats-where-the-money-is"
+        },
+        {
+          "id": "gta6-mission-sunset",
+          "title": "Sunset",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": true,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/sunset"
+        },
+        {
+          "id": "gta6-mission-starting-from-zero",
+          "title": "Starting From Zero",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/starting-from-zero"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": {
+        "en": "Chapter 5 · Top of the World, Ma",
+        "tr": "5. Bölüm · Top of the World, Ma"
+      },
+      "missions": [
+        {
+          "id": "gta6-mission-bird-in-the-hand",
+          "title": "Bird in the Hand",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/bird-in-the-hand"
+        },
+        {
+          "id": "gta6-mission-taking-liberties",
+          "title": "Taking Liberties",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/taking-liberties"
+        },
+        {
+          "id": "gta6-mission-doggie-bag",
+          "title": "Doggie Bag",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/doggie-bag"
+        },
+        {
+          "id": "gta6-mission-vc-baby",
+          "title": "VC Baby",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/vc-baby"
+        },
+        {
+          "id": "gta6-mission-operation-savage-glory",
+          "title": "Operation Savage Glory",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/operation-savage-glory"
+        },
+        {
+          "id": "gta6-mission-honest-abe",
+          "title": "Honest Abe",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/honest-abe"
+        },
+        {
+          "id": "gta6-mission-unfinished-business",
+          "title": "Unfinished Business",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": true,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/unfinished-business"
+        },
+        {
+          "id": "gta6-mission-protective-custody",
+          "title": "Protective Custody",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/protective-custody"
+        },
+        {
+          "id": "gta6-mission-the-end-of-the-road",
+          "title": "The End of the Road",
+          "optional": false,
+          "missable": false,
+          "pointOfNoReturn": false,
+          "sourceUrl": "https://www.gtabase.com/gta-6/missions/the-end-of-the-road"
+        }
+      ]
+    }
+  ]
+}

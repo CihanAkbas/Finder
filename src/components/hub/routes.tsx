@@ -15,7 +15,7 @@ import { CompareBoard } from '@/components/hub/CompareBoard'
 import { EmpireBoard } from '@/components/hub/EmpireBoard'
 import { WeeklyBoard } from '@/components/hub/WeeklyBoard'
 import { GamePage } from '@/components/GamePage'
-import { ONLINE_PATHS } from '@/components/layout/modules'
+import { modulesFor } from '@/components/layout/modules'
 
 const StyleBoard = dynamic(() => import('@/components/hub/StyleBoard').then(module => module.StyleBoard))
 
@@ -25,7 +25,7 @@ function useSlug() {
 }
 
 function storyOnly(slug: string, path: string) {
-  if (slug === 'gta6' && ONLINE_PATHS.has(path)) redirect(`/${slug}`)
+  if (!modulesFor(slug).some(item => item.href === path)) redirect(`/${slug}`)
 }
 
 export function DashboardRoute() {
@@ -51,6 +51,7 @@ export function DailyRoute() {
 }
 export function DatabaseRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/database')
   return <DatabaseBoard gameSlug={gameSlug} />
 }
 export function GarageRoute() {
@@ -75,10 +76,12 @@ export function EconomyRoute() {
 }
 export function ReferenceRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/reference')
   return <ReferenceBoard gameSlug={gameSlug} />
 }
 export function CompareRoute() {
   const gameSlug = useSlug()
+  storyOnly(gameSlug, '/compare')
   return <CompareBoard gameSlug={gameSlug} />
 }
 export function CareerRoute() {

@@ -43,7 +43,7 @@ export const ONLINE_PATHS = new Set([
 
 export function modulesFor(slug: string) {
   if (slug !== 'gta6') return MODULES.filter(item => item.href !== '/style')
-  return MODULES.filter((item) => !ONLINE_PATHS.has(item.href))
+  return MODULES.filter((item) => !ONLINE_PATHS.has(item.href) && !['/database', '/compare', '/reference'].includes(item.href))
 }
 
 export function groupsFor(slug: string) {

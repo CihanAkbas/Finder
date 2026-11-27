@@ -85,14 +85,14 @@ export function GlobalCommandPalette({ gameSlug }: { gameSlug: string }) {
         x: game.markers.find((marker) => marker.id === item.markerId)?.x,
         y: game.markers.find((marker) => marker.id === item.markerId)?.y,
       })),
-      ...data.vehicles.map((vehicle) => ({
+      ...(modulesFor(game.slug).some(item => item.href === '/database') ? data.vehicles : []).map((vehicle) => ({
         key: vehicle.id,
         title: vehicle.name,
         subtitle: `${vehicleClass(locale, vehicle.class)} · ${dollars(vehicle.price, locale)}`,
         kind: 'vehicle' as const,
         href: `/${game.slug}/database?kind=vehicle&id=${vehicle.id}`,
       })),
-      ...data.weapons.map((weapon) => ({
+      ...(modulesFor(game.slug).some(item => item.href === '/database') ? data.weapons : []).map((weapon) => ({
         key: weapon.id,
         title: weapon.name,
         subtitle: weaponClass(locale, weapon.class),

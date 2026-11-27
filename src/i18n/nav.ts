@@ -25,6 +25,7 @@ export function itemLabel(path: string, t: Messages) {
 }
 
 export function shortLabel(path: string, t: Messages) {
+  if (path === '/style') return t.nav.style
   if (path === '') return t.nav.shortHub
   if (path === '/map') return t.nav.shortMap
   if (path === '/checklist') return '100%'

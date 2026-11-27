@@ -17,3 +17,5 @@ Map links reuse **198 existing canonical pins**; no map markers are created or m
 Style filters use the shared searchable HudSelect with explicit dark listbox and option colors, avoiding native Windows popup theme mismatches.
 
 The player style page opens directly on Pieces. The promotional summary and community Looks gallery are omitted; personal outfit building remains available under My outfits. Catalog look records and previously saved IDs remain in storage for compatibility.
+
+Coverage rechecked against the public guest catalog on 2026-11-27: 5,390 source items, 5,390 local items, zero missing source slugs, two source items without an image. This verifies source-catalog parity; an official complete in-game wardrobe inventory is not available to establish whole-game completeness.

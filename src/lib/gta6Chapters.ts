@@ -1,95 +1,11 @@
-/** Story mission titles grouped by published IGN chapter. */
-export const GTA6_CHAPTERS = [
-  {
-    id: 'ch1',
-    title: { en: 'Chapter 1 · Just Like Paradise', tr: '1. Bölüm · Just Like Paradise' },
-    missions: [
-      'Prologue',
-      'Gone Fishing',
-      'Gear Up',
-      'Just a Scratch',
-      'Lab Fees',
-      'Pipework',
-      'Unwanted Attention',
-      'Hey Arnold!',
-      'Island Dreams',
-      'Feng Shui',
-      'Coming Home',
-      'Clean Up After Donnie',
-      'Buck Me',
-      'Down to Earth',
-      'Clear Skies',
-      'Building a Life',
-      'Day Release',
-      'Swamped',
-      'Don Gone',
-      'Recalibration',
-      'Tourist Trap',
-      'Home Sweet Home',
-      'Discharge Time',
-    ],
-  },
-  {
-    id: 'ch2',
-    title: { en: 'Chapter 2 · Paradise Lost', tr: '2. Bölüm · Paradise Lost' },
-    missions: [
-      "What's In the Bag?",
-      'Overnight Charges',
-      'Just Moved In',
-      'Got Pills?',
-      "Girls' Trip",
-      'Moses',
-      'Ambulance Chaser',
-      'New Look',
-      'How Do I Look?',
-      'Play Nurse',
-      'Behind on Payments',
-      'Daily Driver',
-      'Slam Dunk',
-      'Breakfast Run',
-      'Coffee Break',
-      'Thrillbillies',
-      'Afternoon Delight',
-      'Checking Out',
-    ],
-  },
-  {
-    id: 'ch3',
-    title: { en: 'Chapter 3 · Tits Ass Drugs Money', tr: '3. Bölüm · Tits Ass Drugs Money' },
-    missions: [
-      'Welcome to Vice City',
-      "Dealer's Choice",
-      'Dubious Provenance',
-      'Mami Knows Best',
-      'Tyrone',
-      'Here, Kitty Kitty',
-      'Boobie Time',
-      'Meet the Heders',
-      'Car Service',
-      'Top Billing',
-      "Yasmani's Jewelry Jobs",
-      'First Impressions',
-      'Crosstown Traffic',
-      "Clonin' Keys, Makin' Gs",
-      'Credit Check',
-      'Ride or Die',
-      'Sinfrontera National Bank',
-      'Security Expert',
-      'Caught Slipping',
-      'Company Property',
-      'Cooties',
-      'South Leonida Real Estate',
-      'The Missing Link',
-      'Safe Word',
-      'Hidden Charges',
-      'Bricked Up',
-      'The Cartel Heist',
-    ],
-  },
-] as const
+import snapshot from '@/config/games/gta6/storyMissions.json'
 
-const byTitle = new Map<string, string>(GTA6_CHAPTERS.flatMap((chapter) => chapter.missions.map((title) => [title, chapter.id])))
-
-export function gta6ChapterId(title: string) {
-  return byTitle.get(title) ?? null
-}
+/** Published story order; optional activities do not inflate main-story progress. */
+export const GTA6_CHAPTERS = snapshot.chapters.map(chapter => ({
+  id: chapter.id,
+  title: chapter.title,
+  missions: chapter.missions.filter(mission => !mission.optional).map(mission => mission.title),
+  optionalMissions: chapter.missions.filter(mission => mission.optional).map(mission => mission.title),
+}))
+const byTitle = new Map(GTA6_CHAPTERS.flatMap(chapter => [...chapter.missions, ...chapter.optionalMissions].map(title => [title, chapter.id])))
+export function gta6ChapterId(title: string) { return byTitle.get(title) ?? null }

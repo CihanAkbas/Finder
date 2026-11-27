@@ -279,498 +279,6 @@
     "requiredFor100": false
   },
   {
-    "id": "gta6-mission-prologue",
-    "title": "Prologue",
-    "detail": "Lucia meets a counselor about early release. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-gone-fishing",
-    "title": "Gone Fishing",
-    "detail": "Help Donnie skim bricks off a shipment. Reward: $100–$220.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-gear-up",
-    "title": "Gear Up",
-    "detail": "Pick up a longarm at Chuck's Tackle & Shot. Reward: a longarm.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-gear-up-ammu"
-  },
-  {
-    "id": "gta6-mission-just-a-scratch",
-    "title": "Just a Scratch",
-    "detail": "Repair and respray the Ganado at Joey's before Lucia is released. Reward: a repaired Vapid '70 Ganado.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-just-a-scratch"
-  },
-  {
-    "id": "gta6-mission-lab-fees",
-    "title": "Lab Fees",
-    "detail": "Collect Brian's rent at Moonstone Boutique. Reward: $39, paid later.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-brian-lockup"
-  },
-  {
-    "id": "gta6-mission-pipework",
-    "title": "Pipework",
-    "detail": "Collect Mandy's rent. Reward: a delayed payment from Brian.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-unwanted-attention",
-    "title": "Unwanted Attention",
-    "detail": "Meet Cal about a job for Brian. Reward: the Cop Scanner app and $350.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-hey-arnold",
-    "title": "Hey Arnold!",
-    "detail": "Meet Brian at the Crastenburg Hotel. Reward: $1,200.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-crastenburg"
-  },
-  {
-    "id": "gta6-mission-island-dreams",
-    "title": "Island Dreams",
-    "detail": "Work for Kenton in Key Lento. Reward: $400 and underwater treasure hunting.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-kenton-diving"
-  },
-  {
-    "id": "gta6-mission-feng-shui",
-    "title": "Feng Shui",
-    "detail": "Hang out with Cal at home. Reward: JoySystem.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-coming-home",
-    "title": "Coming Home",
-    "detail": "Pick Lucia up from Hamlet Correctional. Reward: possible relationship gains, and her necklace if you do not miss it.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-clean-up-after-donnie",
-    "title": "Clean Up After Donnie",
-    "detail": "A package from Donnie's delivery is signaling near a Hamlet fishing spot. Reward: 6 frag grenades and Donnie's fence drop-off.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-donnie-trailer"
-  },
-  {
-    "id": "gta6-mission-buck-me",
-    "title": "Buck Me",
-    "detail": "Open a bank account for Lucia's community-service pay at the nearby Fleeca. Reward: BuckMe.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-buckme-fleeca"
-  },
-  {
-    "id": "gta6-mission-down-to-earth",
-    "title": "Down to Earth",
-    "detail": "Meet Brian at the marina. Reward: $500, another $800 if the leftover cocaine goes to Donnie, and Combat Focus.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-clear-skies",
-    "title": "Clear Skies",
-    "detail": "Meet Brian and Donnie in Southwind. Reward: $1,400.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-building-a-life",
-    "title": "Building a Life",
-    "detail": "Assemble furniture with Lucia. Reward: a new coffee table.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-day-release",
-    "title": "Day Release",
-    "detail": "Meet Kat and Mattia at the Rusty Anchor. Reward: sunglasses for Lucia, if you do not miss them.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-rusty-anchor"
-  },
-  {
-    "id": "gta6-mission-swamped",
-    "title": "Swamped",
-    "detail": "Meet Brian at the marina. Reward: $1,000.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-don-gone",
-    "title": "Don Gone",
-    "detail": "Make Donnie's place look like he left town. Reward: $200, his aviators, and his H&L .38.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-donnie-trailer"
-  },
-  {
-    "id": "gta6-mission-recalibration",
-    "title": "Recalibration",
-    "detail": "Support Cal. Reward: the fishing tutorial.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-tourist-trap",
-    "title": "Tourist Trap",
-    "detail": "Hear Mattia's job offer with Lucia. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-home-sweet-home",
-    "title": "Home Sweet Home",
-    "detail": "Collect Jason's things before you leave town. Reward: Andy's jacket, if you do not miss it.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-discharge-time",
-    "title": "Discharge Time",
-    "detail": "The guide lists no objective and no reward.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-what-s-in-the-bag",
-    "title": "What's In the Bag?",
-    "detail": "Find out what is in the bag. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-overnight-charges",
-    "title": "Overnight Charges",
-    "detail": "Ask the motel desk what is owed. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-just-moved-in",
-    "title": "Just Moved In",
-    "detail": "Pick up supplies at the Alpha convenience store. Reward: relationship growth.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-got-pills",
-    "title": "Got Pills?",
-    "detail": "Ask around the motel for painkillers. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-girls-trip",
-    "title": "Girls' Trip",
-    "detail": "Help Vicki find painkillers. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-moses",
-    "title": "Moses",
-    "detail": "Take a low-key car to Moses's shop. Reward: a free registration and respray, an upgraded WAiNK scanner, a slim jim, Moses as a fence, and Scooter Bros.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-moses-register"
-  },
-  {
-    "id": "gta6-mission-ambulance-chaser",
-    "title": "Ambulance Chaser",
-    "detail": "Get rid of the ambulance used to leave the hospital. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-new-look",
-    "title": "New Look",
-    "detail": "Change hair at Pearl House Hair Salon. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-how-do-i-look",
-    "title": "How Do I Look?",
-    "detail": "Buy clothes, or shop cheap at Bargain World. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-play-nurse",
-    "title": "Play Nurse",
-    "detail": "Check on Jason until he can walk. Reward: none.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-behind-on-payments",
-    "title": "Behind on Payments",
-    "detail": "Pay the rent and see what is owed. Reward: Lucia's necklace returned.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-daily-driver",
-    "title": "Daily Driver",
-    "detail": "Steal the '82 Canis Crawler parked by the old Trader's Union building. Reward: a payout that depends on its condition, the Port Gellhorn Station garage, and Vice City Real Estate.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-port-gellhorn-garage"
-  },
-  {
-    "id": "gta6-mission-slam-dunk",
-    "title": "Slam Dunk",
-    "detail": "See Dunk about stronger painkillers. Reward: $1,700 and Dunk as a fence.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-breakfast-run",
-    "title": "Breakfast Run",
-    "detail": "Check on Jason at the motel. Reward: a variable payout, character switching, and Jason's Declasse Tulip.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-coffee-break",
-    "title": "Coffee Break",
-    "detail": "Plan other ways to make money. Reward: a BuckMe Silver checking account.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-thrillbillies",
-    "title": "Thrillbillies",
-    "detail": "Race at Thrillbilly Mud Club. Reward: up to $2,500.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-thrillbillies"
-  },
-  {
-    "id": "gta6-mission-afternoon-delight",
-    "title": "Afternoon Delight",
-    "detail": "Meet Vicki at Delights to rob her boss. Reward: at least $1,800, and $10,000 from Vicki.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-delights"
-  },
-  {
-    "id": "gta6-mission-checking-out",
-    "title": "Checking Out",
-    "detail": "Leave the motel and meet Dre'Quan in Vice City. Reward: none.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-starlet-motel"
-  },
-  {
-    "id": "gta6-mission-welcome-to-vice-city",
-    "title": "Welcome to Vice City",
-    "detail": "Take the statue to the antique store in Capri to get it valued.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-dealer-s-choice",
-    "title": "Dealer's Choice",
-    "detail": "Take the statue to the antique store in Capri to get it valued.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-dubious-provenance",
-    "title": "Dubious Provenance",
-    "detail": "Take the statue to the antique store in Capri to get it valued.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-mami-knows-best",
-    "title": "Mami Knows Best",
-    "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-tyrone",
-    "title": "Tyrone",
-    "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-tyrone"
-  },
-  {
-    "id": "gta6-mission-here-kitty-kitty",
-    "title": "Here, Kitty Kitty",
-    "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-boobie-time",
-    "title": "Boobie Time",
-    "detail": "Talk to Boobie at the Jack of Hearts about work.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-meet-the-heders",
-    "title": "Meet the Heders",
-    "detail": "Change at the apartment, then meet Brian and Lori at Effluvia rooftop bar.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-car-service",
-    "title": "Car Service",
-    "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-top-billing",
-    "title": "Top Billing",
-    "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-yasmani-s-jewelry-jobs",
-    "title": "Yasmani's Jewelry Jobs",
-    "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
-    "group": "story",
-    "requiredFor100": false,
-    "mapId": "gta6-tip-yasmani"
-  },
-  {
-    "id": "gta6-mission-first-impressions",
-    "title": "First Impressions",
-    "detail": "Steal a Granforma Zorrusso for Randy, often parked at Hathaway Apartments in Ocean Beach.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-clonin-keys-makin-gs",
-    "title": "Clonin' Keys, Makin' Gs",
-    "detail": "Steal a Granforma Zorrusso for Randy, often parked at Hathaway Apartments in Ocean Beach.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-crosstown-traffic",
-    "title": "Crosstown Traffic",
-    "detail": "Lucia meets Raul at the Courtyard in Stockyard; Jason meets Karim by the docks in La Perle.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-credit-check",
-    "title": "Credit Check",
-    "detail": "Kidnap the safe expert and deliver her to Raul.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-ride-or-die",
-    "title": "Ride or Die",
-    "detail": "Kidnap the safe expert and deliver her to Raul.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-sinfrontera-national-bank",
-    "title": "Sinfrontera National Bank",
-    "detail": "Kidnap the safe expert and deliver her to Raul.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-security-expert",
-    "title": "Security Expert",
-    "detail": "Kidnap the safe expert and deliver her to Raul.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-caught-slipping",
-    "title": "Caught Slipping",
-    "detail": "The apartment was broken into. Catch the robbers before they escape.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-company-property",
-    "title": "Company Property",
-    "detail": "Meet Brian at Skeeters and collect hardware for Raul.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-cooties",
-    "title": "Cooties",
-    "detail": "Lucia only. Join Andrea to learn which safe boxes to hit in the bank.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-south-leonida-real-estate",
-    "title": "South Leonida Real Estate",
-    "detail": "Lucia only. Join Andrea to learn which safe boxes to hit in the bank.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-the-missing-link",
-    "title": "The Missing Link",
-    "detail": "Lucia only. Join Andrea to learn which safe boxes to hit in the bank.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-safe-word",
-    "title": "Safe Word",
-    "detail": "Steal a practice safe of a similar model before the heist.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-hidden-charges",
-    "title": "Hidden Charges",
-    "detail": "Meet Karim in the planning room about the heist explosives.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-bricked-up",
-    "title": "Bricked Up",
-    "detail": "Wait at the apartment; Boobie wants to talk.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-mission-the-cartel-heist",
-    "title": "The Cartel Heist",
-    "detail": "Start Raul’s heist on the Sinfrontera National Bank from the planning room.",
-    "group": "story",
-    "requiredFor100": false
-  },
-  {
     "id": "gta6-optional-take-out-kitty-litter",
     "title": "Take Out Kitty Litter",
     "detail": "Named Chapter 3 optional. Lab locations stay on the map.",
@@ -799,13 +307,6 @@
     "requiredFor100": false
   },
   {
-    "id": "gta6-optional-get-shirley-s-rum",
-    "title": "Get Shirley's Rum",
-    "detail": "Named optional mission. The 6% box is separate.",
-    "group": "strangers",
-    "requiredFor100": false
-  },
-  {
     "id": "gta6-optional-skunk-apeology-101",
     "title": "Skunk Apeology 101",
     "detail": "Named optional mission. The 6% box is separate.",
@@ -815,27 +316,6 @@
   {
     "id": "gta6-optional-mandy-s-dark-secret",
     "title": "Mandy's Dark Secret",
-    "detail": "Named optional mission. The 6% box is separate.",
-    "group": "strangers",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-optional-find-the-lost-drugs",
-    "title": "Find the Lost Drugs",
-    "detail": "Named optional mission. The 6% box is separate.",
-    "group": "strangers",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-optional-ring-the-bell",
-    "title": "Ring the Bell!",
-    "detail": "Named optional mission. The 6% box is separate.",
-    "group": "strangers",
-    "requiredFor100": false
-  },
-  {
-    "id": "gta6-optional-pick-up-a-gun",
-    "title": "Pick Up a Gun",
     "detail": "Named optional mission. The 6% box is separate.",
     "group": "strangers",
     "requiredFor100": false
@@ -1002,5 +482,1434 @@
     "group": "beyond",
     "requiredFor100": false,
     "trophy": "missable"
+  },
+  {
+    "id": "gta6-mission-prologue",
+    "title": "Prologue",
+    "detail": "Lucia meets a counselor about early release. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-gone-fishing",
+    "title": "Gone Fishing",
+    "detail": "Help Donnie skim bricks off a shipment. Reward: $100–$220.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-gear-up",
+    "title": "Gear Up",
+    "detail": "Pick up a longarm at Chuck's Tackle & Shot. Reward: a longarm.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090009",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-unwanted-attention",
+    "title": "Unwanted Attention",
+    "detail": "Meet Cal about a job for Brian. Reward: the Cop Scanner app and $350.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-lab-fees",
+    "title": "Lab Fees",
+    "detail": "Collect Brian's rent at Moonstone Boutique. Reward: $39, paid later.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-tip-brian-lockup",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-pipework",
+    "title": "Pipework",
+    "detail": "Collect Mandy's rent. Reward: a delayed payment from Brian.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-just-a-scratch",
+    "title": "Just a Scratch",
+    "detail": "Repair and respray the Ganado at Joey's before Lucia is released. Reward: a repaired Vapid '70 Ganado.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090615",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-optional-get-shirley-s-rum",
+    "title": "Get Shirley's Rum",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": true,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-steal-the-scooter",
+    "title": "Steal the Scooter",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": true,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-hey-arnold",
+    "title": "Hey Arnold!",
+    "detail": "Meet Brian at the Crastenburg Hotel. Reward: $1,200.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1091530",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-island-dreams",
+    "title": "Island Dreams",
+    "detail": "Work for Kenton in Key Lento. Reward: $400 and underwater treasure hunting.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090289",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-feng-shui",
+    "title": "Feng Shui",
+    "detail": "Hang out with Cal at home. Reward: JoySystem.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-pick-up-groceries",
+    "title": "Pick Up Groceries",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-buy-flowers",
+    "title": "Buy Flowers",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-buy-lucia-a-necklace",
+    "title": "Buy Lucia a Necklace",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-get-the-chop",
+    "title": "Get The Chop",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-get-lucia-s-clothes",
+    "title": "Get Lucia's Clothes",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-catch-a-bigger-fish",
+    "title": "Catch a Bigger Fish",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-coming-home",
+    "title": "Coming Home",
+    "detail": "Pick Lucia up from Hamlet Correctional. Reward: possible relationship gains, and her necklace if you do not miss it.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-clean-up-after-donnie",
+    "title": "Clean Up After Donnie",
+    "detail": "A package from Donnie's delivery is signaling near a Hamlet fishing spot. Reward: 6 frag grenades and Donnie's fence drop-off.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-tip-donnie-trailer",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-buck-me",
+    "title": "Buck Me",
+    "detail": "Open a bank account for Lucia's community-service pay at the nearby Fleeca. Reward: BuckMe.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090132",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-down-to-earth",
+    "title": "Down to Earth",
+    "detail": "Meet Brian at the marina. Reward: $500, another $800 if the leftover cocaine goes to Donnie, and Combat Focus.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-meditate-with-lucia",
+    "title": "Meditate with Lucia",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": true,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-optional-find-the-lost-drugs",
+    "title": "Find the Lost Drugs",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-deposit-cash-into-buckme",
+    "title": "Deposit Cash Into BuckMe",
+    "detail": "Main story mission in Chapter 1.",
+    "detailTr": "1. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-save-for-the-future",
+    "title": "Save for the Future",
+    "detail": "Main story mission in Chapter 1.",
+    "detailTr": "1. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-day-release",
+    "title": "Day Release",
+    "detail": "Meet Kat and Mattia at the Rusty Anchor. Reward: sunglasses for Lucia, if you do not miss them.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1089607",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-clock-out",
+    "title": "Clock Out",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-clear-skies",
+    "title": "Clear Skies",
+    "detail": "Meet Brian and Donnie in Southwind. Reward: $1,400.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-building-a-life",
+    "title": "Building a Life",
+    "detail": "Assemble furniture with Lucia. Reward: a new coffee table.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-optional-ring-the-bell",
+    "title": "Ring the Bell!",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": true,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-swamped",
+    "title": "Swamped",
+    "detail": "Meet Brian at the marina. Reward: $1,000.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-don-gone",
+    "title": "Don Gone",
+    "detail": "Make Donnie's place look like he left town. Reward: $200, his aviators, and his H&L .38.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-tip-donnie-trailer",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-donnie-s-lost-drugs",
+    "title": "Donnie's Lost Drugs",
+    "detail": "Optional story activity in Chapter 1.",
+    "detailTr": "1. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-recalibration",
+    "title": "Recalibration",
+    "detail": "Support Cal. Reward: the fishing tutorial.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-tourist-trap",
+    "title": "Tourist Trap",
+    "detail": "Hear Mattia's job offer with Lucia. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": true
+  },
+  {
+    "id": "gta6-mission-home-sweet-home",
+    "title": "Home Sweet Home",
+    "detail": "Collect Jason's things before you leave town. Reward: Andy's jacket, if you do not miss it.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-discharge-time",
+    "title": "Discharge Time",
+    "detail": "The guide lists no objective and no reward.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-what-s-in-the-bag",
+    "title": "What's in the Bag?",
+    "detail": "Find out what is in the bag. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-ambulance-chaser",
+    "title": "Ambulance Chaser",
+    "detail": "Get rid of the ambulance used to leave the hospital. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-play-nurse",
+    "title": "Play Nurse",
+    "detail": "Check on Jason until he can walk. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-overnight-charges",
+    "title": "Overnight Charges",
+    "detail": "Ask the motel desk what is owed. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-just-moved-in",
+    "title": "Just Moved In",
+    "detail": "Pick up supplies at the Alpha convenience store. Reward: relationship growth.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-girls-trip",
+    "title": "Girls' Trip",
+    "detail": "Help Vicki find painkillers. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-optional-pick-up-a-gun",
+    "title": "Pick Up a Gun",
+    "detail": "Named optional mission. The 6% box is separate.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-moses",
+    "title": "Moses",
+    "detail": "Take a low-key car to Moses's shop. Reward: a free registration and respray, an upgraded WAiNK scanner, a slim jim, Moses as a fence, and Scooter Bros.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090285",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-new-look",
+    "title": "New Look",
+    "detail": "Change hair at Pearl House Hair Salon. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-how-do-i-look",
+    "title": "How Do I Look?",
+    "detail": "Buy clothes, or shop cheap at Bargain World. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-got-pills",
+    "title": "Got Pills?",
+    "detail": "Ask around the motel for painkillers. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-daily-driver",
+    "title": "Daily Driver",
+    "detail": "Steal the '82 Canis Crawler parked by the old Trader's Union building. Reward: a payout that depends on its condition, the Port Gellhorn Station garage, and Vice City Real Estate.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1091097",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-behind-on-payments",
+    "title": "Behind on Payments",
+    "detail": "Pay the rent and see what is owed. Reward: Lucia's necklace returned.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-slam-dunk",
+    "title": "Slam Dunk",
+    "detail": "See Dunk about stronger painkillers. Reward: $1,700 and Dunk as a fence.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-breakfast-run",
+    "title": "Breakfast Run",
+    "detail": "Check on Jason at the motel. Reward: a variable payout, character switching, and Jason's Declasse Tulip.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-coffee-break",
+    "title": "Coffee Break",
+    "detail": "Plan other ways to make money. Reward: a BuckMe Silver checking account.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-thrillbillies",
+    "title": "Thrillbillies",
+    "detail": "Race at Thrillbilly Mud Club. Reward: up to $2,500.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1091085",
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-twist-wrist-smash-grab",
+    "title": "Twist Wrist, Smash, Grab",
+    "detail": "Optional story activity in Chapter 2.",
+    "detailTr": "2. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-hit-avery-pawn",
+    "title": "Hit Avery Pawn",
+    "detail": "Optional story activity in Chapter 2.",
+    "detailTr": "2. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-hit-kingpin-bowling",
+    "title": "Hit Kingpin Bowling",
+    "detail": "Optional story activity in Chapter 2.",
+    "detailTr": "2. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-impounded-vehicle",
+    "title": "Impounded Vehicle",
+    "detail": "Optional story activity in Chapter 2.",
+    "detailTr": "2. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-prepare-for-vice-city",
+    "title": "Prepare for Vice City",
+    "detail": "Main story mission in Chapter 2.",
+    "detailTr": "2. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-afternoon-delight",
+    "title": "Afternoon Delight",
+    "detail": "Meet Vicki at Delights to rob her boss. Reward: at least $1,800, and $10,000 from Vicki.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1089608",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-checking-out",
+    "title": "Checking Out",
+    "detail": "Leave the motel and meet Dre'Quan in Vice City. Reward: none.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1089675",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": true
+  },
+  {
+    "id": "gta6-mission-welcome-to-vice-city",
+    "title": "Welcome to Vice City",
+    "detail": "Take the statue to the antique store in Capri to get it valued.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-dealer-s-choice",
+    "title": "Dealer's Choice",
+    "detail": "Take the statue to the antique store in Capri to get it valued.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-meet-the-heders",
+    "title": "Meet the Heders",
+    "detail": "Change at the apartment, then meet Brian and Lori at Effluvia rooftop bar.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-dubious-provenance",
+    "title": "Dubious Provenance",
+    "detail": "Take the statue to the antique store in Capri to get it valued.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-mami-knows-best",
+    "title": "Mami Knows Best",
+    "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-get-your-wheels",
+    "title": "Get Your Wheels",
+    "detail": "Optional story activity in Chapter 3.",
+    "detailTr": "3. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-tyrone",
+    "title": "Tyrone",
+    "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090287",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-here-kitty-kitty",
+    "title": "Here, Kitty Kitty",
+    "detail": "Chapter 3 story mission. The open guide lists no short objective line.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-send-money-to-lorena",
+    "title": "Send Money to Lorena",
+    "detail": "Main story mission in Chapter 3.",
+    "detailTr": "3. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-car-service",
+    "title": "Car Service",
+    "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-send-more-money-to-lorena",
+    "title": "Send More Money to Lorena",
+    "detail": "Main story mission in Chapter 3.",
+    "detailTr": "3. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-top-billing",
+    "title": "Top Billing",
+    "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-boobie-time",
+    "title": "Boobie Time",
+    "detail": "Talk to Boobie at the Jack of Hearts about work.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-yasmani-s-jewelry-jobs",
+    "title": "Yasmani's Jewelry Jobs",
+    "detail": "Steal unique jewelry pieces from three stores for Yasmani.",
+    "group": "story",
+    "requiredFor100": false,
+    "mapId": "gta6-loc-1090286",
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-first-impressions",
+    "title": "First Impressions",
+    "detail": "Steal a Granforma Zorrusso for Randy, often parked at Hathaway Apartments in Ocean Beach.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-caught-slipping",
+    "title": "Caught Slipping",
+    "detail": "The apartment was broken into. Catch the robbers before they escape.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-crosstown-traffic",
+    "title": "Crosstown Traffic",
+    "detail": "Lucia meets Raul at the Courtyard in Stockyard; Jason meets Karim by the docks in La Perle.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-credit-check",
+    "title": "Credit Check",
+    "detail": "Kidnap the safe expert and deliver her to Raul.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-clonin-keys-makin-gs",
+    "title": "Clonin' Keys, Makin' Gs",
+    "detail": "Steal a Granforma Zorrusso for Randy, often parked at Hathaway Apartments in Ocean Beach.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-race-against-yago",
+    "title": "Race Against Yago",
+    "detail": "Optional story activity in Chapter 3.",
+    "detailTr": "3. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": true,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-sinfrontera-national-bank",
+    "title": "Sinfrontera National Bank",
+    "detail": "Kidnap the safe expert and deliver her to Raul.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-security-expert",
+    "title": "Security Expert",
+    "detail": "Kidnap the safe expert and deliver her to Raul.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-heist-planning",
+    "title": "Heist Planning",
+    "detail": "Main story mission in Chapter 3.",
+    "detailTr": "3. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-ride-or-die",
+    "title": "Ride or Die",
+    "detail": "Kidnap the safe expert and deliver her to Raul.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-company-property",
+    "title": "Company Property",
+    "detail": "Meet Brian at Skeeters and collect hardware for Raul.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-the-missing-link",
+    "title": "The Missing Link",
+    "detail": "Lucia only. Join Andrea to learn which safe boxes to hit in the bank.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-safe-word",
+    "title": "Safe Word",
+    "detail": "Steal a practice safe of a similar model before the heist.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-cooties",
+    "title": "Cooties",
+    "detail": "Lucia only. Join Andrea to learn which safe boxes to hit in the bank.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-south-leonida-real-estate",
+    "title": "South Leonida Real Estate",
+    "detail": "Lucia only. Join Andrea to learn which safe boxes to hit in the bank.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-pick-up-shayna",
+    "title": "Pick Up Shayna",
+    "detail": "Optional story activity in Chapter 3.",
+    "detailTr": "3. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": true,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-hidden-charges",
+    "title": "Hidden Charges",
+    "detail": "Meet Karim in the planning room about the heist explosives.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-bricked-up",
+    "title": "Bricked Up",
+    "detail": "Wait at the apartment; Boobie wants to talk.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-the-cartel-heist",
+    "title": "The Cartel Heist",
+    "detail": "Start Raul’s heist on the Sinfrontera National Bank from the planning room.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-ocean-beach",
+    "title": "Ocean Beach",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-another-life",
+    "title": "Another Life",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-pool-day",
+    "title": "Pool Day",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-attend-eddie-acosta-s-party",
+    "title": "Attend Eddie Acosta's Party",
+    "detail": "Optional story activity in Chapter 4.",
+    "detailTr": "4. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-company-cars",
+    "title": "Company Cars",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-lawyer-up",
+    "title": "Lawyer Up",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-party-hard",
+    "title": "Party Hard",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-heavy-lifting",
+    "title": "Heavy Lifting",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-it-s-a-date",
+    "title": "It's a Date!",
+    "detail": "Optional story activity in Chapter 4.",
+    "detailTr": "4. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-photo-shoot",
+    "title": "Photo/Shoot",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-bad-driver",
+    "title": "Bad Driver!",
+    "detail": "Optional story activity in Chapter 4.",
+    "detailTr": "4. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-making-gainz",
+    "title": "Making Gainz",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-too-much-baggage",
+    "title": "Too Much Baggage",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-watch-it",
+    "title": "Watch It",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-cash-injections",
+    "title": "Cash Injections",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-amateur-hour",
+    "title": "Amateur Hour",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-dirty-work",
+    "title": "Dirty Work",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-adventures-in-babysitting",
+    "title": "Adventures in Babysitting",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-fresh-evidence",
+    "title": "Fresh Evidence",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-power-play",
+    "title": "Power Play",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-child-s-play",
+    "title": "Child's Play",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-headliners",
+    "title": "Headliners",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-close-surveillance",
+    "title": "Close Surveillance",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-delivery-method",
+    "title": "Delivery Method",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-team-building",
+    "title": "Team Building",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-fully-catered",
+    "title": "Fully Catered",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-vcia-takedown",
+    "title": "VCIA Takedown",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-tie-up-loose-ends",
+    "title": "Tie Up Loose Ends",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-that-s-where-the-money-is",
+    "title": "That's Where the Money Is…",
+    "detail": "Optional story activity in Chapter 4.",
+    "detailTr": "4. bölümdeki isteğe bağlı hikâye görevi.",
+    "group": "strangers",
+    "requiredFor100": false,
+    "storyOptional": true,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-sunset",
+    "title": "Sunset",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": true
+  },
+  {
+    "id": "gta6-mission-starting-from-zero",
+    "title": "Starting From Zero",
+    "detail": "Main story mission in Chapter 4.",
+    "detailTr": "4. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-bird-in-the-hand",
+    "title": "Bird in the Hand",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-taking-liberties",
+    "title": "Taking Liberties",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-doggie-bag",
+    "title": "Doggie Bag",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-vc-baby",
+    "title": "VC Baby",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-operation-savage-glory",
+    "title": "Operation Savage Glory",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-honest-abe",
+    "title": "Honest Abe",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-unfinished-business",
+    "title": "Unfinished Business",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": true
+  },
+  {
+    "id": "gta6-mission-protective-custody",
+    "title": "Protective Custody",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
+  },
+  {
+    "id": "gta6-mission-the-end-of-the-road",
+    "title": "The End of the Road",
+    "detail": "Main story mission in Chapter 5.",
+    "detailTr": "5. bölümün ana hikâye görevi.",
+    "group": "story",
+    "requiredFor100": false,
+    "storyOptional": false,
+    "missable": false,
+    "pointOfNoReturn": false
   }
 ]

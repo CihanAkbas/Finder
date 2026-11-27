@@ -236,10 +236,10 @@ export const GTA6_STORY_PINS: GameMarker[] = [
 export const GTA6_STORY_CATEGORIES = [
   {
     id: 'finder-help',
-    name: 'Tips & story help',
+    name: 'Tips',
     icon: 'landmark',
     color: '#fbbf24',
-    description: 'Published spots with tip and mission notes',
+    description: 'Published locations with gameplay tips',
     children: [
       {
         id: 'finder-tips',
@@ -247,13 +247,6 @@ export const GTA6_STORY_CATEGORIES = [
         icon: 'landmark',
         color: '#34d399',
         description: `${GTA6_STORY_PINS.filter((m) => m.category === 'finder-tips').length} pins.`,
-      },
-      {
-        id: 'finder-story',
-        name: 'Story help',
-        icon: 'landmark',
-        color: '#f472b6',
-        description: `${GTA6_STORY_PINS.filter((m) => m.category === 'finder-story').length} pins.`,
       },
     ],
   },

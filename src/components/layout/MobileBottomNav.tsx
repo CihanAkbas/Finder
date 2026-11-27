@@ -19,11 +19,12 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
   const [more, setMore] = useState(false)
   const { t } = useI18n()
   const primary = primaryNavFor(gameSlug)
+  const hasMore = modulesFor(gameSlug).length > primary.length
   const moreActive = modulesFor(gameSlug).some((item) => item.href && pathname?.startsWith(`/${gameSlug}${item.href}`) && !primary.some((entry) => entry.href === item.href))
   return (
     <>
       <nav
-        className="z-40 grid shrink-0 grid-cols-5 border-t border-white/10 bg-[#0e131a] pb-[env(safe-area-inset-bottom)] lg:hidden"
+        className={`z-40 grid shrink-0 ${hasMore ? 'grid-cols-5' : 'grid-cols-4'} border-t border-white/10 bg-[#0e131a] pb-[env(safe-area-inset-bottom)] lg:hidden`}
         aria-label={t.nav.mobile}
       >
         {primary.map((item) => {
@@ -43,7 +44,7 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
             </Link>
           )
         })}
-        <button
+        {hasMore ? <button
           type="button"
           aria-expanded={more}
           aria-haspopup="dialog"
@@ -52,7 +53,7 @@ export function MobileBottomNav({ gameSlug }: { gameSlug: string }) {
         >
           <MoreHorizontal size={20} />
           {t.more}
-        </button>
+        </button> : null}
       </nav>
       <DialogRoot open={more} onOpenChange={setMore}>
         <DialogContent className="rounded-2xl lg:hidden">

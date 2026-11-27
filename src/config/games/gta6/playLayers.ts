@@ -4,7 +4,7 @@ import { COMMUNITY_LAYERS, communityCategories } from './community'
 
 /**
  * Layers that cover Leonida when every pin is on.
- * Story help, shops, contacts and garages stay visible.
+ * Gameplay tips, shops, contacts and garages stay visible.
  * The player can turn any of these back on from the filter list.
  */
 export const GTA6_NOISE_LAYERS = [

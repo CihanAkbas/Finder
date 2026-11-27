@@ -36,9 +36,9 @@ export function Gta6ChecklistBoard() {
   const label = (item: ChecklistItem) => tr ? titles[item.title] ?? item.title : item.title
   const matches = (item: ChecklistItem) => {
     const done = isChecklistComplete(item, found, manual, game.markers)
-    return !(filter === 'remaining' && done) && !(filter === 'done' && !done) && `${label(item)} ${checklistDetail(locale, item.detail)}`.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale).trim())
+    return !(filter === 'remaining' && done) && !(filter === 'done' && !done) && `${label(item)} ${tr && item.detailTr ? item.detailTr : checklistDetail(locale, item.detail)}`.toLocaleLowerCase(locale).includes(query.toLocaleLowerCase(locale).trim())
   }
-  const detail = (item: ChecklistItem) => checklistDetail(locale, item.detail)
+  const detail = (item: ChecklistItem) => (tr && item.detailTr ? item.detailTr : checklistDetail(locale, item.detail))
     .replace(/^Rehber ağırlığı %\d+\. /, '').replace(/\. Oyun içi %100 satırı tutunca işaretle\.$/, '.')
     .replace(/^Guide weight \d+%\. /, '').replace(/\. Tick when the in-game 100% line matches\.$/, '.')
   const renderRow = (item: ChecklistItem, index?: number) => {
@@ -51,15 +51,15 @@ export function Gta6ChecklistBoard() {
         <div className="flex items-start gap-3">
           <input type="checkbox" className="mt-1 size-5 shrink-0 accent-emerald-400" aria-label={`${label(item)} · ${tr ? 'tamamlandı' : 'completed'}`} checked={done} disabled={Boolean(item.collect)} onChange={() => useCompanionStore.getState().toggleChecklist('gta6', item.id, item.markerId)} />
           <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap items-center gap-2"><h3 className={`text-sm font-semibold ${done ? 'text-slate-500' : 'text-slate-100'}`}>{index != null ? <span className="mr-2 font-mono text-xs text-slate-500">{String(index + 1).padStart(2, '0')}</span> : null}{label(item)}</h3>{next ? <span className="rounded bg-emerald-400/10 px-2 py-0.5 text-[10px] text-emerald-300">{tr ? 'SIRADAKİ' : 'NEXT'}</span> : null}</div>
-            {tab === 'story' ? <details className="mt-1 text-xs leading-5 text-slate-400"><summary className="cursor-pointer">{tr ? 'Görev ayrıntısı' : 'Mission details'}</summary><p className="pt-1">{detail(item)}</p></details> : <p className="mt-1 text-xs leading-5 text-slate-400">{detail(item)}</p>}
+            <div className="flex flex-wrap items-center gap-2"><h3 className={`text-sm font-semibold ${done ? 'text-slate-500' : 'text-slate-100'}`}>{index != null ? <span className="mr-2 font-mono text-xs text-slate-500">{String(index + 1).padStart(2, '0')}</span> : null}{label(item)}</h3>{item.storyOptional ? <span className="rounded bg-white/5 px-2 py-0.5 text-[10px] text-slate-400">{tr ? 'İSTEĞE BAĞLI' : 'OPTIONAL'}</span> : null}{item.missable ? <span className="rounded bg-amber-400/10 px-2 py-0.5 text-[10px] text-amber-300">{tr ? 'KAÇIRILABİLİR' : 'MISSABLE'}</span> : null}{next ? <span className="rounded bg-emerald-400/10 px-2 py-0.5 text-[10px] text-emerald-300">{tr ? 'SIRADAKİ' : 'NEXT'}</span> : null}</div>
+            {item.pointOfNoReturn ? <p className="mt-2 text-xs text-amber-300">{tr ? 'Bölümde ilerlemeden önce bekleyen yan işleri kontrol et.' : 'Check pending side activities before advancing.'}</p> : null}{tab === 'story' ? <details className="mt-1 text-xs leading-5 text-slate-400"><summary className="cursor-pointer">{tr ? 'Görev ayrıntısı' : 'Mission details'}</summary><p className="pt-1">{detail(item)}</p></details> : <p className="mt-1 text-xs leading-5 text-slate-400">{detail(item)}</p>}
             {pin ? <Link href={`/gta6/map?pin=${pin.id}&x=${pin.x}&y=${pin.y}&z=15`} className="mt-2 inline-block text-xs text-sky-300">{tr ? 'Haritada göster' : 'View on map'} ↗</Link> : null}
           </div>
         </div>
       </li>
     )
   }
-  const otherRows = data.checklist.filter((item) => tab === 'completion' ? item.requiredFor100 : !item.requiredFor100 && !item.id.startsWith('gta6-mission-')).filter(matches)
+  const otherRows = data.checklist.filter((item) => tab === 'completion' ? item.requiredFor100 : !item.requiredFor100 && !item.id.startsWith('gta6-mission-') && !item.storyOptional).filter(matches)
   return (
     <ModuleFrame title={tr ? 'İlerlemen' : 'Your progress'} kicker="GTA VI">
       <div className="flex flex-wrap gap-2" role="tablist" aria-label={tr ? 'İlerleme görünümü' : 'Progress view'}>
@@ -75,10 +75,11 @@ export function Gta6ChecklistBoard() {
       <div className="flex flex-wrap gap-2"><input value={query} onChange={(event) => setQuery(event.target.value)} aria-label={tr ? 'Görev veya hedef ara' : 'Search missions or goals'} placeholder={tr ? 'Görev veya hedef ara…' : 'Search missions or goals…'} className="h-11 min-w-40 flex-1 rounded-lg border border-white/10 bg-black/20 px-3 text-sm" />{(['all', 'remaining', 'done'] as const).map((id) => <button type="button" key={id} aria-pressed={filter === id} className={`rounded-lg border px-3 text-xs ${filter === id ? 'border-emerald-400 text-emerald-300' : 'border-white/10 text-slate-400'}`} onClick={() => setFilter(id)}>{id === 'all' ? (tr ? 'Tümü' : 'All') : id === 'remaining' ? (tr ? 'Kalanlar' : 'Remaining') : (tr ? 'Tamamlananlar' : 'Completed')}</button>)}</div>
       {tab === 'story' ? <div className="space-y-3">{story.chapters.map((chapter) => {
         const rows = chapter.items.filter(matches)
-        const open = query.trim() ? rows.length > 0 : expanded[chapter.id] ?? chapter.id === currentChapter
+        const optionalRows = chapter.optionalItems.filter(matches)
+        const open = query.trim() ? rows.length > 0 || optionalRows.length > 0 : expanded[chapter.id] ?? chapter.id === currentChapter
         const done = chapter.items.filter((item) => manual.has(item.id)).length
-        return <section key={chapter.id} className="rounded-xl border border-white/10"><button type="button" aria-expanded={open} className="flex w-full items-center justify-between gap-3 p-4 text-left" onClick={() => setExpanded((state) => ({ ...state, [chapter.id]: !open }))}><span><span className="block text-sm font-semibold">{chapter.title[locale]}</span><span className="mt-1 block text-xs text-slate-400">{done} / {chapter.items.length} {tr ? 'tamamlandı' : 'completed'}</span></span><span className="text-slate-500">{open ? '−' : '+'}</span></button>{open ? <ul className="space-y-2 border-t border-white/10 p-2">{rows.length ? rows.map((item) => renderRow(item, chapter.items.indexOf(item))) : <li className="p-3 text-sm text-slate-400">{tr ? 'Bu filtrede görev yok.' : 'No missions match this filter.'}</li>}</ul> : null}</section>
-      })}<p className="text-xs text-slate-500">{tr ? 'Şimdilik ilk 3 bölümün 68 görevini takip ediyoruz; sonraki bölümler bu kataloğa henüz eklenmedi.' : 'The catalog currently tracks 68 missions across the first 3 chapters; later chapters are not included yet.'}</p></div> : <ul className="space-y-2">{otherRows.length ? otherRows.map((item) => renderRow(item)) : <li className="p-4 text-sm text-slate-400">{tr ? 'Bu filtrede sonuç yok.' : 'No results match this filter.'}</li>}</ul>}
+        return <section key={chapter.id} className="rounded-xl border border-white/10"><button type="button" aria-expanded={open} className="flex w-full items-center justify-between gap-3 p-4 text-left" onClick={() => setExpanded((state) => ({ ...state, [chapter.id]: !open }))}><span><span className="block text-sm font-semibold">{chapter.title[locale]}</span><span className="mt-1 block text-xs text-slate-400">{done} / {chapter.items.length} {tr ? 'tamamlandı' : 'completed'}{chapter.optionalItems.length ? ` · ${chapter.optionalItems.length} ${tr ? 'isteğe bağlı görev' : 'optional activities'}` : ''}</span></span><span className="text-slate-500">{open ? '−' : '+'}</span></button>{open ? <><ul className="space-y-2 border-t border-white/10 p-2">{rows.length ? rows.map((item) => renderRow(item, chapter.items.indexOf(item))) : <li className="p-3 text-sm text-slate-400">{tr ? 'Bu filtrede görev yok.' : 'No missions match this filter.'}</li>}</ul>{optionalRows.length ? <details open={query.trim() ? true : undefined} className="border-t border-white/10 p-3"><summary className="cursor-pointer text-sm text-slate-300">{tr ? 'İsteğe bağlı görevler' : 'Optional activities'} ({optionalRows.length})</summary><ul className="mt-3 space-y-2">{optionalRows.map(item => renderRow(item))}</ul></details> : null}</> : null}</section>
+      })}<p className="text-xs text-slate-500">{tr ? 'Prolog ve 5 bölümün tamamı listelenir. Kısa hikâye adımları dahil 109 ana kayıt ve 26 isteğe bağlı görev vardır; isteğe bağlı görevler ana hikâye yüzdesine eklenmez.' : 'Includes the prologue and all 5 chapters: 109 main entries including short story steps, plus 26 optional activities. Optional activities do not count toward story progress.'}</p></div> : <ul className="space-y-2">{otherRows.length ? otherRows.map((item) => renderRow(item)) : <li className="p-4 text-sm text-slate-400">{tr ? 'Bu filtrede sonuç yok.' : 'No results match this filter.'}</li>}</ul>}
       </>}
     </ModuleFrame>
   )

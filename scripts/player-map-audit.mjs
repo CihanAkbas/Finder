@@ -83,7 +83,8 @@ for (const id of GTA6_NOISE_LAYERS) assert.ok(leafIds.has(id), `Unknown default 
 for (const view of GTA6_PLAYER_VIEWS) {
   const hidden = new Set(playerViewHidden(view.id))
   assert.ok(hidden.size > 0 && hidden.size < leafIds.size, `Empty player view: ${view.id}`)
-  assert.ok(!hidden.has('finder-story') && !hidden.has('finder-tips'), 'Player views must keep help visible')
+  assert.ok(!hidden.has('finder-tips'), 'Player views must keep gameplay tips visible')
+  assert.ok(!leafIds.has('finder-story'), 'Retired story-help layer must not be exposed')
 }
 const byCat = new Map()
 for (const m of allMarkers) byCat.set(m.category, (byCat.get(m.category) || 0) + 1)
@@ -143,7 +144,7 @@ for (const w of want) {
   }
 }
 
-const missions = checklist.filter((i) => i.id.startsWith('gta6-mission-'))
+const missions = checklist.filter((i) => i.id.startsWith('gta6-mission-') || i.storyOptional === true)
 const withMap = missions.filter((i) => i.mapId)
 const tipsWithPins = GTA6_TIPS.filter((t) => (t.mapPins || []).length)
 

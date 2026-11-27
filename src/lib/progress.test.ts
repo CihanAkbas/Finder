@@ -295,19 +295,19 @@ test('cloud merge retains remote custom pins and applies local deletion and edit
 test('story progression counts missions equally, follows chapter order, and ignores unrelated rows', () => {
   const data = gta6Checklist as ChecklistItem[]
   const initial = storyProgress(data, [])
-  assert.equal(initial.total, 68)
+  assert.equal(initial.total, 109)
   assert.equal(initial.next?.title, 'Prologue')
   const done = storyProgress(data, [initial.ordered[0].id, initial.ordered[1].id, 'unrelated'])
   assert.equal(done.done, 2)
   assert.equal(done.next?.title, 'Gear Up')
-  assert.equal(done.percent, 2 / 68 * 100)
+  assert.equal(done.percent, 2 / 109 * 100)
   assert.equal(storyProgress(data, initial.ordered.map(item => item.id)).next, undefined)
   assert.equal(new Set(initial.ordered.map(item => item.id)).size, initial.total)
 })
 
-test('all story help pins have useful Turkish descriptions and titles', () => {
-  const pins = GTA6_STORY_PINS
-  assert.equal(pins.length, 26)
+test('retired story helpers resolve to physical pins while gameplay tips retain translations', () => {
+  const pins = GTA6_STORY_PINS.filter(pin => pin.category !== 'finder-story')
+  assert.ok(!gta6.markers.some(pin => pin.category === 'finder-story'))
   for (const pin of pins) {
     assert.ok(gta6.markers.find(marker=>marker.id===canonicalMarkerId(pin.id))?.descriptionTr?.includes(pin.descriptionTr!), pin.id)
     assert.ok(pin.descriptionTr && pin.descriptionTr.length > 40, pin.id)
@@ -475,5 +475,27 @@ test('offline navigation stays in the selected game', async () => {
   listeners.fetch({ request: { url: `https://finder.test/${slug}/checklist`, method: 'GET', mode: 'navigate' }, respondWith: (response: Promise<Response>) => { pending = response } })
   assert.equal(await (await pending).text(), slug)
   assert.deepEqual(lookups, [`/${slug}/checklist`, `/${slug}`])
+ }
+})
+
+import { modulesFor } from '../components/layout/modules'
+import missionSnapshot from '../config/games/gta6/storyMissions.json'
+test('GTA VI exposes only supported modules and all published story chapters', () => {
+ assert.deepEqual(modulesFor('gta6').map(row => row.href), ['', '/map', '/checklist', '/style'])
+ for (const path of ['/database', '/compare', '/reference']) assert.ok(modulesFor('gta5').some(row => row.href === path))
+ const story = storyProgress(gta6Checklist as ChecklistItem[], [])
+ assert.equal(story.chapters.length, 6)
+ assert.equal(story.chapters.at(-1)?.id, 'ch5')
+ assert.equal(story.ordered.length, missionSnapshot.mainCount)
+ assert.equal(story.chapters.flatMap(chapter => chapter.optionalItems).length, missionSnapshot.optionalCount)
+ const optionalIds = story.chapters.flatMap(chapter => chapter.optionalItems.map(item => item.id))
+ assert.equal(storyProgress(gta6Checklist as ChecklistItem[], optionalIds).percent, 0)
+ assert.equal(storyProgress(gta6Checklist as ChecklistItem[], story.ordered.map(item => item.id)).percent, 100)
+ assert.equal(new Set(gta6Checklist.map(item => item.id)).size, gta6Checklist.length)
+ for (const mission of missionSnapshot.chapters.flatMap(chapter => chapter.missions)) assert.equal(gta6Checklist.filter(row => row.title === mission.title).length, 1, mission.title)
+ for (const pin of GTA6_STORY_PINS.filter(pin => pin.category === 'finder-story')) {
+  const canonical = canonicalMarkerId(pin.id)
+  assert.notEqual(canonical, pin.id)
+  assert.ok(gta6.markers.some(marker => marker.id === canonical && marker.category !== 'finder-story'))
  }
 })
