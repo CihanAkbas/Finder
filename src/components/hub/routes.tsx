@@ -1,6 +1,6 @@
 'use client'
 
-import { StyleBoard } from '@/components/hub/StyleBoard'
+import dynamic from 'next/dynamic'
 import { redirect, useParams } from 'next/navigation'
 import { CalculatorBoard } from '@/components/hub/CalculatorBoard'
 import { ChecklistBoard } from '@/components/hub/ChecklistBoard'
@@ -16,6 +16,8 @@ import { EmpireBoard } from '@/components/hub/EmpireBoard'
 import { WeeklyBoard } from '@/components/hub/WeeklyBoard'
 import { GamePage } from '@/components/GamePage'
 import { ONLINE_PATHS } from '@/components/layout/modules'
+
+const StyleBoard = dynamic(() => import('@/components/hub/StyleBoard').then(module => module.StyleBoard))
 
 function useSlug() {
   const params = useParams<{ gameSlug: string }>()

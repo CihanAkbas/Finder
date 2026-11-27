@@ -1,5 +1,6 @@
 export type StyleCharacter = 'lucia' | 'jason' | 'unisex'
-export type StyleItem = { id: string; name: string; sourceUrl: string; imageUrl?: string; character: StyleCharacter; category: string; storeIds: string[]; detailed: boolean }
-export type StyleOutfit = { id: string; name: string; author: string; sourceUrl: string; imageUrl?: string; character: StyleCharacter; itemIds: string[] }
-export type StyleStore = { id: string; name: string; sourceUrl: string; district: string; category: string; markerIds: string[] }
-export type StyleCatalog = { reviewedAt: string; source: string; items: StyleItem[]; outfits: StyleOutfit[]; stores: StyleStore[] }
+export type StyleItem = { id: string; name: string; sourceUrl: string; imageUrl?: string; character: StyleCharacter; category: string; storeIds: string[]; detailed: boolean; acquisition?: string[]; types?: string[]; includedIn?: { name: string; sourceUrl: string }[]; archived?: boolean }
+export type StyleOutfit = { id: string; name: string; author: string; sourceUrl: string; imageUrl?: string; character: StyleCharacter; itemIds: string[]; archived?: boolean }
+export type StyleStore = { id: string; name: string; sourceUrl: string; district: string; category: string; markerIds: string[]; kind?: 'store' | 'magazine'; sourcePoint?: { lat: number; lng: number }; mapLocation?: { x: number; y: number } }
+export type StyleCoverage = { items: { discovered: number; imported: number; detailed: number }; outfits: { discovered: number; imported: number }; stores: { discovered: number; imported: number } }
+export type StyleCatalog = { coverage?: StyleCoverage; mapCalibration?: { xScale: number; yScale: number; xOffset: number; yOffset: number; anchors: number; p95Error: number }; reviewedAt: string; source: string; items: StyleItem[]; outfits: StyleOutfit[]; stores: StyleStore[] }

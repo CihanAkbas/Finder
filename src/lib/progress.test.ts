@@ -407,3 +407,42 @@ test('style snapshot references existing items, stores and canonical map pins', 
  for (const row of catalog.items) for (const id of row.storeIds) assert.ok(storeIds.has(id), id)
  for (const row of catalog.stores) for (const id of row.markerIds) assert.ok(pinIds.has(id), id)
 })
+import { calibrateStyleMap, matchStyleStore } from './styleStoreMatching'
+import { styleAcquisition, styleCategory } from '../i18n/style'
+test('full style snapshot covers the public catalog and preserves original saved IDs', () => {
+ assert.equal(catalog.items.filter(row => !('archived' in row && row.archived)).length, catalog.coverage.items.imported)
+ assert.equal(catalog.coverage.items.imported, catalog.coverage.items.discovered)
+ assert.equal(catalog.coverage.items.detailed, catalog.coverage.items.discovered)
+ assert.equal(catalog.outfits.filter(row => !('archived' in row && row.archived)).length, catalog.coverage.outfits.imported)
+ assert.equal(catalog.coverage.outfits.imported, catalog.coverage.outfits.discovered)
+ assert.equal(catalog.stores.length, catalog.coverage.stores.discovered)
+ assert.equal(new Set(catalog.stores.map(row => row.id)).size, catalog.stores.length)
+ assert.equal(new Set(catalog.items.map(row => row.sourceUrl)).size, catalog.items.length)
+ assert.ok(catalog.items.some(row => row.id === 'fits-item-0c648f1071727e9a' && row.name === '1 Hole Ski Mask (Black Rib Knit)'))
+ for (const row of catalog.items) {
+  for (const key of row.acquisition) assert.ok(styleAcquisition(key, 'tr') && styleAcquisition(key, 'en'))
+  assert.ok(styleCategory(row.category, 'tr'))
+  assert.ok(!('user_id' in row) && !('ip' in row) && !('email' in row))
+ }
+})
+test('style store links use many calibration anchors and reject far or ambiguous pins', () => {
+ const sources = catalog.stores.map(row => ({ name: row.name, ...('sourcePoint' in row ? row.sourcePoint : {}) }))
+ const transform = calibrateStyleMap(sources, gta6.markers)
+ assert.ok(transform && transform.anchors >= 100 && transform.p95Error < .0005)
+ for (const store of catalog.stores) {
+  if (store.kind !== 'magazine') assert.ok('mapLocation' in store && store.mapLocation, store.name)
+  if (!('sourcePoint' in store) || !store.sourcePoint) continue
+  const ids = matchStyleStore({ name: store.name, ...store.sourcePoint }, gta6.markers, transform)
+  assert.deepEqual(ids, store.markerIds)
+  for (const id of ids) {
+   const pin = gta6.markers.find(row => row.id === id)!
+   const point = store.mapLocation!
+   assert.ok(Math.hypot(pin.x-point.x, pin.y-point.y) <= .0015, store.name)
+  }
+ }
+ const source = sources.find(row => row.name === 'Barnacle Beauties')!
+ const pin = gta6.markers.find(row => row.title === source.name)!
+ assert.deepEqual(matchStyleStore(source, [{ ...pin, x: pin.x + .1 }], transform), [])
+ assert.deepEqual(matchStyleStore(source, [pin, { ...pin, id: 'ambiguous-other' }], transform), [])
+ assert.equal(calibrateStyleMap([source], [pin]), null)
+})
