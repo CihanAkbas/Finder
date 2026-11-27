@@ -153,7 +153,7 @@ function progressScore(value: string) {
       if (!slice || typeof slice !== 'object') continue
       score += 1
       const row = slice as Record<string, unknown>
-      for (const key of ['found', 'checklistDone', 'customPins', 'objectiveDone', 'careerDone', 'ownedAssets', 'ownedVehicles', 'properties']) {
+      for (const key of ['found', 'checklistDone', 'customPins', 'objectiveDone', 'careerDone', 'ownedAssets', 'ownedVehicles', 'properties', 'favorites', 'route', 'savedFilters', 'ownedClothes', 'savedOutfits', 'customOutfits']) {
         if (Array.isArray(row[key])) score += row[key].length
       }
     }

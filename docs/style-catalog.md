@@ -15,3 +15,5 @@ Thumbnails use the standard Next.js image optimizer, with narrowly allowed HTTPS
 Map links reuse **198 existing canonical pins**; no map markers are created or moved. Matching requires both a place name and source-coordinate agreement. Two map projections are calibrated using 138 uniquely named reference locations, with robust medians and a maximum accepted 95th-percentile error of 0.0005. The snapshot's 95th-percentile residual is about 0.000209. Ambiguous or distant candidates are rejected. The remaining 31 stores link to their source position on the existing map. Four magazine sources do not publish coordinates. Calibration evidence and source coordinates are included in the snapshot for review.
 
 Style filters use the shared searchable HudSelect with explicit dark listbox and option colors, avoiding native Windows popup theme mismatches.
+
+The player style page opens directly on Pieces. The promotional summary and community Looks gallery are omitted; personal outfit building remains available under My outfits. Catalog look records and previously saved IDs remain in storage for compatibility.

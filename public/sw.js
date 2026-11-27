@@ -1,4 +1,4 @@
-const CACHE = 'finder-shell-v2'
+const CACHE = 'finder-shell-v3'
 const MAX_ENTRIES = 80
 
 self.addEventListener('install', (event) => {
@@ -49,13 +49,16 @@ self.addEventListener('fetch', (event) => {
       fetch(request)
         .then((response) => {
           const copy = response.clone()
-          void caches.open(CACHE).then(async (cache) => {
+          if (response.ok) void caches.open(CACHE).then(async (cache) => {
             await cache.put(request, copy)
             await trim(cache)
           })
           return response
         })
-        .catch(async () => (await caches.match(request)) || (await caches.match('/gta5')) || Response.error()),
+        .catch(async () => {
+          const home = url.pathname.split('/')[1] === 'gta6' ? '/gta6' : '/gta5'
+          return (await caches.match(request)) || (await caches.match(home)) || Response.error()
+        }),
     )
   }
 })

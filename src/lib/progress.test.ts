@@ -446,3 +446,34 @@ test('style store links use many calibration anchors and reject far or ambiguous
  assert.deepEqual(matchStyleStore(source, [pin, { ...pin, id: 'ambiguous-other' }], transform), [])
  assert.equal(calibrateStyleMap([source], [pin]), null)
 })
+
+ test('equal-clock fallback keeps wardrobe and map saves rather than an empty copy', () => {
+  const blank = JSON.stringify({ state: { byGame: { gta6: emptySlice() } } })
+  for (const patch of [{ ownedClothes: ['shirt'] }, { customOutfits: [{ id: 'look', name: 'My look', itemIds: ['shirt'], createdAt: '2026-11-27T08:00:00Z' }] }, { favorites: ['pin'] }, { route: ['pin'] }]) {
+    const saved = JSON.stringify({ state: { byGame: { gta6: { ...emptySlice(), ...patch } } } })
+    assert.equal(chooseProgressCopy({ value: blank, clock: 7 }, { value: saved, clock: 7 }), saved)
+    assert.equal(chooseProgressCopy({ value: saved, clock: 7 }, { value: blank, clock: 7 }), saved)
+  }
+ })
+
+import { runInNewContext } from 'node:vm'
+test('offline navigation stays in the selected game', async () => {
+ for (const slug of ['gta5', 'gta6']) {
+  const listeners: Record<string, (event: unknown) => void> = {}
+  const lookups: string[] = []
+  runInNewContext(readFileSync('public/sw.js', 'utf8'), {
+   self: { location: { origin: 'https://finder.test' }, addEventListener: (event: string, handler: (event: unknown) => void) => { listeners[event] = handler } },
+   URL, Response,
+   fetch: async () => { throw new Error('offline') },
+   caches: { match: async (key: string | { url: string }) => {
+    const path = typeof key === 'string' ? key : new URL(key.url).pathname
+    lookups.push(path)
+    return path === `/${slug}` ? new Response(slug) : undefined
+   } },
+  })
+  let pending!: Promise<Response>
+  listeners.fetch({ request: { url: `https://finder.test/${slug}/checklist`, method: 'GET', mode: 'navigate' }, respondWith: (response: Promise<Response>) => { pending = response } })
+  assert.equal(await (await pending).text(), slug)
+  assert.deepEqual(lookups, [`/${slug}/checklist`, `/${slug}`])
+ }
+})
