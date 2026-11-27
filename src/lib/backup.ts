@@ -149,6 +149,18 @@ function daily(value: unknown, slug: string) {
 function sliceFrom(value: unknown, slug: string): GameSlice {
   if (!isRecord(value)) reject(slug, 'progress must be an object.')
   const clean: Partial<GameSlice> = {}
+  for (const key of ['ownedClothes', 'savedOutfits'] as const) {
+    if (key in value) clean[key] = stringList(value[key], slug, key)
+  }
+  if ('customOutfits' in value) {
+    if (!Array.isArray(value.customOutfits) || value.customOutfits.length > 100) reject(slug, 'customOutfits must be a list.')
+    clean.customOutfits = value.customOutfits.map(row => {
+      if (!isRecord(row) || typeof row.id !== 'string' || !ID.test(row.id) || typeof row.name !== 'string' || !row.name.trim() || row.name.length > 80 || typeof row.createdAt !== 'string' || Number.isNaN(Date.parse(row.createdAt))) reject(slug, 'An outfit is invalid.')
+      const itemIds = stringList(row.itemIds, slug, 'customOutfits.itemIds')
+      if (itemIds.length > 30) reject(slug, 'An outfit has too many pieces.')
+      return { id: row.id, name: row.name.trim(), createdAt: row.createdAt, itemIds }
+    })
+  }
   if ('found' in value) clean.found = stringList(value.found, slug, 'found')
   if ('hiddenCategories' in value) clean.hiddenCategories = stringList(value.hiddenCategories, slug, 'hiddenCategories')
   if ('layerSetup' in value) {

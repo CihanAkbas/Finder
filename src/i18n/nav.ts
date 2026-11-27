@@ -15,6 +15,7 @@ export function itemLabel(path: string, t: Messages) {
   if (path === '/weekly') return t.nav.weekly
   if (path === '/database') return t.nav.database
   if (path === '/compare') return t.nav.compare
+  if (path === '/style') return t.nav.style
   if (path === '/garage') return t.nav.garage
   if (path === '/empire') return t.nav.empire
   if (path === '/calculators') return t.nav.calculators

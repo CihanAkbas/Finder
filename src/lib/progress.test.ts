@@ -386,3 +386,24 @@ test('duplicate-pin aliases migrate found, favorites and route saves without los
   const afterUncheck=mergeProgress(migrated,{...migrated,found:['other']},normalizeSlice({found:[old,kept,'other']})) as typeof migrated
   assert.deepEqual(afterUncheck.found,['other'])
 })
+import catalog from '../config/games/gta6/style/catalog.json'
+
+test('wardrobe survives cloud validation and rejects malformed outfits', () => {
+ const outfit = { id: 'my-outfit', name: 'Vice', itemIds: [catalog.items[0].id], createdAt: '2026-11-27T08:00:00Z' }
+ const parsed = parseBackup(JSON.stringify({ games: { gta6: { ownedClothes: outfit.itemIds, savedOutfits: [catalog.outfits[0].id], customOutfits: [outfit] } } }))
+ assert.deepEqual(parsed.gta6.customOutfits, [outfit])
+ assert.deepEqual(parsed.gta6.ownedClothes, outfit.itemIds)
+ assert.throws(() => parseBackup(JSON.stringify({ games: { gta6: { customOutfits: [{ ...outfit, itemIds: [42] }] } } })))
+})
+test('wardrobe merges independent device edits including unchecking', () => {
+ assert.deepEqual(mergeProgress(['a'], [], ['a', 'b'], 'ownedClothes'), ['b'])
+ const a = { id: 'a', name: 'A', itemIds: ['one'] }, b = { id: 'b', name: 'B', itemIds: ['two'] }
+ assert.deepEqual(mergeProgress([], [a], [b], 'customOutfits'), [a, b])
+})
+test('style snapshot references existing items, stores and canonical map pins', () => {
+ const itemIds = new Set(catalog.items.map(row => row.id)), storeIds = new Set(catalog.stores.map(row => row.id)), pinIds = new Set(gta6.markers.map(row => row.id))
+ assert.equal(itemIds.size, catalog.items.length)
+ for (const row of catalog.outfits) for (const id of row.itemIds) assert.ok(itemIds.has(id), id)
+ for (const row of catalog.items) for (const id of row.storeIds) assert.ok(storeIds.has(id), id)
+ for (const row of catalog.stores) for (const id of row.markerIds) assert.ok(pinIds.has(id), id)
+})

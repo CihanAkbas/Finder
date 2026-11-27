@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import { Calculator, CalendarClock, CalendarDays, Car, CircleDollarSign, Columns2, Keyboard, Landmark, LayoutDashboard, ListChecks, Map, Trophy, Warehouse } from 'lucide-react'
+import { Shirt, Calculator, CalendarClock, CalendarDays, Car, CircleDollarSign, Columns2, Keyboard, Landmark, LayoutDashboard, ListChecks, Map, Trophy, Warehouse } from 'lucide-react'
 
 export type ModuleLink = { href: string; label: string; short: string; icon: LucideIcon }
 
@@ -9,6 +9,7 @@ export const MODULES: ModuleLink[] = [
   { href: '/checklist', label: '100%', short: '100%', icon: ListChecks },
   { href: '/daily', label: 'Daily', short: 'Daily', icon: CalendarClock },
   { href: '/database', label: 'Database', short: 'Cars', icon: Car },
+  { href: '/style', label: 'Style', short: 'Style', icon: Shirt },
   { href: '/compare', label: 'Compare', short: 'Compare', icon: Columns2 },
   { href: '/garage', label: 'Garage', short: 'Garage', icon: Warehouse },
   { href: '/empire', label: 'Empire', short: 'Empire', icon: Landmark },
@@ -25,7 +26,7 @@ export const MORE_NAV = MODULES.slice(4)
 export const NAV_GROUPS = [
   { label: 'Explore', paths: ['', '/map', '/daily', '/weekly'] },
   { label: 'My progress', paths: ['/checklist', '/career'] },
-  { label: 'Collection', paths: ['/database', '/compare', '/garage'] },
+  { label: 'Collection', paths: ['/database', '/style', '/compare', '/garage'] },
   { label: 'Money & tools', paths: ['/empire', '/calculators', '/economy', '/reference'] },
 ]
 
@@ -41,14 +42,14 @@ export const ONLINE_PATHS = new Set([
 ])
 
 export function modulesFor(slug: string) {
-  if (slug !== 'gta6') return MODULES
+  if (slug !== 'gta6') return MODULES.filter(item => item.href !== '/style')
   return MODULES.filter((item) => !ONLINE_PATHS.has(item.href))
 }
 
 export function groupsFor(slug: string) {
   return NAV_GROUPS.map((group) => ({
     ...group,
-    paths: group.paths.filter((path) => slug !== 'gta6' || !ONLINE_PATHS.has(path)),
+    paths: group.paths.filter((path) => modulesFor(slug).some(item => item.href === path)),
   })).filter((group) => group.paths.length > 0)
 }
 

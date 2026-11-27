@@ -1,5 +1,6 @@
 'use client'
 
+import { StyleBoard } from '@/components/hub/StyleBoard'
 import { redirect, useParams } from 'next/navigation'
 import { CalculatorBoard } from '@/components/hub/CalculatorBoard'
 import { ChecklistBoard } from '@/components/hub/ChecklistBoard'
@@ -88,3 +89,5 @@ export function EmpireRoute() {
   storyOnly(gameSlug, '/empire')
   return <EmpireBoard gameSlug={gameSlug} />
 }
+
+export function StyleRoute() { const slug = useSlug(); if (slug !== 'gta6') redirect(`/${slug}`); return <StyleBoard /> }

@@ -179,7 +179,12 @@ export type SafeTrack = {
   machines?: boolean
 }
 
+export type SavedOutfit = { id: string; name: string; itemIds: string[]; createdAt: string }
+
 export type GameSlice = {
+  ownedClothes: string[]
+  savedOutfits: string[]
+  customOutfits: SavedOutfit[]
   found: string[]
   hiddenCategories: string[]
   hideFound: boolean
@@ -214,6 +219,9 @@ export type GameSlice = {
 
 export function emptySlice(): GameSlice {
   return {
+    ownedClothes: [],
+    savedOutfits: [],
+    customOutfits: [],
     found: [],
     hiddenCategories: [],
     hideFound: false,
@@ -307,6 +315,9 @@ export function normalizeSlice(partial?: Partial<GameSlice> | null): GameSlice {
   return {
     ...base,
     ...rest,
+    ownedClothes: stringList(rest.ownedClothes),
+    savedOutfits: stringList(rest.savedOutfits),
+    customOutfits: Array.isArray(rest.customOutfits) ? rest.customOutfits.filter(row => row && typeof row.id === 'string' && typeof row.name === 'string' && row.name.trim() && typeof row.createdAt === 'string' && !Number.isNaN(Date.parse(row.createdAt))).slice(0, 100).map(row => ({ id: row.id.slice(0, 160), name: row.name.trim().slice(0, 80), itemIds: stringList(row.itemIds).slice(0, 30), createdAt: row.createdAt })) : [],
     found: canonicalMarkerIds(stringList(rest.found)),
     hiddenCategories: rest.hiddenCategories ?? [],
     customPins: rest.customPins ?? [],

@@ -1,0 +1,5245 @@
+{
+  "reviewedAt": "2026-11-27",
+  "source": "https://gtafits.com/",
+  "items": [
+    {
+      "id": "fits-item-0c648f1071727e9a",
+      "name": "1 Hole Ski Mask (Black Rib Knit)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-black-rib-knit",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/44f79a15.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-20114f6413f6268e"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-315903fe014e2cdf",
+      "name": "1 Hole Ski Mask (Blood Red Skull Stack)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-blood-red-skull-stack",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/aac3d157.webp",
+      "character": "jason",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-b47448dfd9a8f953",
+      "name": "1 Hole Ski Mask (Dollar Bills Print)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-dollar-bills-print",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/e1df5ac9.webp",
+      "character": "lucia",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-59be15b0120084ba",
+      "name": "1 Hole Ski Mask (Gray Heather Melange)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-gray-heather-melange",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/21d9d3de.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-20114f6413f6268e"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-257acf01923f6a25",
+      "name": "1 Hole Ski Mask (LMAO Graffiti)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-lmao-graffiti",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/3d3e0b99.webp",
+      "character": "jason",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-f43fba321a5cf72e",
+      "name": "1 Hole Ski Mask (Navy Barbed Wire)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-navy-barbed-wire",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/6ebe21f1.webp",
+      "character": "jason",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-b525ed0960f9f8ee",
+      "name": "1 Hole Ski Mask (Paisley Pattern)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-paisley-pattern",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/1bcde244.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-0389db5787f26dc7"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-695b8bc4ab486ed7",
+      "name": "1 Hole Ski Mask (White Pierced Skull)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-white-pierced-skull",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/d27fd67a.webp",
+      "character": "lucia",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-ac977559857620dd",
+      "name": "1 Hole Ski Mask (Yellow Smile)",
+      "sourceUrl": "https://gtafits.com/items/1-hole-ski-mask-yellow-smile",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/9f80b78e.webp",
+      "character": "lucia",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-a3b44adb68a64b01",
+      "name": "247 Big Chug Tank (Bright Green)",
+      "sourceUrl": "https://gtafits.com/items/247-big-chug-tank-bright-green",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/edb94a31.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-7cb7c40b7410e4f1"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-d89763b2bc2f1f78",
+      "name": "247 Big Chug T-Shirt (Light Pink)",
+      "sourceUrl": "https://gtafits.com/items/247-big-chug-t-shirt-light-pink",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/c04c0dec.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-8c6d0347616b883a"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-654063dc8f793548",
+      "name": "247 Chuggernaut Tank (Vibrant Red)",
+      "sourceUrl": "https://gtafits.com/items/247-chuggernaut-tank-vibrant-red",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/1a2fc3f7.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-d2329bf008885f7a"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-dc14a3b45e821e36",
+      "name": "247 Chuggernaut Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/247-chuggernaut-tank-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/3844816a.webp",
+      "character": "jason",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-d2329bf008885f7a"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-0a7e12fea36b7e60",
+      "name": "247 Chuggernaut T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/247-chuggernaut-t-shirt-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/7b585c0f.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-515b86e7c65cf841"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-4ac0810043c13351",
+      "name": "247 Emblem Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/247-emblem-tank-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/2a7de5dd.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-4b48a35e7330c921"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-38be94cc81dc5a4f",
+      "name": "247 Graphic Tank (Cream)",
+      "sourceUrl": "https://gtafits.com/items/247-graphic-tank-cream",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/cc803476.webp",
+      "character": "jason",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-7cb7c40b7410e4f1"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-245be97482f27073",
+      "name": "247 Logo Tank (Bright Teal)",
+      "sourceUrl": "https://gtafits.com/items/247-logo-tank-bright-teal",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/08a59dbb.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-e349a463e1027c5c"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-9d381a2c2b064cd3",
+      "name": "247 Retro Emblem Tank (Bright Teal)",
+      "sourceUrl": "https://gtafits.com/items/247-retro-emblem-tank-bright-teal",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/65b0dae8.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-457bb87e6db0e4cf"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-2b2071f3b4ca8854",
+      "name": "247 Retro Emblem T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/247-retro-emblem-t-shirt-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/2788db88.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-47a478115d6647b0"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-d96ec44b00dd97b7",
+      "name": "247 Road Sign Tank (Light Teal)",
+      "sourceUrl": "https://gtafits.com/items/247-road-sign-tank-light-teal",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/164b3906.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-8b9e51bdb3399a50"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-dc0d3690bead9430",
+      "name": "247 Road Sign Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/247-road-sign-tank-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/0dd22c86.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-59b2f9ce49602cfb"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-be0d5f1fcca5413e",
+      "name": "247 Road Sign T-Shirt (Bright Teal)",
+      "sourceUrl": "https://gtafits.com/items/247-road-sign-t-shirt-bright-teal",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/5f8c4952.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-61f70e78e4b16e1e"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-95ad7a1d77a03616",
+      "name": "247 Truck Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/247-truck-tank-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/0ab324fe.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-dbee7307ce4600c6"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-25b91075ccf9a072",
+      "name": "247 Truck T-Shirt (Cream)",
+      "sourceUrl": "https://gtafits.com/items/247-truck-t-shirt-cream",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/0156e932.webp",
+      "character": "unisex",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-e349a463e1027c5c"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-7986699ca917b19a",
+      "name": "2Hype Boyz T-Shirt (White, Tonight We Funk)",
+      "sourceUrl": "https://gtafits.com/items/2hype-boyz-t-shirt-white-tonight-we-funk",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/5a25a67e.webp",
+      "character": "jason",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-1d5a0a85317426a1",
+      "name": "2Hype Boyz T-Shirt (White, Warning! Big Booty)",
+      "sourceUrl": "https://gtafits.com/items/2hype-boyz-t-shirt-white-warning-big-booty",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/ee8fed89.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-3b4bf5daf03402e5"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-69026e6b9dd32403",
+      "name": "3 Hole Ski Mask (Green Gun Pattern)",
+      "sourceUrl": "https://gtafits.com/items/3-hole-ski-mask-green-gun-pattern",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/39189a55.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-188dc178c0980b3e"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-b2791f1f6807b50b",
+      "name": "3 Hole Ski Mask (Mint)",
+      "sourceUrl": "https://gtafits.com/items/3-hole-ski-mask-mint",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/4615bc13.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-1bdf1d213c85fcb7",
+      "name": "3 Hole Ski Mask (Navy Gun Pattern)",
+      "sourceUrl": "https://gtafits.com/items/3-hole-ski-mask-navy-gun-pattern",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/4a623ce8.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-188dc178c0980b3e"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-6c5215f986bcec9f",
+      "name": "3 Hole Ski Mask (Red Gun Pattern)",
+      "sourceUrl": "https://gtafits.com/items/3-hole-ski-mask-red-gun-pattern",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/1113520b.webp",
+      "character": "unisex",
+      "category": "Accessories",
+      "storeIds": [
+        "fits-store-188dc178c0980b3e"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-3dae05cf419a3d0f",
+      "name": "5 O'Clock Shadow",
+      "sourceUrl": "https://gtafits.com/items/5-o-clock-shadow",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/8806044f.webp",
+      "character": "jason",
+      "category": "Hair",
+      "storeIds": [
+        "fits-store-88fb08fd2555c2a8",
+        "fits-store-ea80d29fe7405a14",
+        "fits-store-d80e02b3f7dd55e0",
+        "fits-store-935ffb55ab84df2c",
+        "fits-store-3795f39027f35fde",
+        "fits-store-126778a82210ca01",
+        "fits-store-47c7dc1b1381190e",
+        "fits-store-31f3d99541955f7c",
+        "fits-store-ec19719cdc213ecc",
+        "fits-store-c5008038dcbd2fe6",
+        "fits-store-af519ba3c61c3a76",
+        "fits-store-52b9ec48c0d815af",
+        "fits-store-670659588a6b6bac",
+        "fits-store-1a4ebee48255ab66",
+        "fits-store-266646dbab7b1b21",
+        "fits-store-7538dd00e20b51ab",
+        "fits-store-31e5cb0adc3f82ae",
+        "fits-store-1b142f2e61d7e974"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-62d524094a092f99",
+      "name": "777 Crop Top (Black)",
+      "sourceUrl": "https://gtafits.com/items/777-crop-top-black",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/c7ffb6a3.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-0389db5787f26dc7"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-128a96f669792c50",
+      "name": "777 Crop Top (Neon Orange)",
+      "sourceUrl": "https://gtafits.com/items/777-crop-top-neon-orange",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/d64ed341.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-0389db5787f26dc7"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-04ed8b7bf7c5719d",
+      "name": "777 Hoodie (Black)",
+      "sourceUrl": "https://gtafits.com/items/777-hoodie-black",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/2468b0c7.webp",
+      "character": "jason",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-0389db5787f26dc7"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-9f0e5b5829a17eed",
+      "name": "777 Shorts (Charcoal)",
+      "sourceUrl": "https://gtafits.com/items/777-shorts-charcoal",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/fd8e278a.webp",
+      "character": "jason",
+      "category": "Bottoms",
+      "storeIds": [
+        "fits-store-0389db5787f26dc7"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-95f5f91d6462a1b9",
+      "name": "80s Pop Shimmer",
+      "sourceUrl": "https://gtafits.com/items/80s-pop-shimmer",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/d7286217.webp",
+      "character": "lucia",
+      "category": "Makeup",
+      "storeIds": [
+        "fits-store-88fb08fd2555c2a8",
+        "fits-store-ea80d29fe7405a14",
+        "fits-store-d80e02b3f7dd55e0",
+        "fits-store-126778a82210ca01",
+        "fits-store-31f3d99541955f7c",
+        "fits-store-ec19719cdc213ecc",
+        "fits-store-c5008038dcbd2fe6",
+        "fits-store-52b9ec48c0d815af",
+        "fits-store-670659588a6b6bac",
+        "fits-store-1a4ebee48255ab66",
+        "fits-store-266646dbab7b1b21",
+        "fits-store-7538dd00e20b51ab",
+        "fits-store-1b142f2e61d7e974"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-281c40ae8dd12364",
+      "name": "80s Soft Smoky Glam",
+      "sourceUrl": "https://gtafits.com/items/80s-soft-smoky-glam",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/747a2e80.webp",
+      "character": "lucia",
+      "category": "Makeup",
+      "storeIds": [
+        "fits-store-88fb08fd2555c2a8",
+        "fits-store-ea80d29fe7405a14",
+        "fits-store-d80e02b3f7dd55e0",
+        "fits-store-126778a82210ca01",
+        "fits-store-31f3d99541955f7c",
+        "fits-store-ec19719cdc213ecc",
+        "fits-store-c5008038dcbd2fe6",
+        "fits-store-52b9ec48c0d815af",
+        "fits-store-670659588a6b6bac",
+        "fits-store-1a4ebee48255ab66",
+        "fits-store-266646dbab7b1b21",
+        "fits-store-7538dd00e20b51ab",
+        "fits-store-1b142f2e61d7e974"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-7c27eaab5380d358",
+      "name": "90s Beachy Waves",
+      "sourceUrl": "https://gtafits.com/items/90s-beachy-waves",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/fbe074e4.webp",
+      "character": "lucia",
+      "category": "Hair",
+      "storeIds": [
+        "fits-store-d80e02b3f7dd55e0",
+        "fits-store-7538dd00e20b51ab"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-0ba8a2455c22a217",
+      "name": "90s Gothic",
+      "sourceUrl": "https://gtafits.com/items/90s-gothic",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/583ef5fe.webp",
+      "character": "lucia",
+      "category": "Makeup",
+      "storeIds": [
+        "fits-store-31f3d99541955f7c"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-7a64d3d41a84a581",
+      "name": "90s Neutral",
+      "sourceUrl": "https://gtafits.com/items/90s-neutral",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/84529dc9.webp",
+      "character": "lucia",
+      "category": "Makeup",
+      "storeIds": [
+        "fits-store-88fb08fd2555c2a8",
+        "fits-store-31f3d99541955f7c",
+        "fits-store-7538dd00e20b51ab"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-1de674b4b890fd9e",
+      "name": "90s Preppy",
+      "sourceUrl": "https://gtafits.com/items/90s-preppy",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/icons-v1/b54c9127.webp",
+      "character": "jason",
+      "category": "Hair",
+      "storeIds": [
+        "fits-store-1a4ebee48255ab66"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-96fc73e5ed8e3237",
+      "name": "AAA Cat Crop Top (White)",
+      "sourceUrl": "https://gtafits.com/items/aaa-cat-crop-top-white",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/2b7f90ff.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-e972e8a70787cf4a"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-cea283d46cfebff3",
+      "name": "AAA Cat T-Shirt (Light Pink)",
+      "sourceUrl": "https://gtafits.com/items/aaa-cat-t-shirt-light-pink",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/5918c76e.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-e972e8a70787cf4a"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-74268caa8cb8fb20",
+      "name": "AAA Cat T-Shirt (Red)",
+      "sourceUrl": "https://gtafits.com/items/aaa-cat-t-shirt-red",
+      "imageUrl": "https://cdn.gtafits.com/gta6/items/renders-v1/256/06f3a325.webp",
+      "character": "lucia",
+      "category": "Tops",
+      "storeIds": [
+        "fits-store-e972e8a70787cf4a"
+      ],
+      "detailed": true
+    },
+    {
+      "id": "fits-item-ae338db44fa6eb5d",
+      "name": "AAA Cat T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/aaa-cat-t-shirt-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-844168d8c06d8639",
+      "name": "AAA Don't Make Me T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/aaa-don-t-make-me-t-shirt-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-dcee10dc55ff9859",
+      "name": "AAA Presidents Crop Top (Black)",
+      "sourceUrl": "https://gtafits.com/items/aaa-presidents-crop-top-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-31bdd02063ba79f0",
+      "name": "AAA Presidents Crop Top (White)",
+      "sourceUrl": "https://gtafits.com/items/aaa-presidents-crop-top-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-34543cfa6fd7cbf0",
+      "name": "AAA Smoke T-Shirt (Black)",
+      "sourceUrl": "https://gtafits.com/items/aaa-smoke-t-shirt-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-84b1f4307b9eebae",
+      "name": "AAA Tiger T-Shirt (Faded Black)",
+      "sourceUrl": "https://gtafits.com/items/aaa-tiger-t-shirt-faded-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-993d7c17aa721c69",
+      "name": "AAA Tiger T-Shirt (Light Blue)",
+      "sourceUrl": "https://gtafits.com/items/aaa-tiger-t-shirt-light-blue",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ff65c6f3d16182e2",
+      "name": "AAA Tiger T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/aaa-tiger-t-shirt-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2514cfcac685e832",
+      "name": "AAA Track Pants (Black)",
+      "sourceUrl": "https://gtafits.com/items/aaa-track-pants-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-5337f4aab5202b93",
+      "name": "AAA Track Pants (Light Brown)",
+      "sourceUrl": "https://gtafits.com/items/aaa-track-pants-light-brown",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-75ca8aa582f636e3",
+      "name": "Abstract Line",
+      "sourceUrl": "https://gtafits.com/items/abstract-line",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a8aec0fc25581c6f",
+      "name": "Abuse Hoodie (Off-White)",
+      "sourceUrl": "https://gtafits.com/items/abuse-hoodie-off-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-27deb4cc4aa58821",
+      "name": "A Call To Adventure",
+      "sourceUrl": "https://gtafits.com/items/a-call-to-adventure",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-08ef7227343292ac",
+      "name": "Ad Astra Per Aspera",
+      "sourceUrl": "https://gtafits.com/items/ad-astra-per-aspera",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2f6033b28a83efa8",
+      "name": "Adorn 52 T-Shirt (Burgundy)",
+      "sourceUrl": "https://gtafits.com/items/adorn-52-t-shirt-burgundy",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6938f00632b83d83",
+      "name": "Adorn 52 T-Shirt (Powder Blue)",
+      "sourceUrl": "https://gtafits.com/items/adorn-52-t-shirt-powder-blue",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e8ce6504e55a7f8a",
+      "name": "Adorn Bandana (Black Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bandana-black-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d34ea048cb9df676",
+      "name": "Adorn Bandana (Forest Green Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bandana-forest-green-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-56b34753dc9b3a35",
+      "name": "Adorn Bandana (Navy Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bandana-navy-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b377bbf9741886b3",
+      "name": "Adorn Bandana (Pastel Pink Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bandana-pastel-pink-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1478408b75902886",
+      "name": "Adorn Bandana (Scarlet Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bandana-scarlet-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b4f3ce8c12929069",
+      "name": "Adorn Bomber Jacket (Black, Beige & Red)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bomber-jacket-black-beige-and-red",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6e60b06b19c2af3e",
+      "name": "Adorn Bomber Jacket (Dark Red, Gray & White)",
+      "sourceUrl": "https://gtafits.com/items/adorn-bomber-jacket-dark-red-gray-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-29dbdc5835eeb5e0",
+      "name": "Adorn Desert Race T-Shirt (Burgundy)",
+      "sourceUrl": "https://gtafits.com/items/adorn-desert-race-t-shirt-burgundy",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a8614fbae8ab6ce5",
+      "name": "Adorn Desert Race T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/adorn-desert-race-t-shirt-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-eeda5f9962ba5843",
+      "name": "Adorn Long Sleeve Top (Black)",
+      "sourceUrl": "https://gtafits.com/items/adorn-long-sleeve-top-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-18dbe3fa1d2ad85e",
+      "name": "Adorn Mini Dress (Burgundy)",
+      "sourceUrl": "https://gtafits.com/items/adorn-mini-dress-burgundy",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-894ea4a4a8ce122a",
+      "name": "Adorn Mini Dress (Dark Teal)",
+      "sourceUrl": "https://gtafits.com/items/adorn-mini-dress-dark-teal",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-78c3586e06d04493",
+      "name": "Adorn Mini Dress (Powder Blue)",
+      "sourceUrl": "https://gtafits.com/items/adorn-mini-dress-powder-blue",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-80a4fc9cef7a2d53",
+      "name": "Adorn Pullover Hoodie (Blue Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-pullover-hoodie-blue-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-249977396d4b58ca",
+      "name": "Adorn Pullover Hoodie (Olive Paisley)",
+      "sourceUrl": "https://gtafits.com/items/adorn-pullover-hoodie-olive-paisley",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-65ac44f00d6b5114",
+      "name": "Adorn Shorts (Forest Green & Gold)",
+      "sourceUrl": "https://gtafits.com/items/adorn-shorts-forest-green-and-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-df3e2f73727b7961",
+      "name": "Adorn Shorts (White & Burgundy)",
+      "sourceUrl": "https://gtafits.com/items/adorn-shorts-white-and-burgundy",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d7f3c1683180a1cd",
+      "name": "Adorn Zip Neck Sweater (Black & Cream)",
+      "sourceUrl": "https://gtafits.com/items/adorn-zip-neck-sweater-black-and-cream",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4c7bd6a731e0570e",
+      "name": "Adorn Zip Neck Sweater (Burgundy & Cream)",
+      "sourceUrl": "https://gtafits.com/items/adorn-zip-neck-sweater-burgundy-and-cream",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-fcb891192772a4d8",
+      "name": "Adorn Zip Neck Sweater (Navy & Cream)",
+      "sourceUrl": "https://gtafits.com/items/adorn-zip-neck-sweater-navy-and-cream",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ac5e5f0f7a5bf6d9",
+      "name": "Adventurer Patchwork",
+      "sourceUrl": "https://gtafits.com/items/adventurer-patchwork",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1b0272d179f0e94e",
+      "name": "AES Bomber Jacket (Black)",
+      "sourceUrl": "https://gtafits.com/items/aes-bomber-jacket-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-acd419bc651e729c",
+      "name": "Afortunada",
+      "sourceUrl": "https://gtafits.com/items/afortunada",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f964dfac74ee4284",
+      "name": "Against All Odds",
+      "sourceUrl": "https://gtafits.com/items/against-all-odds",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7a48cedf0bc27b30",
+      "name": "Aged Eris Rook 1 High (Blue & White)",
+      "sourceUrl": "https://gtafits.com/items/aged-eris-rook-1-high-blue-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-159ce2f24262da81",
+      "name": "Aged Eris Rook 1 High (Navy & White)",
+      "sourceUrl": "https://gtafits.com/items/aged-eris-rook-1-high-navy-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-248f2ca9c735ae6a",
+      "name": "Ahol Bandana (Multicolor Eyes)",
+      "sourceUrl": "https://gtafits.com/items/ahol-bandana-multicolor-eyes",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-304b49bb388facc5",
+      "name": "Ahol Shorts (Black & White)",
+      "sourceUrl": "https://gtafits.com/items/ahol-shorts-black-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0c4ded363ab97607",
+      "name": "Ahol Ski Mask (Black & Lime)",
+      "sourceUrl": "https://gtafits.com/items/ahol-ski-mask-black-and-lime",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-5c914179d1e61b16",
+      "name": "Ahol Sweatshirt (Black & White)",
+      "sourceUrl": "https://gtafits.com/items/ahol-sweatshirt-black-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6e1b239120cf7f12",
+      "name": "Ahol Sweatshirt (Black & White Tag)",
+      "sourceUrl": "https://gtafits.com/items/ahol-sweatshirt-black-and-white-tag",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3b95c7949f155ec3",
+      "name": "Ahol Sweatshirt (Multicolor)",
+      "sourceUrl": "https://gtafits.com/items/ahol-sweatshirt-multicolor",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-058b1ddf8047fdd0",
+      "name": "Ahol T-Shirt (Black & Gray)",
+      "sourceUrl": "https://gtafits.com/items/ahol-t-shirt-black-and-gray",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-05d165599eca9320",
+      "name": "Ahol Zip Cropped Bustier (Purple)",
+      "sourceUrl": "https://gtafits.com/items/ahol-zip-cropped-bustier-purple",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-92e50b6fa218abd9",
+      "name": "Aim and Fire",
+      "sourceUrl": "https://gtafits.com/items/aim-and-fire",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ec08eae9094d02e7",
+      "name": "Aimtru Boonie Hat (Black)",
+      "sourceUrl": "https://gtafits.com/items/aimtru-boonie-hat-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b54dad5c97e06ce8",
+      "name": "Ajax Gym Tank (Light Gray Heather Melange)",
+      "sourceUrl": "https://gtafits.com/items/ajax-gym-tank-light-gray-heather-melange",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-11ec333e994b4179",
+      "name": "Ajax Gym Tank (Teal)",
+      "sourceUrl": "https://gtafits.com/items/ajax-gym-tank-teal",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-bd2a3f8b01c43c79",
+      "name": "Ajax Gym T-Shirt (Faded Black)",
+      "sourceUrl": "https://gtafits.com/items/ajax-gym-t-shirt-faded-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-34892014242d3758",
+      "name": "Ajax Gym Twist Crop Top (Light Gray Heather Melange)",
+      "sourceUrl": "https://gtafits.com/items/ajax-gym-twist-crop-top-light-gray-heather-melange",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ce2ad808f1513a45",
+      "name": "Balcony Bra (Black Lace)",
+      "sourceUrl": "https://gtafits.com/items/balcony-bra-black-lace",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b3c72457eb7d7fb7",
+      "name": "Cutoff Mini Skirt (Black Rhinestone)",
+      "sourceUrl": "https://gtafits.com/items/cutoff-mini-skirt-black-rhinestone",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-af9903cfe454a2ab",
+      "name": "Imorol Racer Jacket (Black, Orange & Yellow)",
+      "sourceUrl": "https://gtafits.com/items/imorol-racer-jacket-black-orange-and-yellow",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6b0b8eedafeb3651",
+      "name": "Large Hoop Earrings (Gold)",
+      "sourceUrl": "https://gtafits.com/items/large-hoop-earrings-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b3a652b0df2948f1",
+      "name": "Rimless Metal Shades (Silver & Brown)",
+      "sourceUrl": "https://gtafits.com/items/rimless-metal-shades-silver-and-brown",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4deb6c89e777bcbe",
+      "name": "SN Knee High Boots (Black Suede)",
+      "sourceUrl": "https://gtafits.com/items/sn-knee-high-boots-black-suede",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a84578f43e589e84",
+      "name": "Baggy Jeans (Two-Tone Indigo)",
+      "sourceUrl": "https://gtafits.com/items/baggy-jeans-two-tone-indigo",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-871351bdb044dd24",
+      "name": "Canvas Low Tops (Dark Olive Camo & White)",
+      "sourceUrl": "https://gtafits.com/items/canvas-low-tops-dark-olive-camo-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-215c629f4ec5a2cc",
+      "name": "Canvas Low Tops (Green Camo)",
+      "sourceUrl": "https://gtafits.com/items/canvas-low-tops-green-camo",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b3fc488f8b49c0b8",
+      "name": "Classic Cuban Chain (Gold)",
+      "sourceUrl": "https://gtafits.com/items/classic-cuban-chain-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-91b2a53f3bfd31ee",
+      "name": "Classic Low Tops (Black & Gum Sole)",
+      "sourceUrl": "https://gtafits.com/items/classic-low-tops-black-and-gum-sole",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6ac25d205357de5c",
+      "name": "Classic Low Tops (Ivory Suede & Gum)",
+      "sourceUrl": "https://gtafits.com/items/classic-low-tops-ivory-suede-and-gum",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a4591bda140b9110",
+      "name": "Classic Low Tops (White & Gum Sole)",
+      "sourceUrl": "https://gtafits.com/items/classic-low-tops-white-and-gum-sole",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d5a1915339cd1def",
+      "name": "Classic Running Shoes (Stained White, Pink & Blue)",
+      "sourceUrl": "https://gtafits.com/items/classic-running-shoes-stained-white-pink-and-blue",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b752874a908f16d7",
+      "name": "Crowex Octane 'Kaleidoscope' (Gold & Sapphire)",
+      "sourceUrl": "https://gtafits.com/items/crowex-octane-kaleidoscope-gold-and-sapphire",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e295f923d70fee22",
+      "name": "Discount Patched Jeans (Medium Sand Wash)",
+      "sourceUrl": "https://gtafits.com/items/discount-patched-jeans-medium-sand-wash",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f5052fb10e0c84ad",
+      "name": "Distressed High Waisted Jeans (Black Overdye)",
+      "sourceUrl": "https://gtafits.com/items/distressed-high-waisted-jeans-black-overdye",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a4c5c77dbdbc73c1",
+      "name": "Distressed High Waisted Jeans (Medium Faded Indigo)",
+      "sourceUrl": "https://gtafits.com/items/distressed-high-waisted-jeans-medium-faded-indigo",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-08ea904e946f8a31",
+      "name": "Eris Basketball High Tops (White & Light Yellow)",
+      "sourceUrl": "https://gtafits.com/items/eris-basketball-high-tops-white-and-light-yellow",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-505ee1a7195011ea",
+      "name": "Eris Rise Low Basics (White & Black)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-basics-white-and-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e6385bdb82846b6c",
+      "name": "Eris Rise Low (Black, Cyan & Silver)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-black-cyan-and-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-989e7e0b79b24337",
+      "name": "Eris Rise Low Customs (Black, White & Gray Textured)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-customs-black-white-and-gray-textured",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-65f50a765a019005",
+      "name": "Eris Rise Low Customs (JoySystem)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-customs-joysystem",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-79ebceb369c0c96c",
+      "name": "Eris Rise Low Customs (Sandstone, White & Orange)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-customs-sandstone-white-and-orange",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-fd178e89d3b98310",
+      "name": "Eris Rise Low Elite (Black, Gray Camo & Red)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-elite-black-gray-camo-and-red",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-03896afeae11f2d7",
+      "name": "Eris Rise Low (Moss, Gray Marble & Black)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-moss-gray-marble-and-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1de5d3310a003154",
+      "name": "Eris Rise Low Origins (White)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-origins-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0cd502c956911b9e",
+      "name": "Eris Rise Low (Oxblood, Sandstone & Pink)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-oxblood-sandstone-and-pink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-253f825c89ea6ced",
+      "name": "Eris Rise Low (Red & Navy)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-red-and-navy",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c3174d4e09b3108c",
+      "name": "Eris Rise Low (Storm Gray, Black & White)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-storm-gray-black-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1725bbda179564d3",
+      "name": "Full Grill Set (Gold & Diamond Bejeweled)",
+      "sourceUrl": "https://gtafits.com/items/full-grill-set-gold-and-diamond-bejeweled",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a598808b75c1a057",
+      "name": "High Waisted Zip Cargos (Black Satin & Gold)",
+      "sourceUrl": "https://gtafits.com/items/high-waisted-zip-cargos-black-satin-and-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-09afe61325bdddd9",
+      "name": "High Waisted Zip Cargos (Black Satin & Silver)",
+      "sourceUrl": "https://gtafits.com/items/high-waisted-zip-cargos-black-satin-and-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1fe2ba329f319248",
+      "name": "Low Top Skate Shoes (Gray & Black)",
+      "sourceUrl": "https://gtafits.com/items/low-top-skate-shoes-gray-and-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-686832f14ded7af5",
+      "name": "Pointed Toe Court Shoes (Light Pink Leather)",
+      "sourceUrl": "https://gtafits.com/items/pointed-toe-court-shoes-light-pink-leather",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7ade620d0ab5d72f",
+      "name": "Santo Capra Low Tops (Black & White)",
+      "sourceUrl": "https://gtafits.com/items/santo-capra-low-tops-black-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6f470ddc23727b9a",
+      "name": "Skinny Box Braids",
+      "sourceUrl": "https://gtafits.com/items/skinny-box-braids",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4f560ce488df86da",
+      "name": "Vice City Narcos Jersey (Neon Pink)",
+      "sourceUrl": "https://gtafits.com/items/vice-city-narcos-jersey-neon-pink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c920332a02c23832",
+      "name": "Vintage Canvas Low Tops (Sun Bleached Cream & Red)",
+      "sourceUrl": "https://gtafits.com/items/vintage-canvas-low-tops-sun-bleached-cream-and-red",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-8591370cf7111142",
+      "name": "Horsebit Loafers (Black Leather & Silver)",
+      "sourceUrl": "https://gtafits.com/items/horsebit-loafers-black-leather-and-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-be411ac7e258ba9d",
+      "name": "Partial Grill Set (Gold Canine Panels)",
+      "sourceUrl": "https://gtafits.com/items/partial-grill-set-gold-canine-panels",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1df4398e658d247e",
+      "name": "Relaxed Pressed Crease Pants (Black Pinstripe)",
+      "sourceUrl": "https://gtafits.com/items/relaxed-pressed-crease-pants-black-pinstripe",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f5bf2987fa3729d8",
+      "name": "Slim Fit Long Sleeve Shirt (Black Satin)",
+      "sourceUrl": "https://gtafits.com/items/slim-fit-long-sleeve-shirt-black-satin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c0f058b1ece04001",
+      "name": "Square Shades (Black & Smoky)",
+      "sourceUrl": "https://gtafits.com/items/square-shades-black-and-smoky",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3bf96bc50795cad0",
+      "name": "Ankle Strap Stilettos (Lime Yellow)",
+      "sourceUrl": "https://gtafits.com/items/ankle-strap-stilettos-lime-yellow",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-95032fef3c84eaf2",
+      "name": "Balcony Bikini Top (Light Yellow Floral)",
+      "sourceUrl": "https://gtafits.com/items/balcony-bikini-top-light-yellow-floral",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-9986d906ae772cb6",
+      "name": "Colored (Celestial)",
+      "sourceUrl": "https://gtafits.com/items/colored-celestial",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ea870fe78c6434a4",
+      "name": "Cropped Thick Fur Jacket (Snow Leopard)",
+      "sourceUrl": "https://gtafits.com/items/cropped-thick-fur-jacket-snow-leopard",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f5b2d45bb7269d21",
+      "name": "Linen Dress Pants (Ivory)",
+      "sourceUrl": "https://gtafits.com/items/linen-dress-pants-ivory",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ee188df1960511e1",
+      "name": "Long Straight & Loose Bun",
+      "sourceUrl": "https://gtafits.com/items/long-straight-and-loose-bun",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7b0f44de15f2b705",
+      "name": "Slim Metal Shades (Gold & Amber)",
+      "sourceUrl": "https://gtafits.com/items/slim-metal-shades-gold-and-amber",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f34084d662016ea0",
+      "name": "Ankle Strap Stilettos (Black Patent Crocodile)",
+      "sourceUrl": "https://gtafits.com/items/ankle-strap-stilettos-black-patent-crocodile",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-17870ebcd3a92f93",
+      "name": "Assorted Thrift Rings (Gold)",
+      "sourceUrl": "https://gtafits.com/items/assorted-thrift-rings-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c65480b53daa386e",
+      "name": "Cat Eye Shades (Black)",
+      "sourceUrl": "https://gtafits.com/items/cat-eye-shades-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0d97ec41ca3331e9",
+      "name": "Crowex Ambassador (Gold & Diamond)",
+      "sourceUrl": "https://gtafits.com/items/crowex-ambassador-gold-and-diamond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3936164686570bc3",
+      "name": "Double Chain Identity Bracelet (Gold)",
+      "sourceUrl": "https://gtafits.com/items/double-chain-identity-bracelet-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-62f74b8a15005114",
+      "name": "Intense Red",
+      "sourceUrl": "https://gtafits.com/items/intense-red",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-453763e5e7fa1cbc",
+      "name": "Interlinked Hoop Earrings (Gold)",
+      "sourceUrl": "https://gtafits.com/items/interlinked-hoop-earrings-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-fdcb5d0cc8deede1",
+      "name": "Sleeveless Turtleneck Bodysuit (White)",
+      "sourceUrl": "https://gtafits.com/items/sleeveless-turtleneck-bodysuit-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2012d28036010731",
+      "name": "Tailored Pencil Skirt (Gray Pinstripe)",
+      "sourceUrl": "https://gtafits.com/items/tailored-pencil-skirt-gray-pinstripe",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-40b5a15a3acaf81d",
+      "name": "Bangle Set (Gold)",
+      "sourceUrl": "https://gtafits.com/items/bangle-set-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0ea0fc8029f7636c",
+      "name": "Bigness Bra Top (Black)",
+      "sourceUrl": "https://gtafits.com/items/bigness-bra-top-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ba94ad4e9d911b59",
+      "name": "Blooming Rifle",
+      "sourceUrl": "https://gtafits.com/items/blooming-rifle",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-39abc70cbc42d254",
+      "name": "Cyber Glyph Butterfly",
+      "sourceUrl": "https://gtafits.com/items/cyber-glyph-butterfly",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-22358053405a39d8",
+      "name": "Dainty Charm Bracelet Set (Rose Gold)",
+      "sourceUrl": "https://gtafits.com/items/dainty-charm-bracelet-set-rose-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-bcba4b5d87185e5d",
+      "name": "Death's Head",
+      "sourceUrl": "https://gtafits.com/items/death-s-head",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-135c38eac5f00966",
+      "name": "Goddess Box Braids",
+      "sourceUrl": "https://gtafits.com/items/goddess-box-braids",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-032ba904c4c83d42",
+      "name": "Horned Dragon",
+      "sourceUrl": "https://gtafits.com/items/horned-dragon",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2fadf3a0ec4b63b9",
+      "name": "Knee High Leather Boots (Black Patent Crocodile)",
+      "sourceUrl": "https://gtafits.com/items/knee-high-leather-boots-black-patent-crocodile",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-8875068ad70d0ab0",
+      "name": "Large Hoop Earrings (Rose Gold)",
+      "sourceUrl": "https://gtafits.com/items/large-hoop-earrings-rose-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-57929d9b69d0fa20",
+      "name": "Left Helix & Conch Set (Gold & Diamond)",
+      "sourceUrl": "https://gtafits.com/items/left-helix-and-conch-set-gold-and-diamond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e6de9c575ae60da6",
+      "name": "Medusa Stud (Silver)",
+      "sourceUrl": "https://gtafits.com/items/medusa-stud-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7830c2d45611ac67",
+      "name": "Open Denim Cutoffs (Ecru)",
+      "sourceUrl": "https://gtafits.com/items/open-denim-cutoffs-ecru",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1a88142105175a57",
+      "name": "Pop Star",
+      "sourceUrl": "https://gtafits.com/items/pop-star",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e3a07c6722697987",
+      "name": "Right Helix & Tragus Set (Gold & Diamond)",
+      "sourceUrl": "https://gtafits.com/items/right-helix-and-tragus-set-gold-and-diamond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d3dd9fd0c3209e51",
+      "name": "Warm Platinum",
+      "sourceUrl": "https://gtafits.com/items/warm-platinum",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-671a073ba2c3f441",
+      "name": "Boxing Glove Pendant (Gold)",
+      "sourceUrl": "https://gtafits.com/items/boxing-glove-pendant-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-27c06fe20d7c6a58",
+      "name": "Crowex Octane 'Midas' (Gold & Diamond)",
+      "sourceUrl": "https://gtafits.com/items/crowex-octane-midas-gold-and-diamond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-921091365d6a2c47",
+      "name": "Lightweight Cargos (Camel)",
+      "sourceUrl": "https://gtafits.com/items/lightweight-cargos-camel",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-278da18265bb7d80",
+      "name": "Thin Strap Cropped Tank (Dark Gray)",
+      "sourceUrl": "https://gtafits.com/items/thin-strap-cropped-tank-dark-gray",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-70137833be83ade3",
+      "name": "Thong Bikini Bottoms (Black)",
+      "sourceUrl": "https://gtafits.com/items/thong-bikini-bottoms-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6f7f593069def30c",
+      "name": "Bejeweled Body Chains (Rose Gold)",
+      "sourceUrl": "https://gtafits.com/items/bejeweled-body-chains-rose-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a0ff026a94072269",
+      "name": "Diamond Adorned Pink Cat Eye",
+      "sourceUrl": "https://gtafits.com/items/diamond-adorned-pink-cat-eye",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-5a5ef7a7c38471cc",
+      "name": "Fitted Mini Skirt (Warm Brown Glitter)",
+      "sourceUrl": "https://gtafits.com/items/fitted-mini-skirt-warm-brown-glitter",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-9b67eb42c03bb3ba",
+      "name": "Knee High Leather Boots (Brown Snakeskin)",
+      "sourceUrl": "https://gtafits.com/items/knee-high-leather-boots-brown-snakeskin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-889339e4f45c9a62",
+      "name": "Long Sleeve Shrug (White Lace)",
+      "sourceUrl": "https://gtafits.com/items/long-sleeve-shrug-white-lace",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-99dc4ea83300bd95",
+      "name": "Underwire Clasped Bikini Top (Bronze Glitter)",
+      "sourceUrl": "https://gtafits.com/items/underwire-clasped-bikini-top-bronze-glitter",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d76af58dfa835367",
+      "name": "Basic Ringer Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/basic-ringer-tank-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-33d3383ab99e0db2",
+      "name": "Slim Stretch Chinos (Taupe)",
+      "sourceUrl": "https://gtafits.com/items/slim-stretch-chinos-taupe",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-25221154164f9a27",
+      "name": "Ankle Strap Stilettos (Leopard Print)",
+      "sourceUrl": "https://gtafits.com/items/ankle-strap-stilettos-leopard-print",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-69ac8655dbef72bd",
+      "name": "Split Flared Leggings (Black Leather)",
+      "sourceUrl": "https://gtafits.com/items/split-flared-leggings-black-leather",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-950b79c475b0f299",
+      "name": "Straight Lob & Wide Headband (Taupe)",
+      "sourceUrl": "https://gtafits.com/items/straight-lob-and-wide-headband-taupe",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1f4b59e7f3c3d677",
+      "name": "Thin Stretch Bandeau (White)",
+      "sourceUrl": "https://gtafits.com/items/thin-stretch-bandeau-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-cb26bccd570e57da",
+      "name": "XL Square Shades (Black)",
+      "sourceUrl": "https://gtafits.com/items/xl-square-shades-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-5581853d06c5fd2a",
+      "name": "Colored (Martini)",
+      "sourceUrl": "https://gtafits.com/items/colored-martini",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a007c70dd0d65404",
+      "name": "Eris Strife 90 (Khaki, Green & Orange)",
+      "sourceUrl": "https://gtafits.com/items/eris-strife-90-khaki-green-and-orange",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-442225ad4b1ef4c9",
+      "name": "Left Brow Bar (Silver)",
+      "sourceUrl": "https://gtafits.com/items/left-brow-bar-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-31453bf24079e702",
+      "name": "Net Sleeveless Bodysuit (Maroon)",
+      "sourceUrl": "https://gtafits.com/items/net-sleeveless-bodysuit-maroon",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-9984fe7f67035754",
+      "name": "Shaded (Sparkles)",
+      "sourceUrl": "https://gtafits.com/items/shaded-sparkles",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-11421c836315fe95",
+      "name": "Bleached Mid Length Slick Back",
+      "sourceUrl": "https://gtafits.com/items/bleached-mid-length-slick-back",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a1905155fba72a00",
+      "name": "Henley T-Shirt (Almond)",
+      "sourceUrl": "https://gtafits.com/items/henley-t-shirt-almond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-aa0fd55d11e24e88",
+      "name": "Horsebit Loafers (Brown & White Snakeskin)",
+      "sourceUrl": "https://gtafits.com/items/horsebit-loafers-brown-and-white-snakeskin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0161ea044eb5d61e",
+      "name": "Regular Fit Jeans (Dark Faded Indigo)",
+      "sourceUrl": "https://gtafits.com/items/regular-fit-jeans-dark-faded-indigo",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b4482dcf47f6915f",
+      "name": "Thick Retro Shades (Clear Tan & Brown)",
+      "sourceUrl": "https://gtafits.com/items/thick-retro-shades-clear-tan-and-brown",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-307b9c655ad278e3",
+      "name": "Weathered Racer Jacket (Black)",
+      "sourceUrl": "https://gtafits.com/items/weathered-racer-jacket-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-60948d48ca9e788d",
+      "name": "Classic Fit Shirt (Dark Faded Indigo)",
+      "sourceUrl": "https://gtafits.com/items/classic-fit-shirt-dark-faded-indigo",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a9476cf894b790fd",
+      "name": "Donnie's Aviators (Gold & Yellow)",
+      "sourceUrl": "https://gtafits.com/items/donnie-s-aviators-gold-and-yellow",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-dafb0feaf29a9d51",
+      "name": "Leonida Mermaid Cap (Baby Blue)",
+      "sourceUrl": "https://gtafits.com/items/leonida-mermaid-cap-baby-blue",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c912773fa121edfc",
+      "name": "Logger Boots (Brown Leather)",
+      "sourceUrl": "https://gtafits.com/items/logger-boots-brown-leather",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0d6a9e39465767cf",
+      "name": "Regular Fit Jeans (White)",
+      "sourceUrl": "https://gtafits.com/items/regular-fit-jeans-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f80f858205ddd381",
+      "name": "ARM Boonie Hat (Earthy Green)",
+      "sourceUrl": "https://gtafits.com/items/arm-boonie-hat-earthy-green",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a3916d18cafb3482",
+      "name": "Baggy Cargo Shorts (Navy Disheveled)",
+      "sourceUrl": "https://gtafits.com/items/baggy-cargo-shorts-navy-disheveled",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-75eab30e73a21f91",
+      "name": "Classic Curb Chain (Dull Silver)",
+      "sourceUrl": "https://gtafits.com/items/classic-curb-chain-dull-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-108d8bd2e18546c5",
+      "name": "Earlobe Huggie Hoops (Gunmetal)",
+      "sourceUrl": "https://gtafits.com/items/earlobe-huggie-hoops-gunmetal",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-5873b1b19f1c5288",
+      "name": "Heavy Cuban Link Bracelet (Silver)",
+      "sourceUrl": "https://gtafits.com/items/heavy-cuban-link-bracelet-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c57987216493ceec",
+      "name": "Lion Signet Ring (Gold)",
+      "sourceUrl": "https://gtafits.com/items/lion-signet-ring-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-bc23519996de9abe",
+      "name": "Lion Signet Ring (Silver)",
+      "sourceUrl": "https://gtafits.com/items/lion-signet-ring-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-23d142aabcf4dda7",
+      "name": "Moc Toe Boots (Tan Leather)",
+      "sourceUrl": "https://gtafits.com/items/moc-toe-boots-tan-leather",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7f245ec9f3e73ffc",
+      "name": "Muscle Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/muscle-tank-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-470f13d9ae2f64c4",
+      "name": "Stacha Short Sleeve Shirt (Warm Brown Satin)",
+      "sourceUrl": "https://gtafits.com/items/stacha-short-sleeve-shirt-warm-brown-satin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-752c62badea29d44",
+      "name": "Triple Chronograph Watch (Gold Chainlink)",
+      "sourceUrl": "https://gtafits.com/items/triple-chronograph-watch-gold-chainlink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1f2c28046aff8828",
+      "name": "Double Cutout Bodysuit (Pale Gold)",
+      "sourceUrl": "https://gtafits.com/items/double-cutout-bodysuit-pale-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c9f2127e765c6931",
+      "name": "Cropped Thick Fur Jacket (Leopard Print)",
+      "sourceUrl": "https://gtafits.com/items/cropped-thick-fur-jacket-leopard-print",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a23826805bd9c6dc",
+      "name": "Dainty Charm Bracelet Set (Gold)",
+      "sourceUrl": "https://gtafits.com/items/dainty-charm-bracelet-set-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-63c761b0c706545b",
+      "name": "Paneled Bustier (Black Sequin)",
+      "sourceUrl": "https://gtafits.com/items/paneled-bustier-black-sequin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-5da747800eec2535",
+      "name": "Sessanta Nove Court Shoes (Walnut)",
+      "sourceUrl": "https://gtafits.com/items/sessanta-nove-court-shoes-walnut",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d62e402d92ea6436",
+      "name": "Smoke & Gloss",
+      "sourceUrl": "https://gtafits.com/items/smoke-and-gloss",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c32c5a3ab47d84e7",
+      "name": "Wavy High Ponytail & Braids",
+      "sourceUrl": "https://gtafits.com/items/wavy-high-ponytail-and-braids",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-44044d52f46d3e81",
+      "name": "Relaxed Pressed Crease Pants (Black)",
+      "sourceUrl": "https://gtafits.com/items/relaxed-pressed-crease-pants-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2ef00b4ce05a9ad4",
+      "name": "Round Half-Rim Shades (Charcoal & Black)",
+      "sourceUrl": "https://gtafits.com/items/round-half-rim-shades-charcoal-and-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b4d59a89c0b70f50",
+      "name": "Slim Fit Long Sleeve Shirt (White Satin)",
+      "sourceUrl": "https://gtafits.com/items/slim-fit-long-sleeve-shirt-white-satin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-93a1b7beb0da7849",
+      "name": "Backless Halterneck Mini Dress (Black Oil Slick)",
+      "sourceUrl": "https://gtafits.com/items/backless-halterneck-mini-dress-black-oil-slick",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-8b4fe1495ceeffca",
+      "name": "Cropped Thick Fur Jacket (Black)",
+      "sourceUrl": "https://gtafits.com/items/cropped-thick-fur-jacket-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-843f3a14be1f0a07",
+      "name": "Outline (Snake)",
+      "sourceUrl": "https://gtafits.com/items/outline-snake-torso",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4711b6dcc35ea41f",
+      "name": "Rimless Metal Shades (Gold & Clear)",
+      "sourceUrl": "https://gtafits.com/items/rimless-metal-shades-gold-and-clear",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f0023ebbe7fb4815",
+      "name": "Twisted Strap Stilettos (Black Patent Crocodile)",
+      "sourceUrl": "https://gtafits.com/items/twisted-strap-stilettos-black-patent-crocodile",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-267568701328ba35",
+      "name": "Ankle Strap Stilettos (Black Leather)",
+      "sourceUrl": "https://gtafits.com/items/ankle-strap-stilettos-black-leather",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-eaeeb0a8ba6238a6",
+      "name": "Bun & Forehead Curl",
+      "sourceUrl": "https://gtafits.com/items/bun-and-forehead-curl",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-0c41f0b18f425a43",
+      "name": "Edgy Cat Eye Shades (Black)",
+      "sourceUrl": "https://gtafits.com/items/edgy-cat-eye-shades-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-087b2a04e2445baf",
+      "name": "Sleeveless Turtleneck Bodysuit (Black)",
+      "sourceUrl": "https://gtafits.com/items/sleeveless-turtleneck-bodysuit-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2aba48af34ae0119",
+      "name": "Pleated Mini Skirt (Gray Olive Plaid)",
+      "sourceUrl": "https://gtafits.com/items/pleated-mini-skirt-gray-olive-plaid",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1090880f714a8e37",
+      "name": "Baggy Denim Shorts (Faded Black)",
+      "sourceUrl": "https://gtafits.com/items/baggy-denim-shorts-faded-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-218fd50d1c4c6bcf",
+      "name": "Cienfuegos 21 Jersey (Black & Hot Pink)",
+      "sourceUrl": "https://gtafits.com/items/cienfuegos-21-jersey-black-and-hot-pink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-93d5ade6a1df3716",
+      "name": "Double Pocket Zip Jacket (Black)",
+      "sourceUrl": "https://gtafits.com/items/double-pocket-zip-jacket-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-627718fc877e615c",
+      "name": "Hinterland Logger Boots (Black Suede)",
+      "sourceUrl": "https://gtafits.com/items/hinterland-logger-boots-black-suede",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-42c0ea3bb55c8429",
+      "name": "Nose Stud (Silver)",
+      "sourceUrl": "https://gtafits.com/items/nose-stud-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c4750060782f7cc8",
+      "name": "Platinum Flames Buzz Cut",
+      "sourceUrl": "https://gtafits.com/items/platinum-flames-buzz-cut",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6b0625e5ca860441",
+      "name": "Rimless Metal Shades (Red Tortoiseshell & Olive)",
+      "sourceUrl": "https://gtafits.com/items/rimless-metal-shades-red-tortoiseshell-and-olive",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-712168553bb3ddad",
+      "name": "Slim Metal Shades (Silver & Purple)",
+      "sourceUrl": "https://gtafits.com/items/slim-metal-shades-silver-and-purple",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4514664142c1a35e",
+      "name": "Earlobe Huggie Hoop Set (Pale Gold)",
+      "sourceUrl": "https://gtafits.com/items/earlobe-huggie-hoop-set-pale-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-fe03789cbd874a4a",
+      "name": "Nose Ring (Gold)",
+      "sourceUrl": "https://gtafits.com/items/nose-ring-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-26811f17be79d1ee",
+      "name": "Right Brow Bar (Silver)",
+      "sourceUrl": "https://gtafits.com/items/right-brow-bar-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-622a6f98174d51b4",
+      "name": "Bigness Bra Top (White)",
+      "sourceUrl": "https://gtafits.com/items/bigness-bra-top-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-95ee03ffd8e9e37b",
+      "name": "Canvas High Tops (Princess Robot Bubblegum)",
+      "sourceUrl": "https://gtafits.com/items/canvas-high-tops-princess-robot-bubblegum",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-08ae88f77e92a2e8",
+      "name": "Enhanced Everyday",
+      "sourceUrl": "https://gtafits.com/items/enhanced-everyday",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e0bbad8dfeb0da76",
+      "name": "Open Denim Cutoffs (Black Overdye)",
+      "sourceUrl": "https://gtafits.com/items/open-denim-cutoffs-black-overdye",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f9981473fc924b58",
+      "name": "Classic Curb Chain (Silver)",
+      "sourceUrl": "https://gtafits.com/items/classic-curb-chain-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-01a55805e2cc6454",
+      "name": "Didier Sachs Cap (Black)",
+      "sourceUrl": "https://gtafits.com/items/didier-sachs-cap-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-caa087d137ceb5f0",
+      "name": "Earlobe Studs (Gold & Black Diamond)",
+      "sourceUrl": "https://gtafits.com/items/earlobe-studs-gold-and-black-diamond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-158cd64f4c8b21d1",
+      "name": "Outline (Cobra)",
+      "sourceUrl": "https://gtafits.com/items/outline-cobra",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-eedc8b1ecb2edb44",
+      "name": "Shaggy Mullet",
+      "sourceUrl": "https://gtafits.com/items/shaggy-mullet",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b053f8a1b1adb1e7",
+      "name": "Short Stubble",
+      "sourceUrl": "https://gtafits.com/items/short-stubble",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4127c058775cd82b",
+      "name": "Topolski 15 Jersey (Black & Gray)",
+      "sourceUrl": "https://gtafits.com/items/topolski-15-jersey-black-and-gray",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-56ba5e9f19e67492",
+      "name": "Earlobe Thick Hoops (Pale Gold)",
+      "sourceUrl": "https://gtafits.com/items/earlobe-thick-hoops-pale-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-29ecdaf3789c65f4",
+      "name": "Messy Ponytail & Bangs",
+      "sourceUrl": "https://gtafits.com/items/messy-ponytail-and-bangs",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c981497155cb9986",
+      "name": "Sultry Grunge",
+      "sourceUrl": "https://gtafits.com/items/sultry-grunge",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2f5f5ff47862d5fd",
+      "name": "Ankle Strap Stilettos (Red Snakeskin)",
+      "sourceUrl": "https://gtafits.com/items/ankle-strap-stilettos-red-snakeskin",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-a27700ee81411e89",
+      "name": "Chrome Devil Heart",
+      "sourceUrl": "https://gtafits.com/items/chrome-devil-heart",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7996c64086e96010",
+      "name": "Cross Strap Bikini Top (Fuchsia Glitter)",
+      "sourceUrl": "https://gtafits.com/items/cross-strap-bikini-top-fuchsia-glitter",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-8b1cf4e7d51eda4d",
+      "name": "Crowex Octane 'Orca' (Steel & Black)",
+      "sourceUrl": "https://gtafits.com/items/crowex-octane-orca-steel-and-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f82b22cf54bf83b3",
+      "name": "Cuban Link Bracelet (Silver)",
+      "sourceUrl": "https://gtafits.com/items/cuban-link-bracelet-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ba14bdd8d777558d",
+      "name": "Curved Wrap Shades (Silver & Green)",
+      "sourceUrl": "https://gtafits.com/items/curved-wrap-shades-silver-and-green",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d9e53f688b7a3d86",
+      "name": "Cutoff Mini Skirt (Blossom Pink)",
+      "sourceUrl": "https://gtafits.com/items/cutoff-mini-skirt-blossom-pink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ee75a5bc3078b84f",
+      "name": "Cyber Glyph Gunner",
+      "sourceUrl": "https://gtafits.com/items/cyber-glyph-gunner",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-04d8c4fc7c68b09c",
+      "name": "Dancing with Death",
+      "sourceUrl": "https://gtafits.com/items/dancing-with-death",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-82bb04c113166a1f",
+      "name": "Designer Stubble",
+      "sourceUrl": "https://gtafits.com/items/designer-stubble",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f7e1eacd09c4ce2d",
+      "name": "Eris Rise Low (Dusty Blue & White)",
+      "sourceUrl": "https://gtafits.com/items/eris-rise-low-dusty-blue-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-982c6295ed8d75df",
+      "name": "Flaming Panther",
+      "sourceUrl": "https://gtafits.com/items/flaming-panther",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-362d9e69a5b91485",
+      "name": "MID Energy Short Sleeve Shirt (Blue & White Grid Checked)",
+      "sourceUrl": "https://gtafits.com/items/mid-energy-short-sleeve-shirt-blue-and-white-grid-checked",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-bba3bd3d8e7c8a58",
+      "name": "Nose Ring & Stud (Silver)",
+      "sourceUrl": "https://gtafits.com/items/nose-ring-and-stud-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c46ac7c8a09c5d53",
+      "name": "Outline (Stars)",
+      "sourceUrl": "https://gtafits.com/items/outline-stars",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c3a2ec889c706bf2",
+      "name": "Platinum Blonde",
+      "sourceUrl": "https://gtafits.com/items/platinum-blonde",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-23cfefdc338d477f",
+      "name": "Pre-Owned Straight Jeans (Faded Chocolate)",
+      "sourceUrl": "https://gtafits.com/items/pre-owned-straight-jeans-faded-chocolate",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-fcf6b0b9e70f6243",
+      "name": "Reckless Crane",
+      "sourceUrl": "https://gtafits.com/items/reckless-crane",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-452e2e317ecf1cc1",
+      "name": "Right Brow Hoop (Silver)",
+      "sourceUrl": "https://gtafits.com/items/right-brow-hoop-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-dd99f3778f3a650c",
+      "name": "Rimless Metal Shades (Pale Gold & Pink)",
+      "sourceUrl": "https://gtafits.com/items/rimless-metal-shades-pale-gold-and-pink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-cf5e78a66c6c3e9f",
+      "name": "Septum Ring & Studs (Silver & Diamond)",
+      "sourceUrl": "https://gtafits.com/items/septum-ring-and-studs-silver-and-diamond",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-03bf6d278b16c0fb",
+      "name": "Short Slick Back",
+      "sourceUrl": "https://gtafits.com/items/short-slick-back",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-46b2a7db5d6f023e",
+      "name": "Slinger Graphic T-Shirt (White)",
+      "sourceUrl": "https://gtafits.com/items/slinger-graphic-t-shirt-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c70bd33e1a1a9697",
+      "name": "Tatiana Suarez Bandana (Pink Lashes)",
+      "sourceUrl": "https://gtafits.com/items/tatiana-suarez-bandana-pink-lashes",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-feae06d318aee5e2",
+      "name": "Wings",
+      "sourceUrl": "https://gtafits.com/items/wings",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-6980eb5a1e42b5b0",
+      "name": "Chunky Curb Chain (Platinum)",
+      "sourceUrl": "https://gtafits.com/items/chunky-curb-chain-platinum",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-770ba205fd1b2109",
+      "name": "Friendly Mutton Chops",
+      "sourceUrl": "https://gtafits.com/items/friendly-mutton-chops",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b2e21b0b430f6063",
+      "name": "Nose Ring (Silver)",
+      "sourceUrl": "https://gtafits.com/items/nose-ring-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e19e479bf705be9f",
+      "name": "Slim Crew Neck T-Shirt (Faded Black)",
+      "sourceUrl": "https://gtafits.com/items/slim-crew-neck-t-shirt-faded-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-29170045c33d41e5",
+      "name": "Wavy Mullet",
+      "sourceUrl": "https://gtafits.com/items/wavy-mullet",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-52de18d484470746",
+      "name": "Bendecida",
+      "sourceUrl": "https://gtafits.com/items/bendecida",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-763bb6c9d9b3f2b5",
+      "name": "Celestial",
+      "sourceUrl": "https://gtafits.com/items/celestial",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3b2220b1b19433dc",
+      "name": "Cutoff Mini Skirt (Leopard Print)",
+      "sourceUrl": "https://gtafits.com/items/cutoff-mini-skirt-leopard-print",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-37a8b671b2a98ff9",
+      "name": "Knee High Leather Boots (Dark Brown Leopard Print)",
+      "sourceUrl": "https://gtafits.com/items/knee-high-leather-boots-dark-brown-leopard-print",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ea8471edb8c3a7b4",
+      "name": "Long Wavy & Choppy Bangs",
+      "sourceUrl": "https://gtafits.com/items/long-wavy-and-choppy-bangs",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f923162d27595903",
+      "name": "Vice Beach Cap (Black)",
+      "sourceUrl": "https://gtafits.com/items/vice-beach-cap-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c52ba753ca2cd37e",
+      "name": "Visor Wrap Shades (Brown & Amber)",
+      "sourceUrl": "https://gtafits.com/items/visor-wrap-shades-brown-and-amber",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-61ddf4fcce3c8c78",
+      "name": "Bargain Crew Neck Tank (Pale Gray)",
+      "sourceUrl": "https://gtafits.com/items/bargain-crew-neck-tank-pale-gray",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-000d3f0dadc390c5",
+      "name": "Canvas Chore Jacket (Stained Slate Gray)",
+      "sourceUrl": "https://gtafits.com/items/canvas-chore-jacket-stained-slate-gray",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-8e1f895b25f42922",
+      "name": "Regular Fit Jeans (Faded Gray)",
+      "sourceUrl": "https://gtafits.com/items/regular-fit-jeans-faded-gray",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-1d42af9c34be728c",
+      "name": "Signet Ring (Gold)",
+      "sourceUrl": "https://gtafits.com/items/signet-ring-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ef7d3433830f9666",
+      "name": "Wavy Slick Back",
+      "sourceUrl": "https://gtafits.com/items/wavy-slick-back",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-4f1efb9fc37713ee",
+      "name": "Intense Platinum",
+      "sourceUrl": "https://gtafits.com/items/intense-platinum",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-7f12aefdeb22920c",
+      "name": "Long Sleeve Shrug (Black)",
+      "sourceUrl": "https://gtafits.com/items/long-sleeve-shrug-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-c98a47a65397b8c4",
+      "name": "Round Shades (White & Pink)",
+      "sourceUrl": "https://gtafits.com/items/round-shades-white-and-pink",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-57e348384616dee6",
+      "name": "Shaded (Celestial)",
+      "sourceUrl": "https://gtafits.com/items/shaded-celestial",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d65cc8e384fb512d",
+      "name": "Shaggy Ear Tuck",
+      "sourceUrl": "https://gtafits.com/items/shaggy-ear-tuck",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-535dd544f6822eb6",
+      "name": "Slinger Cropped Mom Jeans (Medium Faded Black)",
+      "sourceUrl": "https://gtafits.com/items/slinger-cropped-mom-jeans-medium-faded-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2daf707d2585f4d7",
+      "name": "Small Double Pendant (Black & Silver)",
+      "sourceUrl": "https://gtafits.com/items/small-double-pendant-black-and-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-2f90fbfd33b4cf5d",
+      "name": "Smoky Blackberry",
+      "sourceUrl": "https://gtafits.com/items/smoky-blackberry",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-8d4d7dcb4eff3a89",
+      "name": "Front Swept Textured Faux Hawk",
+      "sourceUrl": "https://gtafits.com/items/front-swept-textured-faux-hawk",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3febc0abfc5e2281",
+      "name": "Left Brow Hoop (Silver)",
+      "sourceUrl": "https://gtafits.com/items/left-brow-hoop-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b0d3e70042b278f2",
+      "name": "Patchy Chevron & Goatee",
+      "sourceUrl": "https://gtafits.com/items/patchy-chevron-and-goatee",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e3a41e00ea0edbab",
+      "name": "Right Rook Bar (Silver)",
+      "sourceUrl": "https://gtafits.com/items/right-rook-bar-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-9e6f8648d4bb5b71",
+      "name": "Rope Chain (Silver)",
+      "sourceUrl": "https://gtafits.com/items/rope-chain-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-ce4464bf17cc08f2",
+      "name": "Slim Crew Neck T-Shirt (Black)",
+      "sourceUrl": "https://gtafits.com/items/slim-crew-neck-t-shirt-black-bargains",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-eabcbef811910871",
+      "name": "Sponsor Racer Jacket (Red & White)",
+      "sourceUrl": "https://gtafits.com/items/sponsor-racer-jacket-red-and-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d5f36797bfc53827",
+      "name": "Bejeweled Body Chains (Silver)",
+      "sourceUrl": "https://gtafits.com/items/bejeweled-body-chains-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3658c896ecb0cbe8",
+      "name": "Drawstring Pants (Black)",
+      "sourceUrl": "https://gtafits.com/items/drawstring-pants-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f7a33bd160d40180",
+      "name": "MID Vintage Cap (Black)",
+      "sourceUrl": "https://gtafits.com/items/mid-vintage-cap-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-9de3041c009c0231",
+      "name": "Shaded (Butterfly Dagger)",
+      "sourceUrl": "https://gtafits.com/items/shaded-butterfly-dagger",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-e385924807302f09",
+      "name": "Shoulder Length Wavy Side Part",
+      "sourceUrl": "https://gtafits.com/items/shoulder-length-wavy-side-part",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-16857e892ab662aa",
+      "name": "Simple Open Hoop Earrings (Silver)",
+      "sourceUrl": "https://gtafits.com/items/simple-open-hoop-earrings-silver",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-cc1d4de424258a75",
+      "name": "Slinger Tank (White)",
+      "sourceUrl": "https://gtafits.com/items/slinger-tank-white",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-17d201723c77d241",
+      "name": "Smoky Bronze",
+      "sourceUrl": "https://gtafits.com/items/smoky-bronze",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-cd5e9c15d6d0c2e1",
+      "name": "Cherry Cola",
+      "sourceUrl": "https://gtafits.com/items/cherry-cola",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b27ea80a1723dedb",
+      "name": "Flowering Blackout",
+      "sourceUrl": "https://gtafits.com/items/flowering-blackout",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-02d3125a7d07016c",
+      "name": "Lilac Blue",
+      "sourceUrl": "https://gtafits.com/items/lilac-blue",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-d99f6d665aa1239c",
+      "name": "Night Mandala",
+      "sourceUrl": "https://gtafits.com/items/night-mandala",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-f80f9823751411fc",
+      "name": "Second-Hand Bootcut Jeans (Bleached Black)",
+      "sourceUrl": "https://gtafits.com/items/second-hand-bootcut-jeans-bleached-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-3fc7ba9f6463972f",
+      "name": "Thin Hoop Earrings (Gold)",
+      "sourceUrl": "https://gtafits.com/items/thin-hoop-earrings-gold",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-01aa0fad85a87264",
+      "name": "Mesh Plunge Bodysuit (Black & Gold Chain Print)",
+      "sourceUrl": "https://gtafits.com/items/mesh-plunge-bodysuit-black-and-gold-chain-print",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-bf0f4fea5a6baa34",
+      "name": "Outline (Fast Life)",
+      "sourceUrl": "https://gtafits.com/items/outline-fast-life",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-b07a8831978d0891",
+      "name": "Classic Track Shorts (Gray Heather Melange)",
+      "sourceUrl": "https://gtafits.com/items/classic-track-shorts-gray-heather-melange",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-063b16bad8f39e13",
+      "name": "Muscle Tank (Black)",
+      "sourceUrl": "https://gtafits.com/items/muscle-tank-black",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-12a67dff0b069e79",
+      "name": "Short Ponytail & Bangs",
+      "sourceUrl": "https://gtafits.com/items/short-ponytail-and-bangs",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    },
+    {
+      "id": "fits-item-05d2c4aba6f6a4d3",
+      "name": "Tommy",
+      "sourceUrl": "https://gtafits.com/items/tommy",
+      "character": "unisex",
+      "category": "Other",
+      "storeIds": [],
+      "detailed": false
+    }
+  ],
+  "outfits": [
+    {
+      "id": "fits-outfit-b45186d45e86e8e9",
+      "name": "Offroad Wonder",
+      "author": "mrsirlive",
+      "sourceUrl": "https://gtafits.com/outfit/769943340",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/93823976-e06b-40da-93bc-9fc9fd5e16b8.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-ce2ad808f1513a45",
+        "fits-item-b3c72457eb7d7fb7",
+        "fits-item-af9903cfe454a2ab",
+        "fits-item-6b0b8eedafeb3651",
+        "fits-item-b3a652b0df2948f1",
+        "fits-item-4deb6c89e777bcbe"
+      ]
+    },
+    {
+      "id": "fits-outfit-742085eba6ba0070",
+      "name": "Young jit",
+      "author": "Jay305",
+      "sourceUrl": "https://gtafits.com/outfit/1878207234",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/c731a11f-4c35-4d60-a337-d629d6ef59cb.jpg",
+      "character": "unisex",
+      "itemIds": [
+        "fits-item-a84578f43e589e84",
+        "fits-item-871351bdb044dd24",
+        "fits-item-215c629f4ec5a2cc",
+        "fits-item-b3fc488f8b49c0b8",
+        "fits-item-91b2a53f3bfd31ee",
+        "fits-item-6ac25d205357de5c",
+        "fits-item-a4591bda140b9110",
+        "fits-item-d5a1915339cd1def",
+        "fits-item-b752874a908f16d7",
+        "fits-item-e295f923d70fee22",
+        "fits-item-f5052fb10e0c84ad",
+        "fits-item-a4c5c77dbdbc73c1",
+        "fits-item-08ea904e946f8a31",
+        "fits-item-505ee1a7195011ea",
+        "fits-item-e6385bdb82846b6c",
+        "fits-item-989e7e0b79b24337",
+        "fits-item-65f50a765a019005",
+        "fits-item-79ebceb369c0c96c",
+        "fits-item-fd178e89d3b98310",
+        "fits-item-03896afeae11f2d7",
+        "fits-item-1de5d3310a003154",
+        "fits-item-0cd502c956911b9e",
+        "fits-item-253f825c89ea6ced",
+        "fits-item-c3174d4e09b3108c",
+        "fits-item-1725bbda179564d3",
+        "fits-item-a598808b75c1a057",
+        "fits-item-09afe61325bdddd9",
+        "fits-item-1fe2ba329f319248",
+        "fits-item-686832f14ded7af5",
+        "fits-item-7ade620d0ab5d72f",
+        "fits-item-6f470ddc23727b9a",
+        "fits-item-4f560ce488df86da",
+        "fits-item-c920332a02c23832"
+      ]
+    },
+    {
+      "id": "fits-outfit-290ee2f64ebe6f06",
+      "name": "Loner Clubber Edition",
+      "author": "xtc",
+      "sourceUrl": "https://gtafits.com/outfit/398806005",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/e4da6a9d-dbf1-4927-b00d-4a04f18deca6.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-8591370cf7111142",
+        "fits-item-be411ac7e258ba9d",
+        "fits-item-1df4398e658d247e",
+        "fits-item-f5bf2987fa3729d8",
+        "fits-item-c0f058b1ece04001"
+      ]
+    },
+    {
+      "id": "fits-outfit-e6fed7f31d604007",
+      "name": "Sunshine Star",
+      "author": "judgedjaz",
+      "sourceUrl": "https://gtafits.com/outfit/1699636871",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/20244039-8c98-46bc-b48b-89740e8deb14.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-3bf96bc50795cad0",
+        "fits-item-95032fef3c84eaf2",
+        "fits-item-9986d906ae772cb6",
+        "fits-item-ea870fe78c6434a4",
+        "fits-item-6b0b8eedafeb3651",
+        "fits-item-f5b2d45bb7269d21",
+        "fits-item-ee188df1960511e1",
+        "fits-item-7b0f44de15f2b705"
+      ]
+    },
+    {
+      "id": "fits-outfit-dbae8bde33bf4b2b",
+      "name": "Office Chic",
+      "author": "mrsirlive",
+      "sourceUrl": "https://gtafits.com/outfit/2090146367",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/0e6f38da-4ec2-437c-ba99-3d79d66085af.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-f34084d662016ea0",
+        "fits-item-17870ebcd3a92f93",
+        "fits-item-c65480b53daa386e",
+        "fits-item-0d97ec41ca3331e9",
+        "fits-item-3936164686570bc3",
+        "fits-item-62f74b8a15005114",
+        "fits-item-453763e5e7fa1cbc",
+        "fits-item-ee188df1960511e1",
+        "fits-item-fdcb5d0cc8deede1",
+        "fits-item-2012d28036010731"
+      ]
+    },
+    {
+      "id": "fits-outfit-050fe02ef11d518a",
+      "name": "Y Hotel",
+      "author": "lightclaw57",
+      "sourceUrl": "https://gtafits.com/outfit/501837355",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/45c6fdcd-1037-4c02-bba0-ac9e4d7051ac.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-782f3c8409db2615",
+      "name": "Juice Run",
+      "author": "moonprismxx",
+      "sourceUrl": "https://gtafits.com/outfit/1462043264",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/c5e20e3d-90fb-4649-b664-9637f5fcb93d.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-40b5a15a3acaf81d",
+        "fits-item-0ea0fc8029f7636c",
+        "fits-item-ba94ad4e9d911b59",
+        "fits-item-39abc70cbc42d254",
+        "fits-item-22358053405a39d8",
+        "fits-item-bcba4b5d87185e5d",
+        "fits-item-135c38eac5f00966",
+        "fits-item-032ba904c4c83d42",
+        "fits-item-2fadf3a0ec4b63b9",
+        "fits-item-8875068ad70d0ab0",
+        "fits-item-57929d9b69d0fa20",
+        "fits-item-e6de9c575ae60da6",
+        "fits-item-7830c2d45611ac67",
+        "fits-item-1a88142105175a57",
+        "fits-item-e3a07c6722697987",
+        "fits-item-d3dd9fd0c3209e51"
+      ]
+    },
+    {
+      "id": "fits-outfit-566bb28dcf61398d",
+      "name": "Race",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1138580674",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/67c57db4-b4a4-41ee-a2a7-79e71afc04ad.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-640a86a742d75cce",
+      "name": "Fashion week",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/529412472",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/94c634a3-6a1e-4f00-8a7e-7ab523ef77ed.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-f7d5e5f29306c9ce",
+      "name": "Mob",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1234911959",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/513895e1-b6f2-45d1-bab4-ade97f5245fe.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-cebdecc77477249f",
+      "name": "Casual fit",
+      "author": "space_milf",
+      "sourceUrl": "https://gtafits.com/outfit/1509376409",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/3e2feb7d-4c53-4c5d-8f87-9ee41d9dceab.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-671a073ba2c3f441",
+        "fits-item-27c06fe20d7c6a58",
+        "fits-item-921091365d6a2c47",
+        "fits-item-278da18265bb7d80",
+        "fits-item-70137833be83ade3"
+      ]
+    },
+    {
+      "id": "fits-outfit-6e34810f3791bd70",
+      "name": "Casual",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/193662000",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/8a319227-4397-4328-be59-f2155554a084.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-f895b325a1ed4656",
+      "name": "Fight club",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/921595678",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/68f6ffc2-79cf-4257-a1fb-3c2771f9ef13.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-7a20c13f81d73d2d",
+      "name": "Black",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1620123719",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/325ce052-cbd6-46da-b704-ab3730fc9e5b.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-9daebfe167dc9ae0",
+      "name": "Skin",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/310985946",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/817bfaa5-6248-4e8a-8217-90affd70391f.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-a573cc57e4237900",
+      "name": "Night club",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/585136808",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/4551ba18-3508-4adc-bd37-9d319ff35698.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-8f0cdeeab867f770",
+      "name": "Blue jeans",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1283852101",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/e7691faf-499c-4a00-b50d-f8ef59ea86f7.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-5e262ca29eeedafc",
+      "name": "Cow",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/246246755",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/5a515de1-e6e8-4aa2-af68-71cc31254b3e.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-0ce128fc21e40c95",
+      "name": "Bronzed",
+      "author": "moonprismxx",
+      "sourceUrl": "https://gtafits.com/outfit/2132873051",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/d47b1897-a3a3-4dba-aa1d-40b89fa55d46.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-6f7f593069def30c",
+        "fits-item-a0ff026a94072269",
+        "fits-item-5a5ef7a7c38471cc",
+        "fits-item-032ba904c4c83d42",
+        "fits-item-9b67eb42c03bb3ba",
+        "fits-item-889339e4f45c9a62",
+        "fits-item-be411ac7e258ba9d",
+        "fits-item-99dc4ea83300bd95"
+      ]
+    },
+    {
+      "id": "fits-outfit-b41204251e3a5bf4",
+      "name": "Leonida Nights",
+      "author": "Enel",
+      "sourceUrl": "https://gtafits.com/outfit/1901882620",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/a5b0d3e1-3fe1-499a-aa43-5a0caa07b6b6.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-1de674b4b890fd9e",
+        "fits-item-d76af58dfa835367",
+        "fits-item-d76af58dfa835367",
+        "fits-item-33d3383ab99e0db2",
+        "fits-item-33d3383ab99e0db2"
+      ]
+    },
+    {
+      "id": "fits-outfit-2cfc0d1416e6d81e",
+      "name": "Sentinel Saturday",
+      "author": "Ccddmm",
+      "sourceUrl": "https://gtafits.com/outfit/1287667775",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/c5cb56bd-ff09-498b-ad87-924d88b6940f.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-25221154164f9a27",
+        "fits-item-6b0b8eedafeb3651",
+        "fits-item-69ac8655dbef72bd",
+        "fits-item-950b79c475b0f299",
+        "fits-item-1f4b59e7f3c3d677",
+        "fits-item-cb26bccd570e57da"
+      ]
+    },
+    {
+      "id": "fits-outfit-a3cb3264b1269f08",
+      "name": "DUA Caminos Houdini",
+      "author": "Aether117",
+      "sourceUrl": "https://gtafits.com/outfit/1290096461",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/232d79f9-6d09-495c-b327-bbb2bfb5b709.jpg",
+      "character": "unisex",
+      "itemIds": [
+        "fits-item-5581853d06c5fd2a",
+        "fits-item-a007c70dd0d65404",
+        "fits-item-442225ad4b1ef4c9",
+        "fits-item-e6de9c575ae60da6",
+        "fits-item-31453bf24079e702",
+        "fits-item-9984fe7f67035754"
+      ]
+    },
+    {
+      "id": "fits-outfit-31fd62cd328fddc2",
+      "name": "Bootcut Grunge Biker Style",
+      "author": "asaphit",
+      "sourceUrl": "https://gtafits.com/outfit/916218437",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/1e7204da-6f82-4be2-9154-570028445b75.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-11421c836315fe95",
+        "fits-item-a1905155fba72a00",
+        "fits-item-aa0fd55d11e24e88",
+        "fits-item-0161ea044eb5d61e",
+        "fits-item-b4482dcf47f6915f",
+        "fits-item-307b9c655ad278e3"
+      ]
+    },
+    {
+      "id": "fits-outfit-cb3b98ec9dd7ca25",
+      "name": "@ShiningBlossX \"Vice city F-Boy\"",
+      "author": "ShiningBlossom",
+      "sourceUrl": "https://gtafits.com/outfit/1402274092",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/4841cd6a-d72c-478d-9f28-7b6650b75cbf.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-60948d48ca9e788d",
+        "fits-item-a9476cf894b790fd",
+        "fits-item-dafb0feaf29a9d51",
+        "fits-item-c912773fa121edfc",
+        "fits-item-0d6a9e39465767cf"
+      ]
+    },
+    {
+      "id": "fits-outfit-c67b1d7abdee410f",
+      "name": "Blue2",
+      "author": "fakegamer78",
+      "sourceUrl": "https://gtafits.com/outfit/1440557762",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/860247d6-2d78-4aae-b54d-8a00e5ca265a.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-604265639c3c8cfc",
+      "name": "Blue",
+      "author": "fakegamer78",
+      "sourceUrl": "https://gtafits.com/outfit/416294130",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/4132bf07-3b48-457e-bbe4-c5ec898debc3.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-110462f2f059a365",
+      "name": "🖤🖤",
+      "author": "fakegamer78",
+      "sourceUrl": "https://gtafits.com/outfit/398027879",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/38d0b2b2-0368-4043-a216-d1f681ba33ec.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-8eac3e8943419c52",
+      "name": "Brown fit",
+      "author": "fakegamer78",
+      "sourceUrl": "https://gtafits.com/outfit/1349405739",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/699ebfaf-76e5-4379-bfee-24bf227e746d.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-44b694693cc167ae",
+      "name": "Swag Summer",
+      "author": "pardonigeria",
+      "sourceUrl": "https://gtafits.com/outfit/595932645",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/c3a1a0f5-4cb7-40a5-9221-d6fd157750bd.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-f80f858205ddd381",
+        "fits-item-a3916d18cafb3482",
+        "fits-item-75eab30e73a21f91",
+        "fits-item-108d8bd2e18546c5",
+        "fits-item-5873b1b19f1c5288",
+        "fits-item-c57987216493ceec",
+        "fits-item-bc23519996de9abe",
+        "fits-item-23d142aabcf4dda7",
+        "fits-item-7f245ec9f3e73ffc",
+        "fits-item-470f13d9ae2f64c4",
+        "fits-item-752c62badea29d44"
+      ]
+    },
+    {
+      "id": "fits-outfit-4771d415d27ee8d1",
+      "name": "bodysuit heels",
+      "author": "avocado",
+      "sourceUrl": "https://gtafits.com/outfit/2110789927",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/10f3c4e7-d0f8-4666-b45b-26f98618918f.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-1f2c28046aff8828"
+      ]
+    },
+    {
+      "id": "fits-outfit-20e782171c6eb9cf",
+      "name": "Casual fits",
+      "author": "DuhSpaceWiz",
+      "sourceUrl": "https://gtafits.com/outfit/549866885",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/161112b0-0eb4-4467-8d11-037ec11c175e.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-3769c41a8f195224",
+      "name": "Vice Night !",
+      "author": "VIEN",
+      "sourceUrl": "https://gtafits.com/outfit/1731346152",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/32278e6d-c01b-4037-89d6-5de64c11c7dc.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-17870ebcd3a92f93",
+        "fits-item-671a073ba2c3f441",
+        "fits-item-c9f2127e765c6931",
+        "fits-item-a23826805bd9c6dc",
+        "fits-item-63c761b0c706545b",
+        "fits-item-5da747800eec2535",
+        "fits-item-d62e402d92ea6436",
+        "fits-item-69ac8655dbef72bd",
+        "fits-item-c32c5a3ab47d84e7",
+        "fits-item-cb26bccd570e57da"
+      ]
+    },
+    {
+      "id": "fits-outfit-8c491482413591d2",
+      "name": "Smart casual",
+      "author": "adam1004",
+      "sourceUrl": "https://gtafits.com/outfit/1478326719",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/f9c64b48-3580-420b-b52d-89b6b78ad182.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-44044d52f46d3e81",
+        "fits-item-2ef00b4ce05a9ad4",
+        "fits-item-b4d59a89c0b70f50"
+      ]
+    },
+    {
+      "id": "fits-outfit-dcf8876a69bd9baf",
+      "name": "Glow up",
+      "author": "Glow",
+      "sourceUrl": "https://gtafits.com/outfit/1635465091",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/c7a3bee2-948b-4a40-81c8-b9b9583b68fe.jpg",
+      "character": "unisex",
+      "itemIds": [
+        "fits-item-93a1b7beb0da7849",
+        "fits-item-8b4fe1495ceeffca",
+        "fits-item-843f3a14be1f0a07",
+        "fits-item-4711b6dcc35ea41f",
+        "fits-item-f0023ebbe7fb4815",
+        "fits-item-c32c5a3ab47d84e7"
+      ]
+    },
+    {
+      "id": "fits-outfit-a177c149aedcad81",
+      "name": "Professional Hitwoman",
+      "author": "skcapone",
+      "sourceUrl": "https://gtafits.com/outfit/1159285335",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/6255a9ef-4816-411e-98a8-20d40d5bed88.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-267568701328ba35",
+        "fits-item-eaeeb0a8ba6238a6",
+        "fits-item-27c06fe20d7c6a58",
+        "fits-item-0c41f0b18f425a43",
+        "fits-item-087b2a04e2445baf",
+        "fits-item-69ac8655dbef72bd"
+      ]
+    },
+    {
+      "id": "fits-outfit-4e3c98dcad321466",
+      "name": "CASUAL OUTFIT",
+      "author": "yxngsean",
+      "sourceUrl": "https://gtafits.com/outfit/473975858",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/29acfe79-afac-4902-96d3-a6572937b18f.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-e5fe94efbeee2755",
+      "name": "Palm tree",
+      "author": "Jagzster",
+      "sourceUrl": "https://gtafits.com/outfit/893346797",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/343f2162-293f-4499-af64-9f966b470be3.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-2aba48af34ae0119"
+      ]
+    },
+    {
+      "id": "fits-outfit-5597687e08b26ac2",
+      "name": "@RealYoungSu HOOD BATMAN",
+      "author": "YoungSu",
+      "sourceUrl": "https://gtafits.com/outfit/1052265432",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/85e623e5-3587-4307-9500-a4c085563dd3.jpg",
+      "character": "unisex",
+      "itemIds": [
+        "fits-item-0c648f1071727e9a",
+        "fits-item-1090880f714a8e37",
+        "fits-item-218fd50d1c4c6bcf",
+        "fits-item-93d5ade6a1df3716",
+        "fits-item-627718fc877e615c",
+        "fits-item-442225ad4b1ef4c9",
+        "fits-item-42c0ea3bb55c8429",
+        "fits-item-c4750060782f7cc8",
+        "fits-item-6b0625e5ca860441",
+        "fits-item-712168553bb3ddad"
+      ]
+    },
+    {
+      "id": "fits-outfit-77d32c39bac3951b",
+      "name": "Fake ass feminist",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/44530379",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/34e8420e-6821-4421-a8b0-0463987d064f.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-35f12b525bc4f6b8",
+      "name": "@cyberdvst's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/313660511",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/35c9a04a-eade-4d04-8c40-bc571f3463ea.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-ea870fe78c6434a4",
+        "fits-item-4514664142c1a35e",
+        "fits-item-62f74b8a15005114",
+        "fits-item-ee188df1960511e1",
+        "fits-item-fe03789cbd874a4a",
+        "fits-item-26811f17be79d1ee",
+        "fits-item-e3a07c6722697987",
+        "fits-item-d62e402d92ea6436"
+      ]
+    },
+    {
+      "id": "fits-outfit-7cc84c1a691d43c4",
+      "name": "Archive",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/155867390",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/abf48cf5-6ff8-406e-b82a-a111fc14336c.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-91dd0d7414e585a7",
+      "name": "Tockyo drift",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/410526096",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/48e351b4-53f4-4bf3-bbb4-4294e75129f9.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-3d948591f57fdf67",
+      "name": "RIPRO",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1516832479",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/c055d4bc-0879-4b1e-8f2d-f3c593f27e80.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-b34a2866da94d84c",
+      "name": "Scouser",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1834506633",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/d3122a2c-4d69-4988-8293-c9beeeccbb97.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-0df01e8e5f96e194",
+      "name": "Hypster",
+      "author": "malodubreizh",
+      "sourceUrl": "https://gtafits.com/outfit/1066212354",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/0c8fe4e4-2127-4fa3-81e6-996986ea41f7.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-1914bf44d09de019",
+      "name": "u/Rachel_BA1's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/1667974801",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/ba95e50f-89c8-4bf3-8e2f-49a68aa805fe.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-7c27eaab5380d358",
+        "fits-item-622a6f98174d51b4",
+        "fits-item-95ee03ffd8e9e37b",
+        "fits-item-08ae88f77e92a2e8",
+        "fits-item-e0bbad8dfeb0da76"
+      ]
+    },
+    {
+      "id": "fits-outfit-24531f3cc0b8538d",
+      "name": "@SaasBee's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/1989021902",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/a6e485a6-2231-4717-b483-4e3d35de6948.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-f9981473fc924b58",
+        "fits-item-01a55805e2cc6454",
+        "fits-item-caa087d137ceb5f0",
+        "fits-item-158cd64f4c8b21d1",
+        "fits-item-eedc8b1ecb2edb44",
+        "fits-item-b053f8a1b1adb1e7",
+        "fits-item-4127c058775cd82b"
+      ]
+    },
+    {
+      "id": "fits-outfit-0390247095123d91",
+      "name": "@harov3n's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/683419544",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/f2121085-1c79-4faf-a339-f494035d912f.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-56ba5e9f19e67492",
+        "fits-item-62f74b8a15005114",
+        "fits-item-29ecdaf3789c65f4",
+        "fits-item-fe03789cbd874a4a",
+        "fits-item-e3a07c6722697987",
+        "fits-item-c981497155cb9986",
+        "fits-item-278da18265bb7d80"
+      ]
+    },
+    {
+      "id": "fits-outfit-f9fc07a93c3aed8f",
+      "name": "Day out in vice city",
+      "author": "Thebean",
+      "sourceUrl": "https://gtafits.com/outfit/1317955350",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/1182c42b-7184-4f9a-a912-599f26032d23.jpg",
+      "character": "unisex",
+      "itemIds": [
+        "fits-item-56b34753dc9b3a35",
+        "fits-item-2f5f5ff47862d5fd",
+        "fits-item-17870ebcd3a92f93",
+        "fits-item-a27700ee81411e89",
+        "fits-item-7996c64086e96010",
+        "fits-item-8b1cf4e7d51eda4d",
+        "fits-item-f82b22cf54bf83b3",
+        "fits-item-ba14bdd8d777558d",
+        "fits-item-d9e53f688b7a3d86",
+        "fits-item-ee75a5bc3078b84f",
+        "fits-item-04d8c4fc7c68b09c",
+        "fits-item-82bb04c113166a1f",
+        "fits-item-f7e1eacd09c4ce2d",
+        "fits-item-982c6295ed8d75df",
+        "fits-item-62f74b8a15005114",
+        "fits-item-442225ad4b1ef4c9",
+        "fits-item-442225ad4b1ef4c9",
+        "fits-item-442225ad4b1ef4c9",
+        "fits-item-889339e4f45c9a62",
+        "fits-item-e6de9c575ae60da6",
+        "fits-item-29ecdaf3789c65f4",
+        "fits-item-362d9e69a5b91485",
+        "fits-item-bba3bd3d8e7c8a58",
+        "fits-item-c46ac7c8a09c5d53",
+        "fits-item-c3a2ec889c706bf2",
+        "fits-item-23cfefdc338d477f",
+        "fits-item-fcf6b0b9e70f6243",
+        "fits-item-26811f17be79d1ee",
+        "fits-item-26811f17be79d1ee",
+        "fits-item-452e2e317ecf1cc1",
+        "fits-item-dd99f3778f3a650c",
+        "fits-item-cf5e78a66c6c3e9f",
+        "fits-item-03bf6d278b16c0fb",
+        "fits-item-46b2a7db5d6f023e",
+        "fits-item-c70bd33e1a1a9697",
+        "fits-item-feae06d318aee5e2"
+      ]
+    },
+    {
+      "id": "fits-outfit-91b0bf42502073fc",
+      "name": "@_vyxy's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/1370106468",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/0fd8718e-a0dd-400b-96f0-4949d1e831ca.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-6980eb5a1e42b5b0",
+        "fits-item-770ba205fd1b2109",
+        "fits-item-442225ad4b1ef4c9",
+        "fits-item-b2e21b0b430f6063",
+        "fits-item-e19e479bf705be9f",
+        "fits-item-29170045c33d41e5"
+      ]
+    },
+    {
+      "id": "fits-outfit-cc6ae12d71033c1e",
+      "name": "@RealYoungSu 2000's Inspo Fit",
+      "author": "YoungSu",
+      "sourceUrl": "https://gtafits.com/outfit/1468278629",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/616ba1d7-980b-431d-862b-ba7bc8b1e350.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-52de18d484470746",
+        "fits-item-763bb6c9d9b3f2b5",
+        "fits-item-3b2220b1b19433dc",
+        "fits-item-37a8b671b2a98ff9",
+        "fits-item-ea8471edb8c3a7b4",
+        "fits-item-4127c058775cd82b",
+        "fits-item-f923162d27595903",
+        "fits-item-c52ba753ca2cd37e"
+      ]
+    },
+    {
+      "id": "fits-outfit-57558debf65cfffe",
+      "name": "@txssamdr's fit 3",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/160325473",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/d229cd4d-1080-4bb6-bdb5-0522a7511ef5.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-61ddf4fcce3c8c78",
+        "fits-item-000d3f0dadc390c5",
+        "fits-item-8e1f895b25f42922",
+        "fits-item-b053f8a1b1adb1e7",
+        "fits-item-1d42af9c34be728c",
+        "fits-item-ef7d3433830f9666"
+      ]
+    },
+    {
+      "id": "fits-outfit-9cb96b01bd98ce21",
+      "name": "@txssamdr's fit 1",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/429673809",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/0a03a30f-a94e-45c7-82c1-7e838f9c5c7c.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-4514664142c1a35e",
+        "fits-item-4f1efb9fc37713ee",
+        "fits-item-7f12aefdeb22920c",
+        "fits-item-fe03789cbd874a4a",
+        "fits-item-c98a47a65397b8c4",
+        "fits-item-57e348384616dee6",
+        "fits-item-d65cc8e384fb512d",
+        "fits-item-535dd544f6822eb6",
+        "fits-item-2daf707d2585f4d7",
+        "fits-item-2f90fbfd33b4cf5d",
+        "fits-item-278da18265bb7d80"
+      ]
+    },
+    {
+      "id": "fits-outfit-030158c0eeedde1f",
+      "name": "@pawemre's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/2105638172",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/25b6dfd0-6b04-4005-adee-49a409657e3d.jpg",
+      "character": "jason",
+      "itemIds": [
+        "fits-item-caa087d137ceb5f0",
+        "fits-item-8d4d7dcb4eff3a89",
+        "fits-item-3febc0abfc5e2281",
+        "fits-item-42c0ea3bb55c8429",
+        "fits-item-b0d3e70042b278f2",
+        "fits-item-26811f17be79d1ee",
+        "fits-item-e3a41e00ea0edbab",
+        "fits-item-9e6f8648d4bb5b71",
+        "fits-item-ce4464bf17cc08f2",
+        "fits-item-eabcbef811910871"
+      ]
+    },
+    {
+      "id": "fits-outfit-1945375bfea1004a",
+      "name": "@aeonlocket's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/1358911847",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/bd0548ef-91c1-494e-a8a4-b67f6607177b.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-d5f36797bfc53827",
+        "fits-item-3658c896ecb0cbe8",
+        "fits-item-f7a33bd160d40180",
+        "fits-item-9de3041c009c0231",
+        "fits-item-e385924807302f09",
+        "fits-item-16857e892ab662aa",
+        "fits-item-cc1d4de424258a75",
+        "fits-item-17d201723c77d241"
+      ]
+    },
+    {
+      "id": "fits-outfit-71a5fe184f91d660",
+      "name": "@AyaSinTTV's fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/782838985",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/9c14f5c0-9123-4867-ae74-e22ec43c77f8.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-40b5a15a3acaf81d",
+        "fits-item-0ea0fc8029f7636c",
+        "fits-item-cd5e9c15d6d0c2e1",
+        "fits-item-3936164686570bc3",
+        "fits-item-b27ea80a1723dedb",
+        "fits-item-02d3125a7d07016c",
+        "fits-item-d99f6d665aa1239c",
+        "fits-item-f80f9823751411fc",
+        "fits-item-d65cc8e384fb512d",
+        "fits-item-3fc7ba9f6463972f"
+      ]
+    },
+    {
+      "id": "fits-outfit-a55bf2795fc9b06f",
+      "name": "@melscanvas_'s fit",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/1079017125",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/9096a36e-6a59-460e-af2c-e19f9f7074c8.jpg",
+      "character": "lucia",
+      "itemIds": [
+        "fits-item-7c27eaab5380d358",
+        "fits-item-671a073ba2c3f441",
+        "fits-item-a27700ee81411e89",
+        "fits-item-01aa0fad85a87264",
+        "fits-item-bf0f4fea5a6baa34"
+      ]
+    },
+    {
+      "id": "fits-outfit-8ad92a115a611b54",
+      "name": "timbs fit",
+      "author": "jean22",
+      "sourceUrl": "https://gtafits.com/outfit/1568235871",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/111e8b2d-723e-49fd-874c-a7f82dee9d79.jpg",
+      "character": "unisex",
+      "itemIds": []
+    },
+    {
+      "id": "fits-outfit-e200491e6e643019",
+      "name": "@vampnoctis's fit 1",
+      "author": "squishguin",
+      "sourceUrl": "https://gtafits.com/outfit/2084575099",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/1bd0da30-be9a-466f-a2f5-ebff74c31420.jpg",
+      "character": "unisex",
+      "itemIds": [
+        "fits-item-d5f36797bfc53827",
+        "fits-item-b07a8831978d0891",
+        "fits-item-82bb04c113166a1f",
+        "fits-item-8d4d7dcb4eff3a89",
+        "fits-item-063b16bad8f39e13",
+        "fits-item-7830c2d45611ac67",
+        "fits-item-12a67dff0b069e79",
+        "fits-item-1f4b59e7f3c3d677",
+        "fits-item-05d2c4aba6f6a4d3"
+      ]
+    },
+    {
+      "id": "fits-outfit-605d7095d1d04904",
+      "name": "vintage",
+      "author": "jean22",
+      "sourceUrl": "https://gtafits.com/outfit/526996201",
+      "imageUrl": "https://cdn.gtafits.com/gta6/comps/f4a9cf06-11e3-454f-a97c-498257cab7f3.jpg",
+      "character": "unisex",
+      "itemIds": []
+    }
+  ],
+  "stores": [
+    {
+      "id": "fits-store-7cb7c40b7410e4f1",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/615144576",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-457bb87e6db0e4cf",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/1943682833",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-4b48a35e7330c921",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/1819307988",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-8c6d0347616b883a",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/1112150224",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-d2329bf008885f7a",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/801309990",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-61f70e78e4b16e1e",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/1766730898",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-dbee7307ce4600c6",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/200363738",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-59b2f9ce49602cfb",
+      "name": "247",
+      "sourceUrl": "https://gtafits.com/stores/1440311942",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-47a478115d6647b0",
+      "name": "247 Gas Station",
+      "sourceUrl": "https://gtafits.com/stores/2046702134",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-8b9e51bdb3399a50",
+      "name": "247 Gas Station",
+      "sourceUrl": "https://gtafits.com/stores/223746186",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-ce87840763ef1fac",
+      "name": "247 - Waning Sands",
+      "sourceUrl": "https://gtafits.com/stores/2657049463",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090206"
+      ]
+    },
+    {
+      "id": "fits-store-88fb08fd2555c2a8",
+      "name": "A Better You",
+      "sourceUrl": "https://gtafits.com/stores/1834054619",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091292"
+      ]
+    },
+    {
+      "id": "fits-store-55850cb5902fb01d",
+      "name": "ACPC",
+      "sourceUrl": "https://gtafits.com/stores/4105258664",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091315"
+      ]
+    },
+    {
+      "id": "fits-store-36bfe49dbc4823e9",
+      "name": "Ajax Gym",
+      "sourceUrl": "https://gtafits.com/stores/16388907",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-3b4bf5daf03402e5",
+      "name": "Aline's Thrift Store",
+      "sourceUrl": "https://gtafits.com/stores/806255250",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091263"
+      ]
+    },
+    {
+      "id": "fits-store-308f15090154f058",
+      "name": "Alpha Gas Station",
+      "sourceUrl": "https://gtafits.com/stores/3424200797",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-e61497f734197854",
+      "name": "Alpha Gas Station",
+      "sourceUrl": "https://gtafits.com/stores/499589883",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-fa35c4fd64482ca5",
+      "name": "Alpha Sports - Downtown",
+      "sourceUrl": "https://gtafits.com/stores/1497191657",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091226"
+      ]
+    },
+    {
+      "id": "fits-store-52277e24ba743225",
+      "name": "Alpha Sports - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/1579890169",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091217",
+        "gta6-loc-1091218",
+        "gta6-loc-1091221",
+        "gta6-loc-1091225"
+      ]
+    },
+    {
+      "id": "fits-store-2b0e8a056be84b15",
+      "name": "Alpha Sports - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/206847886",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091217",
+        "gta6-loc-1091218",
+        "gta6-loc-1091221",
+        "gta6-loc-1091225"
+      ]
+    },
+    {
+      "id": "fits-store-bbd999eca69490f2",
+      "name": "Alpha Sports - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/1326999099",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091217",
+        "gta6-loc-1091218",
+        "gta6-loc-1091221",
+        "gta6-loc-1091225"
+      ]
+    },
+    {
+      "id": "fits-store-230f1bfb1bf6ba14",
+      "name": "Alpha Sports - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/1235419741",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091217",
+        "gta6-loc-1091218",
+        "gta6-loc-1091221",
+        "gta6-loc-1091225"
+      ]
+    },
+    {
+      "id": "fits-store-d15a530eb8ec05c2",
+      "name": "Alpha Sports - Waning Sands",
+      "sourceUrl": "https://gtafits.com/stores/1754207297",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091227"
+      ]
+    },
+    {
+      "id": "fits-store-d20e799b75deddb0",
+      "name": "A&L Surf Mart",
+      "sourceUrl": "https://gtafits.com/stores/1993439206",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090243"
+      ]
+    },
+    {
+      "id": "fits-store-ea80d29fe7405a14",
+      "name": "Au Courant",
+      "sourceUrl": "https://gtafits.com/stores/2093155398",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091293"
+      ]
+    },
+    {
+      "id": "fits-store-0b3754122ca2219b",
+      "name": "Aural Expert",
+      "sourceUrl": "https://gtafits.com/stores/3074374531",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091314"
+      ]
+    },
+    {
+      "id": "fits-store-7a1fe0f2022c539f",
+      "name": "Bargain World",
+      "sourceUrl": "https://gtafits.com/stores/1323911256",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091265"
+      ]
+    },
+    {
+      "id": "fits-store-d80e02b3f7dd55e0",
+      "name": "Barnacle Beauties",
+      "sourceUrl": "https://gtafits.com/stores/2000511885",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091301"
+      ]
+    },
+    {
+      "id": "fits-store-3bc8fdfcedef6c9e",
+      "name": "Barrage Gun Supply",
+      "sourceUrl": "https://gtafits.com/stores/2555795696",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090008"
+      ]
+    },
+    {
+      "id": "fits-store-e3a3f18d76692420",
+      "name": "Basic Beach - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/3514704475",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-ad83bf8dc3a576aa",
+      "name": "Basic Beach - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/3773786778",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-e7e585c7108543fd",
+      "name": "Beach Please",
+      "sourceUrl": "https://gtafits.com/stores/11146531",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091238"
+      ]
+    },
+    {
+      "id": "fits-store-935ffb55ab84df2c",
+      "name": "Bellissima Hair Salon",
+      "sourceUrl": "https://gtafits.com/stores/196761220",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091294"
+      ]
+    },
+    {
+      "id": "fits-store-f8087d53295bc29a",
+      "name": "Belville Electronics",
+      "sourceUrl": "https://gtafits.com/stores/2323334849",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-b3611a3a81b11033",
+      "name": "Best Priced Electrics",
+      "sourceUrl": "https://gtafits.com/stores/3088019277",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-ac5ff7678d9e87d0",
+      "name": "Beta Audio",
+      "sourceUrl": "https://gtafits.com/stores/3331160144",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-e8eb64cec8a9bcdc",
+      "name": "Biff's Gun Supply",
+      "sourceUrl": "https://gtafits.com/stores/3413729252",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090002"
+      ]
+    },
+    {
+      "id": "fits-store-05426439c83f2b86",
+      "name": "Big Shots",
+      "sourceUrl": "https://gtafits.com/stores/4243998004",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090013"
+      ]
+    },
+    {
+      "id": "fits-store-3da95edc5ea78e65",
+      "name": "Billie's Gift Shop",
+      "sourceUrl": "https://gtafits.com/stores/1991736778",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-0a1817b43c0e34fa",
+      "name": "Black Eagle",
+      "sourceUrl": "https://gtafits.com/stores/3226476430",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090011"
+      ]
+    },
+    {
+      "id": "fits-store-969384c9e09db88b",
+      "name": "Black Spot Tattoo",
+      "sourceUrl": "https://gtafits.com/stores/116482194",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091302"
+      ]
+    },
+    {
+      "id": "fits-store-62f9dddd25b53146",
+      "name": "Blessed Market",
+      "sourceUrl": "https://gtafits.com/stores/4109577296",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-2533551be4eccd4c",
+      "name": "Blood Sugar Tattoo",
+      "sourceUrl": "https://gtafits.com/stores/1920340534",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091309"
+      ]
+    },
+    {
+      "id": "fits-store-24a8a8eba1c7e65a",
+      "name": "Callus - Capri",
+      "sourceUrl": "https://gtafits.com/stores/1408237899",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091282"
+      ]
+    },
+    {
+      "id": "fits-store-42d4025c0cfc8740",
+      "name": "Callus - Decor District",
+      "sourceUrl": "https://gtafits.com/stores/1836273199",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091267"
+      ]
+    },
+    {
+      "id": "fits-store-b4f54fd287199d7b",
+      "name": "Callus - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/719797131",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091271",
+        "gta6-loc-1091277"
+      ]
+    },
+    {
+      "id": "fits-store-642b9a9ecf331708",
+      "name": "Callus - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/115237134",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091271",
+        "gta6-loc-1091277"
+      ]
+    },
+    {
+      "id": "fits-store-c76d4757d2fcd2b7",
+      "name": "Callus - Waning Sands",
+      "sourceUrl": "https://gtafits.com/stores/2001500625",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091276"
+      ]
+    },
+    {
+      "id": "fits-store-3795f39027f35fde",
+      "name": "Captain Starlings Barber Shop",
+      "sourceUrl": "https://gtafits.com/stores/459832822",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091295"
+      ]
+    },
+    {
+      "id": "fits-store-92f72c634c81e717",
+      "name": "Cell Phone Zone",
+      "sourceUrl": "https://gtafits.com/stores/2214997972",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091319"
+      ]
+    },
+    {
+      "id": "fits-store-1895b44304c4be58",
+      "name": "Chuck's Tackle & Shot",
+      "sourceUrl": "https://gtafits.com/stores/449669182",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090009"
+      ]
+    },
+    {
+      "id": "fits-store-126778a82210ca01",
+      "name": "Clip & Fade",
+      "sourceUrl": "https://gtafits.com/stores/289767197",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091286"
+      ]
+    },
+    {
+      "id": "fits-store-3211f79377acfee2",
+      "name": "Coastal Auto Care",
+      "sourceUrl": "https://gtafits.com/stores/1940529535",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090620"
+      ]
+    },
+    {
+      "id": "fits-store-198c7282c3fc28e1",
+      "name": "Coastal Souvenirs",
+      "sourceUrl": "https://gtafits.com/stores/560994618",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091241"
+      ]
+    },
+    {
+      "id": "fits-store-5e2a8605edcd3e63",
+      "name": "Coquina Box",
+      "sourceUrl": "https://gtafits.com/stores/1597187248",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091252"
+      ]
+    },
+    {
+      "id": "fits-store-09aba4cac3df57f0",
+      "name": "Cross My Heart Tattoos",
+      "sourceUrl": "https://gtafits.com/stores/623778537",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091304"
+      ]
+    },
+    {
+      "id": "fits-store-47c7dc1b1381190e",
+      "name": "Crosstown Cutz",
+      "sourceUrl": "https://gtafits.com/stores/540235623",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091287"
+      ]
+    },
+    {
+      "id": "fits-store-3e101fa9730cc40f",
+      "name": "Delgado & Sons",
+      "sourceUrl": "https://gtafits.com/stores/1663378570",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090208"
+      ]
+    },
+    {
+      "id": "fits-store-0b3869150109acad",
+      "name": "De'Luge Swimwear",
+      "sourceUrl": "https://gtafits.com/stores/292256362",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091240"
+      ]
+    },
+    {
+      "id": "fits-store-31cf0549f7a57d8c",
+      "name": "Dirt Merchants",
+      "sourceUrl": "https://gtafits.com/stores/811349776",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090630"
+      ]
+    },
+    {
+      "id": "fits-store-8831adafa6afece3",
+      "name": "Discount Sunglasses",
+      "sourceUrl": "https://gtafits.com/stores/4115751096",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-ea52fa11f54d5074",
+      "name": "Dock Ring Souvenirs",
+      "sourceUrl": "https://gtafits.com/stores/497356814",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091253"
+      ]
+    },
+    {
+      "id": "fits-store-449076125661773e",
+      "name": "Dollar Domain",
+      "sourceUrl": "https://gtafits.com/stores/992827256",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091256"
+      ]
+    },
+    {
+      "id": "fits-store-3de74953a21f68b3",
+      "name": "Dominion Ink",
+      "sourceUrl": "https://gtafits.com/stores/1406144194",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091307"
+      ]
+    },
+    {
+      "id": "fits-store-83759fdfbc7bca59",
+      "name": "Dr Froogal",
+      "sourceUrl": "https://gtafits.com/stores/546385998",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091262"
+      ]
+    },
+    {
+      "id": "fits-store-61048332f085f951",
+      "name": "Drip Drops",
+      "sourceUrl": "https://gtafits.com/stores/1929076480",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091211"
+      ]
+    },
+    {
+      "id": "fits-store-ba9229c45be86c03",
+      "name": "Dynamix Fitness",
+      "sourceUrl": "https://gtafits.com/stores/808201584",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1089598"
+      ]
+    },
+    {
+      "id": "fits-store-3943d41e2ac4f520",
+      "name": "Easy Electronics",
+      "sourceUrl": "https://gtafits.com/stores/3592112521",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091317"
+      ]
+    },
+    {
+      "id": "fits-store-d5905d5caa4a9b67",
+      "name": "Electric Boulevard",
+      "sourceUrl": "https://gtafits.com/stores/2480148048",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091318"
+      ]
+    },
+    {
+      "id": "fits-store-46a84d6f18271a34",
+      "name": "Electric Fang Tattoo",
+      "sourceUrl": "https://gtafits.com/stores/375274452",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091303"
+      ]
+    },
+    {
+      "id": "fits-store-2f19b3139fce6bdd",
+      "name": "Electronick",
+      "sourceUrl": "https://gtafits.com/stores/3762174801",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091322"
+      ]
+    },
+    {
+      "id": "fits-store-24c1f047cba5e12c",
+      "name": "Emilio's Auto Center",
+      "sourceUrl": "https://gtafits.com/stores/3075360241",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-32239e7e9a45b152",
+      "name": "Endzone - Downtown",
+      "sourceUrl": "https://gtafits.com/stores/982733780",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091224"
+      ]
+    },
+    {
+      "id": "fits-store-2ad004a3fa20a318",
+      "name": "Endzone - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/2097551520",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091219",
+        "gta6-loc-1091220"
+      ]
+    },
+    {
+      "id": "fits-store-3786c906d9a6f37d",
+      "name": "Endzone - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/1840408665",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091219",
+        "gta6-loc-1091220"
+      ]
+    },
+    {
+      "id": "fits-store-0ba773aae93e01c6",
+      "name": "Endzone - Washington Beach",
+      "sourceUrl": "https://gtafits.com/stores/721748749",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091223"
+      ]
+    },
+    {
+      "id": "fits-store-94021305d2177b35",
+      "name": "Eris",
+      "sourceUrl": "https://gtafits.com/stores/463945769",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091222"
+      ]
+    },
+    {
+      "id": "fits-store-31f3d99541955f7c",
+      "name": "Fabiola's Unisex Salon",
+      "sourceUrl": "https://gtafits.com/stores/1062023218",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091289"
+      ]
+    },
+    {
+      "id": "fits-store-e6f3dd31d7c6e254",
+      "name": "Ferruccio Tucci - Capri",
+      "sourceUrl": "https://gtafits.com/stores/33108716",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091237"
+      ]
+    },
+    {
+      "id": "fits-store-2d044a646a530943",
+      "name": "Ferruccio Tucci - Decor District",
+      "sourceUrl": "https://gtafits.com/stores/1149518158",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091233"
+      ]
+    },
+    {
+      "id": "fits-store-454c7e316775b858",
+      "name": "Ferruccio Tucci - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/2011125685",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091228",
+        "gta6-loc-1091230"
+      ]
+    },
+    {
+      "id": "fits-store-32474849af91590c",
+      "name": "Ferruccio Tucci - Ocean Beach",
+      "sourceUrl": "https://gtafits.com/stores/377633955",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091228",
+        "gta6-loc-1091230"
+      ]
+    },
+    {
+      "id": "fits-store-f0ada39ee1648c15",
+      "name": "Ferruccio Tucci - Waning Sands",
+      "sourceUrl": "https://gtafits.com/stores/1408633331",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091234"
+      ]
+    },
+    {
+      "id": "fits-store-8668ff81672f4d1c",
+      "name": "Flip Flop House",
+      "sourceUrl": "https://gtafits.com/stores/1657168643",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091283"
+      ]
+    },
+    {
+      "id": "fits-store-a9c829aa6d03c574",
+      "name": "Freedom Tattoo",
+      "sourceUrl": "https://gtafits.com/stores/544292310",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091312"
+      ]
+    },
+    {
+      "id": "fits-store-e36dfc5f927a1954",
+      "name": "Frontier Adventure Golf",
+      "sourceUrl": "https://gtafits.com/stores/2095217863",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-ec19719cdc213ecc",
+      "name": "Gabriel Wexler",
+      "sourceUrl": "https://gtafits.com/stores/1918251181",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091284"
+      ]
+    },
+    {
+      "id": "fits-store-90c713c43da8a38a",
+      "name": "Gadget Jim's Wholesale Electronics",
+      "sourceUrl": "https://gtafits.com/stores/2986610026",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-c915b36cd1e56591",
+      "name": "Galina Ballet Opera House Deli",
+      "sourceUrl": "https://gtafits.com/stores/2405369856",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-2aa01c978a44a7f2",
+      "name": "Game Horde",
+      "sourceUrl": "https://gtafits.com/stores/2569756235",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091327"
+      ]
+    },
+    {
+      "id": "fits-store-8e7af42833d680db",
+      "name": "Gellhorn Outfitters",
+      "sourceUrl": "https://gtafits.com/stores/1168469153",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090001"
+      ]
+    },
+    {
+      "id": "fits-store-3b06575f3c8b9c23",
+      "name": "Gifts A GoGo",
+      "sourceUrl": "https://gtafits.com/stores/830761686",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091239"
+      ]
+    },
+    {
+      "id": "fits-store-9c656bf5f53aeec9",
+      "name": "Globe Oil",
+      "sourceUrl": "https://gtafits.com/stores/2732081516",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-d5c2f7996ba6bfdc",
+      "name": "Globe Oil + Hucks",
+      "sourceUrl": "https://gtafits.com/stores/2202143516",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-6987cd8248c9b130",
+      "name": "Globe Oil + Randy's",
+      "sourceUrl": "https://gtafits.com/stores/2910988729",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-65638805f5d9a825",
+      "name": "Griffin Range",
+      "sourceUrl": "https://gtafits.com/stores/2482246505",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-fe247895e9ee4ec7",
+      "name": "Guns Aplenty!",
+      "sourceUrl": "https://gtafits.com/stores/2917080261",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090016"
+      ]
+    },
+    {
+      "id": "fits-store-c5008038dcbd2fe6",
+      "name": "Hair By Clair",
+      "sourceUrl": "https://gtafits.com/stores/1749748516",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091300"
+      ]
+    },
+    {
+      "id": "fits-store-8d3085f24df41b8a",
+      "name": "Hamlet Thrift",
+      "sourceUrl": "https://gtafits.com/stores/1065288401",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091264"
+      ]
+    },
+    {
+      "id": "fits-store-13d62630413c5e84",
+      "name": "Hamlet Traders",
+      "sourceUrl": "https://gtafits.com/stores/3931196146",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090019"
+      ]
+    },
+    {
+      "id": "fits-store-20114f6413f6268e",
+      "name": "Suburban",
+      "sourceUrl": "https://gtafits.com/stores/1410740028",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091209"
+      ]
+    },
+    {
+      "id": "fits-store-0389db5787f26dc7",
+      "name": "Stock 305",
+      "sourceUrl": "https://gtafits.com/stores/638874329",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091206"
+      ]
+    },
+    {
+      "id": "fits-store-515b86e7c65cf841",
+      "name": "Xero Gas + 247",
+      "sourceUrl": "https://gtafits.com/stores/1599093321",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-e349a463e1027c5c",
+      "name": "Xero Gas Station",
+      "sourceUrl": "https://gtafits.com/stores/1048125593",
+      "district": "",
+      "category": "store",
+      "markerIds": []
+    },
+    {
+      "id": "fits-store-188dc178c0980b3e",
+      "name": "Quickscope",
+      "sourceUrl": "https://gtafits.com/stores/1771714007",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1090006"
+      ]
+    },
+    {
+      "id": "fits-store-af519ba3c61c3a76",
+      "name": "Kurt's Barber Shop",
+      "sourceUrl": "https://gtafits.com/stores/968298611",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091297"
+      ]
+    },
+    {
+      "id": "fits-store-52b9ec48c0d815af",
+      "name": "Lori Scott Hair & Beauty",
+      "sourceUrl": "https://gtafits.com/stores/1227172340",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091298"
+      ]
+    },
+    {
+      "id": "fits-store-670659588a6b6bac",
+      "name": "Onyx Salon",
+      "sourceUrl": "https://gtafits.com/stores/798845167",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091288"
+      ]
+    },
+    {
+      "id": "fits-store-1a4ebee48255ab66",
+      "name": "Oomph!",
+      "sourceUrl": "https://gtafits.com/stores/32061617",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091285"
+      ]
+    },
+    {
+      "id": "fits-store-266646dbab7b1b21",
+      "name": "Pearl House Hair Salon",
+      "sourceUrl": "https://gtafits.com/stores/1490710757",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091299"
+      ]
+    },
+    {
+      "id": "fits-store-7538dd00e20b51ab",
+      "name": "Salon Belle",
+      "sourceUrl": "https://gtafits.com/stores/1571627165",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091291"
+      ]
+    },
+    {
+      "id": "fits-store-31e5cb0adc3f82ae",
+      "name": "Salon Pérez",
+      "sourceUrl": "https://gtafits.com/stores/1312780184",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091290"
+      ]
+    },
+    {
+      "id": "fits-store-1b142f2e61d7e974",
+      "name": "Sara's Unisex Salon",
+      "sourceUrl": "https://gtafits.com/stores/717504222",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091296"
+      ]
+    },
+    {
+      "id": "fits-store-e972e8a70787cf4a",
+      "name": "Urban Legendz",
+      "sourceUrl": "https://gtafits.com/stores/898116564",
+      "district": "",
+      "category": "store",
+      "markerIds": [
+        "gta6-loc-1091207"
+      ]
+    }
+  ]
+}

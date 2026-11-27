@@ -4,7 +4,7 @@ import { create } from 'zustand'
 import { createProgressStorage } from '@/lib/idbStorage'
 import { applyOwnership, assetById, healOwnership } from '@/lib/ownership'
 import { seedGta6Layers } from '@/config/games/gta6/playLayers'
-import { normalizeSlice, type CustomPin, type GameSlice, type SafeTrack, type SavedFilter, type SavedProperty } from '@/store/slice'
+import { normalizeSlice, type CustomPin, type GameSlice, type SafeTrack, type SavedOutfit, type SavedFilter, type SavedProperty } from '@/store/slice'
 
 export type { CustomPin, GameSlice, SavedProperty }
 
@@ -24,6 +24,10 @@ type CompanionState = {
   resetOpen: boolean
   toast: string | null
   focusRequest: FocusRequest | null
+  toggleClothing: (id: string) => void
+  toggleOutfit: (id: string) => void
+  saveOutfit: (outfit: SavedOutfit) => void
+  removeOutfit: (id: string) => void
   toggleFound: (game: string, id: string) => void
   toggleChecklist: (game: string, itemId: string, markerId?: string) => void
   toggleObjective: (game: string, itemId: string, objectiveId: string) => void
@@ -113,6 +117,10 @@ export const useCompanionStore = create<CompanionState>()(
       resetOpen: false,
       toast: null,
       focusRequest: null,
+      toggleClothing: (id) => set(state => updateGame(state, 'gta6', slice => ({ ...slice, ownedClothes: togglePoint(slice.ownedClothes, id) }))),
+      toggleOutfit: (id) => set(state => updateGame(state, 'gta6', slice => ({ ...slice, savedOutfits: togglePoint(slice.savedOutfits, id) }))),
+      saveOutfit: (outfit) => set(state => updateGame(state, 'gta6', slice => ({ ...slice, customOutfits: [...slice.customOutfits.filter(row => row.id !== outfit.id), outfit].slice(0, 100) }))),
+      removeOutfit: (id) => set(state => updateGame(state, 'gta6', slice => ({ ...slice, customOutfits: slice.customOutfits.filter(row => row.id !== id) }))),
       toggleFound: (game, id) =>
         set((state) =>
           updateGame(state, game, (slice) => ({

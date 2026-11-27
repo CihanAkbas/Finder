@@ -3,11 +3,11 @@ export function mergeProgress(base: unknown, local: unknown, remote: unknown, fi
   if (JSON.stringify(base) === JSON.stringify(local)) return remote
   if (Array.isArray(local)) {
     const previous = Array.isArray(base) ? base : [], incoming = Array.isArray(remote) ? remote : []
-    if ([...local, ...previous, ...incoming].every((v) => typeof v === 'string') && field !== 'route' && field !== 'slots' && field !== 'slotNotes') {
+    if ([...local, ...previous, ...incoming].every((v) => typeof v === 'string') && field !== 'route' && field !== 'slots' && field !== 'slotNotes' && field !== 'itemIds') {
       const removed = new Set(previous.filter((v) => !local.includes(v)))
       return [...new Set([...incoming.filter((v) => !removed.has(v)), ...local.filter((v) => !previous.includes(v))])]
     }
-    if (['customPins', 'properties', 'savedFilters'].includes(field)) {
+    if (['customPins', 'properties', 'savedFilters', 'customOutfits'].includes(field)) {
       const index = (items: { id: string }[]) => Object.fromEntries(items.map((item) => [item.id, item]))
       return Object.values(mergeProgress(index(previous), index(local), index(incoming)) as object)
     }
