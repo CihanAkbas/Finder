@@ -57,7 +57,7 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
       </div>
       <div key={selected.id} className="min-h-0 flex-1 space-y-4 overflow-y-auto p-4">
         {marker && description ? <p className="whitespace-pre-line text-sm leading-6 text-[#d9d3c8]">{description}</p> : null}
-        {marker && game.slug === 'gta6' ? <MarkerGuideCard marker={marker} /> : null}
+        {marker && game.slug === 'gta6' ? <MarkerGuideCard marker={marker} game={game} /> : null}
         <details className="text-xs text-[#a39c90]"><summary className="cursor-pointer">{locale === 'tr' ? 'Koordinat ve konum türü' : 'Coordinates and location type'}</summary><p className="mt-2 font-mono">{coordText((marker ?? pin)!, game.projection === 'geographic' ? 6 : 2)}</p>{marker?.source ? <p className="mt-1">{t.map.sources[marker.source]}</p> : null}</details>
         {marker?.sourceUrl ? (
           <details className="space-y-2 text-xs leading-5 text-[#a39c90]">

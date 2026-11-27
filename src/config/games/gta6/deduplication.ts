@@ -3,7 +3,7 @@ import { canonicalMarkerId } from '@/lib/markerAliases'
 function combineGuides(a?: MarkerGuide, b?: MarkerGuide): MarkerGuide | undefined {
   if(!a&&!b)return undefined
   const unique=<T,>(values:T[])=>[...new Map(values.map(value=>[JSON.stringify(value),value])).values()]
-  return { summary:a?.summary??b?.summary, directions:unique([...(a?.directions??[]),...(b?.directions??[])]), requirements:unique([...(a?.requirements??[]),...(b?.requirements??[])]), warnings:unique([...(a?.warnings??[]),...(b?.warnings??[])]), sources:unique([...(a?.sources??[]),...(b?.sources??[])]) }
+  return { locationSpecific:a?.locationSpecific??b?.locationSpecific, rewards:unique([...(a?.rewards??[]),...(b?.rewards??[])]), relatedPins:unique([...(a?.relatedPins??[]),...(b?.relatedPins??[])]), summary:a?.summary??b?.summary, directions:unique([...(a?.directions??[]),...(b?.directions??[])]), requirements:unique([...(a?.requirements??[]),...(b?.requirements??[])]), warnings:unique([...(a?.warnings??[]),...(b?.warnings??[])]), sources:unique([...(a?.sources??[]),...(b?.sources??[])]) }
 }
 export function deduplicateGta6Pins(markers: GameMarker[]) {
   const byId=new Map(markers.map(marker=>[marker.id,marker]))

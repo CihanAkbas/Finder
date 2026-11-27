@@ -1,3 +1,4 @@
+import { applyMysteryGuides } from './mysteryGuides'
 import type { GameMarker } from '@/types/game'
 import { defineGame } from '@/config/games/defineGame'
 import { gta6Categories } from '@/config/games/gta6/categories'
@@ -38,7 +39,7 @@ export const gta6 = defineGame({
   maxZoom: 17,
   maxNativeZoom: 16,
   categories: [...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories],
-  markers: deduplicateGta6Pins(gta6Catalog),
+  markers: applyMysteryGuides(deduplicateGta6Pins(gta6Catalog)),
   geography: gta6Geography,
   styles: [
     {

@@ -89,13 +89,15 @@ export function markerGuide(marker: GameMarker, locale: 'en' | 'tr') {
     warnings.push(copy('Before leaving it, check registration and garage space. Respawn is not guaranteed. Removing unique parts may lose them.', 'Bırakmadan önce kayıt durumunu ve garaj yerini kontrol et. Yeniden çıkacağı garanti değil. Özel parçaları sökmek onları kaybettirebilir.'))
     sources.push({ title: 'GTABase · keeping standout vehicles', url: VEHICLE_SOURCE })
   }
-  if (marker.category === 'community-random-event' || marker.category === 'community-vehicle-spawn') warnings.push(copy('This is a reported encounter/spawn area. Arrival does not guarantee an event or vehicle.', 'Bildirilen karşılaşma/araç çıkış alanıdır. Oraya gitmek, olayın veya aracın çıkacağını garanti etmez.'))
+  if (marker.category === 'community-vehicle-spawn' || marker.category === 'community-random-event' && !custom?.directions?.length) warnings.push(copy('This is a reported encounter/spawn area. Arrival does not guarantee an event or vehicle.', 'Bildirilen karşılaşma/araç çıkış alanıdır. Oraya gitmek, olayın veya aracın çıkacağını garanti etmez.'))
   if (marker.category === 'community-cocaine-flamingo') {
     directions.push(copy('Break the collectible flamingo, then check the in-game collection counter before marking it found.', 'Koleksiyon flamingosunu kır; bulundu işaretlemeden önce oyun içi koleksiyon sayacını kontrol et.'))
     sources.push({ title: 'PowerPyx · Cocaine Flamingos', url: FLAMINGO_SOURCE })
   }
-  const specific = Boolean(custom?.directions?.length || hints?.placements.length || marker.descriptionTr || /^Location:\s*\S/m.test(marker.description))
+  const specific = custom?.locationSpecific ?? Boolean(custom?.directions?.length || hints?.placements.length || marker.descriptionTr || /^Location:\s*\S/m.test(marker.description))
   return {
+    rewards: localize(custom?.rewards),
+    relatedPins: (custom?.relatedPins ?? []).map(pin => ({ id: pin.id, label: pin.label[locale] })),
     summary, directions: [...new Set(directions)], requirements: [...new Set(requirements)], warnings: [...new Set(warnings)], facts,
     locationSpecific: specific,
     missingDirections: !specific,

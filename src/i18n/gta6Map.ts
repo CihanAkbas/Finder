@@ -3,8 +3,8 @@ import { communityCategoryCopy } from '@/config/games/gta6/community'
 
 const categories: Record<string, { name?: string; description?: string }> = {
   "finder-help": {
-    "name": "İpuçları ve hikaye",
-    "description": "Yayımlanmış noktalar, ipucu ve görev notuyla"
+    "name": "İpuçları",
+    "description": "Yayımlanmış konumlar ve oynanış notları"
   },
   "finder-tips": {
     "name": "İpuçları"

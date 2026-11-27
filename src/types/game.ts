@@ -15,6 +15,9 @@ export type MarkerGuide = {
   directions?: GuideText[]
   requirements?: GuideText[]
   warnings?: GuideText[]
+  locationSpecific?: boolean
+  rewards?: GuideText[]
+  relatedPins?: { id: string; label: GuideText }[]
   sources?: { title: string; url: string }[]
 }
 

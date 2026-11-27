@@ -1,0 +1,3568 @@
+{
+  "reviewedAt": "2026-11-27",
+  "scope": "Automatic scan of encounter, easter-egg and missing-tourist records; named guide families reviewed against linked sources. This is not an in-game validation of every coordinate.",
+  "scanned": 591,
+  "enriched": 46,
+  "families": {
+    "alien": 3,
+    "missing-persons": 12,
+    "skunk-ape": 14,
+    "final-flush": 12,
+    "crab-lab": 4,
+    "haunted-hotel": 1
+  },
+  "counts": {
+    "source-reviewed-guide": 29,
+    "needs-source-review": 530,
+    "existing-detail": 15,
+    "quest-context-added-position-pending": 17
+  },
+  "rows": [
+    {
+      "id": "gta6-community-safehouse-003",
+      "title": "Starlet Motel",
+      "category": "community-safehouse",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-001",
+      "title": "Swamp Monster",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-002",
+      "title": "Bigfoot",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-003",
+      "title": "Redneck Shooting Party",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-004",
+      "title": "Plane crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-005",
+      "title": "Tree man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-018",
+      "title": "Easter Egg: Giant Grab",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-006",
+      "title": "X-Files Close Encounter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-008",
+      "title": "Drunkard Asking for Money",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-009",
+      "title": "Plane Crash: Cocaine and Map",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-010",
+      "title": "Wheelchair Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-011",
+      "title": "Hijack a Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-012",
+      "title": "Cocaine Yacht",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-013",
+      "title": "Traffic Stop: Drunk Steals Cop Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-014",
+      "title": "Gas Redneck",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-015",
+      "title": "Smuggler Boat Explosion",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-016",
+      "title": "UFO Event: Suspicious Car",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-hidden-package-022",
+      "title": "Easter Egg: QR Code (NoFlushers)",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-017",
+      "title": "Skunk Apeology 101",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-018",
+      "title": "Van Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-019",
+      "title": "Missing Wife",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-020",
+      "title": "Cocaine Yacht Shark Attack",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-021",
+      "title": "Van Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-022",
+      "title": "Witch of the Swamp",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-023",
+      "title": "Hunter Shoots His Friend",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-024",
+      "title": "VR Gamer (house)",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-025",
+      "title": "Drug Deal",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-027",
+      "title": "Investigate the Photos",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-028",
+      "title": "Yard Sale (Arthur Morgan hat)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-026",
+      "title": "Kingfishers Ambush on the Road",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-029",
+      "title": "Alien Witness",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-030",
+      "title": "Hollow Earther's Camp",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-weapon-spawn-024",
+      "title": "Crabshack VF5",
+      "category": "community-unique-weapon",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-031",
+      "title": "Exploding Smuggler Boat",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-032",
+      "title": "Garage Band",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-033",
+      "title": "Save the Cow",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-035",
+      "title": "Missing Person Poster",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-036",
+      "title": "Fortune Teller",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-037",
+      "title": "Save the Bear Protest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-038",
+      "title": "Cool Dog on a Jet Ski",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-039",
+      "title": "Cigarette Trick",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-040",
+      "title": "Escaped Prisoners",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-041",
+      "title": "Trailer Girl (yacht)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-042",
+      "title": "Truck Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-043",
+      "title": "Missing Person: Sunken Car",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-044",
+      "title": "Missing Person: Pink Car (PRTYGRL)",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-045",
+      "title": "Bear Encounter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-046",
+      "title": "Kitty Drug Bust",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-047",
+      "title": "Caleb, the Drunk Tractor Driver",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-048",
+      "title": "People Jumping in the Water",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-049",
+      "title": "Cigarette Trick (outdoor bar)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-050",
+      "title": "Stolen Tiger in Van",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-051",
+      "title": "Hunter Shoots His Friend",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-052",
+      "title": "Mandy Filming Her Neighbor",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-053",
+      "title": "Brofile Pic",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-055",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-056",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-054",
+      "title": "Robbed at the ATM",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-057",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-058",
+      "title": "Drunk Man at the Rusty Anchor",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-059",
+      "title": "Dumpster Diver",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-060",
+      "title": "A Couple's Dream",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-061",
+      "title": "Payday Loan Crashout",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-062",
+      "title": "Iguana Target Practice",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-063",
+      "title": "Alien Encounter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-064",
+      "title": "Mudslider Mechanic",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-065",
+      "title": "Fox Furry Cornered by Police",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-066",
+      "title": "Plane Crash (highway)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-067",
+      "title": "UFO Believer (Human Sibling)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-068",
+      "title": "Influencer Livestreaming on Bridge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-069",
+      "title": "Undercover Cop Torture",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-070",
+      "title": "Polar Bear Activists",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-071",
+      "title": "Car Accident",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-072",
+      "title": "Stash Bust",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-073",
+      "title": "Van Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-074",
+      "title": "The Ritual of Sacrifice",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-075",
+      "title": "Shirley, the Neighbor",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-076",
+      "title": "Merman Encounter",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-077",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-078",
+      "title": "Wounded Hunter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-079",
+      "title": "Junkie Car Theft",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-080",
+      "title": "Warehouse Hostage",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-081",
+      "title": "Stranded Race Driver",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-082",
+      "title": "Store Hostage Rescue",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-083",
+      "title": "Farm Wife Asking for Help",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-085",
+      "title": "Tutsi the Cow",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-086",
+      "title": "Captive Ex-Cop",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-087",
+      "title": "Beefslap",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-088",
+      "title": "Yard Sale (Gary the alligator)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-089",
+      "title": "Being Hunted",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-090",
+      "title": "Cop Interrogated by Criminals",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-099",
+      "title": "Burning Car Collision",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-100",
+      "title": "Kitty Litter Drug Ring",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-101",
+      "title": "AI Ex-CEO",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-091",
+      "title": "Stuntman",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-092",
+      "title": "Ghost Woman",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-093",
+      "title": "Ghost Ship (lighthouse)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-102",
+      "title": "Bridge Jumpers",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-094",
+      "title": "Drunk Tractor Driver",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-098",
+      "title": "Carjacker at Gunpoint",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-095",
+      "title": "Gasoline Bath",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-096",
+      "title": "Gang Revenge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-097",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-103",
+      "title": "Insurance Fraud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-104",
+      "title": "Bear Protesters (animal transport)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-105",
+      "title": "Crop Dusting Job (McKittrick Farm)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-106",
+      "title": "Taser Arrest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-107",
+      "title": "Anti-Theft Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-108",
+      "title": "Gang Trade",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-109",
+      "title": "Drunk Man on a Police Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-110",
+      "title": "Paranoid Prepper's Bunker",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-111",
+      "title": "Roadside Forest Fire",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-112",
+      "title": "Clumsy Car Thief",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-113",
+      "title": "Botched Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-114",
+      "title": "Attempted Carjacking",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-121",
+      "title": "Kolt & Associates Highway Ambush",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-137",
+      "title": "Non-Flusher Movement QR Code",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-116",
+      "title": "Former Final Chapter Member Attacked",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-117",
+      "title": "Newlyweds' House",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-122",
+      "title": "Non-Flusher Movement Meeting (Frank's Waffle)",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-118",
+      "title": "Kidnapped Cop",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-119",
+      "title": "Dirty Cops (hangar)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-120",
+      "title": "Lady with a Couch",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-123",
+      "title": "Influencer Falls from Overpass",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-115",
+      "title": "Drug Export Threat",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-124",
+      "title": "Traffic Stop: Golf Clubs",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-125",
+      "title": "Corrupt Cops Rob a Dealer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-126",
+      "title": "Loose Pet Tiger",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-138",
+      "title": "Creepy Neighbour Zach",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-127",
+      "title": "Linda's Coupon Meltdown",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-128",
+      "title": "Man Tied Up in a Barn",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-129",
+      "title": "Van Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-130",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-131",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-132",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-133",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-134",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-135",
+      "title": "ATV Rally",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-136",
+      "title": "Robbed Naked Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-140",
+      "title": "Car Jacking Lesson",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-072",
+      "title": "Easter Egg: Evidence of a Murder",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-141",
+      "title": "Overpass Vandals (computers)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-142",
+      "title": "Delirious Farmer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-143",
+      "title": "Overpass Droppings",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-139",
+      "title": "Drive-Through Rant (Pollo Diablo)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-144",
+      "title": "Caveman vs Panther",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-145",
+      "title": "Man vs Bear",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-146",
+      "title": "Sal, Shooting Victim",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-147",
+      "title": "Package Delivery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-148",
+      "title": "Alien Aficionado",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-149",
+      "title": "Lady with a Broken Car",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-150",
+      "title": "Dumpster Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-151",
+      "title": "Influencer (antenna)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-152",
+      "title": "Drug Boat Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-153",
+      "title": "Gasoline Bath",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-154",
+      "title": "Revenge on Kolt Associates",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-155",
+      "title": "Disgruntled Employee",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-156",
+      "title": "Paleo Bro",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-157",
+      "title": "The Ghost of Rockledge Rd",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-158",
+      "title": "Influencing Gone Fatal",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-159",
+      "title": "Mistaken Identity ($2,000)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-160",
+      "title": "Polar Bear Protest (freeway)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-161",
+      "title": "Couch Trap",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-162",
+      "title": "Zeke Pimple: Target Practice",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-163",
+      "title": "Boar Rams a Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-164",
+      "title": "The San Fierro Tourist",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-076",
+      "title": "Easter Egg: Bird Nest on the Mast",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-165",
+      "title": "Toilet Talk",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-166",
+      "title": "Dodos Rising",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-167",
+      "title": "Overheard Conversation (chimney)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-168",
+      "title": "Overheard Conversation (Retirement Home)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-169",
+      "title": "Gang Car Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-170",
+      "title": "Mobility Scooter Robber",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-171",
+      "title": "Insurance Fraud (van crash)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-172",
+      "title": "Kingfisher Intimidation",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-173",
+      "title": "Police Raid",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-174",
+      "title": "Mushroom Trip (stamina boost)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-175",
+      "title": "Rescue the Girl from Dru Kol",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-176",
+      "title": "Assassination",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-177",
+      "title": "Wanted Posters (side mission)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-178",
+      "title": "Bud the Alien Hunter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-179",
+      "title": "Tigers in the Garages",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-180",
+      "title": "Drugged Robber",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-181",
+      "title": "Van Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-183",
+      "title": "Caravan Fight",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-184",
+      "title": "Jumbo the Gator",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-185",
+      "title": "Strange Voice in the Sewer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-186",
+      "title": "Killer Clown (elevator)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-091",
+      "title": "Exploding Beached Whale",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-187",
+      "title": "Anti-Chimpanzee Sanctuary Protesters",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-093",
+      "title": "Easter Egg: Sex Dungeon",
+      "category": "community-easter-egg",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-188",
+      "title": "Junkie Kicked Out of a Trap House",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-297",
+      "title": "Festive Poodle",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-189",
+      "title": "M7 Gang Initiation",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-190",
+      "title": "Biker Gang Execution",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-097",
+      "title": "Easter Egg: Halloween House",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-191",
+      "title": "Banana Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-192",
+      "title": "Rich Man Attacked by a Bear",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-193",
+      "title": "Corrupt Cops Rob a Dealer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-194",
+      "title": "Police Drug Bust",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-195",
+      "title": "Street Percussionist",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-105",
+      "title": "Easter Egg: Porn Studio Basement",
+      "category": "community-easter-egg",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-hidden-package-107",
+      "title": "Lickable Frog",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-196",
+      "title": "Peak Productivity Brother",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-197",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-198",
+      "title": "VR Gamer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-199",
+      "title": "Handcuffed Cop",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-200",
+      "title": "Vicki's Phone Call with Mom",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-201",
+      "title": "Paleo Bro",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-202",
+      "title": "Blow Dart Kidnapping (side mission)",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-203",
+      "title": "Zeke Pimple: Target Practice",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-204",
+      "title": "Carjackers at Gunpoint",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-205",
+      "title": "Police Car Theft",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-206",
+      "title": "Gas Station Drug Stop",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-207",
+      "title": "Thieving Dog",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-123",
+      "title": "Easter Egg: GTA San Andreas Definitive Edition House",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-208",
+      "title": "Overpass Tyre Throwers",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-209",
+      "title": "Linda's Night Warning",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-210",
+      "title": "Man Stuck on a Dirt Road",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-211",
+      "title": "Snake in the Trunk",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-212",
+      "title": "Gym Bro Choke Challenge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-hidden-package-128",
+      "title": "Mutated Giant Crab (research lab)",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-hidden-package-129",
+      "title": "Fountain of Youth",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-213",
+      "title": "Broken-Down Mobster",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-214",
+      "title": "Police Raid (garage)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-215",
+      "title": "Ghost of Rockledge Rd (car)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-216",
+      "title": "Drive-By Shooting",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-217",
+      "title": "Drive-Thru Drama",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-218",
+      "title": "Corrupt Cops Shake Down a Driver",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-219",
+      "title": "Car Thief at the Gym",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-220",
+      "title": "Abandoned Vehicle Fire",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-221",
+      "title": "ATM Scam",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-222",
+      "title": "Old Lady Robber",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-001",
+      "title": "Easter Egg: \"He Must Be Found\"",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-223",
+      "title": "Jimmy the Drunk Sea Captain",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-224",
+      "title": "Jimmy Figg Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-225",
+      "title": "Thieves Crash Their Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-226",
+      "title": "Drag Queen Sobriety Test",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-227",
+      "title": "Animal Services Protest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-228",
+      "title": "Couch Trap",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-229",
+      "title": "UFO Van Abduction",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-230",
+      "title": "Helping Hunters",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-231",
+      "title": "Helping Hunters",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-232",
+      "title": "Zeke & Pimple: Target Practice (2nd spot)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-233",
+      "title": "Ghost Encounter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-002",
+      "title": "Easter Egg: Fisherwoman Swallowed by a Python",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-234",
+      "title": "Police Bust (Kolt Associates)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-003",
+      "title": "Easter Egg: Dexter's Apartment",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-004",
+      "title": "Easter Egg: Skunk Ape Attack Video",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-235",
+      "title": "Couple Carjacking",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-005",
+      "title": "Easter Egg: Satan",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-238",
+      "title": "Apple Shot (ride to the race track)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-239",
+      "title": "Thieving Dog",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-240",
+      "title": "Sahara Van Crash (lawsuit)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-241",
+      "title": "Street Race Challenge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-242",
+      "title": "Give Two Girls a Ride Home",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-243",
+      "title": "Bikini Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-244",
+      "title": "Man in the Sewer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-245",
+      "title": "Cargo Thieves",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-246",
+      "title": "Jewelry Store Heist",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-247",
+      "title": "Apple Shot (Beefslap)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-248",
+      "title": "Alien Conspiracy Ranter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-249",
+      "title": "Caden O (Influencer on the Bridge)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-006",
+      "title": "Easter Egg: Lucia Possessed",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-250",
+      "title": "PTT Youngin$ Car Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-251",
+      "title": "Homeless Woman Car Theft",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-252",
+      "title": "Car Crash with Stash Bag",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-253",
+      "title": "Drowning Streamer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-254",
+      "title": "Quick Mug",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-236",
+      "title": "Van Stuck in the Mud (tiger)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-255",
+      "title": "Bayside Apartments Gossip",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-256",
+      "title": "Mines Encounter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-007",
+      "title": "Easter Egg: Killer Whale",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-257",
+      "title": "Drug Stop Arrest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-258",
+      "title": "Vagrant Informant",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-008",
+      "title": "Easter Egg: Sex Doll Warehouse",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-283",
+      "title": "Night Plane Drop",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-237",
+      "title": "Sahara Truck Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-259",
+      "title": "Car Theft at Status Auto Imports",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-260",
+      "title": "Rottweiler vs Iguana",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-261",
+      "title": "Ghost Woman (car)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-262",
+      "title": "Self-Driving Car Security System",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-263",
+      "title": "Cigarette Trick",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-009",
+      "title": "Easter Egg: SOS Phone Video",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-010",
+      "title": "Easter Egg: Haunted Marbelle Hotel",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-264",
+      "title": "Harper Hiding in Your Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-265",
+      "title": "Sunshine the Aura Reader",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-266",
+      "title": "Couch Trap",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-011",
+      "title": "Easter Egg: Moreau Watchtower",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-012",
+      "title": "Easter Egg: Mineshaft Carcasses",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-267",
+      "title": "Helping Hunters",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-268",
+      "title": "Delivery Van Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-269",
+      "title": "Sahara Van Crash (car on fire)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-270",
+      "title": "Tourist Attacked by a Bear",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-271",
+      "title": "Gasoline Bath",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-272",
+      "title": "Haunted Bridge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-273",
+      "title": "Woman in Your Car (dog rescue)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-274",
+      "title": "Tourist Attacked by a Bear",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-275",
+      "title": "Zeke & Pimple: Target Practice",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-276",
+      "title": "Two Men Fight",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-277",
+      "title": "Homeless Woman Asks for Money",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-278",
+      "title": "Peeping Tom",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-279",
+      "title": "Gym Junkie",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-280",
+      "title": "Jacob's Tavern Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-013",
+      "title": "Easter Egg: QR Code (real website)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-281",
+      "title": "Helping Hunters",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-282",
+      "title": "Jimmy Figgs Seaplane Base",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-284",
+      "title": "Man in the Sewer (DNA)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-285",
+      "title": "Naked Man Fleeing the Police",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-286",
+      "title": "Lady with Car Trouble",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-287",
+      "title": "Choke Challenge (Lucia)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-288",
+      "title": "Sleeping Cashier",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-289",
+      "title": "Dumpster Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-290",
+      "title": "Ghost Road",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-014",
+      "title": "Easter Egg: Bugstar Van",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-291",
+      "title": "UFO Encounter",
+      "category": "community-random-event",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-292",
+      "title": "Tractor Request",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-293",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-294",
+      "title": "Robbed Naked Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-295",
+      "title": "Plane Drug Deal",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-296",
+      "title": "Finbuster",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-298",
+      "title": "Car Crash Stash Bag",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-299",
+      "title": "Bear in a Dumpster",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-300",
+      "title": "Police Brutality",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-301",
+      "title": "Rookie Police Mistake",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-302",
+      "title": "Hippie AI-CEO",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-303",
+      "title": "Grocery Store Wrecked",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-304",
+      "title": "Van Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-305",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-306",
+      "title": "Drunk Driver Pulled Over",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-307",
+      "title": "Primal Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-308",
+      "title": "Bear Attack",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-016",
+      "title": "Dexter's Garage",
+      "category": "community-easter-egg",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-309",
+      "title": "Angry Man on His Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-310",
+      "title": "Woman Arrested",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-311",
+      "title": "Streamer Flips His Jet Ski",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-312",
+      "title": "Trip of a Lifetime",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-313",
+      "title": "Sound Advice from a Local",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-314",
+      "title": "Streamer Flips His Jet Ski",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-315",
+      "title": "Scarlet Sun",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-317",
+      "title": "Caged Sphynx Cat",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-318",
+      "title": "M7 Gang Initiation",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-017",
+      "title": "Abandoned Semi-Submersible",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-018",
+      "title": "Flamingo Garage Lounge",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-316",
+      "title": "High Dealers in a Hotel Room",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-320",
+      "title": "Vagrant Hijacker",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-321",
+      "title": "Robbed at the ATM",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-322",
+      "title": "Snake Attack",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-019",
+      "title": "Alien Encounter (abandoned building)",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-323",
+      "title": "Targeted Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-324",
+      "title": "Cigarette Trick",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-325",
+      "title": "Living Statue",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-326",
+      "title": "Kingfisher Road Crew",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-327",
+      "title": "ATM Theft (tow truck)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-328",
+      "title": "Armored Truck Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-329",
+      "title": "Street Race Challenge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-330",
+      "title": "Gang Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-332",
+      "title": "Loot Exchange",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-333",
+      "title": "Animal Rights Protest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-020",
+      "title": "Gary's Not the Only One",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-334",
+      "title": "Drunk Man and Police",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-335",
+      "title": "Sofa Help (Manhunt)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-336",
+      "title": "Man in a Fox Costume",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-337",
+      "title": "Fox House",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-338",
+      "title": "Naked Yoga",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-339",
+      "title": "Bud on the Train Tracks",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-340",
+      "title": "Weapon Demo",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-341",
+      "title": "Cannon Smokers",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-342",
+      "title": "Car Thieves",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-343",
+      "title": "Drunken Sailor",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-344",
+      "title": "Meth Head",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-345",
+      "title": "Deal Gone Wrong",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-346",
+      "title": "Jimmy the Drunk",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-351",
+      "title": "Car Thieves",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-025",
+      "title": "Brian and Lori's House",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-347",
+      "title": "Store Hold-up",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-348",
+      "title": "Bear Truck Protest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-349",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-350",
+      "title": "Armored Truck Attack",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-026",
+      "title": "Domestobot",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-352",
+      "title": "Armored Truck Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-027",
+      "title": "Bird Cult Ritual",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-028",
+      "title": "Bird Cult Clue",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-029",
+      "title": "Teens' Party Aftermath",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-353",
+      "title": "Cop Tied to a Chair",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-354",
+      "title": "The Hunt (sofa trap)",
+      "category": "community-random-event",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-random-event-355",
+      "title": "Corrupt Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-356",
+      "title": "Criminal Transport",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-030",
+      "title": "Michael De Santa's Boat",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-357",
+      "title": "Man in a Fox Costume",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-358",
+      "title": "Man with VR Glasses",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-359",
+      "title": "Store Robbery (woman)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-031",
+      "title": "Dog Family",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-360",
+      "title": "Man in a Fox Costume",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-361",
+      "title": "Finbuster",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-362",
+      "title": "Street Race Challenge (truck)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-032",
+      "title": "Cat House",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-363",
+      "title": "Banana Robber",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-364",
+      "title": "DUI Stop",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-365",
+      "title": "Target Practice with Rednecks",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-366",
+      "title": "Kidnapping",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-367",
+      "title": "Field Fire",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-368",
+      "title": "Attacked by Kolts",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-033",
+      "title": "Spaceship Sighting",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-369",
+      "title": "Swamp Witch",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-370",
+      "title": "Van Stuck in the Mud",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-371",
+      "title": "Riot Squad Raid",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-372",
+      "title": "Bear Attack",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-373",
+      "title": "Dog on a Jetski",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-374",
+      "title": "Runaway Cow",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-375",
+      "title": "Car Fight",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-034",
+      "title": "Pink Leopard Dog",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-376",
+      "title": "Old Man Asks for a Cigarette",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-377",
+      "title": "Costumed Deer Hunter",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-035",
+      "title": "Saw Easter Egg",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-379",
+      "title": "Corrupt Police Officer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-381",
+      "title": "Gang Member Assaulted",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-382",
+      "title": "Woman of Nature",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-383",
+      "title": "Police Search",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-036",
+      "title": "Crab Lab Puzzle",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-385",
+      "title": "Exercise Bike",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-037",
+      "title": "#NoFlushers QR Code Flyer",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-easter-egg-038",
+      "title": "Mysterious Purple Drank",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-386",
+      "title": "Sobriety Test",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-388",
+      "title": "Target Practice (fire extinguisher)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-390",
+      "title": "Bikers Kill a Former Member",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-391",
+      "title": "Bank Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-392",
+      "title": "Cyclist Road Rage",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-395",
+      "title": "Woman Arrested",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-041",
+      "title": "Locked-up Bear",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-399",
+      "title": "Bigfoot Scare",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-400",
+      "title": "Woman in Cuffs",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-402",
+      "title": "M7 Beating",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-044",
+      "title": "Super Mario Block",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-405",
+      "title": "Alien Spotting",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-408",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-407",
+      "title": "Just Cheese",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-045",
+      "title": "Breaking Bad: Pest Control Front",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-406",
+      "title": "Ghost Girl",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-404",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-403",
+      "title": "Car Crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-043",
+      "title": "Hyde Island Kidnap Challenge",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-401",
+      "title": "I'mma Let You Rock",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-042",
+      "title": "Ghost (foggy road)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-398",
+      "title": "Nude Camp",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-397",
+      "title": "Meth Head Woman",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-396",
+      "title": "Influencer Fell off a Jet Ski",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-040",
+      "title": "Poolside Porn Set",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-394",
+      "title": "Drunk Guy on Police Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-393",
+      "title": "Bikers About to Kill a Man",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-389",
+      "title": "Police Chase",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-039",
+      "title": "Scarface",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-387",
+      "title": "Lady Loading a Couch (Hyde Island)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-384",
+      "title": "Crooked Cops",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-380",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-378",
+      "title": "Kolts Pissing on Your Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-046",
+      "title": "Dante's Basement (glitch)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-047",
+      "title": "Skunk Ape Flyer",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-410",
+      "title": "Bear Attack",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-412",
+      "title": "Uptight Cops",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-048",
+      "title": "#NoFlushers QR Code",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-random-event-415",
+      "title": "Sexy Times in Watson Bay",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-420",
+      "title": "Kyle Returns",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-422",
+      "title": "Scooter Robber",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-423",
+      "title": "Gang Music Video",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-425",
+      "title": "Getaway Fail",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-426",
+      "title": "Dirty Cops",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-428",
+      "title": "Shady Shipment",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-429",
+      "title": "Gas Station Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-319",
+      "title": "Capri Cops Kidnap You",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-431",
+      "title": "Burning Car",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-432",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-433",
+      "title": "Bridge Jumpers",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-434",
+      "title": "Drunk Woman Arrested",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-436",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-435",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-050",
+      "title": "Invincible Stalker",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-430",
+      "title": "ATM Theft",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-427",
+      "title": "Cashier with Asthma",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-424",
+      "title": "Tow Truck Scuffle",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-049",
+      "title": "Old Goliath Tree Carving",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-421",
+      "title": "Alien Conspiracy Ranter (2nd encounter)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-419",
+      "title": "Pest Shooting Contest",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-418",
+      "title": "Mugging",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-417",
+      "title": "Gas Station Struggle",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-416",
+      "title": "Car Broke Down",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-414",
+      "title": "Bridge Jump & Car Chase",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-413",
+      "title": "Roadside Rollover",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-411",
+      "title": "Lab Explosion",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-409",
+      "title": "Skunk Ape Sighting",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-331",
+      "title": "Palm Reader",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-loc-1089607",
+      "title": "The Rusty Anchor",
+      "category": "mg-29031",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-loc-1090263",
+      "title": "Frank's Waffles",
+      "category": "mg-29052",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-loc-1091668",
+      "title": "NoFlusher Homestead",
+      "category": "mg-29066",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-easter-egg-052",
+      "title": "Sex Toy Shed",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-054",
+      "title": "Tower Lever and Button",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-055",
+      "title": "Grove Street (San Andreas reference)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-easter-egg-056",
+      "title": "Self-Aware NPC House",
+      "category": "community-easter-egg",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-easter-egg-057",
+      "title": "Tommy Vercetti? (vineyard)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-437",
+      "title": "Shooting Contest (ecologists)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-438",
+      "title": "Bud: Watching the Sky",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-439",
+      "title": "Drunk Woman and the Police",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-440",
+      "title": "Matching Tattoos",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-441",
+      "title": "Skunk Ape Effigy",
+      "category": "community-random-event",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-community-random-event-442",
+      "title": "Bank Robbery (Lombank - Bayside)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-443",
+      "title": "Voice in the Sewer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-444",
+      "title": "Former CEO",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-445",
+      "title": "Leave the Tower (loudspeaker)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-446",
+      "title": "Golden Street Performer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-447",
+      "title": "Van Robbery",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-448",
+      "title": "Let Me Hold It (cashier)",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-449",
+      "title": "Mugged by Two Women",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-450",
+      "title": "Bud: Something Falls from the Sky",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-451",
+      "title": "Alien Fan",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-random-event-452",
+      "title": "Dumpster Lawyer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-safe-070",
+      "title": "Safe - Abandoned Research Lab",
+      "category": "mg-29083",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-strangers-001",
+      "title": "Dr Merle",
+      "category": "community-strangers",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-038",
+      "title": "QR Code",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-039",
+      "title": "Dolores the Snake",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-040",
+      "title": "QR Code (The Thirsty Wolf)",
+      "category": "community-easter-egg",
+      "status": "existing-detail"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-041",
+      "title": "QR Code (Stop! Don't Flush)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-042",
+      "title": "Pout Magazine",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-043",
+      "title": "QR Code: Truth Seeker",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-044",
+      "title": "#NoFlushers QR Code",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-045",
+      "title": "QR Code: Stop! Don't Flush",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-047",
+      "title": "Zombie Deer Tattoo (WAiNK)",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-048",
+      "title": "#NoFlushers Poster (church)",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-059",
+      "title": "Manhole Tags: HQ",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-067",
+      "title": "Painted Cat",
+      "category": "community-easter-egg",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-069",
+      "title": "#NoFlushers QR Code",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-071",
+      "title": "#NoFlushers",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-community-waink-curiosity-072",
+      "title": "#NoFlushers Flyer (toilet)",
+      "category": "community-easter-egg",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-gps-pin-915671",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-915697",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-915740",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917810",
+      "title": "Missing Tourist",
+      "category": "community-missing-tourists",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-gps-pin-917811",
+      "title": "Missing tourists clue",
+      "category": "community-missing-tourists",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-gps-pin-917812",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917813",
+      "title": "Missing Tourist",
+      "category": "community-missing-tourists",
+      "status": "source-reviewed-guide"
+    },
+    {
+      "id": "gta6-gps-pin-917831",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917850",
+      "title": "Missing Tourist",
+      "category": "community-missing-tourists",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-gps-pin-917881",
+      "title": "Highway ghost",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917898",
+      "title": "Kidnapping",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917917",
+      "title": "Jet ski dog",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917982",
+      "title": "Couple in trouble",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917988",
+      "title": "Fish-bombing boater",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-917989",
+      "title": "Ambush on the road",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918047",
+      "title": "Egg toss",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918074",
+      "title": "Man surrounded by police",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918083",
+      "title": "Shot 'moose'",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918118",
+      "title": "Man foaming at the mouth",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918120",
+      "title": "Island manhunt",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918122",
+      "title": "Protest blockade",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918123",
+      "title": "Street drummer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918124",
+      "title": "Target shooting",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918230",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918364",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918367",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918371",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918372",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918376",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918377",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918533",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918534",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918586",
+      "title": "Officer interrogated",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918649",
+      "title": "Kingfishers airstrip deal",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918712",
+      "title": "Fertilizer dump",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918715",
+      "title": "Banana robber",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918716",
+      "title": "Daredevil streamer",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918717",
+      "title": "Skunk ape statues",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918721",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918734",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918749",
+      "title": "Man tied to a bed",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918750",
+      "title": "Payday store robbers",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918755",
+      "title": "Chokehold challenge",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918759",
+      "title": "Delivery ambush",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918767",
+      "title": "Delivery van crash",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918805",
+      "title": "Missing tourists clue",
+      "category": "community-missing-tourists",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-gps-pin-918806",
+      "title": "Missing tourists clue",
+      "category": "community-missing-tourists",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-gps-pin-918807",
+      "title": "Missing tourists clue",
+      "category": "community-missing-tourists",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-gps-pin-918876",
+      "title": "Random Event",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918909",
+      "title": "Fearless cashier",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918911",
+      "title": "Man with no clothes",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918912",
+      "title": "Abandoned mine",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918915",
+      "title": "Woman hiding from debt collectors",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-918956",
+      "title": "Missing tourists: the mine",
+      "category": "community-missing-tourists",
+      "status": "quest-context-added-position-pending"
+    },
+    {
+      "id": "gta6-gps-pin-919013",
+      "title": "Runaway prize cow",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-919018",
+      "title": "Woman shouting from a balcony",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-919076",
+      "title": "My block",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-919078",
+      "title": "Beached whale",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    },
+    {
+      "id": "gta6-gps-pin-919079",
+      "title": "Clone follow-up",
+      "category": "community-random-event",
+      "status": "needs-source-review"
+    }
+  ]
+}

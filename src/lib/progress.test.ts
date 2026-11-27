@@ -499,3 +499,43 @@ test('GTA VI exposes only supported modules and all published story chapters', (
   assert.ok(gta6.markers.some(marker => marker.id === canonical && marker.category !== 'finder-story'))
  }
 })
+import { MYSTERY_GUIDES, applyMysteryGuides } from '../config/games/gta6/mysteryGuides'
+test('reviewed mystery guides preserve pin identity and coordinates with valid bilingual links', () => {
+ const before = deduplicateGta6Pins(gta6Catalog)
+ const after = applyMysteryGuides(before)
+ assert.equal(after.length, before.length)
+ assert.deepEqual(after.map(({id,x,y,category,source})=>({id,x,y,category,source})), before.map(({id,x,y,category,source})=>({id,x,y,category,source})))
+ assert.deepEqual(applyMysteryGuides(after), after)
+ for (const id of Object.keys(MYSTERY_GUIDES)) {
+  const pin = after.find(row=>row.id===id)!
+  assert.ok(pin, id)
+  for (const locale of ['en','tr'] as const) {
+   const guide = markerGuide(pin, locale)
+   assert.ok(guide.summary && guide.directions.length && guide.sources.length, id)
+   for (const text of [...guide.directions,...guide.requirements,...guide.warnings,...guide.rewards]) assert.ok(text && !text.includes('undefined'), id)
+   for (const ref of guide.relatedPins) { assert.ok(ref.label); assert.ok(after.some(row=>row.id===canonicalMarkerId(ref.id)),ref.id) }
+  }
+ }
+})
+test('alien codes, effigy quotas and optional mystery branches are not invented requirements', () => {
+ const alien = markerGuide(gta6.markers.find(row=>row.id==='gta6-community-random-event-016')!,'en')
+ assert.ok(alien.warnings.some(text=>text.includes('alternative')))
+ const lab = markerGuide(gta6.markers.find(row=>row.id==='gta6-community-easter-egg-019')!,'tr')
+ assert.ok(lab.requirements.some(text=>text.includes('rüya')))
+ assert.ok(lab.rewards.length)
+ assert.ok(!JSON.stringify([alien,lab]).match(/\b(?:2431|3124)\b/))
+ const effigy = markerGuide(gta6.markers.find(row=>row.id==='gta6-community-random-event-055')!,'tr')
+ assert.equal(effigy.locationSpecific,false)
+ assert.ok(effigy.requirements.some(text=>text.includes('üç')))
+ const crab = markerGuide(gta6.markers.find(row=>row.id==='gta6-community-easter-egg-036')!,'en')
+ assert.ok(crab.directions.some(text=>text.includes('CLEAVES')))
+ assert.ok(crab.directions.some(text=>text.includes('0072')&&text.includes('0212')))
+ const unknown = markerGuide(gta6.markers.find(row=>row.id==='gta6-gps-pin-918805')!,'tr')
+ assert.equal(unknown.locationSpecific,false)
+ assert.ok(unknown.warnings.some(text=>text.includes('üç kurban')))
+})
+
+test('a reviewed vehicle-spawn route still warns that arrival does not guarantee a vehicle', () => {
+ const guide = markerGuide({id:'reviewed-spawn',title:'Vehicle',category:'community-vehicle-spawn',x:0,y:0,description:'',guide:{directions:[{en:'Inspect the garage.',tr:'Garajı incele.'}]}}, 'en')
+ assert.ok(guide.warnings.some(text=>text.includes('Arrival does not guarantee')))
+})
