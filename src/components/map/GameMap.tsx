@@ -1,5 +1,7 @@
 'use client'
 
+import { canonicalMarkerId } from '@/lib/markerAliases'
+
 import { createLeafletContext, LeafletContext, type LeafletContextInterface } from '@react-leaflet/core'
 import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
@@ -113,8 +115,9 @@ export function GameMap({
     observer.observe(host)
 
     const applyPin = () => {
-      const pin = new URLSearchParams(window.location.search).get('pin')
-      if (!pin) return
+      const requested = new URLSearchParams(window.location.search).get('pin')
+      if (!requested) return
+      const pin = canonicalMarkerId(requested)
       const pins = useMapStore.getState().byGame[game.slug]?.customPins ?? []
       if (game.markers.some((marker) => marker.id === pin) || pins.some((item) => item.id === pin)) {
         useMapStore.getState().select(game.slug, pin)

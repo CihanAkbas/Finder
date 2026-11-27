@@ -1,3 +1,4 @@
+import { canonicalMarkerId } from '@/lib/markerAliases'
 import { createJSONStorage, persist } from 'zustand/middleware'
 import { create } from 'zustand'
 import { createProgressStorage } from '@/lib/idbStorage'
@@ -90,6 +91,11 @@ function updateGame(state: { byGame: Record<string, GameSlice> }, game: string, 
   return { byGame: { ...state.byGame, [game]: patch(slice) } }
 }
 
+function togglePoint(ids: string[], id: string, limit = Infinity) {
+  const canonical = canonicalMarkerId(id)
+  return ids.includes(canonical) ? ids.filter(item => item !== canonical) : [...ids, canonical].slice(0, limit)
+}
+
 let toastTimer = 0
 
 export const useCompanionStore = create<CompanionState>()(
@@ -111,7 +117,7 @@ export const useCompanionStore = create<CompanionState>()(
         set((state) =>
           updateGame(state, game, (slice) => ({
             ...slice,
-            found: slice.found.includes(id) ? slice.found.filter((item) => item !== id) : [...slice.found, id],
+            found: togglePoint(slice.found, id),
           })),
         ),
       toggleChecklist: (game, itemId, markerId) => {
@@ -288,8 +294,8 @@ export const useCompanionStore = create<CompanionState>()(
       },
       requestFocus: (request) =>
         set({
-          focusRequest: { ...request, nonce: Date.now() },
-          selected: { game: request.game, id: request.id },
+          focusRequest: { ...request, id: canonicalMarkerId(request.id), nonce: Date.now() },
+          selected: { game: request.game, id: canonicalMarkerId(request.id) },
           searchOpen: false,
         }),
       setHidden: (game, ids) =>
@@ -341,7 +347,7 @@ export const useCompanionStore = create<CompanionState>()(
           const selected = state.selected?.game === game ? null : state.selected
           return { byGame, selected }
         }),
-      select: (game, id) => set({ selected: { game, id } }),
+      select: (game, id) => set({ selected: { game, id: canonicalMarkerId(id) } }),
       clearSelection: () => set({ selected: null }),
       setSearchOpen: (searchOpen) => set({ searchOpen }),
       setContributeMode: (contributeMode) => set({ contributeMode }),
@@ -357,20 +363,20 @@ export const useCompanionStore = create<CompanionState>()(
         set((state) =>
           updateGame(state, game, (slice) => ({
             ...slice,
-            favorites: slice.favorites.includes(id) ? slice.favorites.filter((item) => item !== id) : [...slice.favorites, id].slice(0, 80),
+            favorites: togglePoint(slice.favorites, id, 80),
           })),
         ),
       toggleRouteStop: (game, id) =>
         set((state) =>
           updateGame(state, game, (slice) => ({
             ...slice,
-            route: slice.route.includes(id) ? slice.route.filter((item) => item !== id) : [...slice.route, id].slice(0, 24),
+            route: togglePoint(slice.route, id, 24),
           })),
         ),
       moveRouteStop: (game, id, direction) =>
         set((state) =>
           updateGame(state, game, (slice) => {
-            const index = slice.route.indexOf(id)
+            const index = slice.route.indexOf(canonicalMarkerId(id))
             const next = index + direction
             if (index < 0 || next < 0 || next >= slice.route.length) return slice
             const route = [...slice.route]

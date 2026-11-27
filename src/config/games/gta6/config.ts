@@ -8,7 +8,10 @@ import { communityCategories, communityMarkers } from './community'
 import { applyVehicleCorrections } from './vehicleCorrections'
 import { addReviewedDiscoveries } from './reviewedDiscoveries'
 import { applyCatalogRefresh } from './catalogRefresh'
+import { deduplicateGta6Pins } from './deduplication'
 import { addReviewedVariants } from './extraVariants'
+
+export const gta6Catalog = addReviewedDiscoveries(applyCatalogRefresh(addReviewedVariants(applyVehicleCorrections([...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])]))))
 
 /**
  * Bounds match the published Leonida marker extent, padded so the map stays square.
@@ -35,7 +38,7 @@ export const gta6 = defineGame({
   maxZoom: 17,
   maxNativeZoom: 16,
   categories: [...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories],
-  markers: addReviewedDiscoveries(applyCatalogRefresh(addReviewedVariants(applyVehicleCorrections([...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])])))),
+  markers: deduplicateGta6Pins(gta6Catalog),
   geography: gta6Geography,
   styles: [
     {

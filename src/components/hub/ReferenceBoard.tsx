@@ -1,4 +1,6 @@
 'use client'
+
+import { canonicalMarkerId } from '@/lib/markerAliases'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import { Copy } from 'lucide-react'
@@ -113,7 +115,7 @@ export function ReferenceBoard({ gameSlug }: { gameSlug: string }) {
               <h2 className="font-display text-2xl">{section.title}</h2>
               <ul className="grid gap-2 sm:grid-cols-2">
                 {section.tips.map((tip) => {
-                  const pinLinks = (tip.mapPins ?? [])
+                  const pinLinks = (tip.mapPins ?? []).map(canonicalMarkerId)
                     .map((id) => game.markers.find((marker) => marker.id === id))
                     .filter((marker): marker is NonNullable<typeof marker> => Boolean(marker))
                   return (

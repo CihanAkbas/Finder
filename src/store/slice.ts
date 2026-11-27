@@ -1,3 +1,4 @@
+import { canonicalMarkerIds } from '@/lib/markerAliases'
 export type CustomPin = {
   id: string
   title: string
@@ -306,7 +307,7 @@ export function normalizeSlice(partial?: Partial<GameSlice> | null): GameSlice {
   return {
     ...base,
     ...rest,
-    found: rest.found ?? [],
+    found: canonicalMarkerIds(stringList(rest.found)),
     hiddenCategories: rest.hiddenCategories ?? [],
     customPins: rest.customPins ?? [],
     checklistDone: rest.checklistDone ?? [],
@@ -318,8 +319,8 @@ export function normalizeSlice(partial?: Partial<GameSlice> | null): GameSlice {
     ownedAssets: stringList(rest.ownedAssets),
     ownedVehicles: stringList(rest.ownedVehicles),
     safes: normalizeSafes(rest.safes),
-    favorites: stringList(rest.favorites),
-    route: stringList(rest.route),
+    favorites: canonicalMarkerIds(stringList(rest.favorites)),
+    route: canonicalMarkerIds(stringList(rest.route)),
     savedFilters: normalizeFilters(rest.savedFilters),
     layerSetup: rest.layerSetup === true,
     mapStyle: rest.mapStyle ?? base.mapStyle,

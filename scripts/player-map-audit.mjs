@@ -1,3 +1,5 @@
+import { canonicalMarkerId } from '../src/lib/markerAliases.ts'
+import { findDuplicatePinPairs } from '../src/lib/pinDeduplication.ts'
 import { readFileSync } from 'node:fs'
 import assert from 'node:assert/strict'
 import sharp from 'sharp'
@@ -22,8 +24,8 @@ const leafNames = leafCategories([...GTA6_STORY_CATEGORIES, ...communityCategori
 const allMarkers = gta6.markers
 const markerIds = new Set(allMarkers.map((marker) => marker.id))
 const refreshHints = JSON.parse(readFileSync('src/config/games/gta6/catalogHints.json', 'utf8'))
-for (const id of Object.keys(refreshHints)) assert.ok(markerIds.has(id), `Orphaned refreshed hint: ${id}`)
-for (const id of Object.keys(locationHints)) assert.ok(markerIds.has(id), `Orphaned location hint: ${id}`)
+for (const id of Object.keys(refreshHints)) assert.ok(markerIds.has(canonicalMarkerId(id)), `Orphaned refreshed hint: ${id}`)
+for (const id of Object.keys(locationHints)) assert.ok(markerIds.has(canonicalMarkerId(id)), `Orphaned location hint: ${id}`)
 let guidedLocations = 0
 for (const marker of allMarkers) {
   for (const locale of ['en', 'tr']) {
@@ -52,6 +54,7 @@ for (const leaf of leafNames) {
   assert.ok(visible, `Blank category icon: ${leaf.id}`)
 }
 assert.equal(markerIds.size, allMarkers.length, 'Duplicate marker IDs')
+assert.equal(findDuplicatePinPairs(allMarkers).length, 0, 'Unresolved duplicate named pins')
 assert.equal(leafIds.size, leafNames.length, 'Duplicate category IDs')
 for (const marker of allMarkers) {
   assert.ok(leafIds.has(marker.category), `Unknown category for ${marker.id}`)
@@ -71,10 +74,10 @@ for (const anchor of calibration.anchors) {
   assert.ok(Math.hypot(marker.x - point.x, marker.y - point.y) < 0.0002, `Calibration drift: ${anchor.name}`)
 }
 for (const item of checklist) {
-  if (item.mapId) assert.ok(markerIds.has(item.mapId), `Broken checklist link: ${item.id}`)
+  if (item.mapId) assert.ok(markerIds.has(canonicalMarkerId(item.mapId)), `Broken checklist link: ${item.id}`)
 }
 for (const tip of GTA6_TIPS) {
-  for (const id of tip.mapPins ?? []) assert.ok(markerIds.has(id), `Broken tip link: ${tip.id} -> ${id}`)
+  for (const id of tip.mapPins ?? []) assert.ok(markerIds.has(canonicalMarkerId(id)), `Broken tip link: ${tip.id} -> ${id}`)
 }
 for (const id of GTA6_NOISE_LAYERS) assert.ok(leafIds.has(id), `Unknown default layer: ${id}`)
 for (const view of GTA6_PLAYER_VIEWS) {

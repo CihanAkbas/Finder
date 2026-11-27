@@ -1,3 +1,7 @@
+import { canonicalMarkerId, canonicalMarkerIds } from './markerAliases'
+import { findDuplicatePinPairs, areDuplicatePins } from './pinDeduplication'
+import { gta6Catalog } from '../config/games/gta6/config'
+import { GTA6_STORY_PINS } from '../config/games/gta6/storyPins'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import test from 'node:test'
@@ -302,9 +306,10 @@ test('story progression counts missions equally, follows chapter order, and igno
 })
 
 test('all story help pins have useful Turkish descriptions and titles', () => {
-  const pins = gta6.markers.filter(marker => marker.id.startsWith('gta6-tip-'))
+  const pins = GTA6_STORY_PINS
   assert.equal(pins.length, 26)
   for (const pin of pins) {
+    assert.ok(gta6.markers.find(marker=>marker.id===canonicalMarkerId(pin.id))?.descriptionTr?.includes(pin.descriptionTr!), pin.id)
     assert.ok(pin.descriptionTr && pin.descriptionTr.length > 40, pin.id)
     assert.equal(markerDescription('tr', pin.description), pin.descriptionTr)
     assert.ok(markerTitle('tr', pin.title).length > 4, pin.id)
@@ -319,8 +324,8 @@ import { KITTY_LOCATIONS } from '../config/games/gta6/reviewedGuides'
 
 test('catalog refresh preserves saved marker IDs, is idempotent, and resolves source bindings', () => {
   const ids = new Set(gta6.markers.map(marker => marker.id))
-  for (const marker of [...originalPins, ...communityMarkers]) assert.ok(ids.has(marker.id), `Lost save ID ${marker.id}`)
-  for (const id of [...Object.values(refreshMeta.sourceBindings), ...Object.values(refreshMeta.gpsBindings)]) assert.ok(ids.has(id), `Unresolved source binding ${id}`)
+  for (const marker of [...originalPins, ...communityMarkers]) assert.ok(ids.has(canonicalMarkerId(marker.id)), `Lost save ID ${marker.id}`)
+  for (const id of [...Object.values(refreshMeta.sourceBindings), ...Object.values(refreshMeta.gpsBindings)]) assert.ok(ids.has(canonicalMarkerId(id)), `Unresolved source binding ${id}`)
   assert.equal(ids.size, gta6.markers.length)
   const once = applyCatalogRefresh(originalPins as GameMarker[])
   assert.deepEqual(applyCatalogRefresh(once), once)
@@ -350,4 +355,34 @@ test('Kitty Litter walkthrough shares the existing twenty map IDs and supplies b
     assert.ok(location.directions.en.length>15&&location.directions.tr.length>15)
   }
   assert.equal(KITTY_LOCATIONS[0].id,'gta6-loc-1097639')
+})
+import aliases from '../config/games/gta6/pinAliases.json'
+import { deduplicateGta6Pins } from '../config/games/gta6/deduplication'
+
+test('named duplicate pins are consolidated while distinct interactions and positions remain', () => {
+  assert.equal(findDuplicatePinPairs(gta6.markers).length,0)
+  assert.equal(gta6.markers.filter(marker=>marker.title==='Vapid Rumpo').length,1)
+  assert.equal(canonicalMarkerId('gta6-community-standout-vehicle-069'),'gta6-loc-1091125')
+  const make=(id:string,category:string,title:string,x:number):GameMarker=>({id,category,title,x,y:0,description:''})
+  assert.equal(areDuplicatePins(make('a','mg-29095','Vapid Rumpo',0),make('b','mg-29095','Vapid Rumpo',.01)),false)
+  assert.equal(areDuplicatePins(make('a','mg-29021','ATM',0),make('b','mg-29021','ATM',.00001)),false)
+  assert.equal(areDuplicatePins(make('a','mg-29083','Safe (first floor)',0),make('b','mg-29083','Safe (second floor)',0)),false)
+  assert.equal(areDuplicatePins(make('a','mg-29095','Vapid Rumpo',0),make('b','community-unique-weapon','Vapid Rumpo',0)),false)
+  assert.equal(areDuplicatePins(make('a','mg-29095','Coquette Spiderweb',0),make('b','community-vehicle-spawn','Coquette Standard',0)),false)
+  assert.deepEqual(deduplicateGta6Pins(deduplicateGta6Pins(gta6Catalog)),deduplicateGta6Pins(gta6Catalog))
+  for(const [alias,id]of Object.entries(aliases)){assert.notEqual(alias,id);assert.equal(canonicalMarkerId(id),id);assert.ok(gta6.markers.some(marker=>marker.id===id))}
+})
+
+test('duplicate-pin aliases migrate found, favorites and route saves without losing unrelated progress', () => {
+  const old='gta6-community-standout-vehicle-069', kept='gta6-loc-1091125'
+  const migrated=normalizeSlice({found:[old,kept,'other'],favorites:[old],route:['other',old,kept]})
+  assert.deepEqual(migrated.found,[kept,'other'])
+  assert.deepEqual(migrated.favorites,[kept])
+  assert.deepEqual(migrated.route,['other',kept])
+  assert.deepEqual(normalizeSlice(migrated),migrated)
+  assert.deepEqual(canonicalMarkerIds(['gta5-chiliad','gta5-chiliad']),['gta5-chiliad'])
+  const parsed=parseBackup(JSON.stringify({app:'finder',version:1,games:{gta6:{found:[old],favorites:[old],route:[old]}}}))
+  assert.deepEqual(parsed.gta6.found,[kept])
+  const afterUncheck=mergeProgress(migrated,{...migrated,found:['other']},normalizeSlice({found:[old,kept,'other']})) as typeof migrated
+  assert.deepEqual(afterUncheck.found,['other'])
 })

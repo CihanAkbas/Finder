@@ -21,7 +21,10 @@ export function startProgressSync(uid: string | null, status: (value: SyncStatus
   let base: Games = {}, local: Games = {}
   let unsubscribeStore = () => {}, unsubscribeRemote = () => {}
   const owner = uid ?? 'guest'
-  const apply = () => { suppress = true; store.setState({ byGame: local }); suppress = false }
+  const apply = () => {
+    local = Object.fromEntries(Object.entries(local).map(([slug, slice]) => [slug, normalizeSlice(slice)]))
+    suppress = true; store.setState({ byGame: local }); suppress = false
+  }
   const persist = () => save(owner, base, local)
   const flush = async () => {
     if (!uid || !ready || stopped || busy) return

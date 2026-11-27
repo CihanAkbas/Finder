@@ -1,3 +1,4 @@
+import { canonicalMarkerId } from '@/lib/markerAliases'
 import type {
   Business,
   ChecklistItem,
@@ -51,7 +52,7 @@ const library: Record<string, CompanionData> = {
     properties: garageTemplates(),
   }),
   gta6: pack({
-    checklist: gta6Checklist as ChecklistItem[],
+    checklist: (gta6Checklist as ChecklistItem[]).map(item => ({ ...item, ...(item.mapId ? { mapId: canonicalMarkerId(item.mapId) } : {}), ...(item.markerId ? { markerId: canonicalMarkerId(item.markerId) } : {}) })),
     daily: gta6Daily as DailyPack,
     vehicles: gta6Vehicles as Vehicle[],
     weapons: gta6Weapons as Weapon[],

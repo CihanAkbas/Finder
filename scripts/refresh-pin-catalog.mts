@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process'
 import { readFile, writeFile } from 'node:fs/promises'
 import original from '../src/config/games/gta6/markers.json'
 import { communityMarkers, COMMUNITY_LAYERS } from '../src/config/games/gta6/community'
@@ -91,3 +92,6 @@ const stats={reviewedAt:'2026-11-27',gtabaseUpdatedAt:'2026-11-26T21:47:50Z',sou
 await writeFile('src/config/games/gta6/catalogRefresh.json',JSON.stringify(result,null,2)+'\n')
 await writeFile('src/config/games/gta6/catalogRefresh.meta.json',JSON.stringify(stats,null,2)+'\n')
 console.log(JSON.stringify({added:stats.added,updated:stats.updated,total:stats.total,unmapped:skipped.length,categories:[...new Set(result.map(p=>p.category))].length}))
+
+// Rebuild reviewed aliases after every source refresh; never reintroduce duplicate pins.
+execFileSync(process.execPath, ['--import', 'tsx', 'scripts/deduplicate-map-pins.mts'], { stdio: 'inherit' })

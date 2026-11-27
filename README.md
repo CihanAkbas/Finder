@@ -13,7 +13,7 @@ npm run dev
 
 Open `/gta5` or `/gta6/map`.
 
-The 26 November 2026 map review and rare-vehicle corrections provide 2,177 sourced community positions in addition to the original catalog. These positions are explicitly approximate, with source links and review dates. After the 27 November additive refresh the map has 6,297 records in 140 categories; this is not a claim of exhaustive in-game coverage. Location cards put the description first and collapse documented directions, access conditions, coordinates, and sources. The 26 story-help pins have Turkish titles and descriptions. See [the research and coverage notes](docs/gta6-map-research.md). Use `npm run icons:generate` after changing categories.
+The 26 November 2026 map review and rare-vehicle corrections provide 2,177 sourced community positions in addition to the original catalog. These positions are explicitly approximate, with source links and review dates. After the 27 November additive refresh the map has 6,227 records in 140 categories; this is not a claim of exhaustive in-game coverage. Location cards put the description first and collapse documented directions, access conditions, coordinates, and sources. The 26 story-help pins have Turkish titles and descriptions. See [the research and coverage notes](docs/gta6-map-research.md). Use `npm run icons:generate` after changing categories.
 
 GTA VI starts with dense layers hidden. Use Play to restore this view, or choose Essentials, Money, Collectibles, or Activities in the sidebar. Individual categories and saved views remain customizable. A selected pin stays visible even when its category or found pins are hidden.
 
@@ -51,3 +51,5 @@ Pending changes are saved locally and rebased onto the latest cloud save in a Fi
 The GTA VI home has two cards (tracked story progress and found locations). The checklist opens in chapter order; game 100% targets are a separate tab. Story progress currently covers the 68 cataloged missions in the first three chapters, not a complete game's verified progress.
 
 The 27 November refresh keeps existing marker IDs and adds 968 positions after cross-source matching. It includes updated collectible, safe, vehicle and equipment categories, a sourced Leviathan discovery, and the Mill Station lab notes. The Kitty Litter tab shares the existing 20 lab markers with the map; its regional order is optional and its location count is distinct from the mission guide's 19-lab objective. Snapshot matching and exclusions are documented in `docs/gta6-map-research.md`.
+
+Duplicate cleanup consolidates 70 repeated named locations into their canonical pins. Old found/favorite/route IDs and deep links are resolved through `pinAliases.json`; distinct positions, generic nearby ATMs, different floors and different vehicle variants remain separate. `npm run audit:map` rejects newly detected named duplicates.
