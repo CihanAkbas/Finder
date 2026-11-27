@@ -1,9 +1,10 @@
 import type { GameMarker } from '@/types/game'
 import { extractLocationHints, type LocationHints } from './locationHints'
+import catalogHints from '@/config/games/gta6/catalogHints.json'
 import storedHints from '@/config/games/gta6/locationHints.json'
 import { GTA6_SAFEHOUSE_GUIDES } from '@/config/games/gta6/safehouseGuides'
 
-const hintIndex = storedHints as Record<string, LocationHints>
+const hintIndex = { ...storedHints, ...catalogHints } as Record<string, LocationHints>
 const MAP_SOURCE = 'https://mapgenie.io/grand-theft-auto-6/maps/leonida'
 const KEY_SOURCE = 'https://www.gtabase.com/gta-6/articles/how-to-get-key-cloner-in-gta-6-to-steal-keyless-cars'
 const CUTTER_SOURCE = 'https://www.pcgamer.com/games/grand-theft-auto/gta-6-kit-car-locations/'

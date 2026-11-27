@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { KittyLitterGuide } from './KittyLitterGuide'
 import { useState } from 'react'
 import { getCompanion } from '@/config/companion'
 import { getGame } from '@/config/games'
@@ -27,7 +28,7 @@ export function Gta6ChecklistBoard() {
   const found = new Set(slice?.found ?? [])
   const story = storyProgress(data.checklist, completed)
   const score = weightedCompletion(data.checklist, found, manual, game.markers)
-  const [tab, setTab] = useState<'story' | 'completion' | 'extras'>('story')
+  const [tab, setTab] = useState<'story' | 'completion' | 'extras' | 'kitty'>('story')
   const [filter, setFilter] = useState<'all' | 'remaining' | 'done'>('all')
   const [query, setQuery] = useState('')
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
@@ -62,8 +63,9 @@ export function Gta6ChecklistBoard() {
   return (
     <ModuleFrame title={tr ? 'İlerlemen' : 'Your progress'} kicker="GTA VI">
       <div className="flex flex-wrap gap-2" role="tablist" aria-label={tr ? 'İlerleme görünümü' : 'Progress view'}>
-        {([['story', tr ? 'Hikâye akışı' : 'Story order'], ['completion', tr ? 'Oyunu %100 tamamlama' : '100% completion'], ['extras', tr ? 'Yan işler' : 'Side activities']] as const).map(([id, text]) => <button key={id} type="button" role="tab" aria-selected={tab === id} className={`min-h-11 rounded-lg px-4 text-sm ${tab === id ? 'bg-emerald-400 text-[#04140e]' : 'border border-white/10 text-slate-300'}`} onClick={() => { setTab(id); setFilter('all'); setQuery('') }}>{text}</button>)}
+        {([['story', tr ? 'Hikâye akışı' : 'Story order'], ['completion', tr ? 'Oyunu %100 tamamlama' : '100% completion'], ['extras', tr ? 'Yan işler' : 'Side activities'], ['kitty', 'Kitty Litter']] as const).map(([id, text]) => <button key={id} type="button" role="tab" aria-selected={tab === id} className={`min-h-11 rounded-lg px-4 text-sm ${tab === id ? 'bg-emerald-400 text-[#04140e]' : 'border border-white/10 text-slate-300'}`} onClick={() => { setTab(id); setFilter('all'); setQuery('') }}>{text}</button>)}
       </div>
+      {tab === 'kitty' ? <KittyLitterGuide /> : <>
       {tab !== 'extras' ? <div className="rounded-xl border border-white/10 p-4 sm:p-5">
         <div className="flex items-baseline justify-between gap-3"><h2 className="font-display text-xl">{tab === 'story' ? (tr ? 'Takip edilen hikâye görevleri' : 'Tracked story missions') : (tr ? 'Oyunun %100 kontrol listesi' : 'Game completion checklist')}</h2><span className="font-mono text-sm text-emerald-300">{tab === 'story' ? `${story.done} / ${story.total}` : `${score.percent.toFixed(0)}%`}</span></div>
         <div className="mt-3 h-1.5 overflow-hidden rounded bg-white/5"><div className="h-full bg-emerald-400" style={{ width: `${tab === 'story' ? story.percent : score.percent}%` }} /></div>
@@ -77,6 +79,7 @@ export function Gta6ChecklistBoard() {
         const done = chapter.items.filter((item) => manual.has(item.id)).length
         return <section key={chapter.id} className="rounded-xl border border-white/10"><button type="button" aria-expanded={open} className="flex w-full items-center justify-between gap-3 p-4 text-left" onClick={() => setExpanded((state) => ({ ...state, [chapter.id]: !open }))}><span><span className="block text-sm font-semibold">{chapter.title[locale]}</span><span className="mt-1 block text-xs text-slate-400">{done} / {chapter.items.length} {tr ? 'tamamlandı' : 'completed'}</span></span><span className="text-slate-500">{open ? '−' : '+'}</span></button>{open ? <ul className="space-y-2 border-t border-white/10 p-2">{rows.length ? rows.map((item) => renderRow(item, chapter.items.indexOf(item))) : <li className="p-3 text-sm text-slate-400">{tr ? 'Bu filtrede görev yok.' : 'No missions match this filter.'}</li>}</ul> : null}</section>
       })}<p className="text-xs text-slate-500">{tr ? 'Şimdilik ilk 3 bölümün 68 görevini takip ediyoruz; sonraki bölümler bu kataloğa henüz eklenmedi.' : 'The catalog currently tracks 68 missions across the first 3 chapters; later chapters are not included yet.'}</p></div> : <ul className="space-y-2">{otherRows.length ? otherRows.map((item) => renderRow(item)) : <li className="p-4 text-sm text-slate-400">{tr ? 'Bu filtrede sonuç yok.' : 'No results match this filter.'}</li>}</ul>}
+      </>}
     </ModuleFrame>
   )
 }

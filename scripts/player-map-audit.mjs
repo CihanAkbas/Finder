@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import assert from 'node:assert/strict'
 import sharp from 'sharp'
 import { gta6Atlas, gta6CategoryIcons } from '../src/config/games/gta6/markerIcons.ts'
@@ -20,6 +21,8 @@ import checklist from '../src/config/games/gta6/checklist.json' with { type: 'js
 const leafNames = leafCategories([...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories])
 const allMarkers = gta6.markers
 const markerIds = new Set(allMarkers.map((marker) => marker.id))
+const refreshHints = JSON.parse(readFileSync('src/config/games/gta6/catalogHints.json', 'utf8'))
+for (const id of Object.keys(refreshHints)) assert.ok(markerIds.has(id), `Orphaned refreshed hint: ${id}`)
 for (const id of Object.keys(locationHints)) assert.ok(markerIds.has(id), `Orphaned location hint: ${id}`)
 let guidedLocations = 0
 for (const marker of allMarkers) {

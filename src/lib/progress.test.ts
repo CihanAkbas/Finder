@@ -310,3 +310,44 @@ test('all story help pins have useful Turkish descriptions and titles', () => {
     assert.ok(markerTitle('tr', pin.title).length > 4, pin.id)
   }
 })
+import refreshMeta from '../config/games/gta6/catalogRefresh.meta.json'
+import originalPins from '../config/games/gta6/markers.json'
+import { communityMarkers } from '../config/games/gta6/community'
+import { applyCatalogRefresh } from '../config/games/gta6/catalogRefresh'
+import { addReviewedDiscoveries } from '../config/games/gta6/reviewedDiscoveries'
+import { KITTY_LOCATIONS } from '../config/games/gta6/reviewedGuides'
+
+test('catalog refresh preserves saved marker IDs, is idempotent, and resolves source bindings', () => {
+  const ids = new Set(gta6.markers.map(marker => marker.id))
+  for (const marker of [...originalPins, ...communityMarkers]) assert.ok(ids.has(marker.id), `Lost save ID ${marker.id}`)
+  for (const id of [...Object.values(refreshMeta.sourceBindings), ...Object.values(refreshMeta.gpsBindings)]) assert.ok(ids.has(id), `Unresolved source binding ${id}`)
+  assert.equal(ids.size, gta6.markers.length)
+  const once = applyCatalogRefresh(originalPins as GameMarker[])
+  assert.deepEqual(applyCatalogRefresh(once), once)
+  assert.deepEqual(addReviewedDiscoveries(gta6.markers), gta6.markers)
+  assert.ok(!ids.has('gta6-community-standout-vehicle-170'))
+  assert.equal(gta6.markers.filter(marker=>['mg-29022','mg-29023'].includes(marker.category)).length,22)
+})
+
+test('refreshed categories retain collection progress and reviewed discovery context', () => {
+  const flamingo = gta6.markers.find(marker=>marker.id==='gta6-community-hidden-package-182')!
+  assert.equal(flamingo.category,'community-cocaine-flamingo')
+  assert.equal(gta6.markers.find(marker=>marker.id==='gta6-community-weapon-spawn-092')?.category,'community-scoop-container')
+  assert.ok(gta6.markers.filter(marker=>marker.category==='mg-29083').length>=126)
+  assert.ok(gta6.markers.filter(marker=>marker.category==='mg-29095').length>=267)
+  const leviathan=gta6.markers.filter(marker=>/Leviathan/.test(marker.title))
+  assert.equal(leviathan.length,1)
+  assert.equal(leviathan[0].category,'community-underwater')
+  assert.ok(leviathan[0].descriptionTr?.includes('iskeleti'))
+  assert.ok(gta6.markers.find(marker=>marker.id==='gta6-loc-1091986')?.guide?.warnings?.[0].tr.includes('bağımsız doğrulanmadı'))
+})
+
+test('Kitty Litter walkthrough shares the existing twenty map IDs and supplies bilingual directions', () => {
+  assert.equal(KITTY_LOCATIONS.length,20)
+  assert.equal(new Set(KITTY_LOCATIONS.map(location=>location.id)).size,20)
+  for(const location of KITTY_LOCATIONS) {
+    assert.equal(gta6.markers.find(marker=>marker.id===location.id)?.category,'mg-29216')
+    assert.ok(location.directions.en.length>15&&location.directions.tr.length>15)
+  }
+  assert.equal(KITTY_LOCATIONS[0].id,'gta6-loc-1097639')
+})

@@ -62,8 +62,8 @@ export function MarkerDetailModal({ game }: { game: GameConfig }) {
         {marker?.sourceUrl ? (
           <details className="space-y-2 text-xs leading-5 text-[#a39c90]">
             <summary className="cursor-pointer">{locale === 'tr' ? 'Konum kaynağı ve doğruluk' : 'Position source and accuracy'}</summary>
-            <a href={marker.sourceUrl} target="_blank" rel="noreferrer" className="text-sky-300 underline">GTABase / GTADB · {locale === 'tr' ? 'Kaynağı aç' : 'Open source'}</a>
-            <p>{locale === 'tr' ? 'Topluluk konumu; koordinatlar bu haritaya dönüştürüldü. Oyunda birebir doğrulanmış konum değildir.' : 'Community position calibrated to this map; not independently verified in-game.'}</p>
+            <a href={marker.sourceUrl} target="_blank" rel="noreferrer" className="text-sky-300 underline">{locale === 'tr' ? 'Konum kaynağını aç' : 'Open location source'}</a>
+            <p>{locale === 'tr' ? 'Topluluk konumu; haritadaki konum yaklaşık olabilir. Oyunda bağımsız doğrulanmış değildir.' : 'Community position; the map location may be approximate and has not been independently verified in-game.'}</p>
             {marker.category === 'community-random-event' || marker.category === 'community-vehicle-spawn' ? <p>{locale === 'tr' ? 'Çıkış yeri garanti değildir; saat, hikâye ilerlemesi veya başka koşullar gerekebilir.' : 'Spawns are not guaranteed; time, story progress or other conditions may apply.'}</p> : null}
             <p>{locale === 'tr' ? 'Kaynak kontrolü' : 'Source reviewed'}: {marker.reviewedAt}</p>
           </details>

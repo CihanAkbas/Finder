@@ -41,6 +41,17 @@ export const COMMUNITY_LAYERS = [
   { id: 'city-town', group: 'places', en: 'Cities & towns', tr: 'Şehirler ve kasabalar', symbol: 'Building2' },
   { id: 'landmark', group: 'places', en: 'Named landmarks', tr: 'Önemli mekânlar', symbol: 'Landmark' },
   { id: 'marina', group: 'places', en: 'Marinas', tr: 'Marinalar', symbol: 'Anchor' },
+  { id: 'collectible-card', group: 'discoveries', en: 'Additional collectible cards', tr: 'Ek koleksiyon kartları', symbol: 'Layers' },
+  { id: 'underwater', group: 'discoveries', en: 'Underwater discoveries', tr: 'Su altı keşifleri', symbol: 'Waves' },
+  { id: 'shipwreck', group: 'discoveries', en: 'Shipwrecks', tr: 'Gemi enkazları', symbol: 'Ship' },
+  { id: 'waink-peewee', group: 'discoveries', en: 'Peewees billboards', tr: 'Peewees reklam panoları', symbol: 'ScanLine' },
+  { id: 'waink-noflusher', group: 'discoveries', en: 'No Flusher tags', tr: 'No Flusher etiketleri', symbol: 'Paintbrush' },
+  { id: 'parachuting', group: 'equipment', en: 'Parachute pickups', tr: 'Paraşüt buluntuları', symbol: 'Wind' },
+  { id: 'clothing-pickups', group: 'equipment', en: 'Clothing & scuba pickups', tr: 'Kıyafet ve dalış ekipmanı', symbol: 'Shirt' },
+  { id: 'gang-compound', group: 'encounters', en: 'Gang compounds', tr: 'Çete yerleşkeleri', symbol: 'ShieldAlert' },
+  { id: 'strangers', group: 'encounters', en: 'Side-mission contacts', tr: 'Yan görev bağlantıları', symbol: 'UserRound' },
+  { id: 'missing-tourists', group: 'encounters', en: 'Missing tourists', tr: 'Kayıp turistler', symbol: 'Search' },
+  { id: 'unique-animals', group: 'encounters', en: 'Unique animals', tr: 'Özel hayvanlar', symbol: 'PawPrint' },
 ] as const
 
 export const communityMarkers = pins as GameMarker[]

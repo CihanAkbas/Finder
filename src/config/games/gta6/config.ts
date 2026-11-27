@@ -6,6 +6,8 @@ import { GTA6_STORY_CATEGORIES, GTA6_STORY_PINS } from '@/config/games/gta6/stor
 import markers from '@/config/games/gta6/markers.json'
 import { communityCategories, communityMarkers } from './community'
 import { applyVehicleCorrections } from './vehicleCorrections'
+import { addReviewedDiscoveries } from './reviewedDiscoveries'
+import { applyCatalogRefresh } from './catalogRefresh'
 import { addReviewedVariants } from './extraVariants'
 
 /**
@@ -33,7 +35,7 @@ export const gta6 = defineGame({
   maxZoom: 17,
   maxNativeZoom: 16,
   categories: [...GTA6_STORY_CATEGORIES, ...communityCategories, ...gta6Categories],
-  markers: addReviewedVariants(applyVehicleCorrections([...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])])),
+  markers: addReviewedDiscoveries(applyCatalogRefresh(addReviewedVariants(applyVehicleCorrections([...GTA6_STORY_PINS, ...communityMarkers, ...(markers as GameMarker[])])))),
   geography: gta6Geography,
   styles: [
     {
