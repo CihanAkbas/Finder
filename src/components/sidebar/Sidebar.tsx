@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react'
 import { Menu, Search, X } from 'lucide-react'
+import { FavoritePoints } from '@/components/sidebar/FavoritePoints'
 import { CategoryTree } from '@/components/sidebar/CategoryTree'
 import { HeatmapPanel } from '@/components/sidebar/HeatmapPanel'
 import { Button } from '@/components/ui/button'
@@ -134,6 +135,7 @@ export function Sidebar({
           <Switch id="hide-found" label={t.map.hideFound} checked={slice?.hideFound ?? false} onCheckedChange={(value) => useMapStore.getState().setHideFound(game.slug, value)} />
         </div>
         <div>
+          <FavoritePoints game={game} onNavigate={() => { if (window.innerWidth < 1024) onOpenChange(false) }} />
           <CategoryTree game={game} />
           {game.slug === 'gta6' ? <HeatmapPanel /> : null}
           <div className="border-t border-white/10 p-4">
